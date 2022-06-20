@@ -17,7 +17,7 @@ The textual description of each programming assignment can be found in [IPAs_des
 
 ## References
 
-Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)
+Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/2206.08768.pdf](https://arxiv.org/pdf/2206.08768.pdf)
 
 ## Acks
 
