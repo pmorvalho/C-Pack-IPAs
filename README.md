@@ -15,6 +15,14 @@ C-Pack-IPAs only contains students' submissions that gave their permission to us
 The set of IPAs corresponds to three different lab classes of the introductory programming course to the C programming language at Instituto Superior Técnico. Each lab class focuses on a different topic of the C programming language. 
 The textual description of each programming assignment can be found in [IPAs_description](https://github.com/pmorvalho/C-Pack-IPAs/tree/main/IPAs_description), and the input/output tests used to evaluate semantically the set of students' submissions in [tests](https://github.com/pmorvalho/C-Pack-IPAs/tree/main/tests). Moreover, there is also a reference implementation for each IPA in [reference_implementations](https://github.com/pmorvalho/C-Pack-IPAs/tree/main/reference_implementations) that can be used by program repair frameworks that only accept a single reference implementation to repair incorrect programs.
 
+## Compilation
+
+Each student's submission (e.g. p1.c) was compiled using the following gcc command:
+```
+gcc -Wall -Wextra -Werror -ansi -pedantic -lm p1.c
+```
+
+
 ## References
 
 Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/2206.08768.pdf](https://arxiv.org/pdf/2206.08768.pdf)
