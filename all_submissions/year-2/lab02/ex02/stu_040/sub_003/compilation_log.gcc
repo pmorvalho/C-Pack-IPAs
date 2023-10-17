@@ -1,0 +1,7 @@
+ex02-stu_040-sub_003.c: In function 'main':
+ex02-stu_040-sub_003.c:14:13: error: expected ';' before '}' token
+   14 |     return 0
+      |             ^
+      |             ;
+   15 | }
+      | ~            

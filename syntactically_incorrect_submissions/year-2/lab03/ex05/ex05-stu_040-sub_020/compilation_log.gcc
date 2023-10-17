@@ -1,0 +1,8 @@
+ex05-stu_040-sub_020.c: In function 'main':
+ex05-stu_040-sub_020.c:15:17: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   15 |                 if(c == '"')
+      |                 ^~
+ex05-stu_040-sub_020.c:17:21: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   17 |                     break;
+      |                     ^~~~~
+cc1: all warnings being treated as errors

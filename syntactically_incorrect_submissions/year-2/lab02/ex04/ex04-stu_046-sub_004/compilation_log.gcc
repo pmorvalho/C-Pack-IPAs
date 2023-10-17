@@ -1,0 +1,59 @@
+ex04-stu_046-sub_004.c: In function 'min':
+ex04-stu_046-sub_004.c:3:5: error: type of 'x1' defaults to 'int' [-Werror=missing-parameter-type]
+    3 | int min(x1,y1)
+      |     ^~~
+ex04-stu_046-sub_004.c:3:5: error: type of 'y1' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_004.c:5:9: error: 'x1' redeclared as different kind of symbol
+    5 |     int x1, y1;
+      |         ^~
+ex04-stu_046-sub_004.c:3:5: note: previous definition of 'x1' was here
+    3 | int min(x1,y1)
+      |     ^~~
+ex04-stu_046-sub_004.c:5:13: error: 'y1' redeclared as different kind of symbol
+    5 |     int x1, y1;
+      |             ^~
+ex04-stu_046-sub_004.c:3:5: note: previous definition of 'y1' was here
+    3 | int min(x1,y1)
+      |     ^~~
+ex04-stu_046-sub_004.c: In function 'max':
+ex04-stu_046-sub_004.c:13:5: error: type of 'x2' defaults to 'int' [-Werror=missing-parameter-type]
+   13 | int max(x2,y2)
+      |     ^~~
+ex04-stu_046-sub_004.c:13:5: error: type of 'y2' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_004.c:15:9: error: 'x2' redeclared as different kind of symbol
+   15 |     int x2, y2;
+      |         ^~
+ex04-stu_046-sub_004.c:13:5: note: previous definition of 'x2' was here
+   13 | int max(x2,y2)
+      |     ^~~
+ex04-stu_046-sub_004.c:15:13: error: 'y2' redeclared as different kind of symbol
+   15 |     int x2, y2;
+      |             ^~
+ex04-stu_046-sub_004.c:13:5: note: previous definition of 'y2' was here
+   13 | int max(x2,y2)
+      |     ^~~
+ex04-stu_046-sub_004.c: In function 'print':
+ex04-stu_046-sub_004.c:23:5: error: type of 'x3' defaults to 'int' [-Werror=missing-parameter-type]
+   23 | int print(x3,y3,z3)
+      |     ^~~~~
+ex04-stu_046-sub_004.c:23:5: error: type of 'y3' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_004.c:23:5: error: type of 'z3' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_004.c:25:9: error: 'x3' redeclared as different kind of symbol
+   25 |     int x3, y3, z3;
+      |         ^~
+ex04-stu_046-sub_004.c:23:5: note: previous definition of 'x3' was here
+   23 | int print(x3,y3,z3)
+      |     ^~~~~
+ex04-stu_046-sub_004.c:25:13: error: 'y3' redeclared as different kind of symbol
+   25 |     int x3, y3, z3;
+      |             ^~
+ex04-stu_046-sub_004.c:23:5: note: previous definition of 'y3' was here
+   23 | int print(x3,y3,z3)
+      |     ^~~~~
+ex04-stu_046-sub_004.c:25:17: error: 'z3' redeclared as different kind of symbol
+   25 |     int x3, y3, z3;
+      |                 ^~
+ex04-stu_046-sub_004.c:23:5: note: previous definition of 'z3' was here
+   23 | int print(x3,y3,z3)
+      |     ^~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,9 @@
+ex07-stu_059-sub_019.c: In function 'apagaCaracter':
+ex07-stu_059-sub_019.c:21:9: error: unused variable 'len' [-Werror=unused-variable]
+   21 |     int len,i=0,j=0;
+      |         ^~~
+ex07-stu_059-sub_019.c: In function 'main':
+ex07-stu_059-sub_019.c:46:9: error: variable 'len' set but not used [-Werror=unused-but-set-variable]
+   46 |     int len;
+      |         ^~~
+cc1: all warnings being treated as errors

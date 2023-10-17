@@ -1,0 +1,17 @@
+ex01-stu_051-sub_002.c: In function 'ciclo':
+ex01-stu_051-sub_002.c:41:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   41 |     for(int i = 1; i <= n; ++i) {
+      |     ^~~
+ex01-stu_051-sub_002.c:41:5: note: use option '-std=c99', '-std=gnu99', '-std=c11' or '-std=gnu11' to compile your code
+ex01-stu_051-sub_002.c: In function 'maior_e_menor':
+ex01-stu_051-sub_002.c:51:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   51 |     for (int i = 0; i != num; ++i) {
+      |     ^~~
+ex01-stu_051-sub_002.c: In function 'divisores':
+ex01-stu_051-sub_002.c:68:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   68 |     for (int i = 1; i <= num ; ++i) {
+      |     ^~~
+ex01-stu_051-sub_002.c: In function 'media':
+ex01-stu_051-sub_002.c:78:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   78 |     for (int i = 0; i != num; ++i) {
+      |     ^~~

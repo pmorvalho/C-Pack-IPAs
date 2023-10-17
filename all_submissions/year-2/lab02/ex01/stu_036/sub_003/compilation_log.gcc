@@ -1,0 +1,14 @@
+ex01-stu_036-sub_003.c: In function 'main':
+ex01-stu_036-sub_003.c:3:3: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+    3 |   printf("Introduz o primeiro número: ");
+      |   ^~~~~~
+ex01-stu_036-sub_003.c:3:3: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex01-stu_036-sub_003.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int main() {
+ex01-stu_036-sub_003.c:4:3: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    4 |   scanf("%d", &a);
+      |   ^~~~~
+ex01-stu_036-sub_003.c:4:3: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex01-stu_036-sub_003.c:4:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+cc1: all warnings being treated as errors

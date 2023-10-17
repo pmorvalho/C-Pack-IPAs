@@ -1,0 +1,9 @@
+ex01-stu_049-sub_005.c: In function 'main':
+ex01-stu_049-sub_005.c:7:6: error: 'a' is used uninitialized in this function [-Werror=uninitialized]
+    7 |   if (a > b && a > c)
+      |      ^
+ex01-stu_049-sub_005.c:7:6: error: 'b' is used uninitialized in this function [-Werror=uninitialized]
+ex01-stu_049-sub_005.c:7:13: error: 'c' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+    7 |   if (a > b && a > c)
+      |       ~~~~~~^~~~~~~~
+cc1: all warnings being treated as errors

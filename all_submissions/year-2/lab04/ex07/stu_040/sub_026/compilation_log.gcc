@@ -1,0 +1,16 @@
+ex07-stu_040-sub_026.c: In function 'main':
+ex07-stu_040-sub_026.c:14:12: error: 'MAX' undeclared (first use in this function)
+   14 |     char s[MAX];
+      |            ^~~
+ex07-stu_040-sub_026.c:14:12: note: each undeclared identifier is reported only once for each function it appears in
+ex07-stu_040-sub_026.c:16:5: error: implicit declaration of function 'apagaCarater'; did you mean 'apagaCaracter'? [-Werror=implicit-function-declaration]
+   16 |     apagaCarater(s);
+      |     ^~~~~~~~~~~~
+      |     apagaCaracter
+ex07-stu_040-sub_026.c:17:5: error: 'c' undeclared (first use in this function)
+   17 |     c = getchar();
+      |     ^
+ex07-stu_040-sub_026.c:14:10: error: unused variable 's' [-Werror=unused-variable]
+   14 |     char s[MAX];
+      |          ^
+cc1: all warnings being treated as errors

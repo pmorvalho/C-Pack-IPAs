@@ -1,0 +1,5 @@
+ex04-stu_057-sub_004.c: In function 'cruz':
+ex04-stu_057-sub_004.c:63:15: error: unused parameter 'N' [-Werror=unused-parameter]
+   63 | void cruz(int N){
+      |           ~~~~^
+cc1: all warnings being treated as errors

@@ -1,0 +1,25 @@
+ex06-stu_052-sub_007.c: In function 'main':
+ex06-stu_052-sub_007.c:9:11: error: too many arguments for format [-Werror=format-extra-args]
+    9 |     scanf("%d%d",&N,&min,&max);
+      |           ^~~~~~
+ex06-stu_052-sub_007.c:11:12: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   11 |     for(v=2,v<=N,v++){
+      |            ^
+ex06-stu_052-sub_007.c:11:21: error: expected ';' before ')' token
+   11 |     for(v=2,v<=N,v++){
+      |                     ^
+      |                     ;
+ex06-stu_052-sub_007.c:11:21: error: expected expression before ')' token
+ex06-stu_052-sub_007.c:21:18: error: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Werror=format=]
+   21 |     printf("min:%f,max:%f\n",min,max);
+      |                 ~^           ~~~
+      |                  |           |
+      |                  double      int
+      |                 %d
+ex06-stu_052-sub_007.c:21:25: error: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Werror=format=]
+   21 |     printf("min:%f,max:%f\n",min,max);
+      |                        ~^        ~~~
+      |                         |        |
+      |                         double   int
+      |                        %d
+cc1: all warnings being treated as errors

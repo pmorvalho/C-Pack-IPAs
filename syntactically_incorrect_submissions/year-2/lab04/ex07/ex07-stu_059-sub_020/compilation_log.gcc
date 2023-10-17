@@ -1,0 +1,9 @@
+ex07-stu_059-sub_020.c: In function 'apagaCaracter':
+ex07-stu_059-sub_020.c:21:9: error: variable 'len' set but not used [-Werror=unused-but-set-variable]
+   21 |     int len,i=0,j=0;
+      |         ^~~
+ex07-stu_059-sub_020.c: In function 'main':
+ex07-stu_059-sub_020.c:48:9: error: variable 'len' set but not used [-Werror=unused-but-set-variable]
+   48 |     int len;
+      |         ^~~
+cc1: all warnings being treated as errors

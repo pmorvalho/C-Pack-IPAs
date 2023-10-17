@@ -1,0 +1,5 @@
+ex04-stu_059-sub_015.c: In function 'main':
+ex04-stu_059-sub_015.c:10:9: error: unused variable 'length' [-Werror=unused-variable]
+   10 |     int length,j,i=0, no=0;
+      |         ^~~~~~
+cc1: all warnings being treated as errors

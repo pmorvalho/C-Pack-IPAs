@@ -1,0 +1,8 @@
+ex01-stu_015-sub_028.c: In function 'main':
+ex01-stu_015-sub_028.c:9:11: error: suggest parentheses around comparison in operand of '&' [-Werror=parentheses]
+    9 |     if (x > y & x > z)
+      |         ~~^~~
+ex01-stu_015-sub_028.c:12:16: error: suggest parentheses around comparison in operand of '&' [-Werror=parentheses]
+   12 |     else if (y > x & y > z)
+      |              ~~^~~
+cc1: all warnings being treated as errors

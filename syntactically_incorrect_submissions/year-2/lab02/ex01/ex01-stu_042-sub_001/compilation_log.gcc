@@ -1,0 +1,5 @@
+ex01-stu_042-sub_001.c: In function 'main':
+ex01-stu_042-sub_001.c:10:5: error: 'max' undeclared (first use in this function)
+   10 |     max = x;
+      |     ^~~
+ex01-stu_042-sub_001.c:10:5: note: each undeclared identifier is reported only once for each function it appears in

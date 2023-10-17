@@ -1,0 +1,59 @@
+ex04-stu_046-sub_005.c: In function 'min':
+ex04-stu_046-sub_005.c:3:5: error: type of 'x' defaults to 'int' [-Werror=missing-parameter-type]
+    3 | int min(x,y)
+      |     ^~~
+ex04-stu_046-sub_005.c:3:5: error: type of 'y' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_005.c:5:9: error: 'x' redeclared as different kind of symbol
+    5 |     int x, y;
+      |         ^
+ex04-stu_046-sub_005.c:3:5: note: previous definition of 'x' was here
+    3 | int min(x,y)
+      |     ^~~
+ex04-stu_046-sub_005.c:5:12: error: 'y' redeclared as different kind of symbol
+    5 |     int x, y;
+      |            ^
+ex04-stu_046-sub_005.c:3:5: note: previous definition of 'y' was here
+    3 | int min(x,y)
+      |     ^~~
+ex04-stu_046-sub_005.c: In function 'max':
+ex04-stu_046-sub_005.c:13:5: error: type of 'x' defaults to 'int' [-Werror=missing-parameter-type]
+   13 | int max(x,y)
+      |     ^~~
+ex04-stu_046-sub_005.c:13:5: error: type of 'y' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_005.c:15:9: error: 'x' redeclared as different kind of symbol
+   15 |     int x, y;
+      |         ^
+ex04-stu_046-sub_005.c:13:5: note: previous definition of 'x' was here
+   13 | int max(x,y)
+      |     ^~~
+ex04-stu_046-sub_005.c:15:12: error: 'y' redeclared as different kind of symbol
+   15 |     int x, y;
+      |            ^
+ex04-stu_046-sub_005.c:13:5: note: previous definition of 'y' was here
+   13 | int max(x,y)
+      |     ^~~
+ex04-stu_046-sub_005.c: In function 'print':
+ex04-stu_046-sub_005.c:23:5: error: type of 'x' defaults to 'int' [-Werror=missing-parameter-type]
+   23 | int print(x,y,z)
+      |     ^~~~~
+ex04-stu_046-sub_005.c:23:5: error: type of 'y' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_005.c:23:5: error: type of 'z' defaults to 'int' [-Werror=missing-parameter-type]
+ex04-stu_046-sub_005.c:25:9: error: 'x' redeclared as different kind of symbol
+   25 |     int x, y, z;
+      |         ^
+ex04-stu_046-sub_005.c:23:5: note: previous definition of 'x' was here
+   23 | int print(x,y,z)
+      |     ^~~~~
+ex04-stu_046-sub_005.c:25:12: error: 'y' redeclared as different kind of symbol
+   25 |     int x, y, z;
+      |            ^
+ex04-stu_046-sub_005.c:23:5: note: previous definition of 'y' was here
+   23 | int print(x,y,z)
+      |     ^~~~~
+ex04-stu_046-sub_005.c:25:15: error: 'z' redeclared as different kind of symbol
+   25 |     int x, y, z;
+      |               ^
+ex04-stu_046-sub_005.c:23:5: note: previous definition of 'z' was here
+   23 | int print(x,y,z)
+      |     ^~~~~
+cc1: all warnings being treated as errors

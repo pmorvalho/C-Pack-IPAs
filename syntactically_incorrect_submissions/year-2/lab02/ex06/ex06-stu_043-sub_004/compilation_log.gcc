@@ -1,0 +1,21 @@
+ex06-stu_043-sub_004.c: In function 'main':
+ex06-stu_043-sub_004.c:20:17: error: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Werror=format=]
+   20 |         scanf("%d", &l);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   float *
+      |                 int *
+      |                %e
+ex06-stu_043-sub_004.c:28:19: error: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Werror=format=]
+   28 |     printf("min: %d, max: %d\n", min, max);
+      |                  ~^              ~~~
+      |                   |              |
+      |                   int            double
+      |                  %f
+ex06-stu_043-sub_004.c:28:28: error: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Werror=format=]
+   28 |     printf("min: %d, max: %d\n", min, max);
+      |                           ~^          ~~~
+      |                            |          |
+      |                            int        double
+      |                           %f
+cc1: all warnings being treated as errors
