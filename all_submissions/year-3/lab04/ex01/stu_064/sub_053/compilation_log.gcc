@@ -1,0 +1,12 @@
+ex01-stu_064-sub_053.c: In function 'main':
+ex01-stu_064-sub_053.c:9:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+    9 | }
+      | ^
+ex01-stu_064-sub_053.c:9:1: error: expected declaration or statement at end of input
+ex01-stu_064-sub_053.c:8:9: error: unused variable 'n' [-Werror=unused-variable]
+    8 |     int n, vet
+      |         ^
+ex01-stu_064-sub_053.c:9: error: control reaches end of non-void function [-Werror=return-type]
+    9 | }
+      | 
+cc1: all warnings being treated as errors

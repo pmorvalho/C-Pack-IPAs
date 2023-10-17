@@ -1,0 +1,5 @@
+ex01-stu_071-sub_011.c: In function 'main':
+ex01-stu_071-sub_011.c:20:6: error: suggest braces around empty body in an 'else' statement [-Werror=empty-body]
+   20 | else ;
+      |      ^
+cc1: all warnings being treated as errors

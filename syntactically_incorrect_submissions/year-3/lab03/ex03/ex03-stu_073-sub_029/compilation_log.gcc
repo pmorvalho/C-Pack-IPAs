@@ -1,0 +1,5 @@
+ex03-stu_073-sub_029.c: In function 'cruz':
+ex03-stu_073-sub_029.c:24:23: error: suggest braces around empty body in an 'if' statement [-Werror=empty-body]
+   24 |             if (j < N);
+      |                       ^
+cc1: all warnings being treated as errors

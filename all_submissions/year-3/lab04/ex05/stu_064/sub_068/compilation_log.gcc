@@ -1,0 +1,8 @@
+ex05-stu_064-sub_068.c: In function 'leLinha':
+ex05-stu_064-sub_068.c:5:18: error: unused parameter 's' [-Werror=unused-parameter]
+    5 | int leLinha(char s[]) {
+      |             ~~~~~^~~
+ex05-stu_064-sub_068.c:7:1: error: control reaches end of non-void function [-Werror=return-type]
+    7 | }
+      | ^
+cc1: all warnings being treated as errors

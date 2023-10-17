@@ -1,0 +1,26 @@
+ex02-stu_085-sub_002.c: In function 'main':
+ex02-stu_085-sub_002.c:11:18: error: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Werror=format=]
+   11 |         printf("%d/n %d", &menor, &maior);
+      |                 ~^        ~~~~~~
+      |                  |        |
+      |                  int      int *
+      |                 %ls
+ex02-stu_085-sub_002.c:11:23: error: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Werror=format=]
+   11 |         printf("%d/n %d", &menor, &maior);
+      |                      ~^           ~~~~~~
+      |                       |           |
+      |                       int         int *
+      |                      %ls
+ex02-stu_085-sub_002.c:15:18: error: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Werror=format=]
+   15 |         printf("%d/n %d", &maior, &menor);
+      |                 ~^        ~~~~~~
+      |                  |        |
+      |                  int      int *
+      |                 %ls
+ex02-stu_085-sub_002.c:15:23: error: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Werror=format=]
+   15 |         printf("%d/n %d", &maior, &menor);
+      |                      ~^           ~~~~~~
+      |                       |           |
+      |                       int         int *
+      |                      %ls
+cc1: all warnings being treated as errors

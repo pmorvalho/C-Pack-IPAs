@@ -1,0 +1,8 @@
+ex07-stu_088-sub_047.c: In function 'apagaCaracter':
+ex07-stu_088-sub_047.c:15:12: error: 'return' with a value, in function returning void [-Werror=return-type]
+   15 |     return contador;
+      |            ^~~~~~~~
+ex07-stu_088-sub_047.c:6:6: note: declared here
+    6 | void apagaCaracter(char s[], char n){
+      |      ^~~~~~~~~~~~~
+cc1: all warnings being treated as errors

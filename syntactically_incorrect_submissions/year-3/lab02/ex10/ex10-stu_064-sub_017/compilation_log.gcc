@@ -1,0 +1,5 @@
+ex10-stu_064-sub_017.c: In function 'main':
+ex10-stu_064-sub_017.c:5:13: error: control reaches end of non-void function [-Werror=return-type]
+    5 | int main() {}
+      |             ^
+cc1: all warnings being treated as errors

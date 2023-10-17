@@ -1,0 +1,17 @@
+ex07-stu_097-sub_032.c: In function 'main':
+ex07-stu_097-sub_032.c:17:13: error: 'num' undeclared (first use in this function)
+   17 |             num = c -'0';
+      |             ^~~
+ex07-stu_097-sub_032.c:17:13: note: each undeclared identifier is reported only once for each function it appears in
+ex07-stu_097-sub_032.c:30:17: error: 'num2' undeclared (first use in this function)
+   30 |                 num2 = c - '0';
+      |                 ^~~~
+ex07-stu_097-sub_032.c: In function 'auxiliar':
+ex07-stu_097-sub_032.c:9:1: error: control reaches end of non-void function [-Werror=return-type]
+    9 | }
+      | ^
+ex07-stu_097-sub_032.c: In function 'main':
+ex07-stu_097-sub_032.c:39:1: error: control reaches end of non-void function [-Werror=return-type]
+   39 | }
+      | ^
+cc1: all warnings being treated as errors

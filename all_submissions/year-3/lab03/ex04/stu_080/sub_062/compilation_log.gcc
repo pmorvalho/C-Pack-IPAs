@@ -1,0 +1,5 @@
+ex04-stu_080-sub_062.c: In function 'main':
+ex04-stu_080-sub_062.c:16:13: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   16 |         if (estado = DENTRO || (estado = FORA && c != '0'))
+      |             ^~~~~~
+cc1: all warnings being treated as errors

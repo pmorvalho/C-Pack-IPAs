@@ -1,0 +1,5 @@
+ex01-stu_077-sub_029.c: In function 'quadrado':
+ex01-stu_077-sub_029.c:10:9: error: statement with no effect [-Werror=unused-value]
+   10 |         for (j ; j <= keep; j++)
+      |         ^~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,11 @@
+ex04-stu_084-sub_052.c: In function 'main':
+ex04-stu_084-sub_052.c:15:22: error: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Werror=sign-compare]
+   15 |         for(i = 0; i < strlen(palavra); i++){
+      |                      ^
+ex04-stu_084-sub_052.c:16:19: error: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Werror=sign-compare]
+   16 |             if (i == ((strlen(palavra) / 2) + 1))
+      |                   ^~
+ex04-stu_084-sub_052.c:29:22: error: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Werror=sign-compare]
+   29 |         for(j = 0; j < strlen(palavra); j++){
+      |                      ^
+cc1: all warnings being treated as errors

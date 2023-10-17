@@ -1,0 +1,5 @@
+ex01-stu_076-sub_008.c: In function 'main':
+ex01-stu_076-sub_008.c:10:18: error: implicit declaration of function 'max' [-Werror=implicit-function-declaration]
+   10 |     printf("%d", max(num1, num2, num3));
+      |                  ^~~
+cc1: all warnings being treated as errors

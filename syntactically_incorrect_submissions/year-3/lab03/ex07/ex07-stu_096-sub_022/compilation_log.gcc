@@ -1,0 +1,68 @@
+ex07-stu_096-sub_022.c: In function 'listaCarreiras':
+ex07-stu_096-sub_022.c:95:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'Paragem' [-Werror=format=]
+   95 |             printf("%s\t", vet_carreiras[i].origem);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                Paragem
+ex07-stu_096-sub_022.c:96:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'Paragem' [-Werror=format=]
+   96 |             printf("%s\t", vet_carreiras[i].destino);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                Paragem
+ex07-stu_096-sub_022.c:97:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   97 |             printf("%s\t", vet_carreiras[i].numparagenscarreira);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                int
+      |                     %d
+ex07-stu_096-sub_022.c:98:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'double' [-Werror=format=]
+   98 |             printf("%s\t", vet_carreiras[i].custototal);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                double
+      |                     %f
+ex07-stu_096-sub_022.c:99:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'double' [-Werror=format=]
+   99 |             printf("%s\n", vet_carreiras[i].duracaototal);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                double
+      |                     %f
+ex07-stu_096-sub_022.c:105:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'Paragem' [-Werror=format=]
+  105 |             printf("%s\t", vet_carreiras[i].origem);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                Paragem
+ex07-stu_096-sub_022.c:106:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'Paragem' [-Werror=format=]
+  106 |             printf("%s\t", vet_carreiras[i].destino);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                Paragem
+ex07-stu_096-sub_022.c:107:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+  107 |             printf("%s\t", vet_carreiras[i].numparagenscarreira);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                int
+      |                     %d
+ex07-stu_096-sub_022.c:108:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'double' [-Werror=format=]
+  108 |             printf("%s\t", vet_carreiras[i].custototal);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                double
+      |                     %f
+ex07-stu_096-sub_022.c:109:22: error: format '%s' expects argument of type 'char *', but argument 2 has type 'double' [-Werror=format=]
+  109 |             printf("%s\n", vet_carreiras[i].duracaototal);
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |                     |
+      |                      char *                double
+      |                     %f
+ex07-stu_096-sub_022.c: In function 'p_adicionaListaParagens':
+ex07-stu_096-sub_022.c:166:16: error: unused variable 'lon' [-Werror=unused-variable]
+  166 |     float lat, lon;
+      |                ^~~
+ex07-stu_096-sub_022.c:166:11: error: unused variable 'lat' [-Werror=unused-variable]
+  166 |     float lat, lon;
+      |           ^~~
+ex07-stu_096-sub_022.c:165:16: error: unused variable 'j' [-Werror=unused-variable]
+  165 |     int i = 0, j = 0;
+      |                ^
+cc1: all warnings being treated as errors

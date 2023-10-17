@@ -1,0 +1,12 @@
+ex08-stu_071-sub_003.c: In function 'main':
+ex08-stu_071-sub_003.c:6:5: error: invalid suffix "N" on integer constant
+    6 | int 3N, contador;
+      |     ^~
+ex08-stu_071-sub_003.c:6:5: error: expected identifier or '(' before numeric constant
+ex08-stu_071-sub_003.c:10:14: error: 'N' undeclared (first use in this function)
+   10 | scanf("%d", &N) ;
+      |              ^
+ex08-stu_071-sub_003.c:10:14: note: each undeclared identifier is reported only once for each function it appears in
+ex08-stu_071-sub_003.c:11:1: error: 'contador' undeclared (first use in this function)
+   11 | contador =1;
+      | ^~~~~~~~

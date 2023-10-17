@@ -1,0 +1,34 @@
+ex04-stu_071-sub_011.c: In function 'main':
+ex04-stu_071-sub_011.c:8:9: error: format '%d' expects a matching 'int *' argument [-Werror=format=]
+    8 | scanf("%d, &n");
+      |        ~^
+      |         |
+      |         int *
+ex04-stu_071-sub_011.c:11:7: error: assignment to 'int' from 'int (*)(void)' makes integer from pointer without a cast [-Werror=int-conversion]
+   11 |     c = getchar;
+      |       ^
+ex04-stu_071-sub_011.c:12:10: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   12 |     if ( c =! ' ' ){
+      |          ^
+ex04-stu_071-sub_011.c:13:11: error: assignment to 'int' from 'int (*)(void)' makes integer from pointer without a cast [-Werror=int-conversion]
+   13 |         c = getchar;
+      |           ^
+ex04-stu_071-sub_011.c:15:10: error: 'print' undeclared (first use in this function); did you mean 'printf'?
+   15 |     else print
+      |          ^~~~~
+      |          printf
+ex04-stu_071-sub_011.c:15:10: note: each undeclared identifier is reported only once for each function it appears in
+ex04-stu_071-sub_011.c:15:15: error: expected ';' before '}' token
+   15 |     else print
+      |               ^
+      |               ;
+......
+   18 | }
+      | ~              
+ex04-stu_071-sub_011.c:7:5: error: unused variable 'i' [-Werror=unused-variable]
+    7 | int i, c;
+      |     ^
+ex04-stu_071-sub_011.c:6:10: error: unused variable 'n' [-Werror=unused-variable]
+    6 | long int n;
+      |          ^
+cc1: all warnings being treated as errors

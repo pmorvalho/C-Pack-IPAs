@@ -1,0 +1,9 @@
+ex06-stu_091-sub_083.c: In function 'maiusculas':
+ex06-stu_091-sub_083.c:9:12: error: unused variable 'valor' [-Werror=unused-variable]
+    9 |     int i, valor;
+      |            ^~~~~
+ex06-stu_091-sub_083.c: In function 'main':
+ex06-stu_091-sub_083.c:41:1: error: control reaches end of non-void function [-Werror=return-type]
+   41 | }
+      | ^
+cc1: all warnings being treated as errors

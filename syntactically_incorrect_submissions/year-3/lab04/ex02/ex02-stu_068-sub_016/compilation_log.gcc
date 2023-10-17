@@ -1,0 +1,5 @@
+ex02-stu_068-sub_016.c: In function 'main':
+ex02-stu_068-sub_016.c:7:10: error: variable 's' set but not used [-Werror=unused-but-set-variable]
+    7 |     char s[MAX];
+      |          ^
+cc1: all warnings being treated as errors

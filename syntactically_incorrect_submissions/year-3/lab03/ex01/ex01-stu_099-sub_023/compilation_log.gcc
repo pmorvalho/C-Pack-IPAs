@@ -1,0 +1,9 @@
+ex01-stu_099-sub_023.c: In function 'main':
+ex01-stu_099-sub_023.c:24:1: error: statement with no effect [-Werror=unused-value]
+   24 | 5    scanf("%d", &dim);
+      | ^
+ex01-stu_099-sub_023.c:24:2: error: expected ';' before 'scanf'
+   24 | 5    scanf("%d", &dim);
+      |  ^   ~~~~~
+      |  ;
+cc1: all warnings being treated as errors

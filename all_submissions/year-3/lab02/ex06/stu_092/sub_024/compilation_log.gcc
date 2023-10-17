@@ -1,0 +1,7 @@
+ex06-stu_092-sub_024.c: In function 'main':
+ex06-stu_092-sub_024.c:22:13: error: expected ';' before '}' token
+   22 |     return 0
+      |             ^
+      |             ;
+   23 | }
+      | ~            

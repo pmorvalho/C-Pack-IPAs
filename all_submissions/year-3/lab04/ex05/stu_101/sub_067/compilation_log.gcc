@@ -1,0 +1,19 @@
+ex05-stu_101-sub_067.c: In function 'main':
+ex05-stu_101-sub_067.c:8:5: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+    8 |     printf("%s\n",str);
+      |     ^~~~~~
+ex05-stu_101-sub_067.c:8:5: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex05-stu_101-sub_067.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | 
+ex05-stu_101-sub_067.c: In function 'lelinha':
+ex05-stu_101-sub_067.c:14:15: error: implicit declaration of function 'getchar' [-Werror=implicit-function-declaration]
+   14 |     while ((c=getchar())!=EOF && c!= '\n')
+      |               ^~~~~~~
+ex05-stu_101-sub_067.c:14:15: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+ex05-stu_101-sub_067.c:14:27: error: 'EOF' undeclared (first use in this function)
+   14 |     while ((c=getchar())!=EOF && c!= '\n')
+      |                           ^~~
+ex05-stu_101-sub_067.c:14:27: note: 'EOF' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+ex05-stu_101-sub_067.c:14:27: note: each undeclared identifier is reported only once for each function it appears in
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex06-stu_099-sub_065.c: In function 'main':
+ex06-stu_099-sub_065.c:32:9: error: unused variable 'caracteres' [-Werror=unused-variable]
+   32 |     int caracteres;
+      |         ^~~~~~~~~~
+cc1: all warnings being treated as errors

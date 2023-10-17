@@ -1,0 +1,8 @@
+ex07-stu_091-sub_068.c: In function 'main':
+ex07-stu_091-sub_068.c:10:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |     char s[MAX];
+      |     ^~~~
+ex07-stu_091-sub_068.c:19:13: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   19 |         if (s[conta2] = '-')
+      |             ^
+cc1: all warnings being treated as errors

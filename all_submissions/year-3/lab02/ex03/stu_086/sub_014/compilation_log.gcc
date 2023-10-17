@@ -1,0 +1,14 @@
+ex03-stu_086-sub_014.c: In function 'main':
+ex03-stu_086-sub_014.c:12:17: error: expected expression before 'int'
+   12 |     if ((n/m) = int)
+      |                 ^~~
+ex03-stu_086-sub_014.c:14:17: error: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   14 |         divisao = "yes";
+      |                 ^
+ex03-stu_086-sub_014.c:18:17: error: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   18 |         divisao = "no";
+      |                 ^
+ex03-stu_086-sub_014.c:7:15: error: variable 'divisao' set but not used [-Werror=unused-but-set-variable]
+    7 |     int n, m, divisao;
+      |               ^~~~~~~
+cc1: all warnings being treated as errors

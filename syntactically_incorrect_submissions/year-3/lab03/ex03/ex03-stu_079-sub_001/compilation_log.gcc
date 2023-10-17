@@ -1,0 +1,21 @@
+ex03-stu_079-sub_001.c:6:5: error: 'main' takes only zero or two arguments [-Werror=main]
+    6 | int main(int n){
+      |     ^~~~
+ex03-stu_079-sub_001.c: In function 'cruz':
+ex03-stu_079-sub_001.c:13:14: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   13 |     for(l = 0, l < n, l++){
+      |              ^
+ex03-stu_079-sub_001.c:13:26: error: expected ';' before ')' token
+   13 |     for(l = 0, l < n, l++){
+      |                          ^
+      |                          ;
+ex03-stu_079-sub_001.c:13:26: error: expected expression before ')' token
+ex03-stu_079-sub_001.c:14:18: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   14 |         for(c = 0, c < n, c++){
+      |                  ^
+ex03-stu_079-sub_001.c:14:30: error: expected ';' before ')' token
+   14 |         for(c = 0, c < n, c++){
+      |                              ^
+      |                              ;
+ex03-stu_079-sub_001.c:14:30: error: expected expression before ')' token
+cc1: all warnings being treated as errors

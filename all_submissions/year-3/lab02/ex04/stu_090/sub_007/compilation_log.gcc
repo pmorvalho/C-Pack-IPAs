@@ -1,0 +1,4 @@
+ex04-stu_090-sub_007.c:5:6: error: return type of 'main' is not 'int' [-Werror=main]
+    5 | void main() {
+      |      ^~~~
+cc1: all warnings being treated as errors

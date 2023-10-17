@@ -1,0 +1,16 @@
+ex04-stu_088-sub_030.c: In function 'space':
+ex04-stu_088-sub_030.c:4:5: error: type of 'c' defaults to 'int' [-Werror=missing-parameter-type]
+    4 | int space(c)
+      |     ^~~~~
+ex04-stu_088-sub_030.c: In function 'main':
+ex04-stu_088-sub_030.c:25:20: error: assignment to 'int' from 'int (*)(void)' makes integer from pointer without a cast [-Werror=int-conversion]
+   25 |     while((current = getchar) != EOF)
+      |                    ^
+ex04-stu_088-sub_030.c:35:25: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   35 |                 else if(current = '0')
+      |                         ^~~~~~~
+ex04-stu_088-sub_030.c:57:20: error: implicit declaration of function 'sapce'; did you mean 'space'? [-Werror=implicit-function-declaration]
+   57 |                 if(sapce(current))
+      |                    ^~~~~
+      |                    space
+cc1: all warnings being treated as errors

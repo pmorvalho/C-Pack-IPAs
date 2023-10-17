@@ -1,0 +1,5 @@
+ex08-stu_094-sub_020.c: In function 'main':
+ex08-stu_094-sub_020.c:12:13: error: ISO C90 does not support the '%F' gnu_scanf format [-Werror=format=]
+   12 |     scanf("%F", &val);
+      |             ^
+cc1: all warnings being treated as errors

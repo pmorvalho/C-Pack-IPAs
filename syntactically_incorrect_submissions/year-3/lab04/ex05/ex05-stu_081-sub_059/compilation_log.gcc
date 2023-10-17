@@ -1,0 +1,7 @@
+ex05-stu_081-sub_059.c: In function 'main':
+ex05-stu_081-sub_059.c:12:5: error: redeclaration of 'c' with no linkage
+   12 |     c=getchar();
+      |     ^
+ex05-stu_081-sub_059.c:11:10: note: previous declaration of 'c' was here
+   11 |     char c,
+      |          ^

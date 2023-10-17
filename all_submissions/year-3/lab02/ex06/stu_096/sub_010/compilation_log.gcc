@@ -1,0 +1,11 @@
+ex06-stu_096-sub_010.c: In function 'main':
+ex06-stu_096-sub_010.c:14:9: error: this 'else' clause does not guard... [-Werror=misleading-indentation]
+   14 |         else
+      |         ^~~~
+ex06-stu_096-sub_010.c:17:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   17 |             if (num > max)
+      |             ^~
+ex06-stu_096-sub_010.c:21:1: error: control reaches end of non-void function [-Werror=return-type]
+   21 | }
+      | ^
+cc1: all warnings being treated as errors

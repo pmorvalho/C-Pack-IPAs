@@ -1,0 +1,30 @@
+ex04-stu_063-sub_023.c: In function 'main':
+ex04-stu_063-sub_023.c:9:10: error: ISO C forbids forward references to 'enum' types [-Werror=pedantic]
+    9 |     enum state st = FORA;
+      |          ^~~~~
+ex04-stu_063-sub_023.c:9:10: error: variable 'st' has initializer but incomplete type
+ex04-stu_063-sub_023.c:9:21: error: 'FORA' undeclared (first use in this function)
+    9 |     enum state st = FORA;
+      |                     ^~~~
+ex04-stu_063-sub_023.c:9:21: note: each undeclared identifier is reported only once for each function it appears in
+ex04-stu_063-sub_023.c:9:16: error: storage size of 'st' isn't known
+    9 |     enum state st = FORA;
+      |                ^~
+ex04-stu_063-sub_023.c:15:26: error: 'DENTRO' undeclared (first use in this function)
+   15 |                     st = DENTRO;
+      |                          ^~~~~~
+ex04-stu_063-sub_023.c:19:26: error: 'INI' undeclared (first use in this function)
+   19 |                     st = INI;
+      |                          ^~~
+ex04-stu_063-sub_023.c:9:16: error: unused variable 'st' [-Werror=unused-variable]
+    9 |     enum state st = FORA;
+      |                ^~
+ex04-stu_063-sub_023.c: At top level:
+ex04-stu_063-sub_023.c:57:11: error: comma at end of enumerator list [-Werror=pedantic]
+   57 |     DENTRO,
+      |           ^
+ex04-stu_063-sub_023.c: In function 'main':
+ex04-stu_063-sub_023.c:44:1: error: control reaches end of non-void function [-Werror=return-type]
+   44 | }
+      | ^
+cc1: all warnings being treated as errors

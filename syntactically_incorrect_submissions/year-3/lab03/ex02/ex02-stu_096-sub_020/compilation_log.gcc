@@ -1,0 +1,4 @@
+ex02-stu_096-sub_020.c: In function 'piramide':
+ex02-stu_096-sub_020.c:9:13: error: expected statement before ')' token
+    9 |             )
+      |             ^

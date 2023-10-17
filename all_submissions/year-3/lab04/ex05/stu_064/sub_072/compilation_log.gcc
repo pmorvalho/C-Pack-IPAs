@@ -1,0 +1,5 @@
+ex05-stu_064-sub_072.c: In function 'leLinha':
+ex05-stu_064-sub_072.c:8:15: error: assignment to 'int' from 'int (*)(void)' makes integer from pointer without a cast [-Werror=int-conversion]
+    8 |     while ((c = getchar) != EOF && c != '\n')
+      |               ^
+cc1: all warnings being treated as errors

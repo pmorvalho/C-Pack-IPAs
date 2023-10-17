@@ -1,0 +1,14 @@
+ex09-stu_070-sub_004.c: In function 'main':
+ex09-stu_070-sub_004.c:6:5: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    6 |     scanf("%d", &segundos);
+      |     ^~~~~
+ex09-stu_070-sub_004.c:6:5: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex09-stu_070-sub_004.c:1:1: note: include '<stdio.h>' or provide a declaration of 'scanf'
+  +++ |+#include <stdio.h>
+    1 | 
+ex09-stu_070-sub_004.c:13:5: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+   13 |     printf("%02d:%02d:%02d", horas, minutos, segundos);
+      |     ^~~~~~
+ex09-stu_070-sub_004.c:13:5: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex09-stu_070-sub_004.c:13:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+cc1: all warnings being treated as errors

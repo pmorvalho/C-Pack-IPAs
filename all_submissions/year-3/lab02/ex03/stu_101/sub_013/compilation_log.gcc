@@ -1,0 +1,6 @@
+ex03-stu_101-sub_013.c: In function 'main':
+ex03-stu_101-sub_013.c:7:10: error: 'n' is used uninitialized in this function [-Werror=uninitialized]
+    7 |     if (n%m==0)
+      |         ~^~
+ex03-stu_101-sub_013.c:7:10: error: 'm' is used uninitialized in this function [-Werror=uninitialized]
+cc1: all warnings being treated as errors

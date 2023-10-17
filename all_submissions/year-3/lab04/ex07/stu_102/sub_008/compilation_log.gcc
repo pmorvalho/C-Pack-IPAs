@@ -1,0 +1,5 @@
+ex07-stu_102-sub_008.c: In function 'main':
+ex07-stu_102-sub_008.c:18:9: error: 'c' is used uninitialized in this function [-Werror=uninitialized]
+   18 |         apagaCaracter(s,c);
+      |         ^~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

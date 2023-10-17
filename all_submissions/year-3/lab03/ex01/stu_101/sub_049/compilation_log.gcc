@@ -1,0 +1,11 @@
+ex01-stu_101-sub_049.c: In function 'quadrado':
+ex01-stu_101-sub_049.c:6:9: error: 'n' redeclared as different kind of symbol
+    6 |     int n,i=1, j=1;
+      |         ^
+ex01-stu_101-sub_049.c:5:19: note: previous definition of 'n' was here
+    5 | void quadrado(int n){
+      |               ~~~~^
+ex01-stu_101-sub_049.c:9:16: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+    9 |             if(j=1)
+      |                ^
+cc1: all warnings being treated as errors

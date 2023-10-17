@@ -1,0 +1,5 @@
+ex04-stu_096-sub_025.c: In function 'main':
+ex04-stu_096-sub_025.c:6:5: error: ISO C90 forbids variable length array 's2' [-Werror=vla]
+    6 |     char s[MAX], s2[comp];
+      |     ^~~~
+cc1: all warnings being treated as errors

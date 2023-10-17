@@ -1,0 +1,8 @@
+ex04-stu_090-sub_008.c:5:1: error: return type defaults to 'int' [-Werror=return-type]
+    5 | main(void) {
+      | ^~~~
+ex04-stu_090-sub_008.c: In function 'main':
+ex04-stu_090-sub_008.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors

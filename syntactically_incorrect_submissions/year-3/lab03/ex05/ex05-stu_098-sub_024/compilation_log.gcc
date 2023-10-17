@@ -1,0 +1,24 @@
+ex05-stu_098-sub_024.c: In function 'main':
+ex05-stu_098-sub_024.c:9:21: error: 'OUT' undeclared (first use in this function)
+    9 |     int c, estado = OUT, i = 0;
+      |                     ^~~
+ex05-stu_098-sub_024.c:9:21: note: each undeclared identifier is reported only once for each function it appears in
+ex05-stu_098-sub_024.c:12:9: error: implicit declaration of function 'getchar' [-Werror=implicit-function-declaration]
+   12 |     c = getchar();
+      |         ^~~~~~~
+ex05-stu_098-sub_024.c:1:1: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+  +++ |+#include <stdio.h>
+    1 | 
+ex05-stu_098-sub_024.c:13:17: error: 'EOF' undeclared (first use in this function)
+   13 |     while (c != EOF) {
+      |                 ^~~
+ex05-stu_098-sub_024.c:13:17: note: 'EOF' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+ex05-stu_098-sub_024.c:20:22: error: 'IN' undeclared (first use in this function)
+   20 |             estado = IN;
+      |                      ^~
+ex05-stu_098-sub_024.c:34:5: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+   34 |     printf("%s", tab);
+      |     ^~~~~~
+ex05-stu_098-sub_024.c:34:5: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex05-stu_098-sub_024.c:34:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+cc1: all warnings being treated as errors

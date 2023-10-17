@@ -1,0 +1,5 @@
+ex06-stu_101-sub_019.c: In function 'main':
+ex06-stu_101-sub_019.c:9:19: error: 'maior' is used uninitialized in this function [-Werror=uninitialized]
+    9 |     valor = menor = maior;
+      |             ~~~~~~^~~~~~~
+cc1: all warnings being treated as errors

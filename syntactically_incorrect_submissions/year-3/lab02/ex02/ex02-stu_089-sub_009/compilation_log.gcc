@@ -1,0 +1,5 @@
+ex02-stu_089-sub_009.c: In function 'main':
+ex02-stu_089-sub_009.c:8:9: error: unused variable 'i' [-Werror=unused-variable]
+    8 |     int i = 0;
+      |         ^
+cc1: all warnings being treated as errors

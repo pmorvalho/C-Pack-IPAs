@@ -1,0 +1,14 @@
+ex02-stu_071-sub_006.c: In function 'piramide':
+ex02-stu_071-sub_006.c:10:20: error: expected expression before ')' token
+   10 |         printf(" ",);
+      |                    ^
+ex02-stu_071-sub_006.c:16:23: error: expected expression before ')' token
+   16 |         for (c=0 ; c< )
+      |                       ^
+ex02-stu_071-sub_006.c:19:9: error: expected expression before '}' token
+   19 |         }
+      |         ^
+ex02-stu_071-sub_006.c: At top level:
+ex02-stu_071-sub_006.c:28:1: error: expected identifier or '(' before '}' token
+   28 | }
+      | ^

@@ -1,0 +1,8 @@
+ex10-stu_080-sub_037.c: In function 'main':
+ex10-stu_080-sub_037.c:8:5: error: statement with no effect [-Werror=unused-value]
+    8 |     for(i; d != 0; i * 10){
+      |     ^~~
+ex10-stu_080-sub_037.c:8:22: error: statement with no effect [-Werror=unused-value]
+    8 |     for(i; d != 0; i * 10){
+      |                    ~~^~~~
+cc1: all warnings being treated as errors

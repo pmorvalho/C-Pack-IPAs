@@ -1,0 +1,7 @@
+ex04-stu_070-sub_021.c: In function 'main':
+ex04-stu_070-sub_021.c:25:13: error: expected ';' before '}' token
+   25 |     return 0
+      |             ^
+      |             ;
+   26 | }
+      | ~            

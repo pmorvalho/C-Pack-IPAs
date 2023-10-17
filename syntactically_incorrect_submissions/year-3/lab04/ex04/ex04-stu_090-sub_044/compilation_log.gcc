@@ -1,0 +1,20 @@
+ex04-stu_090-sub_044.c: In function 'palindromo':
+ex04-stu_090-sub_044.c:10:20: error: implicit declaration of function 'strlen' [-Werror=implicit-function-declaration]
+   10 |     for(i = 0; j = strlen(s) - 1; i < j; i++; j--)
+      |                    ^~~~~~
+ex04-stu_090-sub_044.c:10:20: error: incompatible implicit declaration of built-in function 'strlen' [-Werror]
+ex04-stu_090-sub_044.c:4:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    3 | #include <stdio.h>
+  +++ |+#include <string.h>
+    4 | 
+ex04-stu_090-sub_044.c:10:16: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   10 |     for(i = 0; j = strlen(s) - 1; i < j; i++; j--)
+      |                ^
+ex04-stu_090-sub_044.c:10:37: error: statement with no effect [-Werror=unused-value]
+   10 |     for(i = 0; j = strlen(s) - 1; i < j; i++; j--)
+      |                                   ~~^~~
+ex04-stu_090-sub_044.c:10:40: error: expected ')' before ';' token
+   10 |     for(i = 0; j = strlen(s) - 1; i < j; i++; j--)
+      |        ~                               ^
+      |                                        )
+cc1: all warnings being treated as errors

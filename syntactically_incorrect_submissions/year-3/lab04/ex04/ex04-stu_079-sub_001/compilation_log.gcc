@@ -1,0 +1,12 @@
+ex04-stu_079-sub_001.c: In function 'main':
+ex04-stu_079-sub_001.c:9:20: error: implicit declaration of function 'isPal' [-Werror=implicit-function-declaration]
+    9 |     printf("%s\n", isPal(str)?"yes":"no");
+      |                    ^~~~~
+ex04-stu_079-sub_001.c:10:1: error: control reaches end of non-void function [-Werror=return-type]
+   10 | }
+      | ^
+ex04-stu_079-sub_001.c: In function 'isPal':
+ex04-stu_079-sub_001.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+   20 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,20 @@
+ex08-stu_092-sub_083.c: In function 'maior':
+ex08-stu_092-sub_083.c:20:20: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   20 |             return n1;
+      |                    ^~
+ex08-stu_092-sub_083.c:22:20: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   22 |             return n2;
+      |                    ^~
+ex08-stu_092-sub_083.c: In function 'main':
+ex08-stu_092-sub_083.c:30:14: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   30 |     printf("%s\n", maior(n1,n2));
+      |             ~^     ~~~~~~~~~~~~
+      |              |     |
+      |              |     int
+      |              char *
+      |             %d
+ex08-stu_092-sub_083.c: In function 'maior':
+ex08-stu_092-sub_083.c:24:1: error: control reaches end of non-void function [-Werror=return-type]
+   24 | }
+      | ^
+cc1: all warnings being treated as errors

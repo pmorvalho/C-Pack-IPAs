@@ -1,0 +1,11 @@
+ex06-stu_094-sub_053.c: In function 'main':
+ex06-stu_094-sub_053.c:17:44: error: expected ';' before 'return'
+   17 |     printf("%s\n", soma % 9 ? "no" : "yes")
+      |                                            ^
+      |                                            ;
+   18 |     return 0;
+      |     ~~~~~~                                  
+ex06-stu_094-sub_053.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+   19 | }
+      | ^
+cc1: all warnings being treated as errors

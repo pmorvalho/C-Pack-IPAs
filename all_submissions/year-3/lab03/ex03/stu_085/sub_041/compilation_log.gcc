@@ -1,0 +1,5 @@
+ex03-stu_085-sub_041.c: In function 'cruz':
+ex03-stu_085-sub_041.c:6:13: error: unused variable 'x' [-Werror=unused-variable]
+    6 |     int i,j,x;
+      |             ^
+cc1: all warnings being treated as errors

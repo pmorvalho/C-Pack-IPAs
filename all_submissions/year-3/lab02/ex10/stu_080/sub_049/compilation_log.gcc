@@ -1,0 +1,5 @@
+ex10-stu_080-sub_049.c: In function 'main':
+ex10-stu_080-sub_049.c:8:34: error: statement with no effect [-Werror=unused-value]
+    8 |     for(i = 10; (n / i) >= 0 ; i * POTENCIA){
+      |                                  ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex07-stu_080-sub_030.c: In function 'main':
+ex07-stu_080-sub_030.c:8:17: error: 'divisores' is used uninitialized in this function [-Werror=uninitialized]
+    8 |     resto = num % divisores;
+      |             ~~~~^~~~~~~~~~~
+cc1: all warnings being treated as errors

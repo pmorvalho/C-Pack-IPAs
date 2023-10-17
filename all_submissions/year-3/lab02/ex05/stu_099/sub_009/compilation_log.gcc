@@ -1,0 +1,8 @@
+ex05-stu_099-sub_009.c: In function 'main':
+ex05-stu_099-sub_009.c:4:14: error: unused parameter 'argc' [-Werror=unused-parameter]
+    4 | int main(int argc, char const *argv[])
+      |          ~~~~^~~~
+ex05-stu_099-sub_009.c:4:32: error: unused parameter 'argv' [-Werror=unused-parameter]
+    4 | int main(int argc, char const *argv[])
+      |                    ~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors

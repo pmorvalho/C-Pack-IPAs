@@ -1,0 +1,30 @@
+ex01-stu_067-sub_005.c: In function 'main':
+ex01-stu_067-sub_005.c:5:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    5 |     int v 1, v2, v3, maximo;
+      |     ^~~
+ex01-stu_067-sub_005.c:5:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+    5 |     int v 1, v2, v3, maximo;
+      |           ^
+ex01-stu_067-sub_005.c:5:14: error: 'v2' undeclared (first use in this function)
+    5 |     int v 1, v2, v3, maximo;
+      |              ^~
+ex01-stu_067-sub_005.c:5:14: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_067-sub_005.c:5:12: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    5 |     int v 1, v2, v3, maximo;
+      |            ^
+ex01-stu_067-sub_005.c:5:18: error: 'v3' undeclared (first use in this function)
+    5 |     int v 1, v2, v3, maximo;
+      |                  ^~
+ex01-stu_067-sub_005.c:5:16: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    5 |     int v 1, v2, v3, maximo;
+      |                ^
+ex01-stu_067-sub_005.c:5:22: error: 'maximo' undeclared (first use in this function)
+    5 |     int v 1, v2, v3, maximo;
+      |                      ^~~~~~
+ex01-stu_067-sub_005.c:5:20: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    5 |     int v 1, v2, v3, maximo;
+      |                    ^
+ex01-stu_067-sub_005.c:6:22: error: 'v1' undeclared (first use in this function)
+    6 |     scanf("%d%d%d", &v1, &v2, &v3);
+      |                      ^~
+cc1: all warnings being treated as errors

@@ -1,0 +1,46 @@
+ex08-stu_088-sub_052.c: In function 'maior_numero':
+ex08-stu_088-sub_052.c:10:16: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   10 |         return s2;
+      |                ^~
+ex08-stu_088-sub_052.c:13:16: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   13 |         return s1;
+      |                ^~
+ex08-stu_088-sub_052.c:17:20: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   17 |             return s1;
+      |                    ^~
+ex08-stu_088-sub_052.c:20:20: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   20 |             return s2;
+      |                    ^~
+ex08-stu_088-sub_052.c:25:28: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   25 |                     return s2;
+      |                            ^~
+ex08-stu_088-sub_052.c:27:28: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   27 |                     return s1;
+      |                            ^~
+ex08-stu_088-sub_052.c:34:20: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   34 |             return s2;
+      |                    ^~
+ex08-stu_088-sub_052.c:37:20: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   37 |             return s1;
+      |                    ^~
+ex08-stu_088-sub_052.c:42:28: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   42 |                     return s1;
+      |                            ^~
+ex08-stu_088-sub_052.c:44:28: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   44 |                     return s2;
+      |                            ^~
+ex08-stu_088-sub_052.c:48:12: error: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Werror=int-conversion]
+   48 |     return s1;
+      |            ^~
+ex08-stu_088-sub_052.c: In function 'main':
+ex08-stu_088-sub_052.c:65:14: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   65 |     printf("%s\n", maior_numero(str1, str2));
+      |             ~^     ~~~~~~~~~~~~~~~~~~~~~~~~
+      |              |     |
+      |              |     int
+      |              char *
+      |             %d
+ex08-stu_088-sub_052.c:61:32: error: unused variable 'maior' [-Werror=unused-variable]
+   61 |     char str1[MAX], str2[MAX], maior;
+      |                                ^~~~~
+cc1: all warnings being treated as errors

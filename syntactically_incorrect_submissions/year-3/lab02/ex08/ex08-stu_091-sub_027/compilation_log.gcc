@@ -1,0 +1,4 @@
+ex08-stu_091-sub_027.c:4:7: error: return type of 'main' is not 'int' [-Werror=main]
+    4 | float main()
+      |       ^~~~
+cc1: all warnings being treated as errors

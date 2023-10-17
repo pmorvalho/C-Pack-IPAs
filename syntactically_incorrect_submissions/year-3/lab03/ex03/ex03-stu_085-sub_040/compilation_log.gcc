@@ -1,0 +1,15 @@
+ex03-stu_085-sub_040.c: In function 'cruz':
+ex03-stu_085-sub_040.c:6:13: error: unused variable 'x' [-Werror=unused-variable]
+    6 |     int i,j,x;
+      |             ^
+ex03-stu_085-sub_040.c: In function 'main':
+ex03-stu_085-sub_040.c:37:12: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+   37 |    scanf("%d", N);
+      |           ~^   ~
+      |            |   |
+      |            |   int
+      |            int *
+ex03-stu_085-sub_040.c:37:4: error: 'N' is used uninitialized in this function [-Werror=uninitialized]
+   37 |    scanf("%d", N);
+      |    ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

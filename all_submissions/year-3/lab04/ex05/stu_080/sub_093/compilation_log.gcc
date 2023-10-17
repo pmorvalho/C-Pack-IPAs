@@ -1,0 +1,5 @@
+ex05-stu_080-sub_093.c: In function 'main':
+ex05-stu_080-sub_093.c:17:24: error: variable 'c' set but not used [-Werror=unused-but-set-variable]
+   17 |     int comprimento,i, c;
+      |                        ^
+cc1: all warnings being treated as errors

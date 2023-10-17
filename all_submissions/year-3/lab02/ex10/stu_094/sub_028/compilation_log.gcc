@@ -1,0 +1,5 @@
+ex10-stu_094-sub_028.c: In function 'main':
+ex10-stu_094-sub_028.c:8:9: error: unused variable 'dig' [-Werror=unused-variable]
+    8 |     int dig, num_dig = 0, soma = 0;
+      |         ^~~
+cc1: all warnings being treated as errors

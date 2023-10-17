@@ -1,0 +1,16 @@
+ex03-stu_080-sub_013.c: In function 'main':
+ex03-stu_080-sub_013.c:5:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    5 |     scanf("%d,%d", n, m);
+      |            ~^      ~
+      |             |      |
+      |             int *  int
+ex03-stu_080-sub_013.c:5:16: error: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Werror=format=]
+    5 |     scanf("%d,%d", n, m);
+      |               ~^      ~
+      |                |      |
+      |                int *  int
+ex03-stu_080-sub_013.c:5:5: error: 'n' is used uninitialized in this function [-Werror=uninitialized]
+    5 |     scanf("%d,%d", n, m);
+      |     ^~~~~~~~~~~~~~~~~~~~
+ex03-stu_080-sub_013.c:5:5: error: 'm' is used uninitialized in this function [-Werror=uninitialized]
+cc1: all warnings being treated as errors

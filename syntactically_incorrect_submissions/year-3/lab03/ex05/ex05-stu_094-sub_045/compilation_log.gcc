@@ -1,0 +1,5 @@
+ex05-stu_094-sub_045.c: In function 'main':
+ex05-stu_094-sub_045.c:40:21: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   40 |                 if (current = '"') {
+      |                     ^~~~~~~
+cc1: all warnings being treated as errors

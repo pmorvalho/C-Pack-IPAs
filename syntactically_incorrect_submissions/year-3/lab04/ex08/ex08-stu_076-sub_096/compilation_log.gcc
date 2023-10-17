@@ -1,0 +1,5 @@
+ex08-stu_076-sub_096.c: In function 'compara':
+ex08-stu_076-sub_096.c:49:9: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   49 |     if (primeiroMaior = FALSE)
+      |         ^~~~~~~~~~~~~
+cc1: all warnings being treated as errors

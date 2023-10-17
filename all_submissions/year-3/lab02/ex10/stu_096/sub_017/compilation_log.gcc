@@ -1,0 +1,11 @@
+ex10-stu_096-sub_017.c: In function 'main':
+ex10-stu_096-sub_017.c:7:17: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    7 |         scanf("%d", N);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 int *
+ex10-stu_096-sub_017.c:4:12: error: unused variable 'i' [-Werror=unused-variable]
+    4 |     int N, i, soma = 0, resto, contador = 0;
+      |            ^
+cc1: all warnings being treated as errors

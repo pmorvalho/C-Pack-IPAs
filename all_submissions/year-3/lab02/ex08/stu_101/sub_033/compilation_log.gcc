@@ -1,0 +1,26 @@
+ex08-stu_101-sub_033.c: In function 'main':
+ex08-stu_101-sub_033.c:9:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Werror=format=]
+    9 |     scanf("%d\n", &valor);
+      |            ~^     ~~~~~~
+      |             |     |
+      |             int * float *
+      |            %e
+ex08-stu_101-sub_033.c:12:17: error: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Werror=format=]
+   12 |         scanf("%d\n", &valor);
+      |                ~^     ~~~~~~
+      |                 |     |
+      |                 int * float *
+      |                %e
+ex08-stu_101-sub_033.c:15:22: error: expected ';' before 'printf'
+   15 |     media = total / n
+      |                      ^
+      |                      ;
+   16 |     printf("%.2f", media);
+      |     ~~~~~~            
+ex08-stu_101-sub_033.c:7:23: error: variable 'media' set but not used [-Werror=unused-but-set-variable]
+    7 |     float valor,total,media;
+      |                       ^~~~~
+ex08-stu_101-sub_033.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors

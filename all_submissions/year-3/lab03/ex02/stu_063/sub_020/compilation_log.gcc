@@ -1,0 +1,5 @@
+ex02-stu_063-sub_020.c: In function 'piramide':
+ex02-stu_063-sub_020.c:18:19: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   18 |             if (n >= c > n-l)
+      |                 ~~^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,20 @@
+ex08-stu_065-sub_051.c: In function 'compara':
+ex08-stu_065-sub_051.c:17:16: error: returning 'char *' from a function with return type 'int' makes integer from pointer without a cast [-Werror=int-conversion]
+   17 |         return n1;
+      |                ^~
+ex08-stu_065-sub_051.c:19:16: error: returning 'char *' from a function with return type 'int' makes integer from pointer without a cast [-Werror=int-conversion]
+   19 |         return n2;
+      |                ^~
+ex08-stu_065-sub_051.c: In function 'main':
+ex08-stu_065-sub_051.c:26:14: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   26 |     printf("%s\n", compara(n1, n2));
+      |             ~^     ~~~~~~~~~~~~~~~
+      |              |     |
+      |              |     int
+      |              char *
+      |             %d
+ex08-stu_065-sub_051.c: In function 'compara':
+ex08-stu_065-sub_051.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+   20 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex06-stu_076-sub_069.c: In function 'main':
+ex06-stu_076-sub_069.c:14:19: error: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Werror=sign-compare]
+   14 |     for (i = 0; i < strlen(num); i++)
+      |                   ^
+cc1: all warnings being treated as errors

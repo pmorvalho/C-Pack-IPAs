@@ -1,0 +1,11 @@
+ex07-stu_068-sub_019.c: In function 'apagaCaracter':
+ex07-stu_068-sub_019.c:7: error: expected '{' at end of input
+    7 | void apagaCaracter(char s[], char c)
+      | 
+ex07-stu_068-sub_019.c:7:25: error: unused parameter 's' [-Werror=unused-parameter]
+    7 | void apagaCaracter(char s[], char c)
+      |                    ~~~~~^~~
+ex07-stu_068-sub_019.c:7:35: error: unused parameter 'c' [-Werror=unused-parameter]
+    7 | void apagaCaracter(char s[], char c)
+      |                              ~~~~~^
+cc1: all warnings being treated as errors

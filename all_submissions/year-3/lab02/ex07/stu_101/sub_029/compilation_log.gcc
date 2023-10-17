@@ -1,0 +1,4 @@
+ex07-stu_101-sub_029.c: In function 'main':
+ex07-stu_101-sub_029.c:9:15: error: lvalue required as left operand of assignment
+    9 |         if(n%i=0)
+      |               ^

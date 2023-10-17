@@ -1,0 +1,5 @@
+ex01-stu_073-sub_033.c: In function 'main':
+ex01-stu_073-sub_033.c:8:10: error: unused variable 's' [-Werror=unused-variable]
+    8 |     char s;
+      |          ^
+cc1: all warnings being treated as errors

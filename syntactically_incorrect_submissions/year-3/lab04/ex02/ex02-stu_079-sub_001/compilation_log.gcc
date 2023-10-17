@@ -1,0 +1,91 @@
+ex02-stu_079-sub_001.c: In function 'max':
+ex02-stu_079-sub_001.c:7:22: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    7 |     for (i = 0; i < n, i++)
+      |                      ^
+ex02-stu_079-sub_001.c:7:27: error: expected ';' before ')' token
+    7 |     for (i = 0; i < n, i++)
+      |                           ^
+      |                           ;
+ex02-stu_079-sub_001.c:8:13: error: 'v' undeclared (first use in this function)
+    8 |         if (v[i] > m)
+      |             ^
+ex02-stu_079-sub_001.c:8:13: note: each undeclared identifier is reported only once for each function it appears in
+ex02-stu_079-sub_001.c:10:13: error: expected ';' before '}' token
+   10 |     return m
+      |             ^
+      |             ;
+   11 | }
+      | ~            
+ex02-stu_079-sub_001.c:5:13: error: unused parameter 'vect_nums' [-Werror=unused-parameter]
+    5 | int max(int vect_nums[], int n){
+      |         ~~~~^~~~~~~~~~~
+ex02-stu_079-sub_001.c: In function 'main':
+ex02-stu_079-sub_001.c:16:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+   16 |     scanf("%d", num_nums);
+      |            ~^   ~~~~~~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex02-stu_079-sub_001.c:17:21: error: expected expression before '[' token
+   17 |     int vect_nums = [100];
+      |                     ^
+ex02-stu_079-sub_001.c:17:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   17 |     int vect_nums = [100];
+      |     ^~~
+ex02-stu_079-sub_001.c:19:30: error: subscripted value is neither array nor pointer nor vector
+   19 |         scanf("%d", vect_nums[i]);
+      |                              ^
+ex02-stu_079-sub_001.c:20:17: error: passing argument 1 of 'max' makes pointer from integer without a cast [-Werror=int-conversion]
+   20 |     int m = max(vect_nums,num_nums);
+      |                 ^~~~~~~~~
+      |                 |
+      |                 int
+ex02-stu_079-sub_001.c:5:13: note: expected 'int *' but argument is of type 'int'
+    5 | int max(int vect_nums[], int n){
+      |         ~~~~^~~~~~~~~~~
+ex02-stu_079-sub_001.c:20:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   20 |     int m = max(vect_nums,num_nums);
+      |     ^~~
+ex02-stu_079-sub_001.c:21:22: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   21 |     for (i = 0; i < m, i++){
+      |                      ^
+ex02-stu_079-sub_001.c:21:27: error: expected ';' before ')' token
+   21 |     for (i = 0; i < m, i++){
+      |                           ^
+      |                           ;
+ex02-stu_079-sub_001.c:22:24: error: 'n' undeclared (first use in this function)
+   22 |         for(j = 0, j < n, j++){
+      |                        ^
+ex02-stu_079-sub_001.c:22:25: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   22 |         for(j = 0, j < n, j++){
+      |                         ^
+ex02-stu_079-sub_001.c:22:30: error: expected ';' before ')' token
+   22 |         for(j = 0, j < n, j++){
+      |                              ^
+      |                              ;
+ex02-stu_079-sub_001.c:22:30: error: expected expression before ')' token
+ex02-stu_079-sub_001.c:23:21: error: 'v' undeclared (first use in this function)
+   23 |             putchar(v[j] > i ?"*":" ");
+      |                     ^
+ex02-stu_079-sub_001.c:24:17: error: passing argument 1 of 'putchar' makes integer from pointer without a cast [-Werror=int-conversion]
+   24 |         putchar("\n")
+      |                 ^~~~
+      |                 |
+      |                 char *
+In file included from ex02-stu_079-sub_001.c:2:
+/usr/include/stdio.h:528:25: note: expected 'int' but argument is of type 'char *'
+  528 | extern int putchar (int __c);
+      |                     ~~~~^~~
+ex02-stu_079-sub_001.c:24:22: error: expected ';' before '}' token
+   24 |         putchar("\n")
+      |                      ^
+      |                      ;
+   25 |         }
+      |         ~             
+ex02-stu_079-sub_001.c:28:13: error: expected ';' before '}' token
+   28 |     return 0
+      |             ^
+      |             ;
+   29 | }
+      | ~            
+cc1: all warnings being treated as errors

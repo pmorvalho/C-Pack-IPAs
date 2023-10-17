@@ -1,0 +1,8 @@
+ex04-stu_096-sub_007.c: In function 'main':
+ex04-stu_096-sub_007.c:35:19: error: statement with no effect [-Werror=unused-value]
+   35 |             medio == A;
+      |             ~~~~~~^~~~
+ex04-stu_096-sub_007.c:36:19: error: statement with no effect [-Werror=unused-value]
+   36 |             menor == B;
+      |             ~~~~~~^~~~
+cc1: all warnings being treated as errors

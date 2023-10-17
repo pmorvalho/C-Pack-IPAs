@@ -1,0 +1,14 @@
+ex03-stu_102-sub_006.c: In function 'cruz':
+ex03-stu_102-sub_006.c:10:17: error: this 'else' clause does not guard... [-Werror=misleading-indentation]
+   10 |                 else
+      |                 ^~~~
+ex03-stu_102-sub_006.c:11:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   11 |                     putchar('*');putchar(' ');}
+      |                                  ^~~~~~~
+ex03-stu_102-sub_006.c:15:17: error: this 'else' clause does not guard... [-Werror=misleading-indentation]
+   15 |                 else
+      |                 ^~~~
+ex03-stu_102-sub_006.c:16:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   16 |                     putchar('-');putchar(' ');
+      |                                  ^~~~~~~
+cc1: all warnings being treated as errors

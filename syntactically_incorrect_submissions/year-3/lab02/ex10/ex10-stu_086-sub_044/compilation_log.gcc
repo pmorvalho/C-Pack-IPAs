@@ -1,0 +1,14 @@
+ex10-stu_086-sub_044.c: In function 'main':
+ex10-stu_086-sub_044.c:7:19: error: unused variable 'soma' [-Werror=unused-variable]
+    7 | int N, i, nd = 0, soma = 0;
+      |                   ^~~~
+ex10-stu_086-sub_044.c:7:11: error: unused variable 'nd' [-Werror=unused-variable]
+    7 | int N, i, nd = 0, soma = 0;
+      |           ^~
+ex10-stu_086-sub_044.c:7:8: error: unused variable 'i' [-Werror=unused-variable]
+    7 | int N, i, nd = 0, soma = 0;
+      |        ^
+ex10-stu_086-sub_044.c:13:1: error: control reaches end of non-void function [-Werror=return-type]
+   13 | }
+      | ^
+cc1: all warnings being treated as errors

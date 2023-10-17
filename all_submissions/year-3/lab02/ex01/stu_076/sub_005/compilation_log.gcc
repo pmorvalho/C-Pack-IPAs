@@ -1,0 +1,51 @@
+ex01-stu_076-sub_005.c: In function 'main':
+ex01-stu_076-sub_005.c:5:5: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    5 |     scanf("%s", num1);
+      |     ^~~~~
+ex01-stu_076-sub_005.c:5:5: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex01-stu_076-sub_005.c:1:1: note: include '<stdio.h>' or provide a declaration of 'scanf'
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_076-sub_005.c:5:13: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+    5 |     scanf("%s", num1);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   int
+      |             char *
+ex01-stu_076-sub_005.c:6:13: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+    6 |     scanf("%s", num2);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   int
+      |             char *
+ex01-stu_076-sub_005.c:7:13: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+    7 |     scanf("%s", num3);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   int
+      |             char *
+ex01-stu_076-sub_005.c:8:5: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+    8 |     printf("%s", max(num1, num2, num3));
+      |     ^~~~~~
+ex01-stu_076-sub_005.c:8:5: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex01-stu_076-sub_005.c:8:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+ex01-stu_076-sub_005.c:8:18: error: implicit declaration of function 'max' [-Werror=implicit-function-declaration]
+    8 |     printf("%s", max(num1, num2, num3));
+      |                  ^~~
+ex01-stu_076-sub_005.c:8:14: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+    8 |     printf("%s", max(num1, num2, num3));
+      |             ~^   ~~~~~~~~~~~~~~~~~~~~~
+      |              |   |
+      |              |   int
+      |              char *
+      |             %d
+ex01-stu_076-sub_005.c:5:5: error: 'num1' is used uninitialized in this function [-Werror=uninitialized]
+    5 |     scanf("%s", num1);
+      |     ^~~~~~~~~~~~~~~~~
+ex01-stu_076-sub_005.c:6:5: error: 'num2' is used uninitialized in this function [-Werror=uninitialized]
+    6 |     scanf("%s", num2);
+      |     ^~~~~~~~~~~~~~~~~
+ex01-stu_076-sub_005.c:7:5: error: 'num3' is used uninitialized in this function [-Werror=uninitialized]
+    7 |     scanf("%s", num3);
+      |     ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

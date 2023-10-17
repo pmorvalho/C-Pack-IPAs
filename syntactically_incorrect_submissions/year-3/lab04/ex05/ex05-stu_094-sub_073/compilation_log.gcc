@@ -1,0 +1,4 @@
+ex05-stu_094-sub_073.c: In function 'leLinha':
+ex05-stu_094-sub_073.c:11:63: error: expected ';' before ')' token
+   11 |     for (i = 0; i < MAX && (c = getchar()) != '\n' && c != EOF) {
+      |                                                               ^

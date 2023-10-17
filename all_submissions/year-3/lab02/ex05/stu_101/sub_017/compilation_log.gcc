@@ -1,0 +1,19 @@
+ex05-stu_101-sub_017.c: In function 'main':
+ex05-stu_101-sub_017.c:8:13: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+    8 |     for (i=1,i<(n+1),i++)
+      |             ^
+ex05-stu_101-sub_017.c:8:25: error: expected ';' before ')' token
+    8 |     for (i=1,i<(n+1),i++)
+      |                         ^
+      |                         ;
+ex05-stu_101-sub_017.c:8:25: error: expected expression before ')' token
+ex05-stu_101-sub_017.c:9:26: error: expected ';' before 'return'
+    9 |         printf("%d\n", i)
+      |                          ^
+      |                          ;
+   10 |     return 0;
+      |     ~~~~~~                
+ex05-stu_101-sub_017.c:11:1: error: control reaches end of non-void function [-Werror=return-type]
+   11 | }
+      | ^
+cc1: all warnings being treated as errors

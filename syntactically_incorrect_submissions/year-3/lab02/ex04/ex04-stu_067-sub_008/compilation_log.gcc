@@ -1,0 +1,21 @@
+ex04-stu_067-sub_008.c: In function 'main':
+ex04-stu_067-sub_008.c:7:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    7 |     int tab[DIM]
+      |     ^~~
+ex04-stu_067-sub_008.c:8:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'for'
+    8 |     for (i=0; i<DIM; i++){
+      |     ^~~
+ex04-stu_067-sub_008.c:8:10: error: 'i' undeclared (first use in this function)
+    8 |     for (i=0; i<DIM; i++){
+      |          ^
+ex04-stu_067-sub_008.c:8:10: note: each undeclared identifier is reported only once for each function it appears in
+ex04-stu_067-sub_008.c:9:22: error: 'tab' undeclared (first use in this function)
+    9 |         scanf("%d", &tab[i]);
+      |                      ^~~
+ex04-stu_067-sub_008.c:17:32: error: expected expression before ')' token
+   17 |     printf("%d",tab[0]>tab[2]? )
+      |                                ^
+ex04-stu_067-sub_008.c:18:1: error: control reaches end of non-void function [-Werror=return-type]
+   18 | }
+      | ^
+cc1: all warnings being treated as errors

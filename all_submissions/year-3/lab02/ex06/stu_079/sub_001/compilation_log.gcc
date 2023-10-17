@@ -1,0 +1,17 @@
+ex06-stu_079-sub_001.c: In function 'main':
+ex06-stu_079-sub_001.c:9:13: error: operation on 'max_ex6' may be undefined [-Werror=sequence-point]
+    9 |     max_ex6 = max_ex6 = num_corrente_ex6;
+      |     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex06-stu_079-sub_001.c:18:19: error: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Werror=format=]
+   18 |     printf("min: %d  max: %d", min_ex6,max_ex6);
+      |                  ~^            ~~~~~~~
+      |                   |            |
+      |                   int          double
+      |                  %f
+ex06-stu_079-sub_001.c:18:28: error: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Werror=format=]
+   18 |     printf("min: %d  max: %d", min_ex6,max_ex6);
+      |                           ~^           ~~~~~~~
+      |                            |           |
+      |                            int         double
+      |                           %f
+cc1: all warnings being treated as errors

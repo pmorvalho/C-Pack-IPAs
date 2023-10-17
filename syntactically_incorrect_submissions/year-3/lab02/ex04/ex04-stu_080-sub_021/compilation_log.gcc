@@ -1,0 +1,8 @@
+ex04-stu_080-sub_021.c: In function 'main':
+ex04-stu_080-sub_021.c:5:12: error: unused variable 'n' [-Werror=unused-variable]
+    5 |     int m, n;
+      |            ^
+ex04-stu_080-sub_021.c:5:9: error: unused variable 'm' [-Werror=unused-variable]
+    5 |     int m, n;
+      |         ^
+cc1: all warnings being treated as errors

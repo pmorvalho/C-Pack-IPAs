@@ -1,0 +1,18 @@
+ex07-stu_080-sub_104.c: In function 'apagaCaracter':
+ex07-stu_080-sub_104.c:13:12: error: 'return' with a value, in function returning void [-Werror=return-type]
+   13 |     return s_aux;
+      |            ^~~~~
+ex07-stu_080-sub_104.c:4:6: note: declared here
+    4 | void apagaCaracter(char s[], char c){
+      |      ^~~~~~~~~~~~~
+ex07-stu_080-sub_104.c: In function 'main':
+ex07-stu_080-sub_104.c:17:19: error: unused variable 'i' [-Werror=unused-variable]
+   17 |     char s[MAX],p,i,c;
+      |                   ^
+ex07-stu_080-sub_104.c:17:17: error: variable 'p' set but not used [-Werror=unused-but-set-variable]
+   17 |     char s[MAX],p,i,c;
+      |                 ^
+ex07-stu_080-sub_104.c:19:5: error: 'c' is used uninitialized in this function [-Werror=uninitialized]
+   19 |     apagaCaracter(s, c);
+      |     ^~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

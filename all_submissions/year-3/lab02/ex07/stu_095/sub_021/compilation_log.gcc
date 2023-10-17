@@ -1,0 +1,5 @@
+ex07-stu_095-sub_021.c: In function 'main':
+ex07-stu_095-sub_021.c:7:6: error: 'N' is used uninitialized in this function [-Werror=uninitialized]
+    7 |     i=N;
+      |     ~^~
+cc1: all warnings being treated as errors

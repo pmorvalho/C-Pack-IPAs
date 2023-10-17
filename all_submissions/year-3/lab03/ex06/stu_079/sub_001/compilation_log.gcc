@@ -1,0 +1,17 @@
+ex06-stu_079-sub_001.c: In function 'main':
+ex06-stu_079-sub_001.c:9:5: error: expected ',' or ';' before 'while'
+    9 |     while((c = getchar())!=EOF){
+      |     ^~~~~
+ex06-stu_079-sub_001.c:8:9: error: unused variable 'c' [-Werror=unused-variable]
+    8 |     int c, sum = 0
+      |         ^
+ex06-stu_079-sub_001.c: At top level:
+ex06-stu_079-sub_001.c:16:1: error: data definition has no type or storage class [-Werror]
+   16 | inc;
+      | ^~~
+ex06-stu_079-sub_001.c:16:1: error: type defaults to 'int' in declaration of 'inc' [-Werror=implicit-int]
+ex06-stu_079-sub_001.c: In function 'main':
+ex06-stu_079-sub_001.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

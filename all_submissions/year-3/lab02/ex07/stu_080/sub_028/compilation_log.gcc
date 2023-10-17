@@ -1,0 +1,5 @@
+ex07-stu_080-sub_028.c: In function 'main':
+ex07-stu_080-sub_028.c:9:5: error: statement with no effect [-Werror=unused-value]
+    9 |     for(divisores; divisores <= num; divisores++){
+      |     ^~~
+cc1: all warnings being treated as errors

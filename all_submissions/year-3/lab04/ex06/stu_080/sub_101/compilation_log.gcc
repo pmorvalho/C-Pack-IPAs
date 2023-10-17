@@ -1,0 +1,6 @@
+ex06-stu_080-sub_101.c: In function 'main':
+ex06-stu_080-sub_101.c:24:5: error: implicit declaration of function 'maiusculas'; did you mean 'maiusuclas'? [-Werror=implicit-function-declaration]
+   24 |     maiusculas(s);
+      |     ^~~~~~~~~~
+      |     maiusuclas
+cc1: all warnings being treated as errors

@@ -1,0 +1,23 @@
+ex01-stu_090-sub_044.c: In function 'main':
+ex01-stu_090-sub_044.c:7:23: error: expected ']' before ';' token
+    7 |     #define VECMAX 100;
+      |                       ^
+ex01-stu_090-sub_044.c:8:22: note: in expansion of macro 'VECMAX'
+    8 |     int i, v, num, v[VECMAX];
+      |                      ^~~~~~
+ex01-stu_090-sub_044.c:10:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+   10 |     scanf("%d", num);
+      |            ~^   ~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex01-stu_090-sub_044.c:8:12: error: unused variable 'v' [-Werror=unused-variable]
+    8 |     int i, v, num, v[VECMAX];
+      |            ^
+ex01-stu_090-sub_044.c:8:9: error: unused variable 'i' [-Werror=unused-variable]
+    8 |     int i, v, num, v[VECMAX];
+      |         ^
+ex01-stu_090-sub_044.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex01-stu_091-sub_072.c: In function 'main':
+ex01-stu_091-sub_072.c:10:21: error: unused variable 'p' [-Werror=unused-variable]
+   10 |     int s[VECMAX],i,p,n,j = 0;
+      |                     ^
+cc1: all warnings being treated as errors

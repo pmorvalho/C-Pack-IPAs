@@ -1,0 +1,17 @@
+ex02-stu_091-sub_043.c: In function 'main':
+ex02-stu_091-sub_043.c:41:55: error: unused variable 'var' [-Werror=unused-variable]
+   41 |     int s,coluna = 1,linha = 1, espaca = 0,conta1 = 1,var;
+      |                                                       ^~~
+ex02-stu_091-sub_043.c:41:44: error: unused variable 'conta1' [-Werror=unused-variable]
+   41 |     int s,coluna = 1,linha = 1, espaca = 0,conta1 = 1,var;
+      |                                            ^~~~~~
+ex02-stu_091-sub_043.c:41:33: error: unused variable 'espaca' [-Werror=unused-variable]
+   41 |     int s,coluna = 1,linha = 1, espaca = 0,conta1 = 1,var;
+      |                                 ^~~~~~
+ex02-stu_091-sub_043.c:41:22: error: unused variable 'linha' [-Werror=unused-variable]
+   41 |     int s,coluna = 1,linha = 1, espaca = 0,conta1 = 1,var;
+      |                      ^~~~~
+ex02-stu_091-sub_043.c:41:11: error: unused variable 'coluna' [-Werror=unused-variable]
+   41 |     int s,coluna = 1,linha = 1, espaca = 0,conta1 = 1,var;
+      |           ^~~~~~
+cc1: all warnings being treated as errors

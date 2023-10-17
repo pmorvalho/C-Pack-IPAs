@@ -1,0 +1,19 @@
+ex03-stu_102-sub_008.c: In function 'main':
+ex03-stu_102-sub_008.c:7:20: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    7 |     while (scanf("%d",vec[lin]) == 1)
+      |                   ~^  ~~~~~~~~
+      |                    |     |
+      |                    int * int
+ex03-stu_102-sub_008.c:7:5: error: this 'while' clause does not guard... [-Werror=misleading-indentation]
+    7 |     while (scanf("%d",vec[lin]) == 1)
+      |     ^~~~~
+ex03-stu_102-sub_008.c:10:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   10 |         lin++;
+      |         ^~~
+ex03-stu_102-sub_008.c:5:39: error: unused variable 'i' [-Werror=unused-variable]
+    5 |     int n,max=0,lin=0,col,vec[VECMAX],i;
+      |                                       ^
+ex03-stu_102-sub_008.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+   19 | }
+      | ^
+cc1: all warnings being treated as errors

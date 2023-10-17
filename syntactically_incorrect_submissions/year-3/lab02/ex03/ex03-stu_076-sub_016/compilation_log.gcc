@@ -1,0 +1,6 @@
+ex03-stu_076-sub_016.c: In function 'main':
+ex03-stu_076-sub_016.c:8:14: error: 'num1' is used uninitialized in this function [-Werror=uninitialized]
+    8 |     if (num1 % num2 == 0)
+      |         ~~~~~^~~~~~
+ex03-stu_076-sub_016.c:8:14: error: 'num2' is used uninitialized in this function [-Werror=uninitialized]
+cc1: all warnings being treated as errors

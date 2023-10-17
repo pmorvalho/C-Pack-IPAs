@@ -1,0 +1,8 @@
+ex04-stu_071-sub_012.c: In function 'main':
+ex04-stu_071-sub_012.c:6:5: error: unused variable 'i' [-Werror=unused-variable]
+    6 | int i, c;
+      |     ^
+ex04-stu_071-sub_012.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors

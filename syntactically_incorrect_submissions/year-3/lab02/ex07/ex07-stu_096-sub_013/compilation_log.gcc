@@ -1,0 +1,11 @@
+ex07-stu_096-sub_013.c: In function 'main':
+ex07-stu_096-sub_013.c:10:22: error: expected ';' before 'return'
+   10 |     printf("%d", div)
+      |                      ^
+      |                      ;
+   11 |     return 0;
+      |     ~~~~~~            
+ex07-stu_096-sub_013.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+cc1: all warnings being treated as errors

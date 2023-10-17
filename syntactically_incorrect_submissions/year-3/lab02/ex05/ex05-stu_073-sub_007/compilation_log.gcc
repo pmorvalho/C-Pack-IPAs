@@ -1,0 +1,11 @@
+ex05-stu_073-sub_007.c: In function 'main':
+ex05-stu_073-sub_007.c:10:12: error: statement with no effect [-Werror=unused-value]
+   10 |     cont++;4
+      |            ^
+ex05-stu_073-sub_007.c:10:13: error: expected ';' before '}' token
+   10 |     cont++;4
+      |             ^
+      |             ;
+   11 |     }
+      |     ~        
+cc1: all warnings being treated as errors

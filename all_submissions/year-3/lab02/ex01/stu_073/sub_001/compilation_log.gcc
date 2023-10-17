@@ -1,0 +1,8 @@
+ex01-stu_073-sub_001.c: In function 'main':
+ex01-stu_073-sub_001.c:9:14: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    9 |     if (a > b, a > c)
+      |              ^
+ex01-stu_073-sub_001.c:12:19: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   12 |     else if (b > a, b > c)
+      |                   ^
+cc1: all warnings being treated as errors

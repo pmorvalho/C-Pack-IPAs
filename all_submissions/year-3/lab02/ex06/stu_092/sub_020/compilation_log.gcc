@@ -1,0 +1,8 @@
+ex06-stu_092-sub_020.c: In function 'main':
+ex06-stu_092-sub_020.c:17:9: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   17 |         if(num > max)
+      |         ^~
+ex06-stu_092-sub_020.c:19:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   19 |             max = num;
+      |             ^~~
+cc1: all warnings being treated as errors

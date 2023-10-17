@@ -1,0 +1,10 @@
+ex02-stu_101-sub_003.c: In function 'main':
+ex02-stu_101-sub_003.c:8:8: error: expected '(' before 'N'
+    8 |     if N>M:
+      |        ^
+      |        (
+ex02-stu_101-sub_003.c:8:8: error: statement with no effect [-Werror=unused-value]
+ex02-stu_101-sub_003.c:10:9: error: expected expression before ':' token
+   10 |     else:
+      |         ^
+cc1: all warnings being treated as errors

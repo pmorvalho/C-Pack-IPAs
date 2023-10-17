@@ -1,0 +1,17 @@
+ex01-stu_076-sub_004.c: In function 'main':
+ex01-stu_076-sub_004.c:5:5: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    5 |     scanf("%d", &num1);
+      |     ^~~~~
+ex01-stu_076-sub_004.c:5:5: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex01-stu_076-sub_004.c:1:1: note: include '<stdio.h>' or provide a declaration of 'scanf'
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_076-sub_004.c:8:5: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+    8 |     printf("%d", max(num1, num2, num3));
+      |     ^~~~~~
+ex01-stu_076-sub_004.c:8:5: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex01-stu_076-sub_004.c:8:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+ex01-stu_076-sub_004.c:8:18: error: implicit declaration of function 'max' [-Werror=implicit-function-declaration]
+    8 |     printf("%d", max(num1, num2, num3));
+      |                  ^~~
+cc1: all warnings being treated as errors

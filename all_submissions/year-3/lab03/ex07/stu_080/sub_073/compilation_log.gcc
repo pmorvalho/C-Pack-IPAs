@@ -1,0 +1,5 @@
+ex07-stu_080-sub_073.c: In function 'main':
+ex07-stu_080-sub_073.c:9:15: error: unused variable 'a1' [-Werror=unused-variable]
+    9 |     int n = 0,a1=0,res = 0;
+      |               ^~
+cc1: all warnings being treated as errors

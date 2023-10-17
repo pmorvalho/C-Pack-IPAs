@@ -1,0 +1,5 @@
+ex04-stu_088-sub_040.c: In function 'isPal':
+ex04-stu_088-sub_040.c:15:1: error: control reaches end of non-void function [-Werror=return-type]
+   15 | }
+      | ^
+cc1: all warnings being treated as errors

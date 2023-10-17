@@ -1,0 +1,24 @@
+ex04-stu_101-sub_064.c: In function 'main':
+ex04-stu_101-sub_064.c:16:20: error: multi-character character constant [-Werror=multichar]
+   16 |             printf('no');
+      |                    ^~~~
+ex04-stu_101-sub_064.c:16:20: error: passing argument 1 of 'printf' makes pointer from integer without a cast [-Werror=int-conversion]
+In file included from ex04-stu_101-sub_064.c:4:
+/usr/include/stdio.h:332:43: note: expected 'const char * __restrict__' but argument is of type 'int'
+  332 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex04-stu_101-sub_064.c:15:9: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   15 |         if(s[inicio]!=s[fim])
+      |         ^~
+ex04-stu_101-sub_064.c:17:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   17 |             return 0;
+      |             ^~~~~~
+ex04-stu_101-sub_064.c:20:12: error: multi-character character constant [-Werror=multichar]
+   20 |     printf('yes');
+      |            ^~~~~
+ex04-stu_101-sub_064.c:20:12: error: passing argument 1 of 'printf' makes pointer from integer without a cast [-Werror=int-conversion]
+In file included from ex04-stu_101-sub_064.c:4:
+/usr/include/stdio.h:332:43: note: expected 'const char * __restrict__' but argument is of type 'int'
+  332 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+cc1: all warnings being treated as errors

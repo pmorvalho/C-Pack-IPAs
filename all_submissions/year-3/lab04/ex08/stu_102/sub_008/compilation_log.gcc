@@ -1,0 +1,11 @@
+ex08-stu_102-sub_008.c: In function 'main':
+ex08-stu_102-sub_008.c:10:22: error: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Werror=sign-compare]
+   10 |     for (i=0,j = 0; i<strlen(pal1) && j<strlen(pal2); i++,j++){
+      |                      ^
+ex08-stu_102-sub_008.c:10:40: error: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Werror=sign-compare]
+   10 |     for (i=0,j = 0; i<strlen(pal1) && j<strlen(pal2); i++,j++){
+      |                                        ^
+ex08-stu_102-sub_008.c:6:13: error: unused variable 'c' [-Werror=unused-variable]
+    6 |     int i=0,c,j;
+      |             ^
+cc1: all warnings being treated as errors

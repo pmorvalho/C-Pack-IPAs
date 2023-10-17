@@ -1,0 +1,4 @@
+ex04-stu_101-sub_016.c: In function 'main':
+ex04-stu_101-sub_016.c:7:27: error: expected expression before '%' token
+    7 |     scanf("%d\n%d\n%d\n", %a, %b, %c);
+      |                           ^

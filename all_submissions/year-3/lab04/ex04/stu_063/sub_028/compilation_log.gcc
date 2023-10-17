@@ -1,0 +1,14 @@
+ex04-stu_063-sub_028.c: In function 'main':
+ex04-stu_063-sub_028.c:13:13: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   13 |         if (s[i] = '\0')
+      |             ^
+ex04-stu_063-sub_028.c:17:9: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   17 |         if (s[i] != s[m-i])
+      |         ^~
+ex04-stu_063-sub_028.c:19:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   19 |             return 0;
+      |             ^~~~~~
+ex04-stu_063-sub_028.c:17:24: error: 'm' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   17 |         if (s[i] != s[m-i])
+      |                       ~^~
+cc1: all warnings being treated as errors

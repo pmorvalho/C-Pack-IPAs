@@ -1,0 +1,12 @@
+# student: stu_101
+# submission: sub_062
+
+```diff
+@@ ex04_0: Time Limit Exceeded
+@@ ex04_1: Time Limit Exceeded
+@@ ex04_2: Time Limit Exceeded
+@@ ex04_3: Time Limit Exceeded
+@@ ex04_4: Time Limit Exceeded
+```
+#incorrect=5
+#correct=0

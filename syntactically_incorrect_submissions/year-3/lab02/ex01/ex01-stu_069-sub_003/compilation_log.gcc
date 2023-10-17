@@ -1,0 +1,8 @@
+ex01-stu_069-sub_003.c: In function 'main':
+ex01-stu_069-sub_003.c:16:3: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   16 |   if (c > a && c > b)
+      |   ^~
+ex01-stu_069-sub_003.c:18:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   18 |     return 0;
+      |     ^~~~~~
+cc1: all warnings being treated as errors

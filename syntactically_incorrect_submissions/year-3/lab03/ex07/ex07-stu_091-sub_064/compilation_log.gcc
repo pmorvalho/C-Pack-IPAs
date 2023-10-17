@@ -1,0 +1,5 @@
+ex07-stu_091-sub_064.c: In function 'main':
+ex07-stu_091-sub_064.c:9:33: error: unused variable 'sinal' [-Werror=unused-variable]
+    9 |     int i=0,g, total = 0 , num, sinal, gravar = 0;
+      |                                 ^~~~~
+cc1: all warnings being treated as errors

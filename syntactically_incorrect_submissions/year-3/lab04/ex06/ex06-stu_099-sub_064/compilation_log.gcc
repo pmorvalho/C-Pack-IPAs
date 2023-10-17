@@ -1,0 +1,5 @@
+ex06-stu_099-sub_064.c: In function 'leLinha':
+ex06-stu_099-sub_064.c:10:71: error: value computed is not used [-Werror=unused-value]
+   10 |     for (i = 0; i < MAX - 1; i++ && (c = getchar()) && c != '\n' && c != EOF) {
+      |                                                                       ^
+cc1: all warnings being treated as errors

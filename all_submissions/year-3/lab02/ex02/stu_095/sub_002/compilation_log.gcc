@@ -1,0 +1,5 @@
+ex02-stu_095-sub_002.c: In function 'main':
+ex02-stu_095-sub_002.c:5:15: error: unused variable 'maior' [-Werror=unused-variable]
+    5 |     int N, M, maior;
+      |               ^~~~~
+cc1: all warnings being treated as errors

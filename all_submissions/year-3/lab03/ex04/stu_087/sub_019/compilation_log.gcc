@@ -1,0 +1,12 @@
+ex04-stu_087-sub_019.c: In function 'space':
+ex04-stu_087-sub_019.c:5:14: error: suggest parentheses around comparison in operand of '|' [-Werror=parentheses]
+    5 |     return c == '\n' | c == '\n' | c == EOF;
+      |            ~~^~~~~~~
+ex04-stu_087-sub_019.c:5:38: error: suggest parentheses around comparison in operand of '|' [-Werror=parentheses]
+    5 |     return c == '\n' | c == '\n' | c == EOF;
+      |                                      ^
+ex04-stu_087-sub_019.c: In function 'main':
+ex04-stu_087-sub_019.c:60:9: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   60 |     if (st = INI)
+      |         ^~
+cc1: all warnings being treated as errors

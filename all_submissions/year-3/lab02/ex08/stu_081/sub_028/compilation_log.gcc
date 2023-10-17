@@ -1,0 +1,8 @@
+ex08-stu_081-sub_028.c: In function 'main':
+ex08-stu_081-sub_028.c:9:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'
+    9 |     scanf("%d", &n);
+      |     ^~~~~
+ex08-stu_081-sub_028.c:14:11: error: 'media' undeclared (first use in this function)
+   14 |           media = x;
+      |           ^~~~~
+ex08-stu_081-sub_028.c:14:11: note: each undeclared identifier is reported only once for each function it appears in

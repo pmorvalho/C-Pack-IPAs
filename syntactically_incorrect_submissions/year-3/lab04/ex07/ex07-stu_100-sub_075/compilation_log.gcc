@@ -1,0 +1,8 @@
+ex07-stu_100-sub_075.c: In function 'main':
+ex07-stu_100-sub_075.c:34:15: error: variable 'chars' set but not used [-Werror=unused-but-set-variable]
+   34 |     int i, c, chars;
+      |               ^~~~~
+ex07-stu_100-sub_075.c:34:9: error: unused variable 'i' [-Werror=unused-variable]
+   34 |     int i, c, chars;
+      |         ^
+cc1: all warnings being treated as errors

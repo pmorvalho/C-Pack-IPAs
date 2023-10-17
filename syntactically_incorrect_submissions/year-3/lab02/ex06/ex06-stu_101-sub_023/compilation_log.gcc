@@ -1,0 +1,21 @@
+ex06-stu_101-sub_023.c: In function 'main':
+ex06-stu_101-sub_023.c:7:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    7 |     scanf("%d\n", n);
+      |            ~^     ~
+      |             |     |
+      |             int * int
+ex06-stu_101-sub_023.c:8:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    8 |     scanf("%d\n", valor);
+      |            ~^     ~~~~~
+      |             |     |
+      |             int * int
+ex06-stu_101-sub_023.c:9:26: error: expected ';' before 'while'
+    9 |     valor = menor = maior
+      |                          ^
+      |                          ;
+   10 |     while(n>0){
+      |     ~~~~~                 
+ex06-stu_101-sub_023.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+   19 | }
+      | ^
+cc1: all warnings being treated as errors

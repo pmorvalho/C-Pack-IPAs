@@ -1,0 +1,22 @@
+ex05-stu_097-sub_010.c: In function 'main':
+ex05-stu_097-sub_010.c:7:18: error: 'N' undeclared (first use in this function)
+    7 |     scanf("%d", &N);
+      |                  ^
+ex05-stu_097-sub_010.c:7:18: note: each undeclared identifier is reported only once for each function it appears in
+ex05-stu_097-sub_010.c:9:5: error: this 'while' clause does not guard... [-Werror=misleading-indentation]
+    9 |     while (valor <= N)
+      |     ^~~~~
+ex05-stu_097-sub_010.c:11:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   11 |         valor ++
+      |         ^~~~~
+ex05-stu_097-sub_010.c:11:17: error: expected ';' before 'return'
+   11 |         valor ++
+      |                 ^
+      |                 ;
+   12 | 
+   13 |     return 0;
+      |     ~~~~~~       
+ex05-stu_097-sub_010.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

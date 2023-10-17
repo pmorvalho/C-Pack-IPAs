@@ -1,0 +1,5 @@
+ex05-stu_087-sub_036.c: In function 'main':
+ex05-stu_087-sub_036.c:43:9: error: variable 'i' set but not used [-Werror=unused-but-set-variable]
+   43 |     int i;
+      |         ^
+cc1: all warnings being treated as errors

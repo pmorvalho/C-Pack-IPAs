@@ -1,0 +1,8 @@
+ex04-stu_089-sub_034.c: In function 'main':
+ex04-stu_089-sub_034.c:10:9: error: unused variable 'i' [-Werror=unused-variable]
+   10 |     int i = 0;
+      |         ^
+ex04-stu_089-sub_034.c:9:9: error: unused variable 'num' [-Werror=unused-variable]
+    9 |     int num[MAX];
+      |         ^~~
+cc1: all warnings being treated as errors

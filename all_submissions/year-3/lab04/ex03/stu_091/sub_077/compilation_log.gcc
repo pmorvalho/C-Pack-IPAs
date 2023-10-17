@@ -1,0 +1,5 @@
+ex03-stu_091-sub_077.c: In function 'main':
+ex03-stu_091-sub_077.c:8:21: error: variable 'k' set but not used [-Werror=unused-but-set-variable]
+    8 |     int s[VECMAX],i,k,c,max=0;
+      |                     ^
+cc1: all warnings being treated as errors

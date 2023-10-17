@@ -1,0 +1,9 @@
+ex06-stu_063-sub_006.c: In function 'main':
+ex06-stu_063-sub_006.c:13:17: error: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Werror=format=]
+   13 |         scanf("%d", &f);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   float *
+      |                 int *
+      |                %e
+cc1: all warnings being treated as errors

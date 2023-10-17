@@ -1,0 +1,15 @@
+ex05-stu_086-sub_043.c: In function 'main':
+ex05-stu_086-sub_043.c:19:27: error: missing terminating ' character [-Werror]
+   19 |             if(current == '\')
+      |                           ^
+ex05-stu_086-sub_043.c:19:27: error: missing terminating ' character
+   19 |             if(current == '\')
+      |                           ^~~~
+ex05-stu_086-sub_043.c:21:9: error: expected expression before '}' token
+   21 |         }
+      |         ^
+ex05-stu_086-sub_043.c:21:9: error: expected expression before '}' token
+ex05-stu_086-sub_043.c:24:1: error: control reaches end of non-void function [-Werror=return-type]
+   24 | }
+      | ^
+cc1: all warnings being treated as errors

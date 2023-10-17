@@ -1,0 +1,7 @@
+ex01-stu_092-sub_045.c: In function 'main':
+ex01-stu_092-sub_045.c:12:9: error: ISO C90 forbids variable length array 'tabela' [-Werror=vla]
+   12 |         int tabela[N][N];
+      |         ^~~
+ex01-stu_092-sub_045.c:12:9: error: ISO C90 forbids variable length array 'tabela' [-Werror=vla]
+ex01-stu_092-sub_045.c:12:9: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

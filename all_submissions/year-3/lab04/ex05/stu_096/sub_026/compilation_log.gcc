@@ -1,0 +1,15 @@
+ex05-stu_096-sub_026.c: In function 'main':
+ex05-stu_096-sub_026.c:14:14: error: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Werror=format=]
+   14 |     printf("%c", v);
+      |             ~^   ~
+      |              |   |
+      |              int char *
+      |             %s
+ex05-stu_096-sub_026.c: In function 'lelinha':
+ex05-stu_096-sub_026.c:19:18: error: unused parameter 's' [-Werror=unused-parameter]
+   19 | int lelinha(char s[]){
+      |             ~~~~~^~~
+ex05-stu_096-sub_026.c:21:5: error: 'd' is used uninitialized in this function [-Werror=uninitialized]
+   21 |     for (i = 0; (d != '\n' && d != EOF); i++){
+      |     ^~~
+cc1: all warnings being treated as errors

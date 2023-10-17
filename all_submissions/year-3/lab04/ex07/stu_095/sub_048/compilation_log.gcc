@@ -1,0 +1,11 @@
+ex07-stu_095-sub_048.c: In function 'main':
+ex07-stu_095-sub_048.c:25:13: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   25 |     scanf("%s", c);
+      |            ~^   ~
+      |             |   |
+      |             |   int
+      |             char *
+ex07-stu_095-sub_048.c:25:5: error: 'c' is used uninitialized in this function [-Werror=uninitialized]
+   25 |     scanf("%s", c);
+      |     ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex08-stu_081-sub_032.c: In function 'main':
+ex08-stu_081-sub_032.c:10:12: error: 'arr' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   10 |         arr[i] = 0;
+      |            ^
+cc1: all warnings being treated as errors

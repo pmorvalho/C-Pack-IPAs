@@ -1,0 +1,8 @@
+ex06-stu_100-sub_054.c: In function 'main':
+ex06-stu_100-sub_054.c:10:22: error: comparison of constant '57' with boolean expression is always true [-Werror=bool-compare]
+   10 |         if ('0' <= c <= '9')
+      |                      ^~
+ex06-stu_100-sub_054.c:10:17: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   10 |         if ('0' <= c <= '9')
+      |             ~~~~^~~~
+cc1: all warnings being treated as errors

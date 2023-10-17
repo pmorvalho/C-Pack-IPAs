@@ -1,0 +1,8 @@
+ex01-stu_076-sub_001.c: In function 'main':
+ex01-stu_076-sub_001.c:13:14: error: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Werror=format=]
+   13 |     printf("%d", &max);
+      |             ~^   ~~~~
+      |              |   |
+      |              int int *
+      |             %ls
+cc1: all warnings being treated as errors

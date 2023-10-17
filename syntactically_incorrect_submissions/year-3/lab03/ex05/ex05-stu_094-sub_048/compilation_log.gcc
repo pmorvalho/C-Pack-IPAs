@@ -1,0 +1,5 @@
+ex05-stu_094-sub_048.c: In function 'main':
+ex05-stu_094-sub_048.c:27:36: error: expected ')' before 'current'
+   27 |                 if (current == '\\' current == '"' || nonspecial(current)) {
+      |                    ~               ^~~~~~~~
+      |                                    )

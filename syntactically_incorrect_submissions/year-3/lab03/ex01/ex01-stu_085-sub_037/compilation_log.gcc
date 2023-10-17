@@ -1,0 +1,6 @@
+ex01-stu_085-sub_037.c: In function 'main':
+ex01-stu_085-sub_037.c:13:13: error: implicit declaration of function 'print'; did you mean 'printf'? [-Werror=implicit-function-declaration]
+   13 |             print("i++7n");
+      |             ^~~~~
+      |             printf
+cc1: all warnings being treated as errors

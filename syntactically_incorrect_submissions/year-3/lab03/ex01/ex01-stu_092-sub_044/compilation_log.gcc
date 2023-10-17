@@ -1,0 +1,6 @@
+ex01-stu_092-sub_044.c: In function 'main':
+ex01-stu_092-sub_044.c:16:13: error: ISO C90 forbids variable length array 'tabela' [-Werror=vla]
+   16 |             int tabela[n][n];
+      |             ^~~
+ex01-stu_092-sub_044.c:16:13: error: ISO C90 forbids variable length array 'tabela' [-Werror=vla]
+cc1: all warnings being treated as errors

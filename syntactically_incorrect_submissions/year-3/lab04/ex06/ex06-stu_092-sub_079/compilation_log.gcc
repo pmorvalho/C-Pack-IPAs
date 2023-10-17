@@ -1,0 +1,6 @@
+ex06-stu_092-sub_079.c: In function 'main':
+ex06-stu_092-sub_079.c:25:5: error: implicit declaration of function 'miasculas'; did you mean 'maisculas'? [-Werror=implicit-function-declaration]
+   25 |     miasculas(s);
+      |     ^~~~~~~~~
+      |     maisculas
+cc1: all warnings being treated as errors

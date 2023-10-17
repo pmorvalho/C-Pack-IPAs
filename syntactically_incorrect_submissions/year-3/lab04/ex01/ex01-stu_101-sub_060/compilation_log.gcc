@@ -1,0 +1,18 @@
+ex01-stu_101-sub_060.c: In function 'main':
+ex01-stu_101-sub_060.c:10:9: error: 'i' undeclared (first use in this function)
+   10 |     for(i=0;i<n;i++){
+      |         ^
+ex01-stu_101-sub_060.c:10:9: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_101-sub_060.c:16:20: error: passing argument 1 of 'printf' makes pointer from integer without a cast [-Werror=int-conversion]
+   16 |             printf('*');
+      |                    ^~~
+      |                    |
+      |                    int
+In file included from ex01-stu_101-sub_060.c:4:
+/usr/include/stdio.h:332:43: note: expected 'const char * __restrict__' but argument is of type 'int'
+  332 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex01-stu_101-sub_060.c:8:9: error: variable 'vecmax' set but not used [-Werror=unused-but-set-variable]
+    8 |     int vecmax[100];
+      |         ^~~~~~
+cc1: all warnings being treated as errors

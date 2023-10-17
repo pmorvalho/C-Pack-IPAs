@@ -1,0 +1,16 @@
+ex06-stu_088-sub_045.c: In function 'maiusculas':
+ex06-stu_088-sub_045.c:21:20: error: implicit declaration of function 'length' [-Werror=implicit-function-declaration]
+   21 |     for(i = 0; i < length(s); i++){
+      |                    ^~~~~~
+ex06-stu_088-sub_045.c:22:23: error: comparison of constant '122' with boolean expression is always true [-Werror=bool-compare]
+   22 |         if('a' < s[i] < 'z')
+      |                       ^
+ex06-stu_088-sub_045.c:22:16: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   22 |         if('a' < s[i] < 'z')
+      |            ~~~~^~~~~~
+ex06-stu_088-sub_045.c: In function 'main':
+ex06-stu_088-sub_045.c:29:5: error: implicit declaration of function 'lelinha'; did you mean 'leLinha'? [-Werror=implicit-function-declaration]
+   29 |     lelinha(str);
+      |     ^~~~~~~
+      |     leLinha
+cc1: all warnings being treated as errors

@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cck31T82.o: in function `CharToNumber':
+ex07-stu_083-sub_052.c:(.text+0x143): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

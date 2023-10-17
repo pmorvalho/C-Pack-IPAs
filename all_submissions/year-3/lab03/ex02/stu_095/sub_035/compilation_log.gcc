@@ -1,0 +1,5 @@
+ex02-stu_095-sub_035.c: In function 'piramide':
+ex02-stu_095-sub_035.c:6:15: error: unused variable 'k' [-Werror=unused-variable]
+    6 |     int i, j, k;
+      |               ^
+cc1: all warnings being treated as errors

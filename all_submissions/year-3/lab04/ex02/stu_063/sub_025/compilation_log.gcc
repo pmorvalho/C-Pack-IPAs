@@ -1,0 +1,12 @@
+ex02-stu_063-sub_025.c: In function 'main':
+ex02-stu_063-sub_025.c:12:5: error: ISO C90 forbids variable length array 'vec' [-Werror=vla]
+   12 |     int vec[n];
+      |     ^~~
+ex02-stu_063-sub_025.c:12:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex02-stu_063-sub_025.c:13:5: error: this 'for' clause does not guard... [-Werror=misleading-indentation]
+   13 |     for (i = 0; i < n; i++)
+      |     ^~~
+ex02-stu_063-sub_025.c:15:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   15 |         if (vec[i] > max)
+      |         ^~
+cc1: all warnings being treated as errors

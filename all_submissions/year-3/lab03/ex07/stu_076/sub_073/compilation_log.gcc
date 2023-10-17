@@ -1,0 +1,5 @@
+ex07-stu_076-sub_073.c: In function 'main':
+ex07-stu_076-sub_073.c:30:21: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   30 |                 if (operador = MAIS)
+      |                     ^~~~~~~~
+cc1: all warnings being treated as errors

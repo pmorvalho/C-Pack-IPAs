@@ -1,0 +1,5 @@
+ex01-stu_067-sub_001.c: In function 'main':
+ex01-stu_067-sub_001.c:5:9: error: unused variable 'N' [-Werror=unused-variable]
+    5 |     int N,v1, v2, v3, maximo;
+      |         ^
+cc1: all warnings being treated as errors

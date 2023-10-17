@@ -1,0 +1,37 @@
+ex02-stu_085-sub_012.c: In function 'main':
+ex02-stu_085-sub_012.c:8:5: error: writing into constant object (argument 2) [-Werror=format=]
+    8 |     scanf("%d", "%d", maior, menor);
+      |     ^~~~~
+ex02-stu_085-sub_012.c:8:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Werror=format=]
+    8 |     scanf("%d", "%d", maior, menor);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   char *
+      |             int *
+      |            %hhd
+ex02-stu_085-sub_012.c:8:11: error: too many arguments for format [-Werror=format-extra-args]
+    8 |     scanf("%d", "%d", maior, menor);
+      |           ^~~~
+ex02-stu_085-sub_012.c:11:18: error: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Werror=format=]
+   11 |         printf("%d/n", "%d", menor, maior);
+      |                 ~^     ~~~~
+      |                  |     |
+      |                  int   char *
+      |                 %s
+ex02-stu_085-sub_012.c:11:16: error: too many arguments for format [-Werror=format-extra-args]
+   11 |         printf("%d/n", "%d", menor, maior);
+      |                ^~~~~~
+ex02-stu_085-sub_012.c:15:18: error: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Werror=format=]
+   15 |         printf("%d/n", "%d", maior, menor);
+      |                 ~^     ~~~~
+      |                  |     |
+      |                  int   char *
+      |                 %s
+ex02-stu_085-sub_012.c:15:16: error: too many arguments for format [-Werror=format-extra-args]
+   15 |         printf("%d/n", "%d", maior, menor);
+      |                ^~~~~~
+ex02-stu_085-sub_012.c:8:5: error: 'maior' is used uninitialized in this function [-Werror=uninitialized]
+    8 |     scanf("%d", "%d", maior, menor);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex02-stu_085-sub_012.c:8:5: error: 'menor' is used uninitialized in this function [-Werror=uninitialized]
+cc1: all warnings being treated as errors

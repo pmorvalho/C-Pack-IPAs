@@ -1,0 +1,3 @@
+ex01-stu_091-sub_071.c:2:1: error: expected '=', ',', ';', 'asm' or '__attribute__' at end of input
+    2 | oi
+      | ^~

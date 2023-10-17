@@ -1,0 +1,20 @@
+ex09-stu_097-sub_020.c: In function 'main':
+ex09-stu_097-sub_020.c:14:14: error: comparison of constant '9' with boolean expression is always true [-Werror=bool-compare]
+   14 |     if(0<= H <= 9 || 0<= M <= 9 || 0<= S <= 9)
+      |              ^~
+ex09-stu_097-sub_020.c:14:9: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   14 |     if(0<= H <= 9 || 0<= M <= 9 || 0<= S <= 9)
+      |        ~^~~~
+ex09-stu_097-sub_020.c:14:28: error: comparison of constant '9' with boolean expression is always true [-Werror=bool-compare]
+   14 |     if(0<= H <= 9 || 0<= M <= 9 || 0<= S <= 9)
+      |                            ^~
+ex09-stu_097-sub_020.c:14:23: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   14 |     if(0<= H <= 9 || 0<= M <= 9 || 0<= S <= 9)
+      |                      ~^~~~
+ex09-stu_097-sub_020.c:14:42: error: comparison of constant '9' with boolean expression is always true [-Werror=bool-compare]
+   14 |     if(0<= H <= 9 || 0<= M <= 9 || 0<= S <= 9)
+      |                                          ^~
+ex09-stu_097-sub_020.c:14:37: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   14 |     if(0<= H <= 9 || 0<= M <= 9 || 0<= S <= 9)
+      |                                    ~^~~~
+cc1: all warnings being treated as errors

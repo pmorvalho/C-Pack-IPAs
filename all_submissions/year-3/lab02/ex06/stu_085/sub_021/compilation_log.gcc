@@ -1,0 +1,11 @@
+ex06-stu_085-sub_021.c: In function 'main':
+ex06-stu_085-sub_021.c:11:17: error: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Werror=format=]
+   11 |         scanf("%f", dado);
+      |                ~^   ~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+ex06-stu_085-sub_021.c:11:9: error: 'dado' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   11 |         scanf("%f", dado);
+      |         ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

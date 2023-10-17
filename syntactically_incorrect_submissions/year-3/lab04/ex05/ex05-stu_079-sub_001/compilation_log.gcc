@@ -1,0 +1,31 @@
+ex05-stu_079-sub_001.c: In function 'main':
+ex05-stu_079-sub_001.c:10:12: error: too many arguments for format [-Werror=format-extra-args]
+   10 |     printf("s\n", str);
+      |            ^~~~~
+ex05-stu_079-sub_001.c:11:13: error: expected ';' before '}' token
+   11 |     return 0
+      |             ^
+      |             ;
+   12 | }
+      | ~            
+ex05-stu_079-sub_001.c: In function 'lelinha':
+ex05-stu_079-sub_001.c:16:16: error: assignment to 'int' from 'int (*)(void)' makes integer from pointer without a cast [-Werror=int-conversion]
+   16 |     while (((c = getchar)!= EOF) && c!= "\n")
+      |                ^
+ex05-stu_079-sub_001.c:16:38: error: comparison between pointer and integer [-Werror]
+   16 |     while (((c = getchar)!= EOF) && c!= "\n")
+      |                                      ^~
+ex05-stu_079-sub_001.c:16:38: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex05-stu_079-sub_001.c:18:12: error: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   18 |     str[i] = "\0"
+      |            ^
+ex05-stu_079-sub_001.c:18:18: error: expected ';' before 'return'
+   18 |     str[i] = "\0"
+      |                  ^
+      |                  ;
+   19 |     return i;
+      |     ~~~~~~        
+ex05-stu_079-sub_001.c:20:5: error: control reaches end of non-void function [-Werror=return-type]
+   20 |     }
+      |     ^
+cc1: all warnings being treated as errors

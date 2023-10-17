@@ -1,0 +1,11 @@
+ex08-stu_092-sub_037.c: In function 'main':
+ex08-stu_092-sub_037.c:14:17: error: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Werror=format=]
+   14 |         scanf("%f", num);
+      |                ~^   ~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+ex08-stu_092-sub_037.c:14:9: error: 'num' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   14 |         scanf("%f", num);
+      |         ^~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

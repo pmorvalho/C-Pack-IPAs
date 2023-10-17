@@ -1,0 +1,12 @@
+ex08-stu_093-sub_039.c:7:1: error: data definition has no type or storage class [-Werror]
+    7 | greatest(char str1[], char str2[]);
+      | ^~~~~~~~
+ex08-stu_093-sub_039.c:7:1: error: type defaults to 'int' in declaration of 'greatest' [-Werror=implicit-int]
+ex08-stu_093-sub_039.c:9:1: error: return type defaults to 'int' [-Werror=return-type]
+    9 | greatest(char str1[], char str2[]){
+      | ^~~~~~~~
+ex08-stu_093-sub_039.c: In function 'greatest':
+ex08-stu_093-sub_039.c:21:1: error: control reaches end of non-void function [-Werror=return-type]
+   21 | }
+      | ^
+cc1: all warnings being treated as errors

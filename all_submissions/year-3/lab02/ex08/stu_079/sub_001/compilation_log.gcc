@@ -1,0 +1,17 @@
+ex08-stu_079-sub_001.c: In function 'main':
+ex08-stu_079-sub_001.c:8:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    8 |     scanf("%d", num_nums_ex8);
+      |            ~^   ~~~~~~~~~~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex08-stu_079-sub_001.c:10:17: error: format '%d' expects argument of type 'int *', but argument 2 has type 'double' [-Werror=format=]
+   10 |         scanf("%d", num_corrente_ex8);
+      |                ~^   ~~~~~~~~~~~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 int *
+ex08-stu_079-sub_001.c:10:9: error: 'num_corrente_ex8' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   10 |         scanf("%d", num_corrente_ex8);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

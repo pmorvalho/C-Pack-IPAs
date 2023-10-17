@@ -1,0 +1,5 @@
+ex04-stu_101-sub_065.c: In function 'main':
+ex04-stu_101-sub_065.c:13:43: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   13 |     for(inicio=1,fim=contac;inicio<=contac,1<=fim;inicio++,fim--){
+      |                                           ^
+cc1: all warnings being treated as errors

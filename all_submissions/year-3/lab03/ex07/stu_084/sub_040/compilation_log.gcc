@@ -1,0 +1,8 @@
+ex07-stu_084-sub_040.c: In function 'main':
+ex07-stu_084-sub_040.c:8:9: error: unused variable 'i' [-Werror=unused-variable]
+    8 |     int i, estado, res = 0;
+      |         ^
+ex07-stu_084-sub_040.c:21:36: error: 'op' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   21 |         else if(c >= 48 && c <= 57 && op != MENOS && estado == DENTRONUM){
+      |                                    ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,18 @@
+ex06-stu_082-sub_017.c: In function 'main':
+ex06-stu_082-sub_017.c:10:10: error: expected expression before ')' token
+   10 |     for ()
+      |          ^
+ex06-stu_082-sub_017.c:10:10: error: expected expression before ')' token
+ex06-stu_082-sub_017.c:11:1: error: expected expression before '}' token
+   11 | }
+      | ^
+ex06-stu_082-sub_017.c:9:9: error: unused variable 'c' [-Werror=unused-variable]
+    9 |     int c;
+      |         ^
+ex06-stu_082-sub_017.c:8:10: error: unused variable 'num' [-Werror=unused-variable]
+    8 |     char num[DIM];
+      |          ^~~
+ex06-stu_082-sub_017.c:11:1: error: control reaches end of non-void function [-Werror=return-type]
+   11 | }
+      | ^
+cc1: all warnings being treated as errors

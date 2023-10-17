@@ -1,0 +1,13 @@
+ex07-stu_101-sub_031.c: In function 'main':
+ex07-stu_101-sub_031.c:8:12: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+    8 |     for(i=1, i<n+1, i++){
+      |            ^
+ex07-stu_101-sub_031.c:8:24: error: expected ';' before ')' token
+    8 |     for(i=1, i<n+1, i++){
+      |                        ^
+      |                        ;
+ex07-stu_101-sub_031.c:8:24: error: expected expression before ')' token
+ex07-stu_101-sub_031.c:9:15: error: lvalue required as left operand of assignment
+    9 |         if(n%i=0)
+      |               ^
+cc1: all warnings being treated as errors

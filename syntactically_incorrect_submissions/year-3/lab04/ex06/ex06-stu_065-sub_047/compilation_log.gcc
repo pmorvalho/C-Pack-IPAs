@@ -1,0 +1,8 @@
+ex06-stu_065-sub_047.c: In function 'maiusculas':
+ex06-stu_065-sub_047.c:7:22: error: comparison of constant '122' with boolean expression is always true [-Werror=bool-compare]
+    7 |         if ('a' <= c <= 'z')
+      |                      ^~
+ex06-stu_065-sub_047.c:7:17: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+    7 |         if ('a' <= c <= 'z')
+      |             ~~~~^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,10 @@
+ex03-stu_079-sub_001.c: In function 'main':
+ex03-stu_079-sub_001.c:8:9: error: implicit declaration of function 'prinf'; did you mean 'printf'? [-Werror=implicit-function-declaration]
+    8 |         prinf("yes");
+      |         ^~~~~
+      |         printf
+ex03-stu_079-sub_001.c:11:9: error: implicit declaration of function 'print'; did you mean 'printf'? [-Werror=implicit-function-declaration]
+   11 |         print("no");
+      |         ^~~~~
+      |         printf
+cc1: all warnings being treated as errors

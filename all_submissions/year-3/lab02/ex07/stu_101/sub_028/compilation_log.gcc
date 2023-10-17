@@ -1,0 +1,17 @@
+ex07-stu_101-sub_028.c: In function 'main':
+ex07-stu_101-sub_028.c:8:9: error: 'i' undeclared (first use in this function)
+    8 |     for(i=1, i<n+1, i++){
+      |         ^
+ex07-stu_101-sub_028.c:8:9: note: each undeclared identifier is reported only once for each function it appears in
+ex07-stu_101-sub_028.c:8:12: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    8 |     for(i=1, i<n+1, i++){
+      |            ^
+ex07-stu_101-sub_028.c:8:19: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    8 |     for(i=1, i<n+1, i++){
+      |                   ^
+ex07-stu_101-sub_028.c:8:24: error: expected ';' before ')' token
+    8 |     for(i=1, i<n+1, i++){
+      |                        ^
+      |                        ;
+ex07-stu_101-sub_028.c:8:24: error: expected expression before ')' token
+cc1: all warnings being treated as errors

@@ -1,0 +1,12 @@
+ex08-stu_082-sub_026.c: In function 'main':
+ex08-stu_082-sub_026.c:25:20: error: implicit declaration of function 'maior' [-Werror=implicit-function-declaration]
+   25 |     printf("%s\n", maior(num1, num2));
+      |                    ^~~~~
+ex08-stu_082-sub_026.c:25:14: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   25 |     printf("%s\n", maior(num1, num2));
+      |             ~^     ~~~~~~~~~~~~~~~~~
+      |              |     |
+      |              |     int
+      |              char *
+      |             %d
+cc1: all warnings being treated as errors

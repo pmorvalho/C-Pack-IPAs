@@ -1,0 +1,69 @@
+ex10-stu_090-sub_024.c: In function 'main':
+ex10-stu_090-sub_024.c:7:1: error: version control conflict marker in file
+    7 | <<<<<<< HEAD
+      | ^~~~~~~
+ex10-stu_090-sub_024.c:9:18: error: 'num' undeclared (first use in this function)
+    9 |     scanf("%d", &num);
+      |                  ^~~
+ex10-stu_090-sub_024.c:9:18: note: each undeclared identifier is reported only once for each function it appears in
+ex10-stu_090-sub_024.c:10:5: error: 'acumuladordig' undeclared (first use in this function)
+   10 |     acumuladordig = num % 10;
+      |     ^~~~~~~~~~~~~
+ex10-stu_090-sub_024.c:11:5: error: 'soma' undeclared (first use in this function)
+   11 |     soma = 0;
+      |     ^~~~
+ex10-stu_090-sub_024.c:12:10: error: 'acumuladornumdig' undeclared (first use in this function)
+   12 |     for (acumuladornumdig = 0; num != 0; acumuladornumdig++){
+      |          ^~~~~~~~~~~~~~~~
+ex10-stu_090-sub_024.c: At top level:
+ex10-stu_090-sub_024.c:21:1: error: version control conflict marker in file
+   21 | =======
+      | ^~~~~~~
+ex10-stu_090-sub_024.c:23:11: error: expected declaration specifiers or '...' before string constant
+   23 |     scanf("%d", &num);
+      |           ^~~~
+ex10-stu_090-sub_024.c:23:17: error: expected declaration specifiers or '...' before '&' token
+   23 |     scanf("%d", &num);
+      |                 ^
+ex10-stu_090-sub_024.c:24:5: error: data definition has no type or storage class [-Werror]
+   24 |     acumuladordig = num % 10;
+      |     ^~~~~~~~~~~~~
+ex10-stu_090-sub_024.c:24:5: error: type defaults to 'int' in declaration of 'acumuladordig' [-Werror=implicit-int]
+ex10-stu_090-sub_024.c:24:21: error: 'num' undeclared here (not in a function)
+   24 |     acumuladordig = num % 10;
+      |                     ^~~
+ex10-stu_090-sub_024.c:25:5: error: data definition has no type or storage class [-Werror]
+   25 |     soma = 0;
+      |     ^~~~
+ex10-stu_090-sub_024.c:25:5: error: type defaults to 'int' in declaration of 'soma' [-Werror=implicit-int]
+ex10-stu_090-sub_024.c:26:5: error: expected identifier or '(' before 'for'
+   26 |     for (acumuladornumdig = 0; num != 0; acumuladornumdig++){
+      |     ^~~
+ex10-stu_090-sub_024.c:26:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before '!=' token
+   26 |     for (acumuladornumdig = 0; num != 0; acumuladornumdig++){
+      |                                    ^~
+ex10-stu_090-sub_024.c:26:58: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+   26 |     for (acumuladornumdig = 0; num != 0; acumuladornumdig++){
+      |                                                          ^~
+ex10-stu_090-sub_024.c:32:12: error: expected declaration specifiers or '...' before string constant
+   32 |     printf("%d\n%d\n", acumuladornumdig, soma);
+      |            ^~~~~~~~~~
+ex10-stu_090-sub_024.c:32:24: error: unknown type name 'acumuladornumdig'
+   32 |     printf("%d\n%d\n", acumuladornumdig, soma);
+      |                        ^~~~~~~~~~~~~~~~
+ex10-stu_090-sub_024.c:32:42: error: expected declaration specifiers or '...' before 'soma'
+   32 |     printf("%d\n%d\n", acumuladornumdig, soma);
+      |                                          ^~~~
+ex10-stu_090-sub_024.c:33:5: error: expected identifier or '(' before 'return'
+   33 |     return 0;
+      |     ^~~~~~
+ex10-stu_090-sub_024.c:34:1: error: expected identifier or '(' before '}' token
+   34 | }
+      | ^
+ex10-stu_090-sub_024.c:35:1: error: version control conflict marker in file
+   35 | >>>>>>> 7773d55 (nao sei)
+      | ^~~~~~~
+ex10-stu_090-sub_024.c:35:9: error: invalid suffix "d55" on integer constant
+   35 | >>>>>>> 7773d55 (nao sei)
+      |         ^~~~~~~
+cc1: all warnings being treated as errors

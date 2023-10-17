@@ -1,0 +1,5 @@
+ex10-stu_080-sub_050.c: In function 'main':
+ex10-stu_080-sub_050.c:5:9: error: variable 'd' set but not used [-Werror=unused-but-set-variable]
+    5 |     int d, dig;
+      |         ^
+cc1: all warnings being treated as errors

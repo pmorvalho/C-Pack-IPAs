@@ -1,0 +1,30 @@
+ex02-stu_076-sub_014.c: In function 'main':
+ex02-stu_076-sub_014.c:10:18: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   10 |         printf("%s\n%s", num1, num2);
+      |                 ~^       ~~~~
+      |                  |       |
+      |                  char *  int
+      |                 %d
+ex02-stu_076-sub_014.c:10:22: error: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Werror=format=]
+   10 |         printf("%s\n%s", num1, num2);
+      |                     ~^         ~~~~
+      |                      |         |
+      |                      char *    int
+      |                     %d
+ex02-stu_076-sub_014.c:14:18: error: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Werror=format=]
+   14 |         printf("%s\n%s", num2, num1);
+      |                 ~^       ~~~~
+      |                  |       |
+      |                  char *  int
+      |                 %d
+ex02-stu_076-sub_014.c:14:22: error: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Werror=format=]
+   14 |         printf("%s\n%s", num2, num1);
+      |                     ~^         ~~~~
+      |                      |         |
+      |                      char *    int
+      |                     %d
+ex02-stu_076-sub_014.c:8:8: error: 'num1' is used uninitialized in this function [-Werror=uninitialized]
+    8 |     if (num1 > num2)
+      |        ^
+ex02-stu_076-sub_014.c:8:8: error: 'num2' is used uninitialized in this function [-Werror=uninitialized]
+cc1: all warnings being treated as errors

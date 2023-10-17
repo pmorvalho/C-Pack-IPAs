@@ -1,0 +1,13 @@
+ex06-stu_094-sub_075.c: In function 'leLinha':
+ex06-stu_094-sub_075.c:9:21: error: 'MAX' undeclared (first use in this function)
+    9 |     for (i = 0; i < MAX && (c = getchar()) != '\n' && c != EOF; i++) {
+      |                     ^~~
+ex06-stu_094-sub_075.c:9:21: note: each undeclared identifier is reported only once for each function it appears in
+ex06-stu_094-sub_075.c: In function 'main':
+ex06-stu_094-sub_075.c:28:12: error: 'MAX' undeclared (first use in this function)
+   28 |     char s[MAX];
+      |            ^~~
+ex06-stu_094-sub_075.c:28:10: error: unused variable 's' [-Werror=unused-variable]
+   28 |     char s[MAX];
+      |          ^
+cc1: all warnings being treated as errors

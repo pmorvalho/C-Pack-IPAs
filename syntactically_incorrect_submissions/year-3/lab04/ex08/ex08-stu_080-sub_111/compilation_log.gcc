@@ -1,0 +1,5 @@
+ex08-stu_080-sub_111.c: In function 'main':
+ex08-stu_080-sub_111.c:14:11: error: unused variable 'max' [-Werror=unused-variable]
+   14 |     int i,max = 0;
+      |           ^~~
+cc1: all warnings being treated as errors

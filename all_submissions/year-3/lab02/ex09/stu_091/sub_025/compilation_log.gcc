@@ -1,0 +1,29 @@
+ex09-stu_091-sub_025.c: In function 'main':
+ex09-stu_091-sub_025.c:8:11: error: invalid operands to binary % (have 'float' and 'int')
+    8 |     s = X % 60;
+      |           ^
+ex09-stu_091-sub_025.c:12:17: error: invalid operands to binary % (have 'float' and 'int')
+   12 |         seg = X % 60;
+      |                 ^
+ex09-stu_091-sub_025.c:14:13: error: invalid operands to binary % (have 'float' and 'int')
+   14 |     seg = X % 60;
+      |             ^
+ex09-stu_091-sub_025.c:16:1: error: expected expression before '}' token
+   16 | }
+      | ^
+ex09-stu_091-sub_025.c:6:46: error: unused variable 'hora' [-Werror=unused-variable]
+    6 |     float X , s,m,h, seg = 0.0 , min = 0.0 , hora = 0.0;
+      |                                              ^~~~
+ex09-stu_091-sub_025.c:6:34: error: variable 'min' set but not used [-Werror=unused-but-set-variable]
+    6 |     float X , s,m,h, seg = 0.0 , min = 0.0 , hora = 0.0;
+      |                                  ^~~
+ex09-stu_091-sub_025.c:6:19: error: unused variable 'h' [-Werror=unused-variable]
+    6 |     float X , s,m,h, seg = 0.0 , min = 0.0 , hora = 0.0;
+      |                   ^
+ex09-stu_091-sub_025.c:6:17: error: unused variable 'm' [-Werror=unused-variable]
+    6 |     float X , s,m,h, seg = 0.0 , min = 0.0 , hora = 0.0;
+      |                 ^
+ex09-stu_091-sub_025.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+   16 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,27 @@
+ex01-stu_065-sub_018.c: In function 'quadrado':
+ex01-stu_065-sub_018.c:8:13: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+    8 |             printf("%d\t", num);
+      |             ^~~~~~
+ex01-stu_065-sub_018.c:8:13: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex01-stu_065-sub_018.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_065-sub_018.c:10:9: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+   10 |         printf("\n");
+      |         ^~~~~~
+ex01-stu_065-sub_018.c:10:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+ex01-stu_065-sub_018.c: In function 'main':
+ex01-stu_065-sub_018.c:17:5: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+   17 |     scanf("%d\n", N);
+      |     ^~~~~
+ex01-stu_065-sub_018.c:17:5: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex01-stu_065-sub_018.c:17:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+ex01-stu_065-sub_018.c:17:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+   17 |     scanf("%d\n", N);
+      |            ~^     ~
+      |             |     |
+      |             int * int
+ex01-stu_065-sub_018.c:17:5: error: 'N' is used uninitialized in this function [-Werror=uninitialized]
+   17 |     scanf("%d\n", N);
+      |     ^~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

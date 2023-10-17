@@ -1,0 +1,10 @@
+ex03-stu_086-sub_013.c: In function 'main':
+ex03-stu_086-sub_013.c:15:19: error: multi-character character constant [-Werror=multichar]
+   15 |         divisao = 'yes';
+      |                   ^~~~~
+ex03-stu_086-sub_013.c:15:19: error: overflow in conversion from 'int' to 'char' changes value from '7955827' to '115' [-Werror=overflow]
+ex03-stu_086-sub_013.c:19:19: error: multi-character character constant [-Werror=multichar]
+   19 |         divisao = 'no';
+      |                   ^~~~
+ex03-stu_086-sub_013.c:19:19: error: overflow in conversion from 'int' to 'char' changes value from '28271' to '111' [-Werror=overflow]
+cc1: all warnings being treated as errors

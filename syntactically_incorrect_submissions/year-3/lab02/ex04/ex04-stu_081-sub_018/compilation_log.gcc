@@ -1,0 +1,28 @@
+ex04-stu_081-sub_018.c: In function 'main':
+ex04-stu_081-sub_018.c:8:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    8 |     scanf("%d %d %d", n1, n2, n3);
+      |            ~^         ~~
+      |             |         |
+      |             int *     int
+ex04-stu_081-sub_018.c:8:16: error: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Werror=format=]
+    8 |     scanf("%d %d %d", n1, n2, n3);
+      |               ~^          ~~
+      |                |          |
+      |                int *      int
+ex04-stu_081-sub_018.c:8:19: error: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Werror=format=]
+    8 |     scanf("%d %d %d", n1, n2, n3);
+      |                  ~^           ~~
+      |                   |           |
+      |                   int *       int
+ex04-stu_081-sub_018.c:9:11: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+    9 |     if (n1<=n2<=n3)
+      |         ~~^~~~
+ex04-stu_081-sub_018.c:11:12: error: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Werror=parentheses]
+   11 |     if (n2 <= n1 <= n3)
+      |         ~~~^~~~~
+ex04-stu_081-sub_018.c:8:5: error: 'n1' is used uninitialized in this function [-Werror=uninitialized]
+    8 |     scanf("%d %d %d", n1, n2, n3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex04-stu_081-sub_018.c:8:5: error: 'n2' is used uninitialized in this function [-Werror=uninitialized]
+ex04-stu_081-sub_018.c:8:5: error: 'n3' is used uninitialized in this function [-Werror=uninitialized]
+cc1: all warnings being treated as errors

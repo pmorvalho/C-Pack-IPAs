@@ -1,0 +1,5 @@
+ex01-stu_084-sub_042.c: In function 'main':
+ex01-stu_084-sub_042.c:7:13: error: variable 'nums' set but not used [-Werror=unused-but-set-variable]
+    7 |     char c, nums[VECMAX];
+      |             ^~~~
+cc1: all warnings being treated as errors

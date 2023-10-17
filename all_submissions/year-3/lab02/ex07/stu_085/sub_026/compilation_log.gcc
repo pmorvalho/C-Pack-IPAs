@@ -1,0 +1,11 @@
+ex07-stu_085-sub_026.c: In function 'main':
+ex07-stu_085-sub_026.c:7:13: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    7 |     scanf("%d", num);
+      |            ~^   ~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex07-stu_085-sub_026.c:7:5: error: 'num' is used uninitialized in this function [-Werror=uninitialized]
+    7 |     scanf("%d", num);
+      |     ^~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,53 @@
+ex04-stu_074-sub_005.c: In function 'main':
+ex04-stu_074-sub_005.c:14:21: error: passing argument 1 of 'swap' makes pointer from integer without a cast [-Werror=int-conversion]
+   14 |     if (a > b) swap(a, b);
+      |                     ^
+      |                     |
+      |                     int
+ex04-stu_074-sub_005.c:5:19: note: expected 'int *' but argument is of type 'int'
+    5 | void swap ( int * num1, int*num2){
+      |             ~~~~~~^~~~
+ex04-stu_074-sub_005.c:14:24: error: passing argument 2 of 'swap' makes pointer from integer without a cast [-Werror=int-conversion]
+   14 |     if (a > b) swap(a, b);
+      |                        ^
+      |                        |
+      |                        int
+ex04-stu_074-sub_005.c:5:29: note: expected 'int *' but argument is of type 'int'
+    5 | void swap ( int * num1, int*num2){
+      |                         ~~~~^~~~
+ex04-stu_074-sub_005.c:15:21: error: passing argument 1 of 'swap' makes pointer from integer without a cast [-Werror=int-conversion]
+   15 |     if (b > c) swap(a, b);
+      |                     ^
+      |                     |
+      |                     int
+ex04-stu_074-sub_005.c:5:19: note: expected 'int *' but argument is of type 'int'
+    5 | void swap ( int * num1, int*num2){
+      |             ~~~~~~^~~~
+ex04-stu_074-sub_005.c:15:24: error: passing argument 2 of 'swap' makes pointer from integer without a cast [-Werror=int-conversion]
+   15 |     if (b > c) swap(a, b);
+      |                        ^
+      |                        |
+      |                        int
+ex04-stu_074-sub_005.c:5:29: note: expected 'int *' but argument is of type 'int'
+    5 | void swap ( int * num1, int*num2){
+      |                         ~~~~^~~~
+ex04-stu_074-sub_005.c:16:21: error: passing argument 1 of 'swap' makes pointer from integer without a cast [-Werror=int-conversion]
+   16 |     if (a > c) swap(a, c);
+      |                     ^
+      |                     |
+      |                     int
+ex04-stu_074-sub_005.c:5:19: note: expected 'int *' but argument is of type 'int'
+    5 | void swap ( int * num1, int*num2){
+      |             ~~~~~~^~~~
+ex04-stu_074-sub_005.c:16:24: error: passing argument 2 of 'swap' makes pointer from integer without a cast [-Werror=int-conversion]
+   16 |     if (a > c) swap(a, c);
+      |                        ^
+      |                        |
+      |                        int
+ex04-stu_074-sub_005.c:5:29: note: expected 'int *' but argument is of type 'int'
+    5 | void swap ( int * num1, int*num2){
+      |                         ~~~~^~~~
+ex04-stu_074-sub_005.c:12:18: error: unused variable 'temp' [-Werror=unused-variable]
+   12 |     int a, b, c, temp;
+      |                  ^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,19 @@
+ex01-stu_094-sub_004.c: In function 'main':
+ex01-stu_094-sub_004.c:8:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    8 |     int maior
+      |     ^~~
+ex01-stu_094-sub_004.c:10:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'
+   10 |     scanf("%d%d%d", &v1, &v2, &v3);
+      |     ^~~~~
+ex01-stu_094-sub_004.c:12:5: error: 'maior' undeclared (first use in this function)
+   12 |     maior = v1
+      |     ^~~~~
+ex01-stu_094-sub_004.c:12:5: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_094-sub_004.c:12:15: error: expected ';' before 'if'
+   12 |     maior = v1
+      |               ^
+      |               ;
+   13 | 
+   14 |     if (v2 > maior) {
+      |     ~~         
+cc1: all warnings being treated as errors

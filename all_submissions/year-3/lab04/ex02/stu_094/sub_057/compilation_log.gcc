@@ -1,0 +1,9 @@
+ex02-stu_094-sub_057.c: In function 'main':
+ex02-stu_094-sub_057.c:15:12: error: expected '(' before 'tab'
+   15 |         if tab[i] > max
+      |            ^~~
+      |            (
+ex02-stu_094-sub_057.c:15:15: error: statement with no effect [-Werror=unused-value]
+   15 |         if tab[i] > max
+      |            ~~~^~~
+cc1: all warnings being treated as errors

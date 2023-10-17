@@ -1,0 +1,5 @@
+ex01-stu_091-sub_004.c: In function 'main':
+ex01-stu_091-sub_004.c:6:9: error: unused variable 'x' [-Werror=unused-variable]
+    6 |     int x = 0 , primeiro, segundo , terceiro;
+      |         ^
+cc1: all warnings being treated as errors
