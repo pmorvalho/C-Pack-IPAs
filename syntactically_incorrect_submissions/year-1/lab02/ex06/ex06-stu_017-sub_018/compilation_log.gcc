@@ -1,0 +1,9 @@
+ex06-stu_017-sub_018.c: In function 'main':
+ex06-stu_017-sub_018.c:14:36: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   14 |     for (contador = 1; contador < n, contador++) {
+      |                                    ^
+ex06-stu_017-sub_018.c:14:48: error: expected ';' before ')' token
+   14 |     for (contador = 1; contador < n, contador++) {
+      |                                                ^
+      |                                                ;
+cc1: all warnings being treated as errors

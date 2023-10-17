@@ -1,0 +1,5 @@
+ex05-stu_022-sub_034.c: In function 'lelinha':
+ex05-stu_022-sub_034.c:22:26: error: suggest parentheses around '&&' within '||' [-Werror=parentheses]
+   22 |     for(i = 0; i < MAX-1 && (c = getchar()) != EOF || c != '\n'; i++)
+      |                          ^
+cc1: all warnings being treated as errors

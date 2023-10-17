@@ -1,0 +1,14 @@
+ex01-stu_023-sub_004.c: In function 'main':
+ex01-stu_023-sub_004.c:4:1: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    4 | scanf ("%d",&maior);
+      | ^~~~~
+ex01-stu_023-sub_004.c:4:1: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex01-stu_023-sub_004.c:1:1: note: include '<stdio.h>' or provide a declaration of 'scanf'
+  +++ |+#include <stdio.h>
+    1 | int main()
+ex01-stu_023-sub_004.c:13:1: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+   13 | printf ("O maior e %d\n",maior);
+      | ^~~~~~
+ex01-stu_023-sub_004.c:13:1: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex01-stu_023-sub_004.c:13:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+cc1: all warnings being treated as errors

@@ -1,0 +1,11 @@
+ex06-stu_026-sub_009.c: In function 'main':
+ex06-stu_026-sub_009.c:5:18: error: unused variable 'menor' [-Werror=unused-variable]
+    5 |     float maior, menor;
+      |                  ^~~~~
+ex06-stu_026-sub_009.c:5:11: error: unused variable 'maior' [-Werror=unused-variable]
+    5 |     float maior, menor;
+      |           ^~~~~
+ex06-stu_026-sub_009.c:4:9: error: unused variable 'n' [-Werror=unused-variable]
+    4 |     int n;
+      |         ^
+cc1: all warnings being treated as errors

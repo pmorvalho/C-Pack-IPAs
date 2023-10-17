@@ -1,0 +1,32 @@
+ex01-stu_024-sub_024.c:1:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+    1 | lude <stdio.h>
+      |      ^
+ex01-stu_024-sub_024.c: In function 'main':
+ex01-stu_024-sub_024.c:9:5: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    9 |     scanf("%d", &N);
+      |     ^~~~~
+ex01-stu_024-sub_024.c:9:5: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+ex01-stu_024-sub_024.c:1:1: note: include '<stdio.h>' or provide a declaration of 'scanf'
+  +++ |+#include <stdio.h>
+    1 | lude <stdio.h>
+ex01-stu_024-sub_024.c:13:9: error: implicit declaration of function 'quadrado' [-Werror=implicit-function-declaration]
+   13 |         quadrado(N);
+      |         ^~~~~~~~
+ex01-stu_024-sub_024.c: At top level:
+ex01-stu_024-sub_024.c:18:6: error: conflicting types for 'quadrado' [-Werror]
+   18 | void quadrado(int N){
+      |      ^~~~~~~~
+ex01-stu_024-sub_024.c:13:9: note: previous implicit declaration of 'quadrado' was here
+   13 |         quadrado(N);
+      |         ^~~~~~~~
+ex01-stu_024-sub_024.c: In function 'quadrado':
+ex01-stu_024-sub_024.c:27:13: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+   27 |             printf("%d\t",j);
+      |             ^~~~~~
+ex01-stu_024-sub_024.c:27:13: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+ex01-stu_024-sub_024.c:27:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+ex01-stu_024-sub_024.c:29:13: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+   29 |             printf("\n");
+      |             ^~~~~~
+ex01-stu_024-sub_024.c:29:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+cc1: all warnings being treated as errors

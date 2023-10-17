@@ -1,0 +1,8 @@
+ex07-stu_006-sub_009.c: In function 'main':
+ex07-stu_006-sub_009.c:8:3: error: this 'for' clause does not guard... [-Werror=misleading-indentation]
+    8 |   for (i = 1; i <= n; i++)
+      |   ^~~
+ex07-stu_006-sub_009.c:12:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   12 |     printf("%d\n", k);
+      |     ^~~~~~
+cc1: all warnings being treated as errors

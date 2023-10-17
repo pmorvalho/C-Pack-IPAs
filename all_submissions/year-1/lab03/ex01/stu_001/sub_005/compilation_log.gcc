@@ -1,0 +1,17 @@
+ex01-stu_001-sub_005.c:3:1: error: ISO C90 forbids variable length array 'arr' [-Werror=vla]
+    3 | void quadrado(int N, int arr[N])
+      | ^~~~
+ex01-stu_001-sub_005.c: In function 'main':
+ex01-stu_001-sub_005.c:25:5: error: ISO C90 forbids variable length array 'arr' [-Werror=vla]
+   25 |     int arr[N];
+      |     ^~~
+ex01-stu_001-sub_005.c:25:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex01-stu_001-sub_005.c:31:20: error: passing argument 2 of 'quadrado' makes pointer from integer without a cast [-Werror=int-conversion]
+   31 |     quadrado(N, arr[N]);
+      |                 ~~~^~~
+      |                    |
+      |                    int
+ex01-stu_001-sub_005.c:3:26: note: expected 'int *' but argument is of type 'int'
+    3 | void quadrado(int N, int arr[N])
+      |                      ~~~~^~~~~~
+cc1: all warnings being treated as errors

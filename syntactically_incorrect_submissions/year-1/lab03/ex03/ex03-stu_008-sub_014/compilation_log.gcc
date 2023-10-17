@@ -1,0 +1,10 @@
+ex03-stu_008-sub_014.c: In function 'linha_cruz':
+ex03-stu_008-sub_014.c:3:6: error: type of 'n' defaults to 'int' [-Werror=missing-parameter-type]
+    3 | void linha_cruz(n, border)
+      |      ^~~~~~~~~~
+ex03-stu_008-sub_014.c:3:6: error: type of 'border' defaults to 'int' [-Werror=missing-parameter-type]
+ex03-stu_008-sub_014.c: In function 'cruz':
+ex03-stu_008-sub_014.c:12:6: error: type of 'n' defaults to 'int' [-Werror=missing-parameter-type]
+   12 | void cruz(n)
+      |      ^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex07-stu_031-sub_012.c: In function 'apagaCaracter':
+ex07-stu_031-sub_012.c:7:11: error: unused variable 'j' [-Werror=unused-variable]
+    7 |     int i,j;
+      |           ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex10-stu_006-sub_012.c: In function 'main':
+ex10-stu_006-sub_012.c:5:41: error: unused variable 'i' [-Werror=unused-variable]
+    5 |   int n, digito, digitos = 0, soma = 0, i;
+      |                                         ^
+cc1: all warnings being treated as errors

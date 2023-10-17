@@ -1,0 +1,12 @@
+ex01-stu_017-sub_004.c: In function 'main':
+ex01-stu_017-sub_004.c:10:3: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   10 |   for (int contador = 0; contador < 3; contador++){
+      |   ^~~
+ex01-stu_017-sub_004.c:10:3: note: use option '-std=c99', '-std=gnu99', '-std=c11' or '-std=gnu11' to compile your code
+ex01-stu_017-sub_004.c:16:12: error: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Werror=format=]
+   16 |   printf("%d", &max);
+      |           ~^   ~~~~
+      |            |   |
+      |            int int *
+      |           %ls
+cc1: all warnings being treated as errors

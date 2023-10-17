@@ -1,0 +1,9 @@
+ex05-stu_031-sub_008.c: In function 'main':
+ex05-stu_031-sub_008.c:11:10: error: variable 'contador' set but not used [-Werror=unused-but-set-variable]
+   11 |  int i,c,contador;
+      |          ^~~~~~~~
+ex05-stu_031-sub_008.c: In function 'lelinha':
+ex05-stu_031-sub_008.c:30:11: error: unused variable 'cont' [-Werror=unused-variable]
+   30 | int i = 0,cont;
+      |           ^~~~
+cc1: all warnings being treated as errors

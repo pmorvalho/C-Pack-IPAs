@@ -1,0 +1,9 @@
+ex02-stu_012-sub_018.c: In function 'piramide':
+ex02-stu_012-sub_018.c:15:14: error: expected '(' before '{' token
+   15 |    } else if {
+      |              ^
+      |              (
+ex02-stu_012-sub_018.c: At top level:
+ex02-stu_012-sub_018.c:31:1: error: expected identifier or '(' before '}' token
+   31 | }
+      | ^

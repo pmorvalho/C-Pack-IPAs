@@ -1,0 +1,5 @@
+ex01-stu_001-sub_001.c: In function 'main':
+ex01-stu_001-sub_001.c:7:12: error: 'INFINITY' undeclared (first use in this function)
+    7 |     max = -INFINITY;
+      |            ^~~~~~~~
+ex01-stu_001-sub_001.c:7:12: note: each undeclared identifier is reported only once for each function it appears in

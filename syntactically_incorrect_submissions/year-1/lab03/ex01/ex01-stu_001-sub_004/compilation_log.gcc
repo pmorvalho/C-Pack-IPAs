@@ -1,0 +1,5 @@
+ex01-stu_001-sub_004.c: In function 'quadrado':
+ex01-stu_001-sub_004.c:7:5: error: ISO C90 forbids variable length array 'arr' [-Werror=vla]
+    7 |     int i, j, arr[N];
+      |     ^~~
+cc1: all warnings being treated as errors

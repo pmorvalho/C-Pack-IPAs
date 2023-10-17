@@ -1,0 +1,11 @@
+ex05-stu_016-sub_008.c: In function 'main':
+ex05-stu_016-sub_008.c:6:13: error: redefinition of 'i'
+    6 |     for(int i = 1; i <= x; i++){
+      |             ^
+ex05-stu_016-sub_008.c:4:12: note: previous definition of 'i' was here
+    4 |     int x, i = 0;
+      |            ^
+ex05-stu_016-sub_008.c:6:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+    6 |     for(int i = 1; i <= x; i++){
+      |     ^~~
+ex05-stu_016-sub_008.c:6:5: note: use option '-std=c99', '-std=gnu99', '-std=c11' or '-std=gnu11' to compile your code

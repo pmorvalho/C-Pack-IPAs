@@ -1,0 +1,11 @@
+ex01-stu_017-sub_003.c: In function 'main':
+ex01-stu_017-sub_003.c:19:13: error: expected ';' before '}' token
+   19 |     return 0
+      |             ^
+      |             ;
+   20 | }
+      | ~            
+ex01-stu_017-sub_003.c:6:15: error: unused variable 'contador' [-Werror=unused-variable]
+    6 |     int N, M, contador;
+      |               ^~~~~~~~
+cc1: all warnings being treated as errors

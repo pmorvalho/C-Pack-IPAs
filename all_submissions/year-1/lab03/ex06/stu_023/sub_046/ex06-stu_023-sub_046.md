@@ -1,0 +1,14 @@
+# student: stu_023
+# submission: sub_046
+
+```diff
+- ex06_0: Wrong Answer
+- ex06_1: Wrong Answer
+- ex06_2: Wrong Answer
+- ex06_3: Wrong Answer
+- ex06_4: Wrong Answer
+- ex06_5: Wrong Answer
+- ex06_6: Wrong Answer
+```
+#incorrect=7
+#correct=0

@@ -1,0 +1,5 @@
+ex03-stu_015-sub_025.c: In function 'main':
+ex03-stu_015-sub_025.c:16:13: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   16 |         if (max = vec[i])
+      |             ^~~
+cc1: all warnings being treated as errors

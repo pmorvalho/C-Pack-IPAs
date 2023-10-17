@@ -1,0 +1,5 @@
+ex10-stu_017-sub_033.c: In function 'main':
+ex10-stu_017-sub_033.c:10:18: error: 'n' undeclared (first use in this function)
+   10 |         digito = n % 10;
+      |                  ^
+ex10-stu_017-sub_033.c:10:18: note: each undeclared identifier is reported only once for each function it appears in

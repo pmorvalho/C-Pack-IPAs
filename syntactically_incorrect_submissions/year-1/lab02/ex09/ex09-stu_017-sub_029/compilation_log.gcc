@@ -1,0 +1,30 @@
+ex09-stu_017-sub_029.c: In function 'main':
+ex09-stu_017-sub_029.c:17:24: error: 'aux9' undeclared (first use in this function); did you mean 'aux'?
+   17 |     minutos = (tempo - aux9 / 60;
+      |                        ^~~~
+      |                        aux
+ex09-stu_017-sub_029.c:17:24: note: each undeclared identifier is reported only once for each function it appears in
+ex09-stu_017-sub_029.c:17:33: error: expected ')' before ';' token
+   17 |     minutos = (tempo - aux9 / 60;
+      |               ~                 ^
+      |                                 )
+ex09-stu_017-sub_029.c:21:14: error: expected ';' before '}' token
+   21 |     return 0;
+      |              ^
+      |              ;
+   22 | 
+   23 | }
+      | ~             
+ex09-stu_017-sub_029.c:10:37: error: unused variable 'segundos' [-Werror=unused-variable]
+   10 |     int tempo, aux, horas, minutos, segundos;
+      |                                     ^~~~~~~~
+ex09-stu_017-sub_029.c:10:28: error: variable 'minutos' set but not used [-Werror=unused-but-set-variable]
+   10 |     int tempo, aux, horas, minutos, segundos;
+      |                            ^~~~~~~
+ex09-stu_017-sub_029.c:10:21: error: variable 'horas' set but not used [-Werror=unused-but-set-variable]
+   10 |     int tempo, aux, horas, minutos, segundos;
+      |                     ^~~~~
+ex09-stu_017-sub_029.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+   23 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,8 @@
+ex05-stu_018-sub_010.c: In function 'main':
+ex05-stu_018-sub_010.c:29:12: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   29 |   else if (c = '\\' && barra_antes == BARRA)  {
+      |            ^
+ex05-stu_018-sub_010.c:34:12: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   34 |   else if (c = '\\' && barra_antes != BARRA)   {
+      |            ^
+cc1: all warnings being treated as errors

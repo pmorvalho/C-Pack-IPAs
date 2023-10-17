@@ -1,0 +1,12 @@
+ex06-stu_029-sub_004.c: In function 'main':
+ex06-stu_029-sub_004.c:10:16: error: format '%d' expects a matching 'int' argument [-Werror=format=]
+   10 |   printf("yes %d\n");
+      |               ~^
+      |                |
+      |                int
+ex06-stu_029-sub_004.c:13:15: error: format '%d' expects a matching 'int' argument [-Werror=format=]
+   13 |   printf("no %d\n");
+      |              ~^
+      |               |
+      |               int
+cc1: all warnings being treated as errors

@@ -1,0 +1,11 @@
+ex04-stu_017-sub_037.c: In function 'main':
+ex04-stu_017-sub_037.c:15:46: error: expected expression before 'int'
+   15 |                 if ((c != anterior) && (c != int)) {
+      |                                              ^~~
+ex04-stu_017-sub_037.c:19:53: error: expected expression before 'int'
+   19 |                 } else if ((c != anterior) && (c == int)) {
+      |                                                     ^~~
+ex04-stu_017-sub_037.c:4:22: error: unused variable 'contador_zeros' [-Werror=unused-variable]
+    4 |     int c, anterior, contador_zeros = 0;
+      |                      ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,14 @@
+ex04-stu_017-sub_038.c: In function 'main':
+ex04-stu_017-sub_038.c:15:63: error: expected statement before ')' token
+   15 |                 if ((c != anterior) && (c < '1') && (c > '9'))) {
+      |                                                               ^
+ex04-stu_017-sub_038.c:15:17: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   15 |                 if ((c != anterior) && (c < '1') && (c > '9'))) {
+      |                 ^~
+ex04-stu_017-sub_038.c:15:65: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   15 |                 if ((c != anterior) && (c < '1') && (c > '9'))) {
+      |                                                                 ^
+ex04-stu_017-sub_038.c:19:19: error: 'else' without a previous 'if'
+   19 |                 } else if ((c != anterior) && ('1' < c) && (c < '9')) {
+      |                   ^~~~
+cc1: all warnings being treated as errors

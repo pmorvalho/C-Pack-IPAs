@@ -1,0 +1,32 @@
+ex04-stu_025-sub_005.c: In function 'main':
+ex04-stu_025-sub_005.c:5:10: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    5 |  scanf("%d", a);
+      |         ~^   ~
+      |          |   |
+      |          |   int
+      |          int *
+ex04-stu_025-sub_005.c:6:10: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    6 |  scanf("%d", b);
+      |         ~^   ~
+      |          |   |
+      |          |   int
+      |          int *
+ex04-stu_025-sub_005.c:7:10: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    7 |  scanf("%d", c);
+      |         ~^   ~
+      |          |   |
+      |          |   int
+      |          int *
+ex04-stu_025-sub_005.c:9:1: error: control reaches end of non-void function [-Werror=return-type]
+    9 | }
+      | ^
+ex04-stu_025-sub_005.c:5:2: error: 'a' is used uninitialized in this function [-Werror=uninitialized]
+    5 |  scanf("%d", a);
+      |  ^~~~~~~~~~~~~~
+ex04-stu_025-sub_005.c:6:2: error: 'b' is used uninitialized in this function [-Werror=uninitialized]
+    6 |  scanf("%d", b);
+      |  ^~~~~~~~~~~~~~
+ex04-stu_025-sub_005.c:7:2: error: 'c' is used uninitialized in this function [-Werror=uninitialized]
+    7 |  scanf("%d", c);
+      |  ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,8 @@
+ex01-stu_015-sub_021.c: In function 'main':
+ex01-stu_015-sub_021.c:10:2: error: this 'while' clause does not guard... [-Werror=misleading-indentation]
+   10 |  while (N <= 2);
+      |  ^~~~~
+ex01-stu_015-sub_021.c:11:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   11 |    quadrado(N);
+      |    ^~~~~~~~
+cc1: all warnings being treated as errors

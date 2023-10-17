@@ -1,0 +1,17 @@
+ex04-stu_017-sub_010.c: In function 'main':
+ex04-stu_017-sub_010.c:8:25: error: expected expression before '%' token
+    8 |     scanf("%d%d%d", &a, %b, %c);
+      |                         ^
+ex04-stu_017-sub_010.c:11:10: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   11 |         a, b = b, a;
+      |          ^
+ex04-stu_017-sub_010.c:11:17: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   11 |         a, b = b, a;
+      |                 ^
+ex04-stu_017-sub_010.c:14:10: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   14 |         a, c = c, a;
+      |          ^
+ex04-stu_017-sub_010.c:14:17: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   14 |         a, c = c, a;
+      |                 ^
+cc1: all warnings being treated as errors

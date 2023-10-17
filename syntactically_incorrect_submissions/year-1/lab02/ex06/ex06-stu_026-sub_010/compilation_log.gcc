@@ -1,0 +1,2 @@
+ex06-stu_026-sub_010.c:1: error: ISO C forbids an empty translation unit [-Werror=pedantic]
+cc1: all warnings being treated as errors

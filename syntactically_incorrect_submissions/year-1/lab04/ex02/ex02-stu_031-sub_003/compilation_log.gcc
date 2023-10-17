@@ -1,0 +1,10 @@
+ex02-stu_031-sub_003.c: In function 'main':
+ex02-stu_031-sub_003.c:17:11: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   17 |   for (i=0,i<n,++i){
+      |           ^
+ex02-stu_031-sub_003.c:17:19: error: expected ';' before ')' token
+   17 |   for (i=0,i<n,++i){
+      |                   ^
+      |                   ;
+ex02-stu_031-sub_003.c:17:19: error: expected expression before ')' token
+cc1: all warnings being treated as errors

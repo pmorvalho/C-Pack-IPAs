@@ -1,0 +1,11 @@
+ex08-stu_031-sub_015.c: In function 'main':
+ex08-stu_031-sub_015.c:13:13: error: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   13 |       maior = num1;
+      |             ^
+ex08-stu_031-sub_015.c:17:13: error: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   17 |       maior = num2;
+      |             ^
+ex08-stu_031-sub_015.c:19:15: error: comparison between pointer and integer [-Werror]
+   19 |     if (maior == num1)
+      |               ^~
+cc1: all warnings being treated as errors

@@ -1,0 +1,4 @@
+ex05-stu_017-sub_015.c:1:10: fatal error: studio.h: No such file or directory
+    1 | #include <studio.h>
+      |          ^~~~~~~~~~
+compilation terminated.

@@ -1,0 +1,5 @@
+ex07-stu_019-sub_024.c: In function 'main':
+ex07-stu_019-sub_024.c:17:5: error: suggest explicit braces to avoid ambiguous 'else' [-Werror=dangling-else]
+   17 |  if (contador > 1)
+      |     ^
+cc1: all warnings being treated as errors

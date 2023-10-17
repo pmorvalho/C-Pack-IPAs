@@ -1,0 +1,6 @@
+ex07-stu_011-sub_008.c: In function 'divisores':
+ex07-stu_011-sub_008.c:3:5: error: type of 'n' defaults to 'int' [-Werror=missing-parameter-type]
+    3 | int divisores(n, x) {
+      |     ^~~~~~~~~
+ex07-stu_011-sub_008.c:3:5: error: type of 'x' defaults to 'int' [-Werror=missing-parameter-type]
+cc1: all warnings being treated as errors

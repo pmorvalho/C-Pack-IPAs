@@ -1,0 +1,8 @@
+ex05-stu_017-sub_047.c: In function 'main':
+ex05-stu_017-sub_047.c:28:19: error: unused variable 'contador' [-Werror=unused-variable]
+   28 |     int num_char, contador;
+      |                   ^~~~~~~~
+ex05-stu_017-sub_047.c:28:9: error: variable 'num_char' set but not used [-Werror=unused-but-set-variable]
+   28 |     int num_char, contador;
+      |         ^~~~~~~~
+cc1: all warnings being treated as errors
