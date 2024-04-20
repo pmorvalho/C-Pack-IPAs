@@ -1,0 +1,16 @@
+- stu_id: stu_063	       
+- submission: sub_004
+- exercise: lab02/ex02
+- year: year-3
+- correct_submission: None
+- number_of_variables: 2
+- program_features: [scanf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex02_0: Wrong Answer,ex02_1: Wrong Answer,ex02_2: Wrong Answer,ex02_3: Wrong Answer]
+- number_of_faults: 2
+- faults: ['scanf("%d,%d", &n1, &n2);', '']
+- faulty_lines: [7,12]
+- fault_types: [Incorrect Input,Presentation Error]
+- repair_actions: [Replace,Insert] 
+- suggested_repairs: ['scanf("%d %d", &n1, &n2);', 'printf("\n");']

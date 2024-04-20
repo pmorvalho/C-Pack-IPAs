@@ -1,0 +1,16 @@
+- stu_id: stu_024	       
+- submission: sub_011
+- exercise: lab02/ex07
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex07/ex07-stu_024-sub_010)
+- number_of_variables: 3
+- program_features: [while-loop,uninit-vars,division-by-zero] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex07_0: Command terminated by signal (8: SIGFPE),ex07_1: Command terminated by signal (8: SIGFPE),ex07_2: Command terminated by signal (8: SIGFPE),ex07_3: Command terminated by signal (8: SIGFPE)]
+- number_of_faults: 3
+- faults: ['int i=0;', 'int divisores;', 'printf("%d",divisores);']
+- faulty_lines: [7,8,30]
+- fault_types: [Wrong Initialization,Uninitialized Variable,Presentation Error]
+- repair_actions: [Replace,Replace,Replace] 
+- suggested_repairs: ['int i=1;', 'int divisores=0;', 'printf("%d\n",divisores);']

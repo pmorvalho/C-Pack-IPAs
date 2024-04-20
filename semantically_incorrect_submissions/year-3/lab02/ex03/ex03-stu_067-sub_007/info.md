@@ -1,0 +1,16 @@
+- stu_id: stu_067	       
+- submission: sub_007
+- exercise: lab02/ex03
+- year: year-3
+- correct_submission: None
+- number_of_variables: 2
+- program_features: [ternary-op] 
+- number_of_passed_tests: 2
+- number_of_failed_tests: 2
+- tests_output: [ex03_0: Wrong Answer,ex03_1: Accepted,ex03_2: Wrong Answer,ex03_3: Accepted]
+- number_of_faults: 1
+- faults: ['M%N']
+- faulty_lines: [6]
+- fault_types: [Variable Misuse]
+- repair_actions: [Replace]
+- suggested_repairs: ['N%M']

@@ -1,0 +1,16 @@
+- stu_id: stu_014	       
+- submission: sub_010
+- exercise: lab02/ex04
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex04/ex04-stu_014-sub_009)
+- number_of_variables: 4
+- program_features: [no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Wrong Answer,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['printf("Insira 3 numeros: ");']
+- faulty_lines: [6]
+- fault_types: [Incorrect Output]
+- repair_actions: [Remove] 
+- suggested_repairs: ['']

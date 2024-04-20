@@ -1,0 +1,16 @@
+- stu_id: stu_004	       
+- submission: sub_005
+- exercise: lab02/ex04
+- year: year-1
+- correct_submission: None
+- number_of_variables: 3
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Presentation Error,ex04_2: Presentation Error,ex04_3: Presentation Error]
+- number_of_faults: 1
+- faults: ['']
+- faulty_lines: [24]
+- fault_types: [Presentation Error]
+- repair_actions: [Insert] 
+- suggested_repairs: ['printf("\n");']

@@ -1,0 +1,16 @@
+- stu_id: stu_080	       
+- submission: sub_016
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_080-sub_017)
+- number_of_variables: 6
+- program_features: [ternary-op] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Presentation Error,ex04_2: Presentation Error,ex04_3: Presentation Error]
+- number_of_faults: 1
+- faults: ['printf("%d\t%d\t%d\n", min, meio, maior);']
+- faulty_lines: [19]
+- fault_types: [Presentation Error]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("%d %d %d\n", min, meio, maior);']

@@ -1,0 +1,16 @@
+- stu_id: stu_012	       
+- submission: sub_006
+- exercise: lab02/ex04
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex04/ex04-stu_012-sub_005)
+- number_of_variables: 3
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Wrong Answer,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("Introduza o primeiro inteiro:\n");', 'printf("Introduza o segundo inteiro:\n");', 'printf("Introduza o terceiro inteiro:\n");']
+- faulty_lines: [9,11,19]
+- fault_types: [Incorrect Output,Incorrect Output,Incorrect Output]
+- repair_actions: [Remove,Remove,Remove] 
+- suggested_repairs: ['', '', '']

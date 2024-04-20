@@ -1,0 +1,16 @@
+- stu_id: stu_095	       
+- submission: sub_009
+- exercise: lab02/ex03
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex03/ex03-stu_095-sub_011)
+- number_of_variables: 2
+- program_features: [scanf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex03_0: Command terminated by signal (8: SIGFPE),ex03_1: Command terminated by signal (8: SIGFPE),ex03_2: Command terminated by signal (8: SIGFPE),ex03_3: Command terminated by signal (8: SIGFPE)]
+- number_of_faults: 2
+- faults: ['scanf ("%d, %d", &N, &M);', '']
+- faulty_lines: [7,16]
+- fault_types: [Incorrect Input,Presentation Error]
+- repair_actions: [Replace,Insert] 
+- suggested_repairs: ['scanf ("%d%d", &N, &M);', 'printf("\n");']

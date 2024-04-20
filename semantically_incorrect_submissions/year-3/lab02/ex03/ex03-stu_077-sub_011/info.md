@@ -1,0 +1,16 @@
+- stu_id: stu_077	       
+- submission: sub_011
+- exercise: lab02/ex03
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex03/ex03-stu_077-sub_010)
+- number_of_variables: 2
+- program_features: [missing_code] 
+- number_of_passed_tests: 2
+- number_of_failed_tests: 2
+- tests_output: [ex03_0: Accepted,ex03_1: Wrong Answer,ex03_2: Accepted,ex03_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['']
+- faulty_lines: [10]
+- fault_types: [Missing Instruction]
+- repair_actions: [Insert] 
+- suggested_repairs: ['else printf("no\n");']

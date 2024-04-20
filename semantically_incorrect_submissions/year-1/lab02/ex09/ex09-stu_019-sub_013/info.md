@@ -1,0 +1,16 @@
+- stu_id: stu_019	       
+- submission: sub_013
+- exercise: lab02/ex09
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex09/ex09-stu_019-sub_014)
+- number_of_variables: 10
+- program_features: [define,printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex09_0: Wrong Answer,ex09_1: Wrong Answer,ex09_2: Wrong Answer,ex09_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['printf("'%1.0f%1.0f:%1.0f%1.0f:%1.0f%1.0f'\n", h1, h2, m1, m2, s1, s2);']
+- faulty_lines: [25]
+- fault_types: [Incorrect Output]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("%1.0f%1.0f:%1.0f%1.0f:%1.0f%1.0f\n", h1, h2, m1, m2, s1, s2);']

@@ -1,0 +1,16 @@
+- stu_id: stu_086	       
+- submission: sub_004
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 2
+- faults: ['printf("Introduz 3 números inteiros: \n");', '']
+- faulty_lines: [9,11]
+- fault_types: [Incorrect Output,Uninitialized Variable]
+- repair_actions: [Remove,Insert] 
+- suggested_repairs: ['', 'vm=x;']

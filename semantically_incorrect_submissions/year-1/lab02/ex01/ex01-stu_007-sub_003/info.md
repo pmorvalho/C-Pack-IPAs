@@ -1,0 +1,16 @@
+- stu_id: stu_007	       
+- submission: sub_003
+- exercise: lab02/ex01
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex01/ex01-stu_007-sub_004)
+- number_of_variables: 6
+- program_features: [for_loop,auxiliary_function,define,pointers] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("%d", maior(vetor[0], vetor[1], vetor[2]));', 'printf("%d\n", larger);', 'return 0;']
+- faulty_lines: [19, 33, 34]
+- fault_types: [Presentation Error,Incorrect Output,Wrong Instruction]
+- repair_actions: [Replace, Remove, Replace] 
+- suggested_repairs: ['printf("%d\n", maior(vetor[0], vetor[1], vetor[2]));', '', 'return larger;']

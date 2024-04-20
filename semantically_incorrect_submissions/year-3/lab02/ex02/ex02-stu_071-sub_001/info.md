@@ -1,0 +1,16 @@
+- stu_id: stu_071	       
+- submission: sub_001
+- exercise: lab02/ex02
+- year: year-3
+- correct_submission: None
+- number_of_variables: 2
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex02_0: Wrong Answer,ex02_1: Wrong Answer,ex02_2: Wrong Answer,ex02_3: Wrong Answer]
+- number_of_faults: 4
+- faults: ['printf("Insira dois numeros por favor\n") ;', 'M > N', printf("O numero maior é o %d \n O numero menor é o %d" , M , N);']
+- faulty_lines: [8,12,14,20]
+- fault_types: [Incorrect Output,Wrong Comparison Operator,Incorrect Output,Incorrect Output]
+- repair_actions: [Remove,Replace,Replace,Replace] 
+- suggested_repairs: ['', 'M <= N', 'printf("%d\n%d\n" , M , N);', 'printf("%d\n%d\n" , N , M);']

@@ -1,0 +1,16 @@
+- stu_id: stu_085	       
+- submission: sub_021
+- exercise: lab02/ex05
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex05/ex05-stu_085-sub_023)
+- number_of_variables: 2
+- program_features: [for-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex05_0: Output Limit Exceeded,ex05_1: Output Limit Exceeded,ex05_2: Output Limit Exceeded,ex05_3: Output Limit Exceeded]
+- number_of_faults: 1
+- faults: ['1 <= num']
+- faulty_lines: [9]
+- fault_types: [Variable Misuse]
+- repair_actions: [Replace] 
+- suggested_repairs: ['i <= num']

@@ -1,0 +1,16 @@
+- stu_id: stu_077	       
+- submission: sub_013
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_077-sub_012)
+- number_of_variables: 6
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Presentation Error,ex04_2: Wrong Answer,ex04_3: Presentation Error]
+- number_of_faults: -1
+- faults: [ALL]
+- faulty_lines: [ALL]
+- fault_types: []
+- repair_actions: [Replace]
+- suggested_repairs: ['']

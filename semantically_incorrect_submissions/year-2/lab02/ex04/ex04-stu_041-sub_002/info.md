@@ -1,0 +1,16 @@
+- stu_id: stu_041	       
+- submission: sub_002
+- exercise: lab02/ex04
+- year: year-2
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [] 
+- number_of_passed_tests: 3
+- number_of_failed_tests: 1
+- tests_output: [ex04_0: Wrong Answer,ex04_1: Accepted,ex04_2: Accepted,ex04_3: Accepted]
+- number_of_faults: 1
+- faults: ['']
+- faulty_lines: [24]
+- fault_types: [Missing Instruction]
+- repair_actions: [Insert] 
+- suggested_repairs: ['if (n1 > n2) { tmp = n1;n1 = n2;n2 = tmp; }']

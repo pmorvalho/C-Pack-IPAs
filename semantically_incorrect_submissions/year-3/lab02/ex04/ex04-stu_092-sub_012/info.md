@@ -1,0 +1,16 @@
+- stu_id: stu_092	       
+- submission: sub_012
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_092-sub_014)
+- number_of_variables: 4
+- program_features: [array,for-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Presentation Error,ex04_2: Presentation Error,ex04_3: Presentation Error]
+- number_of_faults: 1
+- faults: ['i == LENGTH']
+- faulty_lines: [28]
+- fault_types: [Wrong Binary Operation]
+- repair_actions: [Replace]
+- suggested_repairs: ['i == LENGTH - 1']

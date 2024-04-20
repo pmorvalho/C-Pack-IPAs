@@ -1,0 +1,16 @@
+- stu_id: stu_024	       
+- submission: sub_009
+- exercise: lab02/ex06
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex06/ex06-stu_024-sub_008)
+- number_of_variables: 5
+- program_features: [while-loop,no-elses,print-inside-loop,uninit-vars] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex06_0: Wrong Answer,ex06_1: Wrong Answer,ex06_2: Wrong Answer]
+- number_of_faults: 9
+- faults: ['','','', 'N>0', 'scanf("%f %f", &mintemp, &maxtemp);', 'mintemp<=min && mintemp<=max', 'maxtemp>=min && maxtemp>=max', 'max=maxtemp;', 'printf("min: %f, max: %f\n", min, max);']
+- faulty_lines: [12,12,12,13,14,16,21,22,25]
+- fault_types: [Missing Expression,Uninitialized Variable,Uninitialized Variable,Wrong Literal,Wrong Expression,Wrong Binary Operation,Wrong Binary Operation,Wrong Expression,Misplaced Expression]
+- repair_actions: [Insert,Insert,Insert,Replace,Replace,Replace,Replace,Replace,Move] 
+- suggested_repairs: ['scanf("%f", &mintemp);', 'min=mintemp;', 'max=mintemp;', 'N>1', 'scanf("%f", &mintemp);', 'mintemp<=min', 'mintemp>=max', 'max=mintemp;', Line-19]

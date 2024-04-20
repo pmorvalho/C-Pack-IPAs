@@ -1,0 +1,16 @@
+- stu_id: stu_048	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-2
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [while-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("Escreva um numero inteiro:");', 'printf("Escreva um numero inteiro:");', 'num >= num1']
+- faulty_lines: [6,11,13]
+- fault_types: [Incorrect Output,Incorrect Output,Variable Misuse]
+- repair_actions: [Remove,Remove,Replace] 
+- suggested_repairs: ['', '', 'num >= maior']

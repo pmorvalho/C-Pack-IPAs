@@ -1,0 +1,16 @@
+- stu_id: stu_004	       
+- submission: sub_009
+- exercise: lab02/ex08
+- year: year-1
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [for-loop,uninit-vars,printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 5
+- tests_output: [ex08_0: Wrong Answer,ex08_1: Wrong Answer,ex08_2: Wrong Answer,ex08_3: Wrong Answer,ex08_4: Wrong Answer]
+- number_of_faults: 2
+- faults: ['int soma;', 'printf ("%.2f\n", soma/n);']
+- faulty_lines: [6,15]
+- fault_types: [Uninitialized Variable,Incorrect Output]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ['int soma=0;', 'printf ("%.2f\n", soma/n);']

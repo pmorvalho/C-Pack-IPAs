@@ -1,0 +1,16 @@
+- stu_id: stu_043	       
+- submission: sub_002
+- exercise: lab02/ex06
+- year: year-2
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-2/lab02/ex06/ex06-stu_043-sub_003)
+- number_of_variables: 5
+- program_features: [while-loop,scanf-format,printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex06_0: Wrong Answer,ex06_1: Wrong Answer,ex06_2: Wrong Answer]
+- number_of_faults: 7
+- faults: ['int l;', 'int min;', 'int max;', 'scanf("%d", &min);', 'scanf("%d", &max);', 'scanf("%d", &l);', 'printf("min: %d, max: %d\n", min, max);']
+- faulty_lines: [6,6,6,9,10,19,27]
+- fault_types: [Incorrect Data Type,Incorrect Data Type,Incorrect Data Type,Incorrect Input,Incorrect Input,Incorrect Input,Incorrect Output]
+- repair_actions: [Replace,Replace,Replace,Replace,Replace,Replace,Replace] 
+- suggested_repairs: ['float l;', 'float min;', 'float max;', 'scanf("%f", &min);', 'scanf("%f", &max);', 'scanf("%f", &l);', 'printf("min: %f, max: %f\n", min, max);']

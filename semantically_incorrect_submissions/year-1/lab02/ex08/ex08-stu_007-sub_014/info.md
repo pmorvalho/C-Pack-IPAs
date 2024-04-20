@@ -1,0 +1,16 @@
+- stu_id: stu_007	       
+- submission: sub_014
+- exercise: lab02/ex08
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex08/ex08-stu_007-sub_015)
+- number_of_variables: 5
+- program_features: [for-loop,wrong-data-type] 
+- number_of_passed_tests: 2
+- number_of_failed_tests: 3
+- tests_output: [ex08_0: Accepted,ex08_1: Accepted,ex08_2: Wrong Answer,ex08_3: Wrong Answer,ex08_4: Wrong Answer]
+- number_of_faults: 2 
+- faults: ['int num;', 'scanf("%d", &num);']
+- faulty_lines: [7,14]
+- fault_types: [Incorrect Data Type,Wrong Literal]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ['float num;', 'scanf("%f", &num);']

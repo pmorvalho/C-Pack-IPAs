@@ -1,0 +1,16 @@
+- stu_id: stu_001	       
+- submission: sub_002
+- exercise: lab02/ex02
+- year: year-1
+- correct_submission: None
+- number_of_variables: 2
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex02_0: Wrong Answer,ex02_1: Wrong Answer,ex02_2: Wrong Answer,ex02_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['    printf("Escreva dois numeros inteiros\n");']
+- faulty_lines: [7]
+- fault_types: [Incorrect Output]
+- repair_actions: [Remove] 
+- suggested_repairs: ['']

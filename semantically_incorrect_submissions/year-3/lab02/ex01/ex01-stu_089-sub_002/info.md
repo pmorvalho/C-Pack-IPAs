@@ -1,0 +1,16 @@
+- stu_id: stu_089	       
+- submission: sub_002
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex01/ex01-stu_089-sub_005)
+- number_of_variables: 3
+- program_features: [while-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 2
+- faults: ['input < output', 'printf("%d", output);']
+- faulty_lines: [16,22]
+- fault_types: [Wrong Comparison Operator,Presentation Error]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ['input >= output', 'printf("%d\n", output);']

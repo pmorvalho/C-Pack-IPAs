@@ -1,0 +1,16 @@
+- stu_id: stu_020	       
+- submission: sub_004
+- exercise: lab02/ex01
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex01/ex01-stu_020-sub_006)
+- number_of_variables: 4
+- program_features: [no-elses,non-zero-return,uninit-vars] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Command exited with non-zero status (3),ex01_1: Command exited with non-zero status (6),ex01_2: Command exited with non-zero status (3)]
+- number_of_faults: 2
+- faults: ['    printf("Insira três números ");', '    return maior;', '']
+- faulty_lines: [9,35,11]
+- fault_types: [Incorrect Output,Wrong Instruction,Uninitialized Variable]
+- repair_actions: [Remove,Remove,Insert] 
+- suggested_repairs: ['','', '    maior=primeiro;']

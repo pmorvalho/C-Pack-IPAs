@@ -1,0 +1,16 @@
+- stu_id: stu_023	       
+- submission: sub_017
+- exercise: lab02/ex09
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex09/ex09-stu_023-sub_016)
+- number_of_variables: 4
+- program_features: [printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex09_0: Wrong Answer,ex09_1: Wrong Answer,ex09_2: Wrong Answer,ex09_3: Wrong Answer]
+- number_of_faults: 5
+- faults: ['h = N/1440;', 'N = N - h*1440;', 'N = N - m*60;', 's = N;', 'printf ("%d:%d:%d\n",h,m,s);']
+- faulty_lines: [7,8,10,11,13]
+- fault_types: [Wrong Expression,Wrong Expression,Wrong Expression,Wrong Expression,Incorrect Output]
+- repair_actions: [Replace,Replace,Remove,Replace,Replace] 
+- suggested_repairs: ['h = N/3600;', 'N = N%3600;', '', 's = N%60;', 'printf ("%02d:%02d:%02d\n",h,m,s);']

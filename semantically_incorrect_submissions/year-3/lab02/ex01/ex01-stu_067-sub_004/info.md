@@ -1,0 +1,16 @@
+- stu_id: stu_067	       
+- submission: sub_004
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [no-elses] 
+- number_of_passed_tests: 2
+- number_of_failed_tests: 1
+- tests_output: [ex01_0: Accepted,ex01_1: Wrong Answer,ex01_2: Accepted]
+- number_of_faults: 1
+- faults: ['']
+- faulty_lines: [7]
+- fault_types: [Uninitialized Variable]
+- repair_actions: [Insert] 
+- suggested_repairs: ['maximo=v1;']

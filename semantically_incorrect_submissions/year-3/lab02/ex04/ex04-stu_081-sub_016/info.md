@@ -1,0 +1,16 @@
+- stu_id: stu_081	       
+- submission: sub_016
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_081-sub_015)
+- number_of_variables: 3
+- program_features: [no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 2
+- faults: ['(n3<=n1) & (n2>n3)', '']
+- faulty_lines: [13,21]
+- fault_types: [Variable Misuse,Presentation Error]
+- repair_actions: [Replace,Insert] 
+- suggested_repairs: ['(n3<=n1) & (n2>n1)', 'printf("\n");']

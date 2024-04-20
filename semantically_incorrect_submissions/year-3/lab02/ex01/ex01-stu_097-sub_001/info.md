@@ -1,0 +1,16 @@
+- stu_id: stu_097	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Presentation Error,ex01_1: Presentation Error,ex01_2: Presentation Error]
+- number_of_faults: 1
+- faults: ['printf("%d \n", maximo);']
+- faulty_lines: [19]
+- fault_types: [Presentation Error]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("%d\n", maximo);']

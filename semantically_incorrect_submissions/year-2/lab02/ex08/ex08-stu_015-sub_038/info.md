@@ -1,0 +1,16 @@
+- stu_id: stu_015	       
+- submission: sub_038
+- exercise: lab02/ex08
+- year: year-2
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-2/lab02/ex08/ex08-stu_015-sub_039)
+- number_of_variables: 5
+- program_features: [global-vars,define,while-loop,printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 5
+- tests_output: [ex08_0: Wrong Answer,ex08_1: Wrong Answer,ex08_2: Wrong Answer,ex08_3: Wrong Answer,ex08_4: Wrong Answer]
+- number_of_faults: 1
+- faults: ['printf("%2.f\n", media);']
+- faulty_lines: [18]
+- fault_types: [Incorrect Output]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("%.2f\n", media);']

@@ -1,0 +1,16 @@
+- stu_id: stu_066	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex01/ex01-stu_066-sub_002)
+- number_of_variables: 4
+- program_features: [for-loop,no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("n%d\n",num1);', 'printf("n%d\n",num2);', 'printf("n%d\n",num3);']
+- faulty_lines: [15,17,19]
+- fault_types: [Incorrect Output,Incorrect Output,Incorrect Output]
+- repair_actions: [Replace,Replace,Replace] 
+- suggested_repairs: ['printf("%d\n",num1);', 'printf("%d\n",num2);', 'printf("%d\n",num3);']

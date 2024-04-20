@@ -1,0 +1,16 @@
+- stu_id: stu_071	       
+- submission: sub_001
+- exercise: lab02/ex03
+- year: year-3
+- correct_submission: None
+- number_of_variables: 2
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex03_0: Wrong Answer,ex03_1: Wrong Answer,ex03_2: Wrong Answer,ex03_3: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("Insira dois numeros por favor\n") ;', 'printf("%d é divisivel por %d\n" ,a,b ) ;', 'printf("%d não é divisivel por %d\n" , a,b ) ;']
+- faulty_lines: [8,15,21]
+- fault_types: [Incorrect Output,Incorrect Output,Incorrect Output]
+- repair_actions: [Remove,Replace,Replace] 
+- suggested_repairs: ['', 'printf("yes\n");', 'printf("no\n");']

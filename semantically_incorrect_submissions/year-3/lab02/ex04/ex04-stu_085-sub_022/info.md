@@ -1,0 +1,16 @@
+- stu_id: stu_085	       
+- submission: sub_022
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_085-sub_021)
+- number_of_variables: 6
+- program_features: [no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Presentation Error,ex04_2: Presentation Error,ex04_3: Presentation Error]
+- number_of_faults: 2
+- faults: ['', 'printf("%d%d%d\n", menor, meio, maior);']
+- faulty_lines: [12, 54]
+- fault_types: [Uninitialized Variable, Presentation Error]
+- repair_actions: [Insert, Replace] 
+- suggested_repairs: ['menor = maior = meio = num1;', 'printf("%d %d %d\n", menor, meio, maior);']

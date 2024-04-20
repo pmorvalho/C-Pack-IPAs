@@ -1,0 +1,16 @@
+- stu_id: stu_088	       
+- submission: sub_009
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_088-sub_008)
+- number_of_variables: 3
+- program_features: [] 
+- number_of_passed_tests: 3
+- number_of_failed_tests: 1
+- tests_output: [ex04_0: Wrong Answer,ex04_1: Accepted,ex04_2: Accepted,ex04_3: Accepted]
+- number_of_faults: 1
+- faults: ['printf("%d %d %d\n", num2, num3, num2);']
+- faulty_lines: [16]
+- fault_types: [Variable Misuse]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("%d %d %d\n", num2, num3, num1);']

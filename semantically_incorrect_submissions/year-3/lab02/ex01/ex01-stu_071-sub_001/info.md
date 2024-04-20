@@ -1,0 +1,16 @@
+- stu_id: stu_071	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: None
+- number_of_variables: 3
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 4
+- faults: ['printf("Insira os 3 numeros pff\n");', 'printf("O maior numero inserido é %d \n", a );', 'printf("O maior numero inserido é%d \n", b );', 'printf("O maior numero inserido é %d \n", c );']
+- faulty_lines: [8,14,19,25]
+- fault_types: [Incorrect Output,Incorrect Output,Incorrect Output,Incorrect Output]
+- repair_actions: [Remove,Replace,Replace,Replace] 
+- suggested_repairs: ['', 'printf("%d\n", a);', 'printf("%d\n", b);', 'printf("%d\n", c);']

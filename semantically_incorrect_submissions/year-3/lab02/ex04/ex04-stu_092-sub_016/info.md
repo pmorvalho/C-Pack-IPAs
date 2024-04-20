@@ -1,0 +1,16 @@
+- stu_id: stu_092	       
+- submission: sub_016
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_092-sub_014)
+- number_of_variables: 4
+- program_features: [for-loop,array] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Wrong Answer,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 2
+- faults: ['vetor[i] >= vetor[n]', 'printf("%d\n", vetor[i]);']
+- faulty_lines: [18,27]
+- fault_types: [Wrong Comparison Operator,Wrong Instruction]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ['vetor[i] < vetor[n]', 'if (i == LENGTH-1) printf("%d\n", vetor[i]); else printf("%d ", vetor[i]);']

@@ -1,0 +1,16 @@
+- stu_id: stu_005	       
+- submission: sub_002
+- exercise: lab02/ex01
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex01/ex01-stu_005-sub_001)
+- number_of_variables: 3
+- program_features: [scanf_ret_value, for_loop] 
+- number_of_passed_tests: 2
+- number_of_failed_tests: 1
+- tests_output: [ex01_0: Accepted,ex01_1: Wrong Answer,ex01_2: Accepted]
+- number_of_faults: 1
+- faults: [' maior = scanf("%d", &n);']
+- faulty_lines: [5]
+- fault_types: [Wrong Initialization]
+- repair_actions: [Replace] 
+- suggested_repairs: ['maior; scanf("%d", &maior);']

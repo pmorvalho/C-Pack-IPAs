@@ -1,0 +1,16 @@
+- stu_id: stu_024	       
+- submission: sub_015
+- exercise: lab02/ex09
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex09/ex09-stu_024-sub_016)
+- number_of_variables: 3
+- program_features: [printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex09_0: Wrong Answer,ex09_1: Wrong Answer,ex09_2: Wrong Answer,ex09_3: Wrong Answer]
+- number_of_faults: 2
+- faults: ['printf("%d:%d:%d", horas, minutos, horas);', 'printf("%d:%d:%d", horas, minutos, horas);']
+- faulty_lines: [18,18]
+- fault_types: [Variable Misuse,Incorrect Output]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ['printf("%d:%d:%d", horas, minutos, segundos);', 'printf("%.2d:%.2d:%.2d\n", horas, minutos, segundos);']

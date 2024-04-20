@@ -1,0 +1,16 @@
+- stu_id: stu_027	       
+- submission: sub_001
+- exercise: lab02/ex05
+- year: year-1
+- correct_submission: None
+- number_of_variables: 2
+- program_features: [for-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex05_0: Wrong Answer,ex05_1: Wrong Answer,ex05_2: Wrong Answer,ex05_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['printf("Insira um inteiro: ");']
+- faulty_lines: [6]
+- fault_types: [Incorrect Output]
+- repair_actions: [Remove] 
+- suggested_repairs: ['']

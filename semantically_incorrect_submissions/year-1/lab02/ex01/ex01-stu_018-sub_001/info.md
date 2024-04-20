@@ -1,0 +1,16 @@
+- stu_id: stu_018	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-1
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 2
+- faults: [' printf("Insira 3 inteiros: \n");', ' printf("O numero e: %d\n",maior);']
+- faulty_lines: [6,16]
+- fault_types: [Incorrect Output, Incorrect Output]
+- repair_actions: [Remove,Replace] 
+- suggested_repairs: ['', ' printf("%d\n",maior);']

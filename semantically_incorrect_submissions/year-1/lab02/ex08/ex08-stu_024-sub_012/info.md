@@ -1,0 +1,17 @@
+- stu_id: stu_024	       
+- submission: sub_012
+- exercise: lab02/ex08
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex08/ex08-stu_024-sub_013)
+- number_of_variables: 5
+- program_features: [while-loop,timeout] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 5
+- tests_output: [ex08_0: Time Limit Exceeded,ex08_1: Time Limit Exceeded,ex08_2: Time Limit Exceeded,ex08_3: Time Limit Exceeded,ex08_4: Time Limit Exceeded]
+- number_of_faults: 3
+- faults: ['i <= N', 'numerador=+valor;','']
+- faulty_lines: [15,19,20]
+- fault_types: [Wrong Comparison Operator,Wrong Expression,Missing Loop Increment]
+- repair_actions: [Replace,Replace,Insert] 
+- suggested_repairs: ['i < N', 'numerador+=valor;', 'i++;']
+  

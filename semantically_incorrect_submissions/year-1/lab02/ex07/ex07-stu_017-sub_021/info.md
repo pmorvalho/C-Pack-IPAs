@@ -1,0 +1,16 @@
+- stu_id: stu_017	       
+- submission: sub_021
+- exercise: lab02/ex07
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex07/ex07-stu_017-sub_019)
+- number_of_variables: 3
+- program_features: [for-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex07_0: Presentation Error,ex07_1: Presentation Error,ex07_2: Presentation Error,ex07_3: Presentation Error]
+- number_of_faults: 1
+- faults: ['printf("%d", divisores);']
+- faulty_lines: [15]
+- fault_types: [Presentation Error]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("%d\n", divisores);']

@@ -1,0 +1,16 @@
+- stu_id: stu_080	       
+- submission: sub_014
+- exercise: lab02/ex03
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex03/ex03-stu_080-sub_011)
+- number_of_variables: 3
+- program_features: [scanf-format] 
+- number_of_passed_tests: 2
+- number_of_failed_tests: 2
+- tests_output: [ex03_0: Wrong Answer,ex03_1: Accepted,ex03_2: Wrong Answer,ex03_3: Accepted]
+- number_of_faults: 1
+- faults: ['scanf("%d,%d", &n, &m);']
+- faulty_lines: [5]
+- fault_types: [Incorrect Input]
+- repair_actions: [Replace] 
+- suggested_repairs: ['scanf("%d%d", &n, &m);']

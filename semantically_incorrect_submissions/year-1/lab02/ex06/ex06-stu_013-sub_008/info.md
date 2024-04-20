@@ -1,0 +1,16 @@
+- stu_id: stu_013	       
+- submission: sub_008
+- exercise: lab02/ex06
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex06/ex06-stu_013-sub_007)
+- number_of_variables: 3
+- program_features: [while-loop,seg-fault] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex06_0: Time Limit Exceeded,ex06_1: Time Limit Exceeded,ex06_2: Wrong Answer]
+- number_of_faults: 4
+- faults: ['', '', 'n>=0', '']
+- faulty_lines: [4,5,7,15]
+- fault_types: [Missing Variable,Uninitialized Variable,Wrong Binary Operation,Missing Loop Decrement]
+- repair_actions: [Insert,Insert,Replace,Insert] 
+- suggested_repairs: ['int c;', 'scanf("%f", &c);', 'c>=1', 'c--;'] 

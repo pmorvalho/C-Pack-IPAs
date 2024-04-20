@@ -1,0 +1,16 @@
+- stu_id: stu_062	       
+- submission: sub_005
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_062-sub_004)
+- number_of_variables: 4
+- program_features: [no-elses] 
+- number_of_passed_tests: 1
+- number_of_failed_tests: 3
+- tests_output: [ex04_0: Accepted,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['']
+- faulty_lines: [14]
+- fault_types: [Missing Instruction]
+- repair_actions: [Insert] 
+- suggested_repairs: ['if (l > n) { aux = l; l = n; n = aux; }']

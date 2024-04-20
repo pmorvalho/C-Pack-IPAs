@@ -1,0 +1,16 @@
+- stu_id: stu_035	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-2
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-2/lab02/ex01/ex01-stu_035-sub_002)
+- number_of_variables: 3
+- program_features: [define,while-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("Insira três números inteiros para ver qual é o maior:\n1º número -> ");', 'printf("%dº número -> ", cont+1);', 'printf("O maior número inserido pelo utilizardor é: %d\n", maior);']
+- faulty_lines: [10,14,20]
+- fault_types: [Incorrect Output,Incorrect Output,Incorrect Output]
+- repair_actions: [Remove,Remove,Replace] 
+- suggested_repairs: ['', '', 'printf("%d\n", maior);']

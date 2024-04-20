@@ -1,0 +1,16 @@
+- stu_id: stu_087	       
+- submission: sub_004
+- exercise: lab02/ex03
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex03/ex03-stu_087-sub_005)
+- number_of_variables: 2
+- program_features: [ternary-op] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex03_0: Wrong Answer,ex03_1: Wrong Answer,ex03_2: Wrong Answer,ex03_3: Wrong Answer]
+- number_of_faults: 2
+- faults: ["Yes\n", "No\n"]
+- faulty_lines: [10,10]
+- fault_types: [Wrong Literal,Wrong Literal]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ["yes\n", "no\n"]

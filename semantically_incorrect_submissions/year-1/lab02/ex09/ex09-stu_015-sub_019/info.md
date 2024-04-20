@@ -1,0 +1,16 @@
+- stu_id: stu_015	       
+- submission: sub_019
+- exercise: lab02/ex09
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex09/ex09-stu_015-sub_018)
+- number_of_variables: 4
+- program_features: [printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex09_0: Wrong Answer,ex09_1: Wrong Answer,ex09_2: Wrong Answer,ex09_3: Wrong Answer]
+- number_of_faults: 5
+- faults: ['dias = n / (3600 * 24);', 'n = n - dias * 3600 * 24;', 'n = n - horas * 3600;', 'n = n - minutos * 60;', 'printf("%d %d %d\n", dias, horas, minutos );']
+- faulty_lines: [8,9,12,15,17]
+- fault_types: [Wrong Expression,Wrong Expression,Wrong Expression,Wrong Expression,Wrong Expression]
+- repair_actions: [Remove,Remove,Replace,Replace,Replace] 
+- suggested_repairs: ['', '', 'n = n%3600;', 'dias = n % 60;', 'printf("%02d:%02d:%02d\n", horas, minutos, segundos);']

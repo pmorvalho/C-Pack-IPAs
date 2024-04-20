@@ -1,0 +1,16 @@
+- stu_id: stu_086	       
+- submission: sub_001
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: None
+- number_of_variables: 4
+- program_features: [no-elses] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['printf("Introduz 3 números inteiros: \n");', '', 'printf("O valor maior é %d\n", vm);']
+- faulty_lines: [9,11,23]
+- fault_types: [Incorrect Output,Uninitialized Variable,Incorrect Output]
+- repair_actions: [Remove,Insert,Replace] 
+- suggested_repairs: ['', 'vm=x;', 'printf("%d\n", vm);']

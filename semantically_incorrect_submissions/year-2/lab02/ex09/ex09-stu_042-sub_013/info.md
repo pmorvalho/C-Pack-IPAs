@@ -1,0 +1,16 @@
+- stu_id: stu_042	       
+- submission: sub_013
+- exercise: lab02/ex09
+- year: year-2
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-2/lab02/ex09/ex09-stu_042-sub_014)
+- number_of_variables: 4
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex09_0: Wrong Answer,ex09_1: Wrong Answer,ex09_2: Wrong Answer,ex09_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['printf("Insira tempo em segundos: ");']
+- faulty_lines: [7]
+- fault_types: [Incorrect Output]
+- repair_actions: [Remove] 
+- suggested_repairs: ['']

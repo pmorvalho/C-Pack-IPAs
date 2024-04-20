@@ -1,0 +1,16 @@
+- stu_id: stu_020	       
+- submission: sub_003
+- exercise: lab02/ex01
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex01/ex01-stu_020-sub_006)
+- number_of_variables: 4
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['    printf("Insira três números ");', '    printf("O maior número é %d \n",maior);', 'segundo > primeiro']
+- faulty_lines: [9,21,12]
+- fault_types: [Incorrect Output,Incorrect Output,Incomplete Binary Operation]
+- repair_actions: [Remove,Replace,Replace] 
+- suggested_repairs: ['', '    printf("%d\n",maior);', 'segundo > primeiro && segundo > terceiro']

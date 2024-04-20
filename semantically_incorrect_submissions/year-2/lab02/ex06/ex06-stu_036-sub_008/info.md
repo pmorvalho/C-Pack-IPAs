@@ -1,0 +1,16 @@
+- stu_id: stu_036	       
+- submission: sub_008
+- exercise: lab02/ex06
+- year: year-2
+- correct_submission: None
+- number_of_variables: 5
+- program_features: [while-loop,auxiliary_function,timeout,seg-fault] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex06_0: Time Limit Exceeded,ex06_1: Time Limit Exceeded,ex06_2: Wrong Answer]
+- number_of_faults: 3
+- faults: ['', '', 'n >= 0']
+- faulty_lines: [12,13,15]
+- fault_types: [Missing Variable,Missing Expression,Missing Loop Decrement]
+- repair_actions: [Insert,Insert,Replace,Replace,Replace] 
+- suggested_repairs: ['float i = 0;', 'scanf("%f", &i);', '--i >= 0']

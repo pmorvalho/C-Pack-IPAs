@@ -1,0 +1,16 @@
+- stu_id: stu_080	       
+- submission: sub_019
+- exercise: lab02/ex04
+- year: year-3
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-3/lab02/ex04/ex04-stu_080-sub_018)
+- number_of_variables: 8
+- program_features: [ternary-op] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Presentation Error,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 2
+- faults: ['meio = m < n3 ? m : n3;', 'printf("%d\t%d\t%d\n", min, meio, maior);']
+- faulty_lines: [11,15]
+- fault_types: [Wrong Expression,Presentation Error]
+- repair_actions: [Replace,Replace] 
+- suggested_repairs: ['meio = m > n3 && n < n3 ? n3 : (m < n3) && (m == n1) ? n1 : n2 ;', 'printf("%d %d %d\n", min, meio, maior);']

@@ -1,0 +1,16 @@
+- stu_id: stu_017	       
+- submission: sub_008
+- exercise: lab02/ex04
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex04/ex04-stu_017-sub_009)
+- number_of_variables: 4
+- program_features: [] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex04_0: Wrong Answer,ex04_1: Wrong Answer,ex04_2: Wrong Answer,ex04_3: Wrong Answer]
+- number_of_faults: 4
+- faults: ['b < a', 'c < a', '', 'printf("%d %d %d", a, b, c);']
+- faulty_lines: [10,15,20,21]
+- fault_types: [Incomplete Binary Operation,Incomplete Binary Operation,Missing Instruction,Presentation Error]
+- repair_actions: [Replace,Replace,Insert,Replace] 
+- suggested_repairs: ['(b < a) && (b < c)', 'if (c < b) {aux = b;b = c;c = aux;}', 'printf("%d %d %d\n", a, b, c);']

@@ -1,0 +1,16 @@
+- stu_id: stu_042	       
+- submission: sub_010
+- exercise: lab02/ex06
+- year: year-2
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-2/lab02/ex06/ex06-stu_042-sub_009)
+- number_of_variables: 4
+- program_features: [while-loop,printf-format] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex06_0: Wrong Answer,ex06_1: Wrong Answer,ex06_2: Wrong Answer]
+- number_of_faults: 1
+- faults: ['printf("min: %.1f, max: %.1f\n", min, max);']
+- faulty_lines: [24]
+- fault_types: [Incorrect Output]
+- repair_actions: [Replace] 
+- suggested_repairs: ['printf("min: %f, max: %f\n", min, max);']

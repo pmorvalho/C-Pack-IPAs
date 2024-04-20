@@ -1,0 +1,16 @@
+- stu_id: stu_002	       
+- submission: sub_010
+- exercise: lab02/ex10
+- year: year-1
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-1/lab02/ex10/ex10-stu_002-sub_011)
+- number_of_variables: 4
+- program_features: [while-loop,bitwise-AND] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 4
+- tests_output: [ex10_0: Wrong Answer,ex10_1: Wrong Answer,ex10_2: Wrong Answer,ex10_3: Wrong Answer]
+- number_of_faults: 1
+- faults: ['digit = n & 10;']
+- faulty_lines: [10]
+- fault_types: [Wrong Binary Operation]
+- repair_actions: [Replace] 
+- suggested_repairs: ['digit = n % 10;']

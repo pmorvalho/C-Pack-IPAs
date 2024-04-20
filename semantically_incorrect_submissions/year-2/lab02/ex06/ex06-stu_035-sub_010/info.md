@@ -1,0 +1,16 @@
+- stu_id: stu_035	       
+- submission: sub_010
+- exercise: lab02/ex06
+- year: year-2
+- correct_submission: [path](https://github.com/pmorvalho/C-Pack-IPAs/blob/main/correct_submissions/year-2/lab02/ex06/ex06-stu_035-sub_009)
+- number_of_variables: 5
+- program_features: [while-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex06_0: Presentation Error,ex06_1: Presentation Error,ex06_2: Presentation Error]
+- number_of_faults: 3
+- faults: ['printf("\nmin: %f, max: %f\n", min, max);', '', '']
+- faulty_lines: [24,10,10]
+- fault_types: [Presentation Error,Uninitialized Variable,Uninitialized Variable]
+- repair_actions: [Replace,Insert,Insert] 
+- suggested_repairs: ['printf("min: %f, max: %f\n", min, max);', 'min = 0;', 'max = 0;']

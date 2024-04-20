@@ -1,0 +1,16 @@
+- stu_id: stu_063	       
+- submission: sub_003
+- exercise: lab02/ex01
+- year: year-3
+- correct_submission: None
+- number_of_variables: 3
+- program_features: [for-loop] 
+- number_of_passed_tests: 0
+- number_of_failed_tests: 3
+- tests_output: [ex01_0: Wrong Answer,ex01_1: Wrong Answer,ex01_2: Wrong Answer]
+- number_of_faults: 1
+- faults: ['']
+- faulty_lines: [12]
+- fault_types: [Missing Output]
+- repair_actions: [Insert] 
+- suggested_repairs: ['printf("%d\n", maior);']
