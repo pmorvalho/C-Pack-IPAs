@@ -1,0 +1,11 @@
+# student: stu_097
+# submission: sub_004
+
+```diff
+! ex02_0: Presentation Error
+! ex02_1: Presentation Error
+! ex02_2: Presentation Error
+! ex02_3: Presentation Error
+```
+#incorrect=4
+#correct=0

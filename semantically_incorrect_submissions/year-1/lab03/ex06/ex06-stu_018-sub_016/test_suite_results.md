@@ -1,0 +1,14 @@
+# student: stu_018
+# submission: sub_016
+
+```diff
+@@ ex06_0: Time Limit Exceeded
+@@ ex06_1: Time Limit Exceeded
+@@ ex06_2: Time Limit Exceeded
+@@ ex06_3: Time Limit Exceeded
+@@ ex06_4: Time Limit Exceeded
+@@ ex06_5: Time Limit Exceeded
+@@ ex06_6: Time Limit Exceeded
+```
+#incorrect=7
+#correct=0

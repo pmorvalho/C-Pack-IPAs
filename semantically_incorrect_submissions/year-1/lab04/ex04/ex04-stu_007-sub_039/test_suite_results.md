@@ -1,0 +1,12 @@
+# student: stu_007
+# submission: sub_039
+
+```diff
++ ex04_0: Accepted
+- ex04_1: Wrong Answer
+- ex04_2: Wrong Answer
++ ex04_3: Accepted
+- ex04_4: Wrong Answer
+```
+#incorrect=3
+#correct=2
