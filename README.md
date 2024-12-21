@@ -1,10 +1,9 @@
 # C-Pack-IPAs
 
-C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments
-
-
+This is the official git repo of _"C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments"_ published in the 5th International Workshop on Automated Program Repair, APR 2024, co-located with ICSE 2024. 
 
 C-Pack-IPAs is a benchmark of student programs developed during an introductory programming course in the C programming language. These programs were collected over three distinct practical classes at Instituto Superior Técnico for 25 different IPAs.
+
 The set of submissions was split into three groups: semantically correct, semantically incorrect, and syntactically incorrect submissions.
 The students' submissions that satisfied the set of input-output test cases for each IPA were considered semantically correct. The submissions that failed at least one input-output test but successfully compiled were considered semantically incorrect implementations. Lastly, the students' submissions that did not successfully compile were considered syntactically incorrect implementations.
 
@@ -25,7 +24,7 @@ gcc -Wall -Wextra -Werror -ansi -pedantic -lm p1.c
 
 ## References
 
-Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/2206.08768.pdf](https://arxiv.org/pdf/2206.08768.pdf)
+P. Orvalho, M. Janota, and V. Manquinho. C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments. In the 5th International Workshop on Automated Program Repair, APR 2024, co-located with ICSE 2024. [PDF](https://web.ist.utl.pt/ist181151/papers/apr24-paper.pdf).
 
 ## Acks
 
