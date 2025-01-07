@@ -1,0 +1,18 @@
+ex04-stu_150-sub_032.c: In function ‘main’:
+ex04-stu_150-sub_032.c:13:15: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |               ^~
+ex04-stu_150-sub_032.c:13:15: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_032.c:13:27: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |                           ^~
+ex04-stu_150-sub_032.c:13:27: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_032.c:13:39: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |                                       ^~
+ex04-stu_150-sub_032.c:13:39: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_032.c:13:52: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |                                                    ^~
+ex04-stu_150-sub_032.c:13:52: error: comparison with string literal results in unspecified behavior [-Werror=address]
+cc1: all warnings being treated as errors

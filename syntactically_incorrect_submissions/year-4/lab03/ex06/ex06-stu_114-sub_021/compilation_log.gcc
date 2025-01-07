@@ -1,0 +1,5 @@
+ex06-stu_114-sub_021.c: In function ‘main’:
+ex06-stu_114-sub_021.c:12:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   12 |     int Tam = strlen(N);
+      |     ^~~
+cc1: all warnings being treated as errors

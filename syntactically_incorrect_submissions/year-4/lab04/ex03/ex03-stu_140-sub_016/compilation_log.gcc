@@ -1,0 +1,5 @@
+ex03-stu_140-sub_016.c: In function ‘main’:
+ex03-stu_140-sub_016.c:5:21: error: unused variable ‘vec2’ [-Werror=unused-variable]
+    5 |     int vec[VECMAX],vec2[VECMAX], n,i,allmax=0,max=0;
+      |                     ^~~~
+cc1: all warnings being treated as errors

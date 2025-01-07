@@ -1,0 +1,13 @@
+ex04-stu_104-sub_034.c: In function ‘main’:
+ex04-stu_104-sub_034.c:15:3: error: implicit declaration of function ‘snprintf’ [-Werror=implicit-function-declaration]
+   15 |   snprintf(format, sizeof(format), "%%%d[a-zA-Z]s", VECMAX - 1);
+      |   ^~~~~~~~
+ex04-stu_104-sub_034.c:6:1: note: ‘snprintf’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+    5 | #include <string.h>
+  +++ |+#include <stdio.h>
+    6 | #define VECMAX 80
+ex04-stu_104-sub_034.c:22:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |   for (int i = 0; i < word_length / 2; i++) {
+      |   ^~~
+ex04-stu_104-sub_034.c:22:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

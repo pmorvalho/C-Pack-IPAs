@@ -1,0 +1,5 @@
+ex04-stu_137-sub_006.c: In function ‘main’:
+ex04-stu_137-sub_006.c:9:11: error: too many arguments for format [-Werror=format-extra-args]
+    9 |     scanf("%d %d", &num1, &num2, &num3);
+      |           ^~~~~~~
+cc1: all warnings being treated as errors

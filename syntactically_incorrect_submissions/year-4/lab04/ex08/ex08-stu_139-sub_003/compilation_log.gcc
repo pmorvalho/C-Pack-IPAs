@@ -1,0 +1,12 @@
+ex08-stu_139-sub_003.c: In function ‘main’:
+ex08-stu_139-sub_003.c:13:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |     for (int i = 0; i < strlen(n1); i++)
+      |     ^~~
+ex08-stu_139-sub_003.c:13:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex08-stu_139-sub_003.c:13:23: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+   13 |     for (int i = 0; i < strlen(n1); i++)
+      |                       ^
+ex08-stu_139-sub_003.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+   28 | }
+      | ^
+cc1: all warnings being treated as errors

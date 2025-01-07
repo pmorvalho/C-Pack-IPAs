@@ -1,0 +1,11 @@
+ex07-stu_139-sub_003.c: In function ‘main’:
+ex07-stu_139-sub_003.c:33:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   33 |     char *numCaracteres = apagaCaracter(linha, c);
+      |     ^~~~
+ex07-stu_139-sub_003.c:33:11: error: unused variable ‘numCaracteres’ [-Werror=unused-variable]
+   33 |     char *numCaracteres = apagaCaracter(linha, c);
+      |           ^~~~~~~~~~~~~
+ex07-stu_139-sub_003.c:36:1: error: control reaches end of non-void function [-Werror=return-type]
+   36 | }
+      | ^
+cc1: all warnings being treated as errors

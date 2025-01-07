@@ -1,0 +1,22 @@
+ex04-stu_114-sub_027.c: In function ‘spc’:
+ex04-stu_114-sub_027.c:20:1: error: expected expression before ‘}’ token
+   20 | }
+      | ^
+ex04-stu_114-sub_027.c: In function ‘main’:
+ex04-stu_114-sub_027.c:35:13: error: expected ‘;’ before ‘}’ token
+   35 |             } else if (current == '0') {
+      |             ^
+ex04-stu_114-sub_027.c:37:13: error: expected ‘;’ before ‘}’ token
+   37 |             } else {
+      |             ^
+ex04-stu_114-sub_027.c:50:13: error: expected ‘;’ before ‘}’ token
+   50 |             }
+      |             ^
+ex04-stu_114-sub_027.c:64:13: error: expected ‘;’ before ‘}’ token
+   64 |             }
+      |             ^
+ex04-stu_114-sub_027.c: In function ‘spc’:
+ex04-stu_114-sub_027.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+   20 | }
+      | ^
+cc1: all warnings being treated as errors

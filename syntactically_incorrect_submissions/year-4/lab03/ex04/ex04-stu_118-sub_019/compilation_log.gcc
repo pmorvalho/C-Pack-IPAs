@@ -1,0 +1,8 @@
+ex04-stu_118-sub_019.c: In function ‘main’:
+ex04-stu_118-sub_019.c:28:13: error: this ‘else’ clause does not guard... [-Werror=misleading-indentation]
+   28 |             else
+      |             ^~~~
+ex04-stu_118-sub_019.c:30:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   30 |                 st = Fora;
+      |                 ^~
+cc1: all warnings being treated as errors

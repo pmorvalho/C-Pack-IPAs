@@ -1,0 +1,8 @@
+ex07-stu_141-sub_009.c: In function ‘apagaCaracter’:
+ex07-stu_141-sub_009.c:7:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |     for (int i = 0; s[i] != '\0'; i++){
+      |     ^~~
+ex07-stu_141-sub_009.c:7:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex07-stu_141-sub_009.c:9:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    9 |             for(int j = i; s[j] != '\0'; j++){
+      |             ^~~

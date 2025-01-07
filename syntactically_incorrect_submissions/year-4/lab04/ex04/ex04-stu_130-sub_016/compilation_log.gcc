@@ -1,0 +1,18 @@
+ex04-stu_130-sub_016.c: In function ‘main’:
+ex04-stu_130-sub_016.c:15:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   15 |     for (int i = 0; s[i] != '\0'; i++){
+      |     ^~~
+ex04-stu_130-sub_016.c:15:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex04-stu_130-sub_016.c:18:14: error: redefinition of ‘i’
+   18 |     for (int i = 0; i < indice; i++){
+      |              ^
+ex04-stu_130-sub_016.c:15:14: note: previous definition of ‘i’ with type ‘int’
+   15 |     for (int i = 0; s[i] != '\0'; i++){
+      |              ^
+ex04-stu_130-sub_016.c:18:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   18 |     for (int i = 0; i < indice; i++){
+      |     ^~~
+ex04-stu_130-sub_016.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+   23 | }
+      | ^
+cc1: all warnings being treated as errors

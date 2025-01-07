@@ -1,0 +1,5 @@
+ex07-stu_157-sub_030.c: In function ‘main’:
+ex07-stu_157-sub_030.c:34:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   34 |     char a;
+      |     ^~~~
+cc1: all warnings being treated as errors

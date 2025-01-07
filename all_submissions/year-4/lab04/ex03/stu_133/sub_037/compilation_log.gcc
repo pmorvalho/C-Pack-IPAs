@@ -1,0 +1,5 @@
+ex03-stu_133-sub_037.c: In function ‘mostraGrafico’:
+ex03-stu_133-sub_037.c:35:5: error: ISO C90 forbids variable length array ‘linha’ [-Werror=vla]
+   35 |     char linha[n];
+      |     ^~~~
+cc1: all warnings being treated as errors

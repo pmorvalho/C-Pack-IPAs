@@ -1,0 +1,21 @@
+ex02-stu_153-sub_034.c: In function ‘piramide’:
+ex02-stu_153-sub_034.c:5:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    5 |     for (int i = 1; i <= n; i++) {
+      |     ^~~
+ex02-stu_153-sub_034.c:5:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_153-sub_034.c:6:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    6 |         for (int j = 0; j < n - i; j++) {
+      |         ^~~
+ex02-stu_153-sub_034.c:10:13: error: redeclaration of ‘j’ with no linkage
+   10 |         int j;
+      |             ^
+ex02-stu_153-sub_034.c:6:18: note: previous definition of ‘j’ with type ‘int’
+    6 |         for (int j = 0; j < n - i; j++) {
+      |                  ^
+ex02-stu_153-sub_034.c:10:9: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |         int j;
+      |         ^~~
+ex02-stu_153-sub_034.c:28:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   28 |         for (int k = j; k > 0; k--) {
+      |         ^~~
+cc1: all warnings being treated as errors

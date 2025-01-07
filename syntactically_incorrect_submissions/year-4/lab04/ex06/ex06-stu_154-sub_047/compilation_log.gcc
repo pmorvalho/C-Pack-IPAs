@@ -1,0 +1,8 @@
+ex06-stu_154-sub_047.c: In function ‘maisculas’:
+ex06-stu_154-sub_047.c:10:18: error: ‘i’ is used uninitialized [-Werror=uninitialized]
+   10 |     while ((c = s[i] != '\0')) {
+      |                  ^
+ex06-stu_154-sub_047.c:8:9: note: ‘i’ was declared here
+    8 |     int i;
+      |         ^
+cc1: all warnings being treated as errors

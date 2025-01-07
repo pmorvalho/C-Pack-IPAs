@@ -1,0 +1,12 @@
+ex03-stu_157-sub_024.c: In function ‘main’:
+ex03-stu_157-sub_024.c:13:5: error: ISO C90 forbids variable length array ‘nums’ [-Werror=vla]
+   13 |     int nums[n];
+      |     ^~~
+ex03-stu_157-sub_024.c:13:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex03-stu_157-sub_024.c:23:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   23 |     int a, b;
+      |     ^~~
+ex03-stu_157-sub_024.c:36:1: error: control reaches end of non-void function [-Werror=return-type]
+   36 | }
+      | ^
+cc1: all warnings being treated as errors

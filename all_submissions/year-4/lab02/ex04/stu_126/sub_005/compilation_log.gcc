@@ -1,0 +1,20 @@
+ex04-stu_126-sub_005.c: In function ‘main’:
+ex04-stu_126-sub_005.c:9:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+    9 |     if (n1 < n2 <n3){
+      |         ~~~^~~~
+ex04-stu_126-sub_005.c:12:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   12 |     if (n1 < n3< n2){
+      |         ~~~^~~~
+ex04-stu_126-sub_005.c:15:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   15 |     if (n2 < n1< n3){
+      |         ~~~^~~~
+ex04-stu_126-sub_005.c:18:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   18 |     if (n2 < n3< n1){
+      |         ~~~^~~~
+ex04-stu_126-sub_005.c:21:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   21 |     if (n3 < n2< n1){
+      |         ~~~^~~~
+ex04-stu_126-sub_005.c:24:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   24 |     if (n3 < n1< n2){
+      |         ~~~^~~~
+cc1: all warnings being treated as errors

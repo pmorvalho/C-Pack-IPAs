@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+#define VECMAX 100
+
+int main() {
+    int n, i, a[VECMAX], max = 0;
+    scanf("%d", &n);
+    
+
+    for (i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+        if (a[i] > max) {
+            max = a[i];
+        }
+    }
+    for (int j = 1; j <= max; j++) {
+        for (i = 0; i < j; i++) {
+        if( a[i] >= j) {
+            printf("*");
+        }
+        else {
+            printf(" ");
+        }
+            }
+    printf("\n");
+
+}
+            
+
+
+
+    return 0;
+    }
+

@@ -1,0 +1,5 @@
+ex06-stu_138-sub_038.c: In function ‘maisculas’:
+ex06-stu_138-sub_038.c:10:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |     char s1[MAX];
+      |     ^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,8 @@
+ex06-stu_106-sub_013.c: In function ‘main’:
+ex06-stu_106-sub_013.c:10:15: error: ‘max’ is used uninitialized [-Werror=uninitialized]
+   10 |     num = min = max;
+      |           ~~~~^~~~~
+ex06-stu_106-sub_013.c:7:16: note: ‘max’ was declared here
+    7 |     float min, max, num;
+      |                ^~~
+cc1: all warnings being treated as errors

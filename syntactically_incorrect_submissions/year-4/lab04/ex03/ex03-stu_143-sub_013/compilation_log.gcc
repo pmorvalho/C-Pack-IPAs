@@ -1,0 +1,6 @@
+ex03-stu_143-sub_013.c: In function ‘main’:
+ex03-stu_143-sub_013.c:12:5: error: ISO C90 forbids variable length array ‘numero’ [-Werror=vla]
+   12 |     int numero[n];
+      |     ^~~
+ex03-stu_143-sub_013.c:12:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

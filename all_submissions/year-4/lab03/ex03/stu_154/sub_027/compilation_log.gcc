@@ -1,0 +1,8 @@
+ex03-stu_154-sub_027.c: In function ‘cruz’:
+ex03-stu_154-sub_027.c:4:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    4 |     for(int i = 0; i < N; i++){
+      |     ^~~
+ex03-stu_154-sub_027.c:4:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_154-sub_027.c:5:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    5 |         for(int j = 0; j < N; j++){
+      |         ^~~

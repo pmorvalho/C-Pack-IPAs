@@ -1,0 +1,5 @@
+ex04-stu_109-sub_013.c: In function ‘main’:
+ex04-stu_109-sub_013.c:10:6: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |      int temp;
+      |      ^~~
+cc1: all warnings being treated as errors

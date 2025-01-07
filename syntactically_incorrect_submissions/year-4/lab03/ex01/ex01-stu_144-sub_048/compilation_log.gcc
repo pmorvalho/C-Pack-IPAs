@@ -1,0 +1,20 @@
+ex01-stu_144-sub_048.c: In function ‘main’:
+ex01-stu_144-sub_048.c:11:5: error: implicit declaration of function ‘quadrado’ [-Werror=implicit-function-declaration]
+   11 |     quadrado(N);
+      |     ^~~~~~~~
+ex01-stu_144-sub_048.c: At top level:
+ex01-stu_144-sub_048.c:15:6: error: conflicting types for ‘quadrado’; have ‘void(int)’ [-Werror]
+   15 | void quadrado(int n){
+      |      ^~~~~~~~
+ex01-stu_144-sub_048.c:11:5: note: previous implicit declaration of ‘quadrado’ with type ‘void(int)’
+   11 |     quadrado(N);
+      |     ^~~~~~~~
+ex01-stu_144-sub_048.c: In function ‘quadrado’:
+ex01-stu_144-sub_048.c:19:21: error: ‘N’ undeclared (first use in this function)
+   19 |     for(i = 1; i <= N; i++){
+      |                     ^
+ex01-stu_144-sub_048.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_144-sub_048.c:15:19: error: unused parameter ‘n’ [-Werror=unused-parameter]
+   15 | void quadrado(int n){
+      |               ~~~~^
+cc1: all warnings being treated as errors

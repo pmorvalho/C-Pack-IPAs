@@ -1,0 +1,11 @@
+ex02-stu_112-sub_034.c: In function ‘main’:
+ex02-stu_112-sub_034.c:18:14: error: redeclaration of ‘i’ with no linkage
+   18 |     for (int i = 0; i < n; i++) {
+      |              ^
+ex02-stu_112-sub_034.c:8:9: note: previous declaration of ‘i’ with type ‘int’
+    8 |     int i,n,j, vec[VECMAX];
+      |         ^
+ex02-stu_112-sub_034.c:18:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   18 |     for (int i = 0; i < n; i++) {
+      |     ^~~
+ex02-stu_112-sub_034.c:18:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

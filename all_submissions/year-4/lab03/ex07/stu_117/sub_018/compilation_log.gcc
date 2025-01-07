@@ -1,0 +1,8 @@
+ex07-stu_117-sub_018.c: In function ‘algarismo’:
+ex07-stu_117-sub_018.c:9:28: error: comparison of constant ‘57’ with boolean expression is always true [-Werror=bool-compare]
+    9 |     return '0' <= caracter <= '9';
+      |                            ^~
+ex07-stu_117-sub_018.c:9:16: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+    9 |     return '0' <= caracter <= '9';
+      |            ~~~~^~~~~~~~~~~
+cc1: all warnings being treated as errors

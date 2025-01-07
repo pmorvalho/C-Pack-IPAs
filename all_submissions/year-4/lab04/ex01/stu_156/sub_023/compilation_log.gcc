@@ -1,0 +1,5 @@
+ex01-stu_156-sub_023.c: In function ‘main’:
+ex01-stu_156-sub_023.c:7:20: error: ‘d’ undeclared (first use in this function)
+    7 |     if(scanf("%d",&d) != 1 || n <= 0 || n >= VECMAX){
+      |                    ^
+ex01-stu_156-sub_023.c:7:20: note: each undeclared identifier is reported only once for each function it appears in

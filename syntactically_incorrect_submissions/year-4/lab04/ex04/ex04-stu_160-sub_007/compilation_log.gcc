@@ -1,0 +1,17 @@
+ex04-stu_160-sub_007.c: In function ‘main’:
+ex04-stu_160-sub_007.c:8:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+    8 |     scanf("%s", s);
+      |            ~^   ~
+      |             |   |
+      |             |   int
+      |             char *
+ex04-stu_160-sub_007.c:11:1: error: control reaches end of non-void function [-Werror=return-type]
+   11 | }
+      | ^
+ex04-stu_160-sub_007.c:8:5: error: ‘s’ is used uninitialized [-Werror=uninitialized]
+    8 |     scanf("%s", s);
+      |     ^~~~~~~~~~~~~~
+ex04-stu_160-sub_007.c:7:10: note: ‘s’ was declared here
+    7 |     char s;
+      |          ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,9 @@
+ex06-stu_130-sub_016.c: In function ‘main’:
+ex06-stu_130-sub_016.c:19:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   19 |     for(int i = 0; (c = getchar()) != '\n' || i > 99 ;i++){
+      |     ^~~
+ex06-stu_130-sub_016.c:19:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex06-stu_130-sub_016.c:24:1: error: control reaches end of non-void function [-Werror=return-type]
+   24 | }
+      | ^
+cc1: all warnings being treated as errors

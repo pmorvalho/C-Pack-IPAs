@@ -1,0 +1,25 @@
+ex02-stu_118-sub_025.c: In function ‘main’:
+ex02-stu_118-sub_025.c:8:5: error: ISO C90 forbids variable length array ‘numeros’ [-Werror=vla]
+    8 |     int numeros[n];
+      |     ^~~
+ex02-stu_118-sub_025.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex02-stu_118-sub_025.c:9:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    9 |     for (int i = 0; i < n; i ++){
+      |     ^~~
+ex02-stu_118-sub_025.c:9:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_118-sub_025.c:13:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |         for (int i = 0; i < n; i++) {
+      |         ^~~
+ex02-stu_118-sub_025.c:21:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   21 |     int c = 0;
+      |     ^~~
+ex02-stu_118-sub_025.c:22:14: error: redefinition of ‘i’
+   22 |     for (int i = 0; i < n; i++) {
+      |              ^
+ex02-stu_118-sub_025.c:13:18: note: previous definition of ‘i’ with type ‘int’
+   13 |         for (int i = 0; i < n; i++) {
+      |                  ^
+ex02-stu_118-sub_025.c:22:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |     for (int i = 0; i < n; i++) {
+      |     ^~~
+cc1: all warnings being treated as errors

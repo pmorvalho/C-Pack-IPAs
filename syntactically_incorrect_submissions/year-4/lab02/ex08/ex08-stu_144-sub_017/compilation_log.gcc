@@ -1,0 +1,11 @@
+ex08-stu_144-sub_017.c: In function ‘main’:
+ex08-stu_144-sub_017.c:6:20: error: expected ‘,’ or ‘;’ before ‘:’ token
+    6 |     int counter = 0:
+      |                    ^
+ex08-stu_144-sub_017.c:12:22: error: ‘num’ undeclared (first use in this function)
+   12 |         scanf("%f", &num);
+      |                      ^~~
+ex08-stu_144-sub_017.c:12:22: note: each undeclared identifier is reported only once for each function it appears in
+ex08-stu_144-sub_017.c:17:5: error: ‘media’ undeclared (first use in this function)
+   17 |     media = soma / N;
+      |     ^~~~~

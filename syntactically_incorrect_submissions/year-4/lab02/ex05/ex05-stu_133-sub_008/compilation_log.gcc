@@ -1,0 +1,8 @@
+ex05-stu_133-sub_008.c: In function ‘main’:
+ex05-stu_133-sub_008.c:9:21: error: ‘contador’ is used uninitialized [-Werror=uninitialized]
+    9 |     while (contador <= N) {
+      |            ~~~~~~~~~^~~~
+ex05-stu_133-sub_008.c:5:12: note: ‘contador’ was declared here
+    5 |     int N, contador;
+      |            ^~~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex04-stu_148-sub_049.c: In function ‘main’:
+ex04-stu_148-sub_049.c:13:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   13 |     int len = strlen(palavra);
+      |     ^~~
+cc1: all warnings being treated as errors

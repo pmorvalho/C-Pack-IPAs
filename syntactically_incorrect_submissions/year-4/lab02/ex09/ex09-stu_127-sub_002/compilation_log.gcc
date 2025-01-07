@@ -1,0 +1,20 @@
+ex09-stu_127-sub_002.c: In function ‘main’:
+ex09-stu_127-sub_002.c:24:10: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   24 | printf("%d:%d:%d", &HH, &MM, &SS);
+      |         ~^         ~~~
+      |          |         |
+      |          int       int *
+      |         %ls
+ex09-stu_127-sub_002.c:24:13: error: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Werror=format=]
+   24 | printf("%d:%d:%d", &HH, &MM, &SS);
+      |            ~^           ~~~
+      |             |           |
+      |             int         int *
+      |            %ls
+ex09-stu_127-sub_002.c:24:16: error: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Werror=format=]
+   24 | printf("%d:%d:%d", &HH, &MM, &SS);
+      |               ~^             ~~~
+      |                |             |
+      |                int           int *
+      |               %ls
+cc1: all warnings being treated as errors

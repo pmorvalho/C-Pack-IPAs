@@ -1,0 +1,5 @@
+ex03-stu_143-sub_012.c: In function ‘cruz’:
+ex03-stu_143-sub_012.c:17:9: error: variable ‘par’ set but not used [-Werror=unused-but-set-variable]
+   17 |     int par, i ,j;
+      |         ^~~
+cc1: all warnings being treated as errors

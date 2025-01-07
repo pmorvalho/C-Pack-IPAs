@@ -1,0 +1,28 @@
+ex04-stu_093-sub_046.c: In function ‘counting_sort’:
+ex04-stu_093-sub_046.c:16:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |     int shift = 0;
+      |     ^~~
+ex04-stu_093-sub_046.c:26:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   26 |     int count_size = max_val + 1;
+      |     ^~~
+ex04-stu_093-sub_046.c:32:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   32 |     int index = 0;
+      |     ^~~
+ex04-stu_093-sub_046.c: In function ‘main’:
+ex04-stu_093-sub_046.c:53:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   53 |     for(int i = 0; i < 3; i++) {
+      |     ^~~
+ex04-stu_093-sub_046.c:53:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex04-stu_093-sub_046.c:57:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   57 |     int n = sizeof(arr) / sizeof(arr[0]);
+      |     ^~~
+ex04-stu_093-sub_046.c:61:13: error: redefinition of ‘i’
+   61 |     for(int i = 0; i < n - 1; i++) {
+      |             ^
+ex04-stu_093-sub_046.c:53:13: note: previous definition of ‘i’ with type ‘int’
+   53 |     for(int i = 0; i < 3; i++) {
+      |             ^
+ex04-stu_093-sub_046.c:61:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   61 |     for(int i = 0; i < n - 1; i++) {
+      |     ^~~
+cc1: all warnings being treated as errors

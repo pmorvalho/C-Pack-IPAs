@@ -1,0 +1,5 @@
+ex01-stu_121-sub_001.c: In function ‘main’:
+ex01-stu_121-sub_001.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int result = x1>x2? (x1>x3? x1:x3) : (x2>x3? x2:x3);
+      |     ^~~
+cc1: all warnings being treated as errors

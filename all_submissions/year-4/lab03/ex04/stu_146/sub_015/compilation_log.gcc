@@ -1,0 +1,4 @@
+ex04-stu_146-sub_015.c:17:2: error: C++ style comments are not allowed in ISO C90
+   17 | }//
+      |  ^
+ex04-stu_146-sub_015.c:17:2: note: (this will be reported only once per input file)

@@ -1,0 +1,18 @@
+ex04-stu_139-sub_003.c: In function ‘main’:
+ex04-stu_139-sub_003.c:12:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   12 |     size_t len = strlen(string);
+      |     ^~~~~~
+ex04-stu_139-sub_003.c:16:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |         for (int i = 0; i <= (len / 2) - 1; i++)
+      |         ^~~
+ex04-stu_139-sub_003.c:16:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex04-stu_139-sub_003.c:16:27: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+   16 |         for (int i = 0; i <= (len / 2) - 1; i++)
+      |                           ^~
+ex04-stu_139-sub_003.c:27:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   27 |         for (int i = 0; i <= (len - 1) / 2; i++)
+      |         ^~~
+ex04-stu_139-sub_003.c:27:27: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+   27 |         for (int i = 0; i <= (len - 1) / 2; i++)
+      |                           ^~
+cc1: all warnings being treated as errors

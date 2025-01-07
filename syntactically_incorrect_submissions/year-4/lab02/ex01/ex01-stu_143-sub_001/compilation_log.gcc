@@ -1,0 +1,18 @@
+ex01-stu_143-sub_001.c: In function ‘main’:
+ex01-stu_143-sub_001.c:10:9: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+   10 |         scanf("%d", &num);
+      |         ^~~~~
+ex01-stu_143-sub_001.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_143-sub_001.c:10:9: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+   10 |         scanf("%d", &num);
+      |         ^~~~~
+ex01-stu_143-sub_001.c:10:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex01-stu_143-sub_001.c:15:5: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+   15 |     printf("%d", num);
+      |     ^~~~~~
+ex01-stu_143-sub_001.c:15:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_143-sub_001.c:15:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex01-stu_143-sub_001.c:15:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+cc1: all warnings being treated as errors

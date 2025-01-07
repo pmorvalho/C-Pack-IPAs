@@ -1,0 +1,5 @@
+ex07-stu_126-sub_006.c: In function ‘main’:
+ex07-stu_126-sub_006.c:11:5: error: statement with no effect [-Werror=unused-value]
+   11 |     for (i; i <= N; i++) {
+      |     ^~~
+cc1: all warnings being treated as errors

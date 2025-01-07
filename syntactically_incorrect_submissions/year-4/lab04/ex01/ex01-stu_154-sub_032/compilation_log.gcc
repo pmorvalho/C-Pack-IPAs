@@ -1,0 +1,18 @@
+ex01-stu_154-sub_032.c: In function ‘main’:
+ex01-stu_154-sub_032.c:8:5: error: ISO C90 forbids variable length array ‘a’ [-Werror=vla]
+    8 |     int a[n];
+      |     ^~~
+ex01-stu_154-sub_032.c:8:9: error: redeclaration of ‘a’ with no linkage
+    8 |     int a[n];
+      |         ^
+ex01-stu_154-sub_032.c:5:15: note: previous declaration of ‘a’ with type ‘int[100]’
+    5 |     int n, i, a[VECMAX];
+      |               ^
+ex01-stu_154-sub_032.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int a[n];
+      |     ^~~
+ex01-stu_154-sub_032.c:11:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   11 |         for (int j = 0; j < i; j++) {
+      |         ^~~
+ex01-stu_154-sub_032.c:11:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

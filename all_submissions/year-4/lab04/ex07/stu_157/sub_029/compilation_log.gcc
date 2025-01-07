@@ -1,0 +1,12 @@
+ex07-stu_157-sub_029.c: In function ‘apagaCaracter’:
+ex07-stu_157-sub_029.c:7:19: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+    7 |     for (i = 0; i < strlen(s); i++) {
+      |                   ^
+ex07-stu_157-sub_029.c:9:27: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+    9 |             for (j = i; j < strlen(s) - 1; j++) {
+      |                           ^
+ex07-stu_157-sub_029.c: In function ‘main’:
+ex07-stu_157-sub_029.c:27:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   27 |     char a;
+      |     ^~~~
+cc1: all warnings being treated as errors

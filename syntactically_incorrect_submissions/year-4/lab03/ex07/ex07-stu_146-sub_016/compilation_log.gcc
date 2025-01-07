@@ -1,0 +1,17 @@
+ex07-stu_146-sub_016.c: In function ‘main’:
+ex07-stu_146-sub_016.c:11:13: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   11 |         if (c = '+')
+      |             ^
+ex07-stu_146-sub_016.c:12:13: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   12 |         if (c = '-')
+      |             ^
+ex07-stu_146-sub_016.c:13:5: error: expected expression before ‘}’ token
+   13 |     }
+      |     ^
+ex07-stu_146-sub_016.c:7:12: error: unused variable ‘resultado’ [-Werror=unused-variable]
+    7 |     int c, resultado;
+      |            ^~~~~~~~~
+ex07-stu_146-sub_016.c:15:1: error: control reaches end of non-void function [-Werror=return-type]
+   15 | }
+      | ^
+cc1: all warnings being treated as errors

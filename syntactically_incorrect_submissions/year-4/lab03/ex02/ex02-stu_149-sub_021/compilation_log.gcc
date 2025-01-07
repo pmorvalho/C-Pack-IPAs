@@ -1,0 +1,5 @@
+ex02-stu_149-sub_021.c: In function ‘piramide’:
+ex02-stu_149-sub_021.c:18:17: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   18 |             if (j=1) {
+      |                 ^
+cc1: all warnings being treated as errors

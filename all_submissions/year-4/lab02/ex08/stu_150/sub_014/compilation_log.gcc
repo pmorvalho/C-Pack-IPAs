@@ -1,0 +1,12 @@
+ex08-stu_150-sub_014.c: In function ‘main’:
+ex08-stu_150-sub_014.c:11:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   11 |     for (int i = 0; i < n; i++)
+      |     ^~~
+ex08-stu_150-sub_014.c:11:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex08-stu_150-sub_014.c:13:17: error: unknown conversion type character ‘.’ in format [-Werror=format=]
+   13 |         scanf("%.2f", &aux);
+      |                 ^
+ex08-stu_150-sub_014.c:13:15: error: too many arguments for format [-Werror=format-extra-args]
+   13 |         scanf("%.2f", &aux);
+      |               ^~~~~~
+cc1: all warnings being treated as errors

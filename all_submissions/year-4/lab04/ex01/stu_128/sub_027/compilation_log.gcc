@@ -1,0 +1,12 @@
+ex01-stu_128-sub_027.c: In function ‘main’:
+ex01-stu_128-sub_027.c:12:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   12 |     for(int i = 0; i<n;i++)
+      |     ^~~
+ex01-stu_128-sub_027.c:12:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_128-sub_027.c:16:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |         for(int k = 0; k<input;k++)
+      |         ^~~
+ex01-stu_128-sub_027.c:8:9: error: variable ‘list’ set but not used [-Werror=unused-but-set-variable]
+    8 |     int list[DIM];
+      |         ^~~~
+cc1: all warnings being treated as errors

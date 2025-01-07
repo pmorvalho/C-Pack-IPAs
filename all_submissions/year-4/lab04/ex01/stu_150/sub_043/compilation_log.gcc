@@ -1,0 +1,26 @@
+ex01-stu_150-sub_043.c: In function ‘main’:
+ex01-stu_150-sub_043.c:10:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |     for (int i = 0; i < n; i++)
+      |     ^~~
+ex01-stu_150-sub_043.c:10:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_150-sub_043.c:13:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |         for(int j = 0; j< count; j++)
+      |         ^~~
+ex01-stu_150-sub_043.c:15:20: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   15 |             printf('*');
+      |                    ^~~
+      |                    |
+      |                    int
+In file included from ex01-stu_150-sub_043.c:3:
+/usr/include/stdio.h:356:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex01-stu_150-sub_043.c:17:16: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   17 |         printf('\n');
+      |                ^~~~
+      |                |
+      |                int
+/usr/include/stdio.h:356:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+cc1: all warnings being treated as errors

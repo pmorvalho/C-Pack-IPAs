@@ -1,0 +1,5 @@
+ex04-stu_142-sub_027.c: In function ‘is_palindrome’:
+ex04-stu_142-sub_027.c:12:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   12 |     int rigth = size - 1;
+      |     ^~~
+cc1: all warnings being treated as errors

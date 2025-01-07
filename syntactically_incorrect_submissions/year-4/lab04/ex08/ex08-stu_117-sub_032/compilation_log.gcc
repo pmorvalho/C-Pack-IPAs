@@ -1,0 +1,5 @@
+ex08-stu_117-sub_032.c: In function ‘maior_ou_igual’:
+ex08-stu_117-sub_032.c:17:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |         for(int i = 0; i < (int) strlen(num1); i++)
+      |         ^~~
+ex08-stu_117-sub_032.c:17:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

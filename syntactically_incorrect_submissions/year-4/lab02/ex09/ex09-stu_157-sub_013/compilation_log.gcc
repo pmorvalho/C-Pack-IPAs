@@ -1,0 +1,14 @@
+ex09-stu_157-sub_013.c: In function ‘main’:
+ex09-stu_157-sub_013.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int seconds, minutes, hours;
+      |     ^~~
+ex09-stu_157-sub_013.c:13:1: error: control reaches end of non-void function [-Werror=return-type]
+   13 | }
+      | ^
+ex09-stu_157-sub_013.c:10:30: error: ‘hours’ is used uninitialized [-Werror=uninitialized]
+   10 |     minutes = N / 60 - hours / 60;
+      |                        ~~~~~~^~~~
+ex09-stu_157-sub_013.c:8:27: note: ‘hours’ was declared here
+    8 |     int seconds, minutes, hours;
+      |                           ^~~~~
+cc1: all warnings being treated as errors

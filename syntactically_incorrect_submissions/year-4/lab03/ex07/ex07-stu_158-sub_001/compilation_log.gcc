@@ -1,0 +1,28 @@
+ex07-stu_158-sub_001.c: In function ‘main’:
+ex07-stu_158-sub_001.c:8:12: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+    8 |     while (c = getchar() && c != EOF) {
+      |            ^
+ex07-stu_158-sub_001.c:10:15: error: comparison between pointer and integer [-Werror]
+   10 |         if (c != "+" && c != "-" && c != " ") {
+      |               ^~
+ex07-stu_158-sub_001.c:10:15: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_158-sub_001.c:10:27: error: comparison between pointer and integer [-Werror]
+   10 |         if (c != "+" && c != "-" && c != " ") {
+      |                           ^~
+ex07-stu_158-sub_001.c:10:27: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_158-sub_001.c:10:39: error: comparison between pointer and integer [-Werror]
+   10 |         if (c != "+" && c != "-" && c != " ") {
+      |                                       ^~
+ex07-stu_158-sub_001.c:10:39: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_158-sub_001.c:12:22: error: comparison between pointer and integer [-Werror]
+   12 |         } else if (c == "+" || c == "-") {
+      |                      ^~
+ex07-stu_158-sub_001.c:12:22: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_158-sub_001.c:12:34: error: comparison between pointer and integer [-Werror]
+   12 |         } else if (c == "+" || c == "-") {
+      |                                  ^~
+ex07-stu_158-sub_001.c:12:34: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_158-sub_001.c:6:9: error: unused variable ‘calc’ [-Werror=unused-variable]
+    6 |     int calc;
+      |         ^~~~
+cc1: all warnings being treated as errors

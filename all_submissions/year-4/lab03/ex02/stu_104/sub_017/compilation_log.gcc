@@ -1,0 +1,26 @@
+ex02-stu_104-sub_017.c: In function ‘piramid’:
+ex02-stu_104-sub_017.c:22:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |   for (int i = 1; i <= layers; i++) {
+      |   ^~~
+ex02-stu_104-sub_017.c:22:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_104-sub_017.c:25:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   25 |     for (int j = 0; j < (layers - i) * 2 - 1; j++) {
+      |     ^~~
+ex02-stu_104-sub_017.c:30:14: error: redefinition of ‘j’
+   30 |     for (int j = 1; j <= i; j++) {
+      |              ^
+ex02-stu_104-sub_017.c:25:14: note: previous definition of ‘j’ with type ‘int’
+   25 |     for (int j = 0; j < (layers - i) * 2 - 1; j++) {
+      |              ^
+ex02-stu_104-sub_017.c:30:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   30 |     for (int j = 1; j <= i; j++) {
+      |     ^~~
+ex02-stu_104-sub_017.c:38:14: error: redefinition of ‘j’
+   38 |     for (int j = i-1; j >= 1; j--) {
+      |              ^
+ex02-stu_104-sub_017.c:30:14: note: previous definition of ‘j’ with type ‘int’
+   30 |     for (int j = 1; j <= i; j++) {
+      |              ^
+ex02-stu_104-sub_017.c:38:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   38 |     for (int j = i-1; j >= 1; j--) {
+      |     ^~~

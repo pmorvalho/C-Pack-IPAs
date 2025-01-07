@@ -1,0 +1,5 @@
+ex02-stu_133-sub_036.c: In function ‘showGraph’:
+ex02-stu_133-sub_036.c:34:5: error: ISO C90 forbids variable length array ‘linha’ [-Werror=vla]
+   34 |     char linha[n+1];
+      |     ^~~~
+cc1: all warnings being treated as errors

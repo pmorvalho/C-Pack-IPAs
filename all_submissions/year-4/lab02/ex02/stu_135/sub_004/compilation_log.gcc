@@ -1,0 +1,5 @@
+ex02-stu_135-sub_004.c: In function ‘main’:
+ex02-stu_135-sub_004.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int maior, menor;
+      |     ^~~
+cc1: all warnings being treated as errors

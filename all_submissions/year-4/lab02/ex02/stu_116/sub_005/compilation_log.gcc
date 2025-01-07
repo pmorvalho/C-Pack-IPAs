@@ -1,0 +1,5 @@
+ex02-stu_116-sub_005.c: In function ‘main’:
+ex02-stu_116-sub_005.c:10:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |     int maior = n;
+      |     ^~~
+cc1: all warnings being treated as errors

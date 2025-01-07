@@ -1,0 +1,15 @@
+ex07-stu_161-sub_006.c: In function ‘main’:
+ex07-stu_161-sub_006.c:6:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    6 |     scanf("%d", &M);
+      |     ^~~~~
+ex07-stu_161-sub_006.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex07-stu_161-sub_006.c:6:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    6 |     scanf("%d", &M);
+      |     ^~~~~
+ex07-stu_161-sub_006.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex07-stu_161-sub_006.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors

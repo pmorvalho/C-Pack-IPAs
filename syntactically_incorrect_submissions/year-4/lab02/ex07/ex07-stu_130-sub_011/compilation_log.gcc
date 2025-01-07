@@ -1,0 +1,16 @@
+ex07-stu_130-sub_011.c: In function ‘main’:
+ex07-stu_130-sub_011.c:7:13: error: format ‘%d’ expects a matching ‘int *’ argument [-Werror=format=]
+    7 |     scanf("%d"), n;
+      |            ~^
+      |             |
+      |             int *
+ex07-stu_130-sub_011.c:7:16: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+    7 |     scanf("%d"), n;
+      |                ^
+ex07-stu_130-sub_011.c:9:15: error: ‘n’ may be used uninitialized [-Werror=maybe-uninitialized]
+    9 |         if (n % i == 0){
+      |             ~~^~~
+ex07-stu_130-sub_011.c:5:9: note: ‘n’ was declared here
+    5 |     int n, i = 1, contador = 0;
+      |         ^
+cc1: all warnings being treated as errors

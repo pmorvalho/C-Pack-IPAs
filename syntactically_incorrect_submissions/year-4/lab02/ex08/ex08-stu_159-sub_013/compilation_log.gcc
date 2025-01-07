@@ -1,0 +1,17 @@
+ex08-stu_159-sub_013.c: In function ‘main’:
+ex08-stu_159-sub_013.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     float soma, numero, media;
+      |     ^~~~~
+ex08-stu_159-sub_013.c:12:17: error: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double’ [-Werror=format=]
+   12 |         scanf("%f", numero);
+      |                ~^   ~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+ex08-stu_159-sub_013.c:12:9: error: ‘numero’ may be used uninitialized [-Werror=maybe-uninitialized]
+   12 |         scanf("%f", numero);
+      |         ^~~~~~~~~~~~~~~~~~~
+ex08-stu_159-sub_013.c:7:17: note: ‘numero’ was declared here
+    7 |     float soma, numero, media;
+      |                 ^~~~~~
+cc1: all warnings being treated as errors

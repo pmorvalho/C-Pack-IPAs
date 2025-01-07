@@ -1,0 +1,20 @@
+ex09-stu_119-sub_006.c: In function ‘main’:
+ex09-stu_119-sub_006.c:6:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d",tempo);
+      |            ~^  ~~~~~
+      |             |  |
+      |             |  int
+      |             int *
+ex09-stu_119-sub_006.c:5:29: error: unused variable ‘segundos’ [-Werror=unused-variable]
+    5 |     int tempo,horas,minutos,segundos;
+      |                             ^~~~~~~~
+ex09-stu_119-sub_006.c:5:21: error: unused variable ‘minutos’ [-Werror=unused-variable]
+    5 |     int tempo,horas,minutos,segundos;
+      |                     ^~~~~~~
+ex09-stu_119-sub_006.c:6:5: error: ‘tempo’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d",tempo);
+      |     ^~~~~~~~~~~~~~~~~
+ex09-stu_119-sub_006.c:5:9: note: ‘tempo’ was declared here
+    5 |     int tempo,horas,minutos,segundos;
+      |         ^~~~~
+cc1: all warnings being treated as errors

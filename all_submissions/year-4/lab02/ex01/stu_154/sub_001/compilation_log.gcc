@@ -1,0 +1,5 @@
+ex01-stu_154-sub_001.c: In function ‘main’:
+ex01-stu_154-sub_001.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int max = num1;
+      |     ^~~
+cc1: all warnings being treated as errors

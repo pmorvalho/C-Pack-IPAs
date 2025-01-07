@@ -1,0 +1,10 @@
+ex06-stu_153-sub_065.c: In function ‘switch_case’:
+ex06-stu_153-sub_065.c:10:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |     for (int i = 0; str[i] != '\0'; i++) {
+      |     ^~~
+ex06-stu_153-sub_065.c:10:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex06-stu_153-sub_065.c: In function ‘main’:
+ex06-stu_153-sub_065.c:19:9: error: unused variable ‘len’ [-Werror=unused-variable]
+   19 |     int len = 0;
+      |         ^~~
+cc1: all warnings being treated as errors

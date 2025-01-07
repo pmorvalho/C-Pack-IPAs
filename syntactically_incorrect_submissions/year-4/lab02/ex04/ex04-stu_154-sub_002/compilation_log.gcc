@@ -1,0 +1,11 @@
+ex04-stu_154-sub_002.c: In function ‘main’:
+ex04-stu_154-sub_002.c:4:21: error: unused variable ‘num3’ [-Werror=unused-variable]
+    4 |     int num1, num2, num3;
+      |                     ^~~~
+ex04-stu_154-sub_002.c:4:15: error: unused variable ‘num2’ [-Werror=unused-variable]
+    4 |     int num1, num2, num3;
+      |               ^~~~
+ex04-stu_154-sub_002.c:4:9: error: unused variable ‘num1’ [-Werror=unused-variable]
+    4 |     int num1, num2, num3;
+      |         ^~~~
+cc1: all warnings being treated as errors

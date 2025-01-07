@@ -1,0 +1,6 @@
+ex01-stu_138-sub_031.c: In function ‘main’:
+ex01-stu_138-sub_031.c:6:5: error: ISO C90 forbids variable length array ‘valores’ [-Werror=vla]
+    6 |     int valores[quantidade];
+      |     ^~~
+ex01-stu_138-sub_031.c:6:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

@@ -1,0 +1,17 @@
+ex04-stu_120-sub_034.c:6:17: error: unknown type name ‘s’
+    6 | void palindromo(s[]){
+      |                 ^
+ex04-stu_120-sub_034.c: In function ‘main’:
+ex04-stu_120-sub_034.c:21:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   21 |     scanf("%s", s);
+      |            ~^   ~
+      |             |   |
+      |             |   int
+      |             char *
+ex04-stu_120-sub_034.c:22:5: error: implicit declaration of function ‘palindromo’ [-Werror=implicit-function-declaration]
+   22 |     palindromo(s[]);
+      |     ^~~~~~~~~~
+ex04-stu_120-sub_034.c:22:18: error: expected expression before ‘]’ token
+   22 |     palindromo(s[]);
+      |                  ^
+cc1: all warnings being treated as errors

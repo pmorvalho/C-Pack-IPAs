@@ -1,0 +1,27 @@
+ex02-stu_159-sub_005.c: In function ‘main’:
+ex02-stu_159-sub_005.c:6:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d, %d", v1, v2);
+      |            ~^       ~~
+      |             |       |
+      |             int *   int
+ex02-stu_159-sub_005.c:6:17: error: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d, %d", v1, v2);
+      |                ~^       ~~
+      |                 |       |
+      |                 int *   int
+ex02-stu_159-sub_005.c:11:1: error: control reaches end of non-void function [-Werror=return-type]
+   11 | }
+      | ^
+ex02-stu_159-sub_005.c:6:5: error: ‘v1’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d, %d", v1, v2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+ex02-stu_159-sub_005.c:5:9: note: ‘v1’ was declared here
+    5 |     int v1, v2;
+      |         ^~
+ex02-stu_159-sub_005.c:6:5: error: ‘v2’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d, %d", v1, v2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+ex02-stu_159-sub_005.c:5:13: note: ‘v2’ was declared here
+    5 |     int v1, v2;
+      |             ^~
+cc1: all warnings being treated as errors

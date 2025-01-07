@@ -1,0 +1,42 @@
+ex01-stu_146-sub_002.c: In function ‘main’:
+ex01-stu_146-sub_002.c:11:5: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+   11 |     printf(' Introduza 3 números inteiros: ');
+      |     ^~~~~~
+ex01-stu_146-sub_002.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_146-sub_002.c:11:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   11 |     printf(' Introduza 3 números inteiros: ');
+      |     ^~~~~~
+ex01-stu_146-sub_002.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_146-sub_002.c:11:12: error: character constant too long for its type [-Werror]
+   11 |     printf(' Introduza 3 números inteiros: ');
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex01-stu_146-sub_002.c:11:12: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   11 |     printf(' Introduza 3 números inteiros: ');
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            int
+ex01-stu_146-sub_002.c:11:12: note: expected ‘const char *’ but argument is of type ‘int’
+ex01-stu_146-sub_002.c:12:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+   12 |     scanf('&d%d%d',&num1,&num2,&num3);
+      |     ^~~~~
+ex01-stu_146-sub_002.c:12:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex01-stu_146-sub_002.c:12:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+ex01-stu_146-sub_002.c:12:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex01-stu_146-sub_002.c:12:11: error: character constant too long for its type [-Werror]
+   12 |     scanf('&d%d%d',&num1,&num2,&num3);
+      |           ^~~~~~~~
+ex01-stu_146-sub_002.c:12:11: error: passing argument 1 of ‘scanf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   12 |     scanf('&d%d%d',&num1,&num2,&num3);
+      |           ^~~~~~~~
+      |           |
+      |           int
+ex01-stu_146-sub_002.c:12:11: note: expected ‘const char *’ but argument is of type ‘int’
+ex01-stu_146-sub_002.c:17:5: error: implicit declaration of function ‘print’ [-Werror=implicit-function-declaration]
+   17 |     print('O maior número introduzido é o %d', maior, '\n');
+      |     ^~~~~
+ex01-stu_146-sub_002.c:17:11: error: character constant too long for its type [-Werror]
+   17 |     print('O maior número introduzido é o %d', maior, '\n');
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

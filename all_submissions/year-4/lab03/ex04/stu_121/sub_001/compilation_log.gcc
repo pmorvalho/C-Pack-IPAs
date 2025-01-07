@@ -1,0 +1,5 @@
+ex04-stu_121-sub_001.c: In function ‘main’:
+ex04-stu_121-sub_001.c:5:9: error: variable ‘zero’ set but not used [-Werror=unused-but-set-variable]
+    5 |     int zero=0, vazio=1;
+      |         ^~~~
+cc1: all warnings being treated as errors

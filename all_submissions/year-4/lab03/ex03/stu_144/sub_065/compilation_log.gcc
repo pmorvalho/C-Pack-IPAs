@@ -1,0 +1,26 @@
+ex03-stu_144-sub_065.c: In function ‘main’:
+ex03-stu_144-sub_065.c:9:5: error: implicit declaration of function ‘cruz’ [-Werror=implicit-function-declaration]
+    9 |     cruz(n);
+      |     ^~~~
+ex03-stu_144-sub_065.c: At top level:
+ex03-stu_144-sub_065.c:13:6: error: conflicting types for ‘cruz’; have ‘void(int)’ [-Werror]
+   13 | void cruz(int N){
+      |      ^~~~
+ex03-stu_144-sub_065.c:9:5: note: previous implicit declaration of ‘cruz’ with type ‘void(int)’
+    9 |     cruz(n);
+      |     ^~~~
+ex03-stu_144-sub_065.c: In function ‘cruz’:
+ex03-stu_144-sub_065.c:15:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   15 |     for(int i = 1; i <= N; i++){
+      |     ^~~
+ex03-stu_144-sub_065.c:15:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_144-sub_065.c:16:7: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |       for(int j = 1; j <= N; j++){
+      |       ^~~
+ex03-stu_144-sub_065.c:17:48: error: multi-character character constant [-Werror=multichar]
+   17 |         printf("%c", (i == j || j == N - i+1)? '* ' : '- ');
+      |                                                ^~~~
+ex03-stu_144-sub_065.c:17:55: error: multi-character character constant [-Werror=multichar]
+   17 |         printf("%c", (i == j || j == N - i+1)? '* ' : '- ');
+      |                                                       ^~~~
+cc1: all warnings being treated as errors

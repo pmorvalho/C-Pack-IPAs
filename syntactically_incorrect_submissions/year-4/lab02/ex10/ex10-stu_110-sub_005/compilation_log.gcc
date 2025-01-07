@@ -1,0 +1,5 @@
+ex10-stu_110-sub_005.c: In function ‘main’:
+ex10-stu_110-sub_005.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int UltimoDigito;
+      |     ^~~
+cc1: all warnings being treated as errors

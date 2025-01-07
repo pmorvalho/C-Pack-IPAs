@@ -1,0 +1,5 @@
+ex05-stu_153-sub_058.c: In function ‘read_line2’:
+ex05-stu_153-sub_058.c:22:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   22 |     int i = 0;
+      |     ^~~
+cc1: all warnings being treated as errors

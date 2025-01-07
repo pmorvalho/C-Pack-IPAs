@@ -1,0 +1,6 @@
+ex05-stu_154-sub_014.c: In function ‘main’:
+ex05-stu_154-sub_014.c:10:9: error: implicit declaration of function ‘print’; did you mean ‘printf’? [-Werror=implicit-function-declaration]
+   10 |         print("%d",i);
+      |         ^~~~~
+      |         printf
+cc1: all warnings being treated as errors

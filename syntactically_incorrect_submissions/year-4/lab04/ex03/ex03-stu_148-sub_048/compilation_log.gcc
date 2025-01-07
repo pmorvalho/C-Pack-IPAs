@@ -1,0 +1,9 @@
+ex03-stu_148-sub_048.c: In function ‘main’:
+ex03-stu_148-sub_048.c:9:5: error: ISO C90 forbids variable length array ‘valores’ [-Werror=vla]
+    9 |     int valores[n];
+      |     ^~~
+ex03-stu_148-sub_048.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex03-stu_148-sub_048.c:7:27: error: unused variable ‘num_temp’ [-Werror=unused-variable]
+    7 |     int n, i, num, linha, num_temp, num_max = 0;
+      |                           ^~~~~~~~
+cc1: all warnings being treated as errors

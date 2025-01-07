@@ -1,0 +1,3 @@
+ex02-stu_144-sub_031.c:4:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    4 | int main{
+      |         ^

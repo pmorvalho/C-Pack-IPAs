@@ -1,0 +1,17 @@
+ex02-stu_150-sub_045.c: In function ‘main’:
+ex02-stu_150-sub_045.c:13:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |         for (int i = 0; i <= n; i++)
+      |         ^~~
+ex02-stu_150-sub_045.c:13:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_150-sub_045.c:15:21: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+   15 |             scanf("%d",vetor[i]);
+      |                    ~^  ~~~~~~~~
+      |                     |       |
+      |                     int *   int
+ex02-stu_150-sub_045.c:18:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   18 |         for (int linha = 1; linha <= max; linha++)
+      |         ^~~
+ex02-stu_150-sub_045.c:20:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   20 |             for (int coluna = 0; coluna <= n; coluna++)
+      |             ^~~
+cc1: all warnings being treated as errors

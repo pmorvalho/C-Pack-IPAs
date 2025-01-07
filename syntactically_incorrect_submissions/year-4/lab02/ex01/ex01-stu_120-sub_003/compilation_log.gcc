@@ -1,0 +1,14 @@
+ex01-stu_120-sub_003.c: In function ‘main’:
+ex01-stu_120-sub_003.c:5:12: error: zero-length gnu_printf format string [-Werror=format-zero-length]
+    5 |     printf("");
+      |            ^~
+ex01-stu_120-sub_003.c:7:12: error: zero-length gnu_printf format string [-Werror=format-zero-length]
+    7 |     printf("");
+      |            ^~
+ex01-stu_120-sub_003.c:9:12: error: zero-length gnu_printf format string [-Werror=format-zero-length]
+    9 |     printf("");
+      |            ^~
+ex01-stu_120-sub_003.c:11:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   11 |     int maior_numero = num1;
+      |     ^~~
+cc1: all warnings being treated as errors

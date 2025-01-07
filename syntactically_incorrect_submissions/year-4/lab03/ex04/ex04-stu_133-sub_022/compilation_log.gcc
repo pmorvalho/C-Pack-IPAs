@@ -1,0 +1,8 @@
+ex04-stu_133-sub_022.c: In function ‘main’:
+ex04-stu_133-sub_022.c:10:22: error: ‘caractere’ is used uninitialized [-Werror=uninitialized]
+   10 |     while (caractere != EOF) {
+      |                      ^
+ex04-stu_133-sub_022.c:8:9: note: ‘caractere’ was declared here
+    8 |     int caractere, descartaZero = SIM;
+      |         ^~~~~~~~~
+cc1: all warnings being treated as errors

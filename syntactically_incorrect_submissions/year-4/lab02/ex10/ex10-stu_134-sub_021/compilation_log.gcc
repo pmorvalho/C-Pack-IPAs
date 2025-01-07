@@ -1,0 +1,8 @@
+ex10-stu_134-sub_021.c: In function ‘main’:
+ex10-stu_134-sub_021.c:6:32: error: unused variable ‘digit’ [-Werror=unused-variable]
+    6 |         int N, num_digits = 0, digit, sum = 0;
+      |                                ^~~~~
+ex10-stu_134-sub_021.c:15:1: error: control reaches end of non-void function [-Werror=return-type]
+   15 | }
+      | ^
+cc1: all warnings being treated as errors

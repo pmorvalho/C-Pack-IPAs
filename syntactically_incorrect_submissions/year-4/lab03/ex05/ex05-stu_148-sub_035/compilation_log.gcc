@@ -1,0 +1,5 @@
+ex05-stu_148-sub_035.c: In function ‘main’:
+ex05-stu_148-sub_035.c:13:20: error: statement with no effect [-Werror=unused-value]
+   13 |             estado == INCLUIR;
+      |                    ^
+cc1: all warnings being treated as errors

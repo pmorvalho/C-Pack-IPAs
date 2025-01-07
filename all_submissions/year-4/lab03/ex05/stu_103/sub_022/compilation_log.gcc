@@ -1,0 +1,5 @@
+ex05-stu_103-sub_022.c: In function ‘main’:
+ex05-stu_103-sub_022.c:18:20: error: statement with no effect [-Werror=unused-value]
+   18 |             estado == Fora;
+      |                    ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,8 @@
+ex05-stu_135-sub_029.c: In function ‘main’:
+ex05-stu_135-sub_029.c:17:13: error: this ‘else’ clause does not guard... [-Werror=misleading-indentation]
+   17 |             else
+      |             ^~~~
+ex05-stu_135-sub_029.c:19:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   19 |                 putchar('\n');
+      |                 ^~~~~~~
+cc1: all warnings being treated as errors

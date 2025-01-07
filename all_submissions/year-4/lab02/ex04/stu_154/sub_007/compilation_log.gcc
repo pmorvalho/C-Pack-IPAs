@@ -1,0 +1,12 @@
+ex04-stu_154-sub_007.c: In function ‘main’:
+ex04-stu_154-sub_007.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int max, min, med;
+      |     ^~~
+ex04-stu_154-sub_007.c:25:18: error: statement with no effect [-Werror=unused-value]
+   25 |         else(max < num3){
+      |             ~~~~~^~~~~~~
+ex04-stu_154-sub_007.c:25:25: error: expected ‘;’ before ‘{’ token
+   25 |         else(max < num3){
+      |                         ^
+      |                         ;
+cc1: all warnings being treated as errors

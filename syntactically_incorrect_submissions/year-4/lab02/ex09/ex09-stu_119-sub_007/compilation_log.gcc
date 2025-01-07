@@ -1,0 +1,14 @@
+ex09-stu_119-sub_007.c: In function ‘main’:
+ex09-stu_119-sub_007.c:6:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d",segundos);
+      |            ~^  ~~~~~~~~
+      |             |  |
+      |             |  int
+      |             int *
+ex09-stu_119-sub_007.c:6:5: error: ‘segundos’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d",segundos);
+      |     ^~~~~~~~~~~~~~~~~~~~
+ex09-stu_119-sub_007.c:5:23: note: ‘segundos’ was declared here
+    5 |     int horas,minutos,segundos;
+      |                       ^~~~~~~~
+cc1: all warnings being treated as errors

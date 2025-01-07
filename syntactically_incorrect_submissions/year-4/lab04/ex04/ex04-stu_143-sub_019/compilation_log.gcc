@@ -1,0 +1,7 @@
+ex04-stu_143-sub_019.c: In function ‘main’:
+ex04-stu_143-sub_019.c:18:5: error: ISO C90 forbids variable length array ‘s1’ [-Werror=vla]
+   18 |     char s1[metade], s2[metade];
+      |     ^~~~
+ex04-stu_143-sub_019.c:18:5: error: ISO C90 forbids variable length array ‘s2’ [-Werror=vla]
+ex04-stu_143-sub_019.c:18:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

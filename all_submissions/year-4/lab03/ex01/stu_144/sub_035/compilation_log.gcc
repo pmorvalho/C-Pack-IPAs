@@ -1,0 +1,17 @@
+ex01-stu_144-sub_035.c: In function ‘main’:
+ex01-stu_144-sub_035.c:13:5: error: ISO C forbids nested functions [-Werror=pedantic]
+   13 |     void quadrado(int N){
+      |     ^~~~
+ex01-stu_144-sub_035.c: In function ‘quadrado’:
+ex01-stu_144-sub_035.c:14:9: error: ISO C90 forbids variable length array ‘matrix’ [-Werror=vla]
+   14 |         int matrix[N][N];
+      |         ^~~
+ex01-stu_144-sub_035.c:14:9: error: ISO C90 forbids variable length array ‘matrix’ [-Werror=vla]
+ex01-stu_144-sub_035.c:22:30: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   22 |                 matrix[i][j] = NULL;
+      |                              ^
+ex01-stu_144-sub_035.c: In function ‘main’:
+ex01-stu_144-sub_035.c:13:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   13 |     void quadrado(int N){
+      |     ^~~~
+cc1: all warnings being treated as errors

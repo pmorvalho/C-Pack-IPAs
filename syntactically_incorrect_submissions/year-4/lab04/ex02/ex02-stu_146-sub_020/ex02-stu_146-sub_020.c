@@ -1,0 +1,8 @@
+
+
+#include <stdio.h>
+#define VEC_MAX 100
+
+int main() {
+    
+}

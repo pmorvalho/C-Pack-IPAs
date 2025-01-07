@@ -1,0 +1,15 @@
+ex04-stu_072-sub_033.c: In function ‘main’:
+ex04-stu_072-sub_033.c:11:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   11 |     int id_min, temp, i, j;
+      |     ^~~
+ex04-stu_072-sub_033.c:24:14: error: redeclaration of ‘i’ with no linkage
+   24 |     for (int i = 0; i < 2; i++) {
+      |              ^
+ex04-stu_072-sub_033.c:11:23: note: previous declaration of ‘i’ with type ‘int’
+   11 |     int id_min, temp, i, j;
+      |                       ^
+ex04-stu_072-sub_033.c:24:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   24 |     for (int i = 0; i < 2; i++) {
+      |     ^~~
+ex04-stu_072-sub_033.c:24:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

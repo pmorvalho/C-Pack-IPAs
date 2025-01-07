@@ -1,0 +1,17 @@
+ex04-stu_118-sub_004.c: In function ‘meio’:
+ex04-stu_118-sub_004.c:17:11: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   17 |     if (a < b < c) {
+      |         ~~^~~
+ex04-stu_118-sub_004.c:20:16: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   20 |     else if (a < c < b) {
+      |              ~~^~~
+ex04-stu_118-sub_004.c:23:16: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   23 |     else if (b < a < c) {
+      |              ~~^~~
+ex04-stu_118-sub_004.c:26:16: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   26 |     else if (b < c < a) {
+      |              ~~^~~
+ex04-stu_118-sub_004.c:29:16: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   29 |     else if (c < a < b) {
+      |              ~~^~~
+cc1: all warnings being treated as errors

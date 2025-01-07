@@ -1,0 +1,5 @@
+ex05-stu_116-sub_013.c: In function ‘main’:
+ex05-stu_116-sub_013.c:10:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |     int contador = 1;
+      |     ^~~
+cc1: all warnings being treated as errors

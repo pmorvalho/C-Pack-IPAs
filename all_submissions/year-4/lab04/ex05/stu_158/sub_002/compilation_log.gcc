@@ -1,0 +1,5 @@
+ex05-stu_158-sub_002.c: In function ‘main’:
+ex05-stu_158-sub_002.c:17:9: error: variable ‘size’ set but not used [-Werror=unused-but-set-variable]
+   17 |     int size;
+      |         ^~~~
+cc1: all warnings being treated as errors

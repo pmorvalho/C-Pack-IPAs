@@ -1,0 +1,21 @@
+ex04-stu_131-sub_041.c: In function ‘main’:
+ex04-stu_131-sub_041.c:34:29: error: multi-character character constant [-Werror=multichar]
+   34 |     puts(ePalindromo(str) ? 'yes' : 'no');
+      |                             ^~~~~
+ex04-stu_131-sub_041.c:34:37: error: multi-character character constant [-Werror=multichar]
+   34 |     puts(ePalindromo(str) ? 'yes' : 'no');
+      |                                     ^~~~
+ex04-stu_131-sub_041.c:34:35: error: passing argument 1 of ‘puts’ makes pointer from integer without a cast [-Werror=int-conversion]
+   34 |     puts(ePalindromo(str) ? 'yes' : 'no');
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+      |                                   |
+      |                                   int
+In file included from ex04-stu_131-sub_041.c:2:
+/usr/include/stdio.h:661:30: note: expected ‘const char *’ but argument is of type ‘int’
+  661 | extern int puts (const char *__s);
+      |                  ~~~~~~~~~~~~^~~
+ex04-stu_131-sub_041.c: In function ‘ePalindromo’:
+ex04-stu_131-sub_041.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+   28 | }
+      | ^
+cc1: all warnings being treated as errors

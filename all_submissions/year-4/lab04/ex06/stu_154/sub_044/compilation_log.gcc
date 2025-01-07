@@ -1,0 +1,14 @@
+ex06-stu_154-sub_044.c: In function ‘maisculas’:
+ex06-stu_154-sub_044.c:8:10: error: ‘s’ redeclared as different kind of symbol
+    8 |     char s[MAX];
+      |          ^
+ex06-stu_154-sub_044.c:7:21: note: previous definition of ‘s’ with type ‘char *’
+    7 | void maisculas(char s[]) {
+      |                ~~~~~^~~
+ex06-stu_154-sub_044.c:8:10: error: unused variable ‘s’ [-Werror=unused-variable]
+    8 |     char s[MAX];
+      |          ^
+ex06-stu_154-sub_044.c:7:21: error: unused parameter ‘s’ [-Werror=unused-parameter]
+    7 | void maisculas(char s[]) {
+      |                ~~~~~^~~
+cc1: all warnings being treated as errors

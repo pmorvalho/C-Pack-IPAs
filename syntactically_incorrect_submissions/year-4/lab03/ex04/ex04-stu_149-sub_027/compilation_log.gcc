@@ -1,0 +1,14 @@
+ex04-stu_149-sub_027.c: In function ‘main’:
+ex04-stu_149-sub_027.c:13:17: error: implicit declaration of function ‘non_zero’ [-Werror=implicit-function-declaration]
+   13 |             if (non_zero(current)) {
+      |                 ^~~~~~~~
+ex04-stu_149-sub_027.c:23:17: error: implicit declaration of function ‘spc’ [-Werror=implicit-function-declaration]
+   23 |             if (spc(current)) {
+      |                 ^~~
+ex04-stu_149-sub_027.c:27:17: error: implicit declaration of function ‘soc’ [-Werror=implicit-function-declaration]
+   27 |             if (soc(current)) {
+      |                 ^~~
+ex04-stu_149-sub_027.c:37:1: error: control reaches end of non-void function [-Werror=return-type]
+   37 | }
+      | ^
+cc1: all warnings being treated as errors

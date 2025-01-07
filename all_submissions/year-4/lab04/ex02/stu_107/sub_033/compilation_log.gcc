@@ -1,0 +1,4 @@
+ex02-stu_107-sub_033.c: In function ‘main’:
+ex02-stu_107-sub_033.c:22:18: error: expected expression before ‘)’ token
+   22 |             if ( )
+      |                  ^

@@ -1,0 +1,12 @@
+ex01-stu_144-sub_054.c: In function ‘main’:
+ex01-stu_144-sub_054.c:11:5: error: implicit declaration of function ‘quadrado’ [-Werror=implicit-function-declaration]
+   11 |     quadrado(N);
+      |     ^~~~~~~~
+ex01-stu_144-sub_054.c: At top level:
+ex01-stu_144-sub_054.c:15:6: error: conflicting types for ‘quadrado’; have ‘void(int)’ [-Werror]
+   15 | void quadrado(int N){
+      |      ^~~~~~~~
+ex01-stu_144-sub_054.c:11:5: note: previous implicit declaration of ‘quadrado’ with type ‘void(int)’
+   11 |     quadrado(N);
+      |     ^~~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,29 @@
+ex08-stu_127-sub_004.c: In function ‘main’:
+ex08-stu_127-sub_004.c:11:11: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+   11 |     while(scanf("%d ", &soma)) {
+      |           ^~~~~
+ex08-stu_127-sub_004.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex08-stu_127-sub_004.c:11:11: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+   11 |     while(scanf("%d ", &soma)) {
+      |           ^~~~~
+ex08-stu_127-sub_004.c:11:11: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex08-stu_127-sub_004.c:11:19: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Werror=format=]
+   11 |     while(scanf("%d ", &soma)) {
+      |                  ~^    ~~~~~
+      |                   |    |
+      |                   |    float *
+      |                   int *
+      |                  %e
+ex08-stu_127-sub_004.c:14:9: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+   14 |         printf(".");
+      |         ^~~~~~
+ex08-stu_127-sub_004.c:14:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex08-stu_127-sub_004.c:14:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex08-stu_127-sub_004.c:14:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex08-stu_127-sub_004.c:17:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   17 |     printf("%.2f", media);
+      |     ^~~~~~
+ex08-stu_127-sub_004.c:17:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+cc1: all warnings being treated as errors

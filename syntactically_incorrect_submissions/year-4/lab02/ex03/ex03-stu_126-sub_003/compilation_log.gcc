@@ -1,0 +1,14 @@
+ex03-stu_126-sub_003.c: In function ‘main’:
+ex03-stu_126-sub_003.c:6:11: error: ‘N’ is used uninitialized [-Werror=uninitialized]
+    6 |     if (N % M == 0){
+      |         ~~^~~
+ex03-stu_126-sub_003.c:5:9: note: ‘N’ was declared here
+    5 |     int N,M;
+      |         ^
+ex03-stu_126-sub_003.c:6:11: error: ‘M’ is used uninitialized [-Werror=uninitialized]
+    6 |     if (N % M == 0){
+      |         ~~^~~
+ex03-stu_126-sub_003.c:5:11: note: ‘M’ was declared here
+    5 |     int N,M;
+      |           ^
+cc1: all warnings being treated as errors

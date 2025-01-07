@@ -1,0 +1,29 @@
+ex03-stu_161-sub_001.c: In function ‘main’:
+ex03-stu_161-sub_001.c:6:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    6 |     scanf("%d", "%d", &N, &M);
+      |     ^~~~~
+ex03-stu_161-sub_001.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex03-stu_161-sub_001.c:6:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    6 |     scanf("%d", "%d", &N, &M);
+      |     ^~~~~
+ex03-stu_161-sub_001.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex03-stu_161-sub_001.c:6:5: error: writing into constant object (argument 2) [-Werror=format=]
+ex03-stu_161-sub_001.c:6:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Werror=format=]
+    6 |     scanf("%d", "%d", &N, &M);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   char *
+      |             int *
+      |            %hhd
+ex03-stu_161-sub_001.c:6:11: error: too many arguments for format [-Werror=format-extra-args]
+    6 |     scanf("%d", "%d", &N, &M);
+      |           ^~~~
+ex03-stu_161-sub_001.c:9:9: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+    9 |         printf("yes");
+      |         ^~~~~~
+ex03-stu_161-sub_001.c:9:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex03-stu_161-sub_001.c:9:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex03-stu_161-sub_001.c:9:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex04-stu_148-sub_012.c: In function ‘main’:
+ex04-stu_148-sub_012.c:23:13: error: suggest explicit braces to avoid ambiguous ‘else’ [-Werror=dangling-else]
+   23 |     else if (num2 > num1)
+      |             ^
+cc1: all warnings being treated as errors

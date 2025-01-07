@@ -1,0 +1,5 @@
+ex06-stu_114-sub_040.c: In function ‘maiusculas’:
+ex06-stu_114-sub_040.c:12:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   12 |     int tamanho = strlen(s);
+      |     ^~~
+cc1: all warnings being treated as errors

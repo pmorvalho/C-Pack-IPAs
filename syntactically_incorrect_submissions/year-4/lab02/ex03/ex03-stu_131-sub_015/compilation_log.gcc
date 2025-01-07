@@ -1,0 +1,8 @@
+ex03-stu_131-sub_015.c:4:1: error: return type defaults to ‘int’ [-Werror=return-type]
+    4 | main()
+      | ^~~~
+ex03-stu_131-sub_015.c: In function ‘main’:
+ex03-stu_131-sub_015.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+   19 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,23 @@
+ex03-stu_093-sub_067.c: In function ‘initialization’:
+ex03-stu_093-sub_067.c:6:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    6 |     for(int i = 1; i < num - 1; i++){
+      |     ^~~
+ex03-stu_093-sub_067.c:6:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_093-sub_067.c: In function ‘printArray’:
+ex03-stu_093-sub_067.c:15:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   15 |     for(int i = 0; i < num; i++){
+      |     ^~~
+ex03-stu_093-sub_067.c: In function ‘switching’:
+ex03-stu_093-sub_067.c:29:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   29 |     for(int j = 0; j < num; j++){
+      |     ^~~
+ex03-stu_093-sub_067.c: In function ‘main’:
+ex03-stu_093-sub_067.c:39:5: error: ISO C90 forbids variable length array ‘symbols’ [-Werror=vla]
+   39 |     char symbols[num], symbols_aux[num];
+      |     ^~~~
+ex03-stu_093-sub_067.c:39:5: error: ISO C90 forbids variable length array ‘symbols_aux’ [-Werror=vla]
+ex03-stu_093-sub_067.c:39:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex03-stu_093-sub_067.c:43:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   43 |     for(int i = 0; i < num - 1; i++){
+      |     ^~~
+cc1: all warnings being treated as errors

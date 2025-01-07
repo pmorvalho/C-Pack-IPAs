@@ -1,0 +1,5 @@
+ex07-stu_104-sub_026.c: In function ‘main’:
+ex07-stu_104-sub_026.c:42:22: error: implicit declaration of function ‘isblank’ [-Werror=implicit-function-declaration]
+   42 |             else if (isblank(c))
+      |                      ^~~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,10 @@
+ex02-stu_149-sub_002.c:2:10: error: empty filename in #include
+    2 | #include <>
+      |          ^~
+ex02-stu_149-sub_002.c: In function ‘main’:
+ex02-stu_149-sub_002.c:9:1: error: expected identifier or ‘(’ before ‘}’ token
+    9 | }
+      | ^
+ex02-stu_149-sub_002.c:9:1: error: expected declaration or statement at end of input
+ex02-stu_149-sub_002.c:10: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex02-stu_148-sub_022.c: In function ‘piramide’:
+ex02-stu_148-sub_022.c:4:20: error: unused parameter ‘num’ [-Werror=unused-parameter]
+    4 | void piramide (int num) {
+      |                ~~~~^~~
+cc1: all warnings being treated as errors

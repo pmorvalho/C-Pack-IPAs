@@ -1,0 +1,22 @@
+ex03-stu_105-sub_003.c: In function ‘main’:
+ex03-stu_105-sub_003.c:5:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    5 |     scanf("%d %d", &N, &M);
+      |     ^~~~~
+ex03-stu_105-sub_003.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex03-stu_105-sub_003.c:5:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    5 |     scanf("%d %d", &N, &M);
+      |     ^~~~~
+ex03-stu_105-sub_003.c:5:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex03-stu_105-sub_003.c:8:9: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+    8 |         printf("yes\n");
+      |         ^~~~~~
+ex03-stu_105-sub_003.c:8:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex03-stu_105-sub_003.c:8:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex03-stu_105-sub_003.c:8:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex03-stu_105-sub_003.c:10:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   10 |         printf("no\n");
+      |         ^~~~~~
+ex03-stu_105-sub_003.c:10:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+cc1: all warnings being treated as errors

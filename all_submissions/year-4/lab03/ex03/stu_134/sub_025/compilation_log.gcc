@@ -1,0 +1,5 @@
+ex03-stu_134-sub_025.c: In function ‘main’:
+ex03-stu_134-sub_025.c:6:9: error: ISO C forbids nested functions [-Werror=pedantic]
+    6 |         void cruz(int N){
+      |         ^~~~
+cc1: all warnings being treated as errors

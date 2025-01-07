@@ -1,0 +1,21 @@
+ex01-stu_093-sub_063.c: In function ‘main’:
+ex01-stu_093-sub_063.c:11:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   11 |     int i, j;
+      |     ^~~
+ex01-stu_093-sub_063.c:13:13: error: redeclaration of ‘i’ with no linkage
+   13 |     for(int i = 1; i <= num; i++){
+      |             ^
+ex01-stu_093-sub_063.c:11:9: note: previous declaration of ‘i’ with type ‘int’
+   11 |     int i, j;
+      |         ^
+ex01-stu_093-sub_063.c:13:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |     for(int i = 1; i <= num; i++){
+      |     ^~~
+ex01-stu_093-sub_063.c:13:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_093-sub_063.c:14:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   14 |         for(int j = 0; j < num - 1; j++){
+      |         ^~~
+ex01-stu_093-sub_063.c:11:12: error: unused variable ‘j’ [-Werror=unused-variable]
+   11 |     int i, j;
+      |            ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex07-stu_117-sub_002.c: In function ‘main’:
+ex07-stu_117-sub_002.c:8:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    8 |     for(int i = 1; i <= num; i++) {
+      |     ^~~
+ex07-stu_117-sub_002.c:8:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

@@ -1,0 +1,22 @@
+ex01-stu_126-sub_016.c: In function ‘main’:
+ex01-stu_126-sub_016.c:9:5: error: ISO C90 forbids variable length array ‘vec’ [-Werror=vla]
+    9 |     int vec[n];
+      |     ^~~
+ex01-stu_126-sub_016.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex01-stu_126-sub_016.c:13:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |         for (int i = 0; i<n; i++){
+      |         ^~~
+ex01-stu_126-sub_016.c:13:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_126-sub_016.c:16:18: error: redefinition of ‘i’
+   16 |         for (int i = 0; i<n; i++){
+      |                  ^
+ex01-stu_126-sub_016.c:13:18: note: previous definition of ‘i’ with type ‘int’
+   13 |         for (int i = 0; i<n; i++){
+      |                  ^
+ex01-stu_126-sub_016.c:16:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |         for (int i = 0; i<n; i++){
+      |         ^~~
+ex01-stu_126-sub_016.c:17:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |             for (int j=1; j <= vec[i]; j++){
+      |             ^~~
+cc1: all warnings being treated as errors

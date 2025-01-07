@@ -1,0 +1,12 @@
+ex02-stu_158-sub_001.c: In function ‘piramide’:
+ex02-stu_158-sub_001.c:4:19: error: unused parameter ‘n’ [-Werror=unused-parameter]
+    4 | void piramide(int n) {
+      |               ~~~~^
+ex02-stu_158-sub_001.c: In function ‘main’:
+ex02-stu_158-sub_001.c:11:5: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+   11 |     piramide(n);
+      |     ^~~~~~~~~~~
+ex02-stu_158-sub_001.c:9:9: note: ‘n’ was declared here
+    9 |     int n;
+      |         ^
+cc1: all warnings being treated as errors

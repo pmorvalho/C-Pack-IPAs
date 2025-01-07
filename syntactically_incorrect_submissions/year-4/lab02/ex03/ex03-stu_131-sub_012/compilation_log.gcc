@@ -1,0 +1,8 @@
+ex03-stu_131-sub_012.c:4:1: error: return type defaults to ‘int’ [-Werror=return-type]
+    4 | main()
+      | ^~~~
+ex03-stu_131-sub_012.c: In function ‘main’:
+ex03-stu_131-sub_012.c:7:11: error: unused variable ‘res’ [-Werror=unused-variable]
+    7 |     float res;
+      |           ^~~
+cc1: all warnings being treated as errors

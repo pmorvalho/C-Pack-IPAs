@@ -1,0 +1,5 @@
+ex06-stu_131-sub_021.c: In function ‘main’:
+ex06-stu_131-sub_021.c:6:21: error: unused variable ‘temp’ [-Werror=unused-variable]
+    6 |     float v,min,max,temp;
+      |                     ^~~~
+cc1: all warnings being treated as errors

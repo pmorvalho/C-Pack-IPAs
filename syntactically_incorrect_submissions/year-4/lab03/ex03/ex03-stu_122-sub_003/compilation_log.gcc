@@ -1,0 +1,44 @@
+ex03-stu_122-sub_003.c: In function ‘cruz’:
+ex03-stu_122-sub_003.c:6:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    6 |     for (int i = 1; i <= n / 2; i++)
+      |     ^~~
+ex03-stu_122-sub_003.c:6:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_122-sub_003.c:8:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    8 |             for (int j = 1; j < i; j++)
+      |             ^~~
+ex03-stu_122-sub_003.c:12:22: error: redefinition of ‘j’
+   12 |             for (int j = n; j - 2*i > 0 ; j -= 1 )
+      |                      ^
+ex03-stu_122-sub_003.c:8:22: note: previous definition of ‘j’ with type ‘int’
+    8 |             for (int j = 1; j < i; j++)
+      |                      ^
+ex03-stu_122-sub_003.c:12:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   12 |             for (int j = n; j - 2*i > 0 ; j -= 1 )
+      |             ^~~
+ex03-stu_122-sub_003.c:16:22: error: redefinition of ‘j’
+   16 |             for (int j = 1; j < i; j++)
+      |                      ^
+ex03-stu_122-sub_003.c:12:22: note: previous definition of ‘j’ with type ‘int’
+   12 |             for (int j = n; j - 2*i > 0 ; j -= 1 )
+      |                      ^
+ex03-stu_122-sub_003.c:16:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |             for (int j = 1; j < i; j++)
+      |             ^~~
+ex03-stu_122-sub_003.c:21:14: error: redefinition of ‘i’
+   21 |     for (int i = 1; i <= n / 2; i++)
+      |              ^
+ex03-stu_122-sub_003.c:6:14: note: previous definition of ‘i’ with type ‘int’
+    6 |     for (int i = 1; i <= n / 2; i++)
+      |              ^
+ex03-stu_122-sub_003.c:21:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   21 |     for (int i = 1; i <= n / 2; i++)
+      |     ^~~
+ex03-stu_122-sub_003.c:23:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   23 |             for (int j = n / 2; j < )
+      |             ^~~
+ex03-stu_122-sub_003.c:23:37: error: expected expression before ‘)’ token
+   23 |             for (int j = n / 2; j < )
+      |                                     ^
+ex03-stu_122-sub_003.c:24:9: error: expected expression before ‘}’ token
+   24 |         }
+      |         ^

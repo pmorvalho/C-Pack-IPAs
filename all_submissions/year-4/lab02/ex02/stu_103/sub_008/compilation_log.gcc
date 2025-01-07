@@ -1,0 +1,11 @@
+ex02-stu_103-sub_008.c: In function ‘biggest’:
+ex02-stu_103-sub_008.c:12:13: error: expected ‘;’ before ‘}’ token
+   12 |     return 0
+      |             ^
+      |             ;
+   13 |     }
+      |     ~        
+ex02-stu_103-sub_008.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,11 @@
+ex06-stu_149-sub_033.c: In function ‘maiusculas’:
+ex06-stu_149-sub_033.c:7:9: error: unused variable ‘i’ [-Werror=unused-variable]
+    7 |     int i;
+      |         ^
+ex06-stu_149-sub_033.c:6:10: error: unused variable ‘c’ [-Werror=unused-variable]
+    6 |     char c;
+      |          ^
+ex06-stu_149-sub_033.c:5:22: error: unused parameter ‘s’ [-Werror=unused-parameter]
+    5 | void maiusculas(char s[MAX]) {
+      |                 ~~~~~^~~~~~
+cc1: all warnings being treated as errors

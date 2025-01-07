@@ -1,0 +1,38 @@
+ex04-stu_126-sub_003.c: In function ‘main’:
+ex04-stu_126-sub_003.c:7:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+    7 |     if (n1 < n2 <n3){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:10:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   10 |     if (n1 < n3< n2){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:13:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   13 |     if (n2 < n1< n3){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:16:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   16 |     if (n2 < n3< n1){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:19:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   19 |     if (n3 < n2< n1){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:22:12: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   22 |     if (n3 < n1< n2){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:7:12: error: ‘n1’ is used uninitialized [-Werror=uninitialized]
+    7 |     if (n1 < n2 <n3){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:5:9: note: ‘n1’ was declared here
+    5 |     int n1, n2, n3;
+      |         ^~
+ex04-stu_126-sub_003.c:7:12: error: ‘n2’ is used uninitialized [-Werror=uninitialized]
+    7 |     if (n1 < n2 <n3){
+      |         ~~~^~~~
+ex04-stu_126-sub_003.c:5:13: note: ‘n2’ was declared here
+    5 |     int n1, n2, n3;
+      |             ^~
+ex04-stu_126-sub_003.c:7:8: error: ‘n3’ is used uninitialized [-Werror=uninitialized]
+    7 |     if (n1 < n2 <n3){
+      |        ^
+ex04-stu_126-sub_003.c:5:17: note: ‘n3’ was declared here
+    5 |     int n1, n2, n3;
+      |                 ^~
+cc1: all warnings being treated as errors

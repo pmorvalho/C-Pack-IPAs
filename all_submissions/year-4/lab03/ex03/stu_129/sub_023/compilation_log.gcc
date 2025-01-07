@@ -1,0 +1,24 @@
+ex03-stu_129-sub_023.c: In function ‘imprime_linha’:
+ex03-stu_129-sub_023.c:6:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    6 |     for(int k = 1; k <= N; k++) {
+      |     ^~~
+ex03-stu_129-sub_023.c:6:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_129-sub_023.c: In function ‘calcula’:
+ex03-stu_129-sub_023.c:19:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   19 |     for(int i = 1, j = N; i <= meio; i++, j--)
+      |     ^~~
+ex03-stu_129-sub_023.c:21:13: error: redefinition of ‘i’
+   21 |     for(int i = meio2, j = meio3; i > 0; i--, j++)
+      |             ^
+ex03-stu_129-sub_023.c:19:13: note: previous definition of ‘i’ with type ‘int’
+   19 |     for(int i = 1, j = N; i <= meio; i++, j--)
+      |             ^
+ex03-stu_129-sub_023.c:21:24: error: redefinition of ‘j’
+   21 |     for(int i = meio2, j = meio3; i > 0; i--, j++)
+      |                        ^
+ex03-stu_129-sub_023.c:19:20: note: previous definition of ‘j’ with type ‘int’
+   19 |     for(int i = 1, j = N; i <= meio; i++, j--)
+      |                    ^
+ex03-stu_129-sub_023.c:21:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   21 |     for(int i = meio2, j = meio3; i > 0; i--, j++)
+      |     ^~~

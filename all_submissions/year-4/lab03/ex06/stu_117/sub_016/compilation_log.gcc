@@ -1,0 +1,9 @@
+ex06-stu_117-sub_016.c: In function ‘main’:
+ex06-stu_117-sub_016.c:32:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long int *’ [-Werror=format=]
+   32 |     scanf("%d", &num);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   long int *
+      |             int *
+      |            %ld
+cc1: all warnings being treated as errors

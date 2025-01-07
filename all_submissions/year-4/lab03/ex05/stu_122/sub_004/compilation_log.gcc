@@ -1,0 +1,8 @@
+ex05-stu_122-sub_004.c: In function ‘main’:
+ex05-stu_122-sub_004.c:12:12: error: suggest explicit braces to avoid ambiguous ‘else’ [-Werror=dangling-else]
+   12 |         if (c == ' ')
+      |            ^
+ex05-stu_122-sub_004.c:31:1: error: control reaches end of non-void function [-Werror=return-type]
+   31 | }
+      | ^
+cc1: all warnings being treated as errors

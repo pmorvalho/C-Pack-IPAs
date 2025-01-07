@@ -1,0 +1,5 @@
+ex02-stu_123-sub_012.c: In function ‘writeLine’:
+ex02-stu_123-sub_012.c:6:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    6 |   for (int i = 0; i < n; i++)
+      |   ^~~
+ex02-stu_123-sub_012.c:6:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

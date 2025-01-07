@@ -1,0 +1,16 @@
+ex04-stu_144-sub_009.c: In function ‘main’:
+ex04-stu_144-sub_009.c:7:31: error: expected expression before ‘)’ token
+    7 |     scanf("%d %d %d", &n, &m, )
+      |                               ^
+ex04-stu_144-sub_009.c:5:15: error: unused variable ‘o’ [-Werror=unused-variable]
+    5 |     int n, m, o;
+      |               ^
+ex04-stu_144-sub_009.c: At top level:
+ex04-stu_144-sub_009.c:10:2: error: expected identifier or ‘(’ before ‘)’ token
+   10 | })
+      |  ^
+ex04-stu_144-sub_009.c: In function ‘main’:
+ex04-stu_144-sub_009.c:10:1: error: control reaches end of non-void function [-Werror=return-type]
+   10 | })
+      | ^
+cc1: all warnings being treated as errors

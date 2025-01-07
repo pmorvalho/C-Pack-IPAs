@@ -1,0 +1,15 @@
+ex04-stu_115-sub_006.c: In function ‘min’:
+ex04-stu_115-sub_006.c:16:13: error: unused parameter ‘x’ [-Werror=unused-parameter]
+   16 | int min(int x, int y, int z) {
+      |         ~~~~^
+ex04-stu_115-sub_006.c:16:20: error: unused parameter ‘y’ [-Werror=unused-parameter]
+   16 | int min(int x, int y, int z) {
+      |                ~~~~^
+ex04-stu_115-sub_006.c:16:27: error: unused parameter ‘z’ [-Werror=unused-parameter]
+   16 | int min(int x, int y, int z) {
+      |                       ~~~~^
+ex04-stu_115-sub_006.c: In function ‘main’:
+ex04-stu_115-sub_006.c:37:9: error: unused variable ‘aux’ [-Werror=unused-variable]
+   37 |     int aux = num2;
+      |         ^~~
+cc1: all warnings being treated as errors

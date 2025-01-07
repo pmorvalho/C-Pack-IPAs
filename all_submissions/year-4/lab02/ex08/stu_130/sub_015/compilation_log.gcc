@@ -1,0 +1,5 @@
+ex08-stu_130-sub_015.c: In function ‘main’:
+ex08-stu_130-sub_015.c:9:5: error: statement with no effect [-Werror=unused-value]
+    9 |     for(contador; contador < q; contador++){
+      |     ^~~
+cc1: all warnings being treated as errors

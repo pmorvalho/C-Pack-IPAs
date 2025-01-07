@@ -1,0 +1,5 @@
+ex02-stu_103-sub_009.c: In function ‘biggest’:
+ex02-stu_103-sub_009.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+cc1: all warnings being treated as errors

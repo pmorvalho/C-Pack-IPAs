@@ -1,0 +1,5 @@
+ex10-stu_143-sub_004.c: In function ‘main’:
+ex10-stu_143-sub_004.c:6:28: error: unused variable ‘algarismo’ [-Werror=unused-variable]
+    6 |     int contador, soma = 0,algarismo, num;
+      |                            ^~~~~~~~~
+cc1: all warnings being treated as errors

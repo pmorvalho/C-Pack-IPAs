@@ -1,0 +1,8 @@
+ex08-stu_128-sub_035.c: In function ‘main’:
+ex08-stu_128-sub_035.c:27:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   27 |     int n = strlen(numero1);
+      |     ^~~
+ex08-stu_128-sub_035.c:28:5: error: statement with no effect [-Werror=unused-value]
+   28 |     for (i;i<n;i++)
+      |     ^~~
+cc1: all warnings being treated as errors

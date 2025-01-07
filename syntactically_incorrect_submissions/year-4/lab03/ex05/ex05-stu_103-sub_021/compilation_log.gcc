@@ -1,0 +1,8 @@
+ex05-stu_103-sub_021.c:7:6: error: return type of ‘main’ is not ‘int’ [-Werror=main]
+    7 | void main(){
+      |      ^~~~
+ex05-stu_103-sub_021.c: In function ‘main’:
+ex05-stu_103-sub_021.c:19:20: error: statement with no effect [-Werror=unused-value]
+   19 |             estado == Fora;
+      |                    ^
+cc1: all warnings being treated as errors

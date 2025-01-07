@@ -1,0 +1,24 @@
+ex05-stu_154-sub_015.c: In function ‘main’:
+ex05-stu_154-sub_015.c:6:11: error: expected expression before ‘int’
+    6 |     while(int i <= num1){
+      |           ^~~
+ex05-stu_154-sub_015.c:7:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |         for(int i = 1;i <=num1){
+      |         ^~~
+ex05-stu_154-sub_015.c:7:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex05-stu_154-sub_015.c:7:31: error: expected ‘;’ before ‘)’ token
+    7 |         for(int i = 1;i <=num1){
+      |                               ^
+      |                               ;
+ex05-stu_154-sub_015.c:8:18: error: format ‘%i’ expects a matching ‘int’ argument [-Werror=format=]
+    8 |         printf("%i\n")
+      |                 ~^
+      |                  |
+      |                  int
+ex05-stu_154-sub_015.c:8:23: error: expected ‘;’ before ‘}’ token
+    8 |         printf("%i\n")
+      |                       ^
+      |                       ;
+    9 |     }
+      |     ~                  
+cc1: all warnings being treated as errors

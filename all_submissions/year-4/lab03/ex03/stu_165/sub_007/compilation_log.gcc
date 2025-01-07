@@ -1,0 +1,8 @@
+ex03-stu_165-sub_007.c: In function ‘cruz’:
+ex03-stu_165-sub_007.c:7:9: error: this ‘for’ clause does not guard... [-Werror=misleading-indentation]
+    7 |         for (col = 1; col <= N; col++)
+      |         ^~~
+ex03-stu_165-sub_007.c:9:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+    9 |             if (col <  N)
+      |             ^~
+cc1: all warnings being treated as errors

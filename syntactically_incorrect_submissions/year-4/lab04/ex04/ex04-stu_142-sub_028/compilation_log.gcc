@@ -1,0 +1,5 @@
+ex04-stu_142-sub_028.c: In function ‘is_palindrome’:
+ex04-stu_142-sub_028.c:12:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   12 |     for (int i = 0; i < size / 2; i++)
+      |     ^~~
+ex04-stu_142-sub_028.c:12:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

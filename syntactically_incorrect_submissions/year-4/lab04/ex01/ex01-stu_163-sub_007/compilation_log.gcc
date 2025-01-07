@@ -1,0 +1,26 @@
+ex01-stu_163-sub_007.c: In function ‘print_graph’:
+ex01-stu_163-sub_007.c:7:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |     for(int i = 0; i<n; i++)    printf("*");
+      |     ^~~
+ex01-stu_163-sub_007.c:7:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_163-sub_007.c: In function ‘main’:
+ex01-stu_163-sub_007.c:45:5: error: ISO C90 forbids variable length array ‘vec’ [-Werror=vla]
+   45 |     int vec[n];
+      |     ^~~
+ex01-stu_163-sub_007.c:45:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex01-stu_163-sub_007.c:46:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   46 |     for(int i = 0; i<n; i++){
+      |     ^~~
+ex01-stu_163-sub_007.c:52:13: error: redefinition of ‘i’
+   52 |     for(int i = 0; i<n; i++){
+      |             ^
+ex01-stu_163-sub_007.c:46:13: note: previous definition of ‘i’ with type ‘int’
+   46 |     for(int i = 0; i<n; i++){
+      |             ^
+ex01-stu_163-sub_007.c:52:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   52 |     for(int i = 0; i<n; i++){
+      |     ^~~
+ex01-stu_163-sub_007.c:57:1: error: control reaches end of non-void function [-Werror=return-type]
+   57 | }
+      | ^
+cc1: all warnings being treated as errors

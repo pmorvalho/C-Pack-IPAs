@@ -1,0 +1,5 @@
+ex08-stu_080-sub_125.c: In function ‘main’:
+ex08-stu_080-sub_125.c:29:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   29 |     int ver = maior(num1, num2);
+      |     ^~~
+cc1: all warnings being treated as errors

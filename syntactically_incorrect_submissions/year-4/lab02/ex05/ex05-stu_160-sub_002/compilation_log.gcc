@@ -1,0 +1,8 @@
+ex05-stu_160-sub_002.c: In function ‘main’:
+ex05-stu_160-sub_002.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     int i = 1;
+      |     ^~~
+ex05-stu_160-sub_002.c:8:5: error: statement with no effect [-Werror=unused-value]
+    8 |     for(i;i<=n; i++ ){
+      |     ^~~
+cc1: all warnings being treated as errors

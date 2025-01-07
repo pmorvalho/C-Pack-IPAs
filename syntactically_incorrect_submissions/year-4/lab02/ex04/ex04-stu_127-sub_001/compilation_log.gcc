@@ -1,0 +1,8 @@
+ex04-stu_127-sub_001.c: In function ‘main’:
+ex04-stu_127-sub_001.c:33:9: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+   33 | if (A>B && A<C || A<B && A>C) {
+      |     ~~~~^~~~~~
+ex04-stu_127-sub_001.c:38:14: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+   38 | else if (B>A && B<C || B>C && B<A) {
+      |          ~~~~^~~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,7 @@
+ex04-stu_106-sub_025.c:7:13: error: ISO C requires a named argument before ‘...’
+    7 | int is_poli(.....)
+      |             ^~~
+ex04-stu_106-sub_025.c:7:16: error: expected ‘)’ before ‘.’ token
+    7 | int is_poli(.....)
+      |                ^
+      |                )

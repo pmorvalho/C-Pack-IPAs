@@ -1,0 +1,5 @@
+ex04-stu_149-sub_033.c: In function ‘is_pali’:
+ex04-stu_149-sub_033.c:10:17: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+   10 |     for (i=0; i < strlen(s)/2 ;i++) {
+      |                 ^
+cc1: all warnings being treated as errors

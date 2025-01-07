@@ -1,0 +1,11 @@
+ex04-stu_154-sub_010.c: In function ‘main’:
+ex04-stu_154-sub_010.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int min = num1;
+      |     ^~~
+ex04-stu_154-sub_010.c:16:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |     int max = num1;
+      |     ^~~
+ex04-stu_154-sub_010.c:25:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   25 |     int mid;
+      |     ^~~
+cc1: all warnings being treated as errors

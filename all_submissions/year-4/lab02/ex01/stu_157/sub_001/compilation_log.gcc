@@ -1,0 +1,8 @@
+ex01-stu_157-sub_001.c: In function ‘main’:
+ex01-stu_157-sub_001.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int max = n1;
+      |     ^~~
+ex01-stu_157-sub_001.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+   20 | }
+      | ^
+cc1: all warnings being treated as errors

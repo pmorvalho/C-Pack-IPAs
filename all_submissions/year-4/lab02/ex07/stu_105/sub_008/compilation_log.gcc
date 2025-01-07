@@ -1,0 +1,9 @@
+ex07-stu_105-sub_008.c: In function ‘main’:
+ex07-stu_105-sub_008.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int contDivisores = 0;
+      |     ^~~
+ex07-stu_105-sub_008.c:11:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   11 |     for (int i = 1; i <= N; i++) {
+      |     ^~~
+ex07-stu_105-sub_008.c:11:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

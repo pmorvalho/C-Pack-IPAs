@@ -1,0 +1,17 @@
+ex08-stu_143-sub_019.c: In function ‘main’:
+ex08-stu_143-sub_019.c:8:10: error: ISO C90 does not support ‘long long’ [-Werror=long-long]
+    8 |     long long num1, num2;
+      |          ^~~~
+ex08-stu_143-sub_019.c:8:21: error: unused variable ‘num2’ [-Werror=unused-variable]
+    8 |     long long num1, num2;
+      |                     ^~~~
+ex08-stu_143-sub_019.c:8:15: error: unused variable ‘num1’ [-Werror=unused-variable]
+    8 |     long long num1, num2;
+      |               ^~~~
+ex08-stu_143-sub_019.c:13:14: error: ‘i’ is used uninitialized [-Werror=uninitialized]
+   13 |     while (i < MAX)
+      |              ^
+ex08-stu_143-sub_019.c:10:9: note: ‘i’ was declared here
+   10 |     int i;
+      |         ^
+cc1: all warnings being treated as errors

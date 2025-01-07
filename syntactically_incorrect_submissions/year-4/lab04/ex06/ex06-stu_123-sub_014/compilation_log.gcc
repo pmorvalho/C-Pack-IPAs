@@ -1,0 +1,5 @@
+ex06-stu_123-sub_014.c: In function ‘maiusculas’:
+ex06-stu_123-sub_014.c:17:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |   for (int i = 0; str[i] != '\0'; i++)
+      |   ^~~
+ex06-stu_123-sub_014.c:17:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

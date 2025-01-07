@@ -1,0 +1,35 @@
+ex01-stu_126-sub_004.c: In function ‘main’:
+ex01-stu_126-sub_004.c:6:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d %d %d", n1, n2, n3);
+      |            ~^         ~~
+      |             |         |
+      |             int *     int
+ex01-stu_126-sub_004.c:6:16: error: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d %d %d", n1, n2, n3);
+      |               ~^          ~~
+      |                |          |
+      |                int *      int
+ex01-stu_126-sub_004.c:6:19: error: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d %d %d", n1, n2, n3);
+      |                  ~^           ~~
+      |                   |           |
+      |                   int *       int
+ex01-stu_126-sub_004.c:6:5: error: ‘n1’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d %d %d", n1, n2, n3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex01-stu_126-sub_004.c:5:9: note: ‘n1’ was declared here
+    5 |     int n1, n2, n3;
+      |         ^~
+ex01-stu_126-sub_004.c:6:5: error: ‘n2’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d %d %d", n1, n2, n3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex01-stu_126-sub_004.c:5:13: note: ‘n2’ was declared here
+    5 |     int n1, n2, n3;
+      |             ^~
+ex01-stu_126-sub_004.c:6:5: error: ‘n3’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d %d %d", n1, n2, n3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex01-stu_126-sub_004.c:5:17: note: ‘n3’ was declared here
+    5 |     int n1, n2, n3;
+      |                 ^~
+cc1: all warnings being treated as errors

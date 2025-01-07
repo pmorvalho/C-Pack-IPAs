@@ -1,0 +1,13 @@
+ex05-stu_130-sub_019.c: In function ‘main’:
+ex05-stu_130-sub_019.c:12:13: error: array subscript has type ‘char’ [-Werror=char-subscripts]
+   12 |          str[i] = c;
+      |             ^
+ex05-stu_130-sub_019.c:14:8: error: array subscript has type ‘char’ [-Werror=char-subscripts]
+   14 |     str[i] = '\0';
+      |        ^
+ex05-stu_130-sub_019.c: In function ‘leLinha’:
+ex05-stu_130-sub_019.c:23:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   23 |     for(int i = 0; i < MAX && s[i] != '\0'; i++){
+      |     ^~~
+ex05-stu_130-sub_019.c:23:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

@@ -1,0 +1,19 @@
+ex01-stu_149-sub_017.c: In function ‘quadrado’:
+ex01-stu_149-sub_017.c:10:25: error: passing argument 1 of ‘putchar’ makes integer from pointer without a cast [-Werror=int-conversion]
+   10 |                 putchar("\t");
+      |                         ^~~~
+      |                         |
+      |                         char *
+In file included from ex01-stu_149-sub_017.c:3:
+/usr/include/stdio.h:556:25: note: expected ‘int’ but argument is of type ‘char *’
+  556 | extern int putchar (int __c);
+      |                     ~~~~^~~
+ex01-stu_149-sub_017.c:14:17: error: passing argument 1 of ‘putchar’ makes integer from pointer without a cast [-Werror=int-conversion]
+   14 |         putchar("\n");
+      |                 ^~~~
+      |                 |
+      |                 char *
+/usr/include/stdio.h:556:25: note: expected ‘int’ but argument is of type ‘char *’
+  556 | extern int putchar (int __c);
+      |                     ~~~~^~~
+cc1: all warnings being treated as errors

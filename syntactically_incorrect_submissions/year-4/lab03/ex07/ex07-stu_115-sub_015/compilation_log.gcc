@@ -1,0 +1,30 @@
+ex07-stu_115-sub_015.c:6:8: error: no macro name given in #define directive
+    6 | #define
+      |        ^
+ex07-stu_115-sub_015.c: In function ‘main’:
+ex07-stu_115-sub_015.c:11:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Werror=format=]
+   11 |     scanf("%s", &input);
+      |            ~^   ~~~~~~
+      |             |   |
+      |             |   char (*)[100]
+      |             char *
+ex07-stu_115-sub_015.c:14:22: error: comparison between pointer and integer [-Werror]
+   14 |         if (input[i] == " ") {
+      |                      ^~
+ex07-stu_115-sub_015.c:14:22: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_115-sub_015.c:9:35: error: variable ‘mult’ set but not used [-Werror=unused-but-set-variable]
+    9 |     int total = 0, num1, num2, i, mult = 1;
+      |                                   ^~~~
+ex07-stu_115-sub_015.c:9:26: error: unused variable ‘num2’ [-Werror=unused-variable]
+    9 |     int total = 0, num1, num2, i, mult = 1;
+      |                          ^~~~
+ex07-stu_115-sub_015.c:9:20: error: unused variable ‘num1’ [-Werror=unused-variable]
+    9 |     int total = 0, num1, num2, i, mult = 1;
+      |                    ^~~~
+ex07-stu_115-sub_015.c:9:9: error: unused variable ‘total’ [-Werror=unused-variable]
+    9 |     int total = 0, num1, num2, i, mult = 1;
+      |         ^~~~~
+ex07-stu_115-sub_015.c:8:22: error: unused variable ‘op’ [-Werror=unused-variable]
+    8 |     char input[100], op;
+      |                      ^~
+cc1: all warnings being treated as errors

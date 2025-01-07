@@ -1,0 +1,22 @@
+ex02-stu_150-sub_023.c: In function ‘espacos’:
+ex02-stu_150-sub_023.c:7:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |     for(int i = 1; i <= n; ++i)
+      |     ^~~
+ex02-stu_150-sub_023.c:7:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_150-sub_023.c: In function ‘sequencia’:
+ex02-stu_150-sub_023.c:18:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   18 |         for(int i = 1; i <= n; ++i)
+      |         ^~~
+ex02-stu_150-sub_023.c:22:17: error: redefinition of ‘i’
+   22 |         for(int i = n -1; i >0; --i)
+      |                 ^
+ex02-stu_150-sub_023.c:18:17: note: previous definition of ‘i’ with type ‘int’
+   18 |         for(int i = 1; i <= n; ++i)
+      |                 ^
+ex02-stu_150-sub_023.c:22:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |         for(int i = n -1; i >0; --i)
+      |         ^~~
+ex02-stu_150-sub_023.c: In function ‘piramide’:
+ex02-stu_150-sub_023.c:31:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   31 |     for(int i = 1; i <= n; ++i)
+      |     ^~~

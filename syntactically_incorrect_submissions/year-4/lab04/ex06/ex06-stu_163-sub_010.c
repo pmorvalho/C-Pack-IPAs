@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+#define MAXSTRING 80
+
+int lelinha(char s[]){
+    char c;
+    int i=0;
+    while ((c = getchar()) != '\n' && c != EOF){
+        if(c>=97 && c<=122){
+            s[i++] = c-32;
+        }
+        else s[i++] = c;  
+    }
+    s[i]= '\0';
+    return i;
+}
+
+int main(){
+    char str[MAXSTRING];
+    lelinha(str);
+    printf("%s\n", str);
+}

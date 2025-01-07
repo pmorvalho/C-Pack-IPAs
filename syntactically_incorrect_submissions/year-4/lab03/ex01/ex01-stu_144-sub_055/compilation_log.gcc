@@ -1,0 +1,21 @@
+ex01-stu_144-sub_055.c: In function ‘main’:
+ex01-stu_144-sub_055.c:9:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    9 |     void quadrado(int N){
+      |     ^~~~
+ex01-stu_144-sub_055.c: In function ‘quadrado’:
+ex01-stu_144-sub_055.c:10:9: error: ISO C90 forbids variable length array ‘matrix’ [-Werror=vla]
+   10 |         int matrix[N][N];
+      |         ^~~
+ex01-stu_144-sub_055.c:10:9: error: ISO C90 forbids variable length array ‘matrix’ [-Werror=vla]
+ex01-stu_144-sub_055.c: In function ‘main’:
+ex01-stu_144-sub_055.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     void quadrado(int N){
+      |     ^~~~
+ex01-stu_144-sub_055.c: In function ‘quadrado’:
+ex01-stu_144-sub_055.c:19:17: error: ‘*matrix[ln][cl]’ may be used uninitialized [-Werror=maybe-uninitialized]
+   19 |                 printf("%d\t", matrix[ln][cl]);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex01-stu_144-sub_055.c:25:13: error: ‘*matrix[ln][cl]’ may be used uninitialized [-Werror=maybe-uninitialized]
+   25 |             printf("\n%d\t", matrix[ln][cl]);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

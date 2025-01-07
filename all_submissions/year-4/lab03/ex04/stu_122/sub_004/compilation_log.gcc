@@ -1,0 +1,5 @@
+ex04-stu_122-sub_004.c: In function ‘main’:
+ex04-stu_122-sub_004.c:22:23: error: statement with no effect [-Werror=unused-value]
+   22 |                 state == OUT;
+      |                       ^
+cc1: all warnings being treated as errors

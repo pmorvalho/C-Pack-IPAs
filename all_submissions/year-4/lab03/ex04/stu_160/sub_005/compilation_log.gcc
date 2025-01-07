@@ -1,0 +1,26 @@
+ex04-stu_160-sub_005.c: In function ‘main’:
+ex04-stu_160-sub_005.c:4:23: error: implicit declaration of function ‘getchar’ [-Werror=implicit-function-declaration]
+    4 |     char maybe_zero = getchar();
+      |                       ^~~~~~~
+ex04-stu_160-sub_005.c:1:1: note: ‘getchar’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+  +++ |+#include <stdio.h>
+    1 | 
+ex04-stu_160-sub_005.c:6:9: error: continue statement not within a loop
+    6 |         continue;
+      |         ^~~~~~~~
+ex04-stu_160-sub_005.c:8:9: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+    8 |         printf(maybe_zero);
+      |         ^~~~~~
+ex04-stu_160-sub_005.c:8:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex04-stu_160-sub_005.c:8:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex04-stu_160-sub_005.c:8:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex04-stu_160-sub_005.c:8:16: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+    8 |         printf(maybe_zero);
+      |                ^~~~~~~~~~
+      |                |
+      |                char
+ex04-stu_160-sub_005.c:8:16: note: expected ‘const char *’ but argument is of type ‘char’
+ex04-stu_160-sub_005.c:11:1: error: control reaches end of non-void function [-Werror=return-type]
+   11 | }
+      | ^
+cc1: all warnings being treated as errors

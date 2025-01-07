@@ -1,0 +1,9 @@
+ex01-stu_143-sub_004.c: In function ‘main’:
+ex01-stu_143-sub_004.c:24:5: error: implicit declaration of function ‘print’; did you mean ‘printf’? [-Werror=implicit-function-declaration]
+   24 |     print("%d", maior);
+      |     ^~~~~
+      |     printf
+ex01-stu_143-sub_004.c:7:9: error: unused variable ‘i’ [-Werror=unused-variable]
+    7 |     int i, maior, num1, num2, num3;
+      |         ^
+cc1: all warnings being treated as errors

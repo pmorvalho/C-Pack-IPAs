@@ -1,0 +1,12 @@
+ex03-stu_154-sub_005.c: In function ‘main’:
+ex03-stu_154-sub_005.c:10:23: error: statement with no effect [-Werror=unused-value]
+   10 |     else( num1 % num2 != 0) {
+      |         ~~~~~~~~~~~~~~^~~~~
+ex03-stu_154-sub_005.c:10:28: error: expected ‘;’ before ‘{’ token
+   10 |     else( num1 % num2 != 0) {
+      |                            ^~
+      |                            ;
+ex03-stu_154-sub_005.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex08-stu_144-sub_020.c: In function ‘main’:
+ex08-stu_144-sub_020.c:17:5: error: ‘media’ undeclared (first use in this function)
+   17 |     media = soma / N;
+      |     ^~~~~
+ex08-stu_144-sub_020.c:17:5: note: each undeclared identifier is reported only once for each function it appears in

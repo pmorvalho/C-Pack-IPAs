@@ -1,0 +1,5 @@
+ex02-stu_137-sub_018.c: In function ‘main’:
+ex02-stu_137-sub_018.c:29:9: error: implicit declaration of function ‘quadrado’ [-Werror=implicit-function-declaration]
+   29 |         quadrado(N);
+      |         ^~~~~~~~
+cc1: all warnings being treated as errors

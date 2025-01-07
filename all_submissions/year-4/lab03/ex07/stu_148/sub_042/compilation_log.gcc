@@ -1,0 +1,85 @@
+ex07-stu_148-sub_042.c:4:9: error: missing whitespace after the macro name [-Werror]
+    4 | #define SUBTRAÇAO 0
+      |         ^~~~~~
+ex07-stu_148-sub_042.c:8:15: error: stray ‘\303’ in program
+    8 | int num, opera<U+00E7>ao = SOMA, resultado = 0;
+      |               ^~~~~~~~
+ex07-stu_148-sub_042.c:8:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ao’
+    8 | int num, operaçao = SOMA, resultado = 0;
+      |                ^~
+ex07-stu_148-sub_042.c: In function ‘main’:
+ex07-stu_148-sub_042.c:17:22: error: stray ‘\303’ in program
+   17 |                 opera<U+00E7>ao = SUBTRA<U+00C7>AO;
+      |                      ^~~~~~~~
+ex07-stu_148-sub_042.c:17:17: error: unknown type name ‘opera’
+   17 |                 operaçao = SUBTRAÇAO;
+      |                 ^~~~~
+ex07-stu_148-sub_042.c:4:15: error: stray ‘\303’ in program
+    4 | #define SUBTRA<U+00C7>AO 0
+      |               ^~~~~~~~
+ex07-stu_148-sub_042.c:17:28: note: in expansion of macro ‘SUBTRA’
+   17 |                 operaçao = SUBTRAÇAO;
+      |                            ^~~~~~
+ex07-stu_148-sub_042.c:4:16: error: ‘AO’ undeclared (first use in this function); did you mean ‘ao’?
+    4 | #define SUBTRAÇAO 0
+      |                ^~
+ex07-stu_148-sub_042.c:17:28: note: in expansion of macro ‘SUBTRA’
+   17 |                 operaçao = SUBTRAÇAO;
+      |                            ^~~~~~
+ex07-stu_148-sub_042.c:4:16: note: each undeclared identifier is reported only once for each function it appears in
+    4 | #define SUBTRAÇAO 0
+      |                ^~
+ex07-stu_148-sub_042.c:17:28: note: in expansion of macro ‘SUBTRA’
+   17 |                 operaçao = SUBTRAÇAO;
+      |                            ^~~~~~
+ex07-stu_148-sub_042.c:4:19: error: expected ‘,’ or ‘;’ before numeric constant
+    4 | #define SUBTRAÇAO 0
+      |                   ^
+ex07-stu_148-sub_042.c:17:28: note: in expansion of macro ‘SUBTRA’
+   17 |                 operaçao = SUBTRAÇAO;
+      |                            ^~~~~~
+ex07-stu_148-sub_042.c:17:34: error: stray ‘\303’ in program
+   17 |                 opera<U+00E7>ao = SUBTRA<U+00C7>AO;
+      |                                         ^~~~~~~~
+ex07-stu_148-sub_042.c:17:23: error: unused variable ‘ao’ [-Werror=unused-variable]
+   17 |                 operaçao = SUBTRAÇAO;
+      |                       ^~
+ex07-stu_148-sub_042.c:20:22: error: stray ‘\303’ in program
+   20 |                 opera<U+00E7>ao = SOMA;
+      |                      ^~~~~~~~
+ex07-stu_148-sub_042.c:20:17: error: unknown type name ‘opera’
+   20 |                 operaçao = SOMA;
+      |                 ^~~~~
+ex07-stu_148-sub_042.c:20:23: error: unused variable ‘ao’ [-Werror=unused-variable]
+   20 |                 operaçao = SOMA;
+      |                       ^~
+ex07-stu_148-sub_042.c:23:18: error: stray ‘\303’ in program
+   23 |         if (opera<U+00E7>ao == SOMA)
+      |                  ^~~~~~~~
+ex07-stu_148-sub_042.c:23:13: error: ‘opera’ undeclared (first use in this function)
+   23 |         if (operaçao == SOMA)
+      |             ^~~~~
+ex07-stu_148-sub_042.c:23:18: error: expected ‘)’ before ‘ao’
+   23 |         if (operaçao == SOMA)
+      |            ~     ^~~
+      |                  )
+ex07-stu_148-sub_042.c:24:13: error: ‘resultado’ undeclared (first use in this function)
+   24 |             resultado += num;
+      |             ^~~~~~~~~
+ex07-stu_148-sub_042.c:25:24: error: stray ‘\303’ in program
+   25 |         else if ( opera<U+00E7>ao == SUBTRA<U+00C7>AO)
+      |                        ^~~~~~~~
+ex07-stu_148-sub_042.c:25:24: error: expected ‘)’ before ‘ao’
+   25 |         else if ( operaçao == SUBTRAÇAO)
+      |                 ~      ^~~
+      |                        )
+ex07-stu_148-sub_042.c:4:15: error: stray ‘\303’ in program
+    4 | #define SUBTRA<U+00C7>AO 0
+      |               ^~~~~~~~
+ex07-stu_148-sub_042.c:25:31: note: in expansion of macro ‘SUBTRA’
+   25 |         else if ( operaçao == SUBTRAÇAO)
+      |                               ^~~~~~
+ex07-stu_148-sub_042.c:25:37: error: stray ‘\303’ in program
+   25 |         else if ( opera<U+00E7>ao == SUBTRA<U+00C7>AO)
+      |                                            ^~~~~~~~
+cc1: all warnings being treated as errors

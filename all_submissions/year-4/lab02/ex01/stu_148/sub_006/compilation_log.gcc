@@ -1,0 +1,21 @@
+ex01-stu_148-sub_006.c: In function ‘main’:
+ex01-stu_148-sub_006.c:8:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    8 |     scanf("%d%d%d", &num1, &num2, &num3);
+      |     ^~~~~
+ex01-stu_148-sub_006.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_148-sub_006.c:8:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    8 |     scanf("%d%d%d", &num1, &num2, &num3);
+      |     ^~~~~
+ex01-stu_148-sub_006.c:8:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex01-stu_148-sub_006.c:20:5: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+   20 |     printf("%d", num_maior);
+      |     ^~~~~~
+ex01-stu_148-sub_006.c:20:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_148-sub_006.c:20:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex01-stu_148-sub_006.c:20:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_148-sub_006.c:21:1: error: control reaches end of non-void function [-Werror=return-type]
+   21 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,13 @@
+ex08-stu_130-sub_027.c: In function ‘lenumeros’:
+ex08-stu_130-sub_027.c:19:13: error: operation on ‘i’ may be undefined [-Werror=sequence-point]
+   19 |         n1[i++] = ((estado == UM) ? c : n1[i]);
+      |            ~^~
+ex08-stu_130-sub_027.c:21:17: error: operation on ‘i’ may be undefined [-Werror=sequence-point]
+   21 |             n1[i++] = ((estado == UM) ? c : n1[i]);
+      |                ~^~
+ex08-stu_130-sub_027.c: In function ‘compara’:
+ex08-stu_130-sub_027.c:31:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   31 |     for (int i = 0; i < MAX && n2[i] != '\0'; i++){
+      |     ^~~
+ex08-stu_130-sub_027.c:31:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

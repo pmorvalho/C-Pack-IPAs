@@ -1,0 +1,25 @@
+ex04-stu_150-sub_034.c: In function ‘main’:
+ex04-stu_150-sub_034.c:13:15: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |               ^~
+ex04-stu_150-sub_034.c:13:15: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_034.c:13:27: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |                           ^~
+ex04-stu_150-sub_034.c:13:27: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_034.c:13:39: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |                                       ^~
+ex04-stu_150-sub_034.c:13:39: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_034.c:13:52: error: comparison between pointer and integer [-Werror]
+   13 |         if (c == " " || c =="\n" || c == "\t" || c == "\v")
+      |                                                    ^~
+ex04-stu_150-sub_034.c:13:52: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_150-sub_034.c: At top level:
+ex04-stu_150-sub_034.c:38:1: error: expected identifier or ‘(’ before ‘if’
+   38 | if (c != 0)
+      | ^~
+ex04-stu_150-sub_034.c:46:11: error: expected identifier or ‘(’ before ‘else’
+   46 |         } else
+      |           ^~~~
+cc1: all warnings being treated as errors

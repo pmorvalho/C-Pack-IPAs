@@ -1,0 +1,12 @@
+ex04-stu_126-sub_016.c: In function ‘main’:
+ex04-stu_126-sub_016.c:7:5: error: ISO C90 forbids variable length array ‘palavra’ [-Werror=vla]
+    7 |     char palavra[MAX];
+      |     ^~~~
+ex04-stu_126-sub_016.c:11:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   11 |     int len = strlen(palavra);
+      |     ^~~
+ex04-stu_126-sub_016.c:14:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   14 |         for (int i = 0, j = len - 1; i < j; i++, j--) {
+      |         ^~~
+ex04-stu_126-sub_016.c:14:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

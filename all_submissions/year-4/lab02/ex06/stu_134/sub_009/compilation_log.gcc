@@ -1,0 +1,14 @@
+ex06-stu_134-sub_009.c: In function ‘main’:
+ex06-stu_134-sub_009.c:7:9: error: ISO C90 forbids variable length array ‘a’ [-Werror=vla]
+    7 |         float a[N];
+      |         ^~~~~
+ex06-stu_134-sub_009.c:11:9: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   11 |         float max, min = a[0];
+      |         ^~~~~
+ex06-stu_134-sub_009.c:7:9: error: ‘N’ is used uninitialized [-Werror=uninitialized]
+    7 |         float a[N];
+      |         ^~~~~
+ex06-stu_134-sub_009.c:6:13: note: ‘N’ was declared here
+    6 |         int N, i;
+      |             ^
+cc1: all warnings being treated as errors

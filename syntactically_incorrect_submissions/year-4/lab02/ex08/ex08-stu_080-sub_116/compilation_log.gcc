@@ -1,0 +1,10 @@
+ex08-stu_080-sub_116.c: In function ‘main’:
+ex08-stu_080-sub_116.c:9:5: error: ISO C90 forbids variable length array ‘numbers’ [-Werror=vla]
+    9 |     float numbers[n];
+      |     ^~~~~
+ex08-stu_080-sub_116.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex08-stu_080-sub_116.c:10:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |     for (int i = 0; i < n; i++){
+      |     ^~~
+ex08-stu_080-sub_116.c:10:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

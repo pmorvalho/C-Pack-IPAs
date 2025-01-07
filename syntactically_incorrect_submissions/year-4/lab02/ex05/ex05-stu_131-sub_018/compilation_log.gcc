@@ -1,0 +1,8 @@
+ex05-stu_131-sub_018.c: In function ‘main’:
+ex05-stu_131-sub_018.c:7:13: error: ‘lm’ is used uninitialized [-Werror=uninitialized]
+    7 |     while(lm<=v)
+      |           ~~^~~
+ex05-stu_131-sub_018.c:5:12: note: ‘lm’ was declared here
+    5 |     int v, lm;
+      |            ^~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex01-stu_128-sub_001.c: In function ‘max’:
+ex01-stu_128-sub_001.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

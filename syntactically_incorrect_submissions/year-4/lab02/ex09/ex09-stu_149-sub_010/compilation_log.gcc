@@ -1,0 +1,14 @@
+ex09-stu_149-sub_010.c: In function ‘main’:
+ex09-stu_149-sub_010.c:12:46: error: expected ‘;’ before ‘return’
+   12 |     printf("%d:%d:%d",horas,minutos,segundos)
+      |                                              ^
+      |                                              ;
+   13 |     return 0;
+      |     ~~~~~~                                    
+ex09-stu_149-sub_010.c:6:45: error: unused variable ‘aux_contas’ [-Werror=unused-variable]
+    6 |     int num_segundos,horas,minutos,segundos,aux_contas;
+      |                                             ^~~~~~~~~~
+ex09-stu_149-sub_010.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

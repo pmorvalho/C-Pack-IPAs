@@ -1,0 +1,9 @@
+ex08-stu_093-sub_052.c: In function ‘main’:
+ex08-stu_093-sub_052.c:12:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   12 |     for(int i = 0; i < n; i++){
+      |     ^~~
+ex08-stu_093-sub_052.c:12:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex08-stu_093-sub_052.c:18:17: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   18 |     printf("%.2lf\n", media/n);
+      |                 ^
+cc1: all warnings being treated as errors

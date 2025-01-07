@@ -1,0 +1,9 @@
+ex06-stu_143-sub_004.c: In function ‘main’:
+ex06-stu_143-sub_004.c:11:5: error: ISO C90 forbids variable length array ‘num’ [-Werror=vla]
+   11 |     float num[comprimento];
+      |     ^~~~~
+ex06-stu_143-sub_004.c:11:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex06-stu_143-sub_004.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+   28 | }
+      | ^
+cc1: all warnings being treated as errors

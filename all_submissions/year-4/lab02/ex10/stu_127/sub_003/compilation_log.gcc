@@ -1,0 +1,5 @@
+ex10-stu_127-sub_003.c: In function ‘main’:
+ex10-stu_127-sub_003.c:5:9: error: unused variable ‘cont’ [-Werror=unused-variable]
+    5 |     int cont;
+      |         ^~~~
+cc1: all warnings being treated as errors

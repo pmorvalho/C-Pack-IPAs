@@ -1,0 +1,8 @@
+ex04-stu_144-sub_075.c: In function ‘main’:
+ex04-stu_144-sub_075.c:53:13: error: stray ‘\’ in program
+   53 |     putchar(\n);
+      |             ^
+ex04-stu_144-sub_075.c:53:14: error: ‘n’ undeclared (first use in this function)
+   53 |     putchar(\n);
+      |              ^
+ex04-stu_144-sub_075.c:53:14: note: each undeclared identifier is reported only once for each function it appears in

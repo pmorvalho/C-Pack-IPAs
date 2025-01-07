@@ -1,0 +1,26 @@
+ex01-stu_144-sub_032.c: In function ‘main’:
+ex01-stu_144-sub_032.c:6:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    6 |     void quadrado(int N){
+      |     ^~~~
+ex01-stu_144-sub_032.c: In function ‘quadrado’:
+ex01-stu_144-sub_032.c:7:9: error: ISO C90 forbids variable length array ‘matrix’ [-Werror=vla]
+    7 |         int matrix[N][N];
+      |         ^~~
+ex01-stu_144-sub_032.c:7:9: error: ISO C90 forbids variable length array ‘matrix’ [-Werror=vla]
+ex01-stu_144-sub_032.c:16:26: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   16 |                 printf("%d\t", &matrix[ln][cl]);
+      |                         ~^     ~~~~~~~~~~~~~~~
+      |                          |     |
+      |                          int   int *
+      |                         %ls
+ex01-stu_144-sub_032.c:22:24: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   22 |             printf("\n%d\t", &matrix[ln][cl]);
+      |                       ~^     ~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        int   int *
+      |                       %ls
+ex01-stu_144-sub_032.c: At top level:
+ex01-stu_144-sub_032.c:6:10: error: ‘quadrado’ defined but not used [-Werror=unused-function]
+    6 |     void quadrado(int N){
+      |          ^~~~~~~~
+cc1: all warnings being treated as errors

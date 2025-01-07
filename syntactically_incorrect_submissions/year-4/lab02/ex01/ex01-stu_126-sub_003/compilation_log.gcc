@@ -1,0 +1,20 @@
+ex01-stu_126-sub_003.c: In function ‘main’:
+ex01-stu_126-sub_003.c:7:8: error: ‘n1’ is used uninitialized [-Werror=uninitialized]
+    7 |     if (n1 >= n2) {
+      |        ^
+ex01-stu_126-sub_003.c:5:9: note: ‘n1’ was declared here
+    5 |     int n1, n2, n3;
+      |         ^~
+ex01-stu_126-sub_003.c:7:8: error: ‘n2’ is used uninitialized [-Werror=uninitialized]
+    7 |     if (n1 >= n2) {
+      |        ^
+ex01-stu_126-sub_003.c:5:13: note: ‘n2’ was declared here
+    5 |     int n1, n2, n3;
+      |             ^~
+ex01-stu_126-sub_003.c:8:12: error: ‘n3’ may be used uninitialized [-Werror=maybe-uninitialized]
+    8 |         if (n1>=n3){
+      |            ^
+ex01-stu_126-sub_003.c:5:17: note: ‘n3’ was declared here
+    5 |     int n1, n2, n3;
+      |                 ^~
+cc1: all warnings being treated as errors

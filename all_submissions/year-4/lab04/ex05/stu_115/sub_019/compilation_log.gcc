@@ -1,0 +1,23 @@
+ex05-stu_115-sub_019.c: In function ‘leLinha’:
+ex05-stu_115-sub_019.c:4:18: error: unused parameter ‘s’ [-Werror=unused-parameter]
+    4 | int leLinha(char s[]) {
+      |             ~~~~~^~~
+ex05-stu_115-sub_019.c: In function ‘main’:
+ex05-stu_115-sub_019.c:9:14: error: ‘DIM’ undeclared (first use in this function)
+    9 |     char str[DIM;
+      |              ^~~
+ex05-stu_115-sub_019.c:9:14: note: each undeclared identifier is reported only once for each function it appears in
+ex05-stu_115-sub_019.c:9:17: error: expected ‘]’ before ‘;’ token
+    9 |     char str[DIM;
+      |                 ^
+      |                 ]
+ex05-stu_115-sub_019.c:11:2: error: expected declaration or statement at end of input
+   11 |  }
+      |  ^
+ex05-stu_115-sub_019.c: In function ‘leLinha’:
+ex05-stu_115-sub_019.c:6:1: error: control reaches end of non-void function [-Werror=return-type]
+    6 | }
+      | ^
+ex05-stu_115-sub_019.c: In function ‘main’:
+ex05-stu_115-sub_019.c:12: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors

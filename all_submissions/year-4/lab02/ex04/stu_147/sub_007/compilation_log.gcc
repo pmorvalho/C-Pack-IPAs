@@ -1,0 +1,9 @@
+ex04-stu_147-sub_007.c: In function ‘main’:
+ex04-stu_147-sub_007.c:7:5: error: expected declaration or statement at end of input
+    7 |     scanf("%d %d %d", &n_1, &n_2, &n_3);
+      |     ^~~~~
+ex04-stu_147-sub_007.c:5:24: error: unused variable ‘foo’ [-Werror=unused-variable]
+    5 |     int n_1, n_2, n_3, foo;
+      |                        ^~~
+ex04-stu_147-sub_007.c:10: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors

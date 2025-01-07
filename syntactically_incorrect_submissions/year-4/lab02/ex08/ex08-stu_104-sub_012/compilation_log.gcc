@@ -1,0 +1,9 @@
+ex08-stu_104-sub_012.c: In function ‘main’:
+ex08-stu_104-sub_012.c:15:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   15 |     float average = 0;
+      |     ^~~~~
+ex08-stu_104-sub_012.c:16:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |     for (int i = 1; i <= max_nums; i++)
+      |     ^~~
+ex08-stu_104-sub_012.c:16:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

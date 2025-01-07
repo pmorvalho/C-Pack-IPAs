@@ -1,0 +1,27 @@
+ex02-stu_144-sub_056.c: In function ‘main’:
+ex02-stu_144-sub_056.c:16:5: error: ISO C forbids nested functions [-Werror=pedantic]
+   16 |     void piramide(int N){
+      |     ^~~~
+ex02-stu_144-sub_056.c: In function ‘piramide’:
+ex02-stu_144-sub_056.c:18:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   18 |         for(int counter = 0; counter < N; counter++){
+      |         ^~~
+ex02-stu_144-sub_056.c:18:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_144-sub_056.c: In function ‘main’:
+ex02-stu_144-sub_056.c:16:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |     void piramide(int N){
+      |     ^~~~
+ex02-stu_144-sub_056.c:9:9: error: unused variable ‘v’ [-Werror=unused-variable]
+    9 |     int v = 0;
+      |         ^
+ex02-stu_144-sub_056.c:8:10: error: unused variable ‘q’ [-Werror=unused-variable]
+    8 |     int  q = 0;
+      |          ^
+ex02-stu_144-sub_056.c:7:9: error: unused variable ‘esp’ [-Werror=unused-variable]
+    7 |     int esp = 0;
+      |         ^~~
+ex02-stu_144-sub_056.c: At top level:
+ex02-stu_144-sub_056.c:16:10: error: ‘piramide’ defined but not used [-Werror=unused-function]
+   16 |     void piramide(int N){
+      |          ^~~~~~~~
+cc1: all warnings being treated as errors

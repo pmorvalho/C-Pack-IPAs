@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+void piramide(int N) {
+   int i, j, spaces;
+   for (i = 1; i<=N; i++){
+      spaces = 0;
+     while(spaces < (N-i)*2) {
+        printf(" ");
+        spaces++;
+     }
+        for (j = 1; j<=i; j++) {
+        printf("%d ", j);
+     }
+        for (j = 1; j < 1; j++) {
+        printf("%d ", i - j);
+    }
+     printf("\n");
+    }
+}
+int main() {
+    int N;
+    scanf("%d", &N);
+    piramide(N);
+    return 0;
+}

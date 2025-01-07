@@ -1,0 +1,9 @@
+ex06-stu_134-sub_011.c: In function ‘main’:
+ex06-stu_134-sub_011.c:8:9: error: ISO C90 forbids variable length array ‘a’ [-Werror=vla]
+    8 |         float a[N];
+      |         ^~~~~
+ex06-stu_134-sub_011.c:8:9: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex06-stu_134-sub_011.c:12:9: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   12 |         float max, min = a[0];
+      |         ^~~~~
+cc1: all warnings being treated as errors

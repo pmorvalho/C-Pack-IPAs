@@ -1,0 +1,22 @@
+ex02-stu_139-sub_002.c: In function ‘piramide’:
+ex02-stu_139-sub_002.c:7:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |     for (int c = 1; c <= n; c++)
+      |     ^~~
+ex02-stu_139-sub_002.c:7:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_139-sub_002.c:19:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   19 |             for (int l = 1; l < c; l++)
+      |             ^~~
+ex02-stu_139-sub_002.c:23:22: error: redefinition of ‘l’
+   23 |             for (int l = c; l > 1; l--)
+      |                      ^
+ex02-stu_139-sub_002.c:19:22: note: previous definition of ‘l’ with type ‘int’
+   19 |             for (int l = 1; l < c; l++)
+      |                      ^
+ex02-stu_139-sub_002.c:23:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   23 |             for (int l = c; l > 1; l--)
+      |             ^~~
+ex02-stu_139-sub_002.c: In function ‘main’:
+ex02-stu_139-sub_002.c:39:1: error: control reaches end of non-void function [-Werror=return-type]
+   39 | }
+      | ^
+cc1: all warnings being treated as errors

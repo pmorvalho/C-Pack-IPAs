@@ -1,0 +1,8 @@
+ex05-stu_144-sub_082.c:2:19: error: extra tokens at end of #include directive [-Werror]
+    2 | #include <stdio.h><
+      |                   ^
+ex05-stu_144-sub_082.c: In function ‘main’:
+ex05-stu_144-sub_082.c:8:21: error: unused variable ‘state’ [-Werror=unused-variable]
+    8 |     enum all_states state = FORA;
+      |                     ^~~~~
+cc1: all warnings being treated as errors

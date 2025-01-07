@@ -1,0 +1,5 @@
+ex02-stu_157-sub_001.c: In function ‘main’:
+ex02-stu_157-sub_001.c:5:15: error: unused variable ‘z’ [-Werror=unused-variable]
+    5 |     int x, y, z;
+      |               ^
+cc1: all warnings being treated as errors

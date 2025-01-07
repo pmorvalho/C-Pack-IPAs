@@ -1,0 +1,14 @@
+ex06-stu_154-sub_043.c: In function ‘main’:
+ex06-stu_154-sub_043.c:25:23: error: passing argument 1 of ‘toupper’ makes integer from pointer without a cast [-Werror=int-conversion]
+   25 |     palavra = toupper(palavra);
+      |                       ^~~~~~~
+      |                       |
+      |                       char *
+In file included from ex06-stu_154-sub_043.c:4:
+/usr/include/ctype.h:125:25: note: expected ‘int’ but argument is of type ‘char *’
+  125 | extern int toupper (int __c) __THROW;
+      |                     ~~~~^~~
+ex06-stu_154-sub_043.c:25:13: error: assignment to expression with array type
+   25 |     palavra = toupper(palavra);
+      |             ^
+cc1: all warnings being treated as errors

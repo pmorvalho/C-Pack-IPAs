@@ -1,0 +1,4 @@
+ex07-stu_114-sub_027.c: In function ‘main’:
+ex07-stu_114-sub_027.c:5: error: expected ‘{’ at end of input
+ex07-stu_114-sub_027.c:5: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors

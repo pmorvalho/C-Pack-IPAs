@@ -1,0 +1,8 @@
+ex06-stu_139-sub_003.c: In function ‘main’:
+ex06-stu_139-sub_003.c:24:9: error: unused variable ‘numCaracteres’ [-Werror=unused-variable]
+   24 |     int numCaracteres = maiusculas(linha);
+      |         ^~~~~~~~~~~~~
+ex06-stu_139-sub_003.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+   27 | }
+      | ^
+cc1: all warnings being treated as errors

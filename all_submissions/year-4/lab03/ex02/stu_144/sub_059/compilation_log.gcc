@@ -1,0 +1,14 @@
+ex02-stu_144-sub_059.c: In function ‘piramide’:
+ex02-stu_144-sub_059.c:32:19: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   32 |             }else if(j > middle)
+      |                   ^~
+ex02-stu_144-sub_059.c:34:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   34 |                 valores--;
+      |                 ^~~~~~~
+ex02-stu_144-sub_059.c:25:15: error: ‘middle’ may be used uninitialized [-Werror=maybe-uninitialized]
+   25 |             if(j < middle){
+      |               ^
+ex02-stu_144-sub_059.c:15:9: note: ‘middle’ was declared here
+   15 |     int middle;
+      |         ^~~~~~
+cc1: all warnings being treated as errors

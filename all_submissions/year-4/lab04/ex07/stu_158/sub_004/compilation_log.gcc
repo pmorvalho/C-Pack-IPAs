@@ -1,0 +1,5 @@
+ex07-stu_158-sub_004.c: In function ‘apagaCaracter’:
+ex07-stu_158-sub_004.c:16:26: error: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Werror=sign-compare]
+   16 |     for (i = 0, j = 0; i <= strlen(s); i++) {
+      |                          ^~
+cc1: all warnings being treated as errors

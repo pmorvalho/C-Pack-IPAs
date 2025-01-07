@@ -1,0 +1,19 @@
+ex03-stu_139-sub_003.c: In function ‘main’:
+ex03-stu_139-sub_003.c:14:5: error: ISO C90 forbids variable length array ‘numbers’ [-Werror=vla]
+   14 |     int numbers[n];
+      |     ^~~
+ex03-stu_139-sub_003.c:14:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex03-stu_139-sub_003.c:16:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |     for (int i = 0; i < n; i++)
+      |     ^~~
+ex03-stu_139-sub_003.c:16:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_139-sub_003.c:25:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   25 |     for (int j = 0; j < max; j++)
+      |     ^~~
+ex03-stu_139-sub_003.c:27:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   27 |         for (int g = 0; g < n; g++)
+      |         ^~~
+ex03-stu_139-sub_003.c:40:1: error: control reaches end of non-void function [-Werror=return-type]
+   40 | }
+      | ^
+cc1: all warnings being treated as errors
