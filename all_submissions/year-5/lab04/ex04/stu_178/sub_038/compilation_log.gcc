@@ -1,0 +1,6 @@
+ex04-stu_178-sub_038.c: In function ‘main’:
+ex04-stu_178-sub_038.c:16:5: error: ISO C90 forbids variable length array ‘tuah’ [-Werror=vla]
+   16 |     char tuah[cont];
+      |     ^~~~
+ex04-stu_178-sub_038.c:16:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

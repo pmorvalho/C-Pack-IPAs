@@ -1,0 +1,5 @@
+ex05-stu_192-sub_185.c: In function ‘leLinha’:
+ex05-stu_192-sub_185.c:22:18: error: unused parameter ‘s’ [-Werror=unused-parameter]
+   22 | int leLinha(char s[]) {
+      |             ~~~~~^~~
+cc1: all warnings being treated as errors

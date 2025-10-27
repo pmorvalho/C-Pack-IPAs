@@ -1,0 +1,21 @@
+ex04-stu_192-sub_090.c: In function ‘main’:
+ex04-stu_192-sub_090.c:6:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%s", n);
+      |            ~^   ~
+      |             |   |
+      |             |   int
+      |             char *
+ex04-stu_192-sub_090.c:7:14: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+    7 |     printf("%s", n);
+      |             ~^   ~
+      |              |   |
+      |              |   int
+      |              char *
+      |             %d
+ex04-stu_192-sub_090.c:6:5: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%s", n);
+      |     ^~~~~~~~~~~~~~
+ex04-stu_192-sub_090.c:5:10: note: ‘n’ was declared here
+    5 |     char n;
+      |          ^
+cc1: all warnings being treated as errors

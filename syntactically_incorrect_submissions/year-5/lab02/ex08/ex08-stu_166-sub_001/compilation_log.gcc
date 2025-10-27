@@ -1,0 +1,4 @@
+ex08-stu_166-sub_001.c:18:1: error: C++ style comments are not allowed in ISO C90
+   18 | //teste
+      | ^
+ex08-stu_166-sub_001.c:18:1: note: (this will be reported only once per input file)

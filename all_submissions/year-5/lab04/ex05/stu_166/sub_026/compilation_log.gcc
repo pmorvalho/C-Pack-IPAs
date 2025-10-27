@@ -1,0 +1,5 @@
+ex05-stu_166-sub_026.c: In function ‘main’:
+ex05-stu_166-sub_026.c:19:9: error: variable ‘n’ set but not used [-Werror=unused-but-set-variable]
+   19 |     int n;
+      |         ^
+cc1: all warnings being treated as errors

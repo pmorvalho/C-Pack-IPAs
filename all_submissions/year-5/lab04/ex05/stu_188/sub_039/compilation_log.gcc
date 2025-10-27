@@ -1,0 +1,9 @@
+ex05-stu_188-sub_039.c: In function ‘leLinha’:
+ex05-stu_188-sub_039.c:7:14: error: implicit declaration of function ‘getcher’; did you mean ‘getchar’? [-Werror=implicit-function-declaration]
+    7 |     while (c=getcher()!= '\n' && c!=EOF){
+      |              ^~~~~~~
+      |              getchar
+ex05-stu_188-sub_039.c:7:12: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+    7 |     while (c=getcher()!= '\n' && c!=EOF){
+      |            ^
+cc1: all warnings being treated as errors

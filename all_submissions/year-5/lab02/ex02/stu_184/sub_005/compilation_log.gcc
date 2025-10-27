@@ -1,0 +1,14 @@
+ex02-stu_184-sub_005.c: In function ‘main’:
+ex02-stu_184-sub_005.c:12:14: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   12 |     printf("%d\n%d\n",&a, &b);
+      |             ~^        ~~
+      |              |        |
+      |              int      int *
+      |             %ls
+ex02-stu_184-sub_005.c:12:18: error: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Werror=format=]
+   12 |     printf("%d\n%d\n",&a, &b);
+      |                 ~^        ~~
+      |                  |        |
+      |                  int      int *
+      |                 %ls
+cc1: all warnings being treated as errors

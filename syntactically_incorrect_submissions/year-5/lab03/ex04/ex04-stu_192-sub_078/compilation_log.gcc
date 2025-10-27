@@ -1,0 +1,5 @@
+ex04-stu_192-sub_078.c: In function ‘main’:
+ex04-stu_192-sub_078.c:8:12: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+    8 |         if(n =! 0) {
+      |            ^
+cc1: all warnings being treated as errors

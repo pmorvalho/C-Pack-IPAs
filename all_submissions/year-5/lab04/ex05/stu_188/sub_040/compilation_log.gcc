@@ -1,0 +1,5 @@
+ex05-stu_188-sub_040.c: In function ‘leLinha’:
+ex05-stu_188-sub_040.c:7:12: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+    7 |     while (c=getchar()!= '\n' && c!=EOF){
+      |            ^
+cc1: all warnings being treated as errors

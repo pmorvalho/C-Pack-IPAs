@@ -1,0 +1,8 @@
+ex07-stu_192-sub_132.c: In function ‘main’:
+ex07-stu_192-sub_132.c:7:22: error: multi-character character constant [-Werror=multichar]
+    7 |     int incremento = '10';
+      |                      ^~~~
+ex07-stu_192-sub_132.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     int incremento = '10';
+      |     ^~~
+cc1: all warnings being treated as errors

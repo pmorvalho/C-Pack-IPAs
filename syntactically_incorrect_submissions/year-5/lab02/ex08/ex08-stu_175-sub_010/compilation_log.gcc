@@ -1,0 +1,8 @@
+ex08-stu_175-sub_010.c: In function ‘main’:
+ex08-stu_175-sub_010.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int ncopy = n;
+      |     ^~~
+ex08-stu_175-sub_010.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+   16 | }
+      | ^
+cc1: all warnings being treated as errors

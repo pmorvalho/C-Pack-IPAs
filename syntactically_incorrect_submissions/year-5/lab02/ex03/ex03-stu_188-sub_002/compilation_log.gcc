@@ -1,0 +1,14 @@
+ex03-stu_188-sub_002.c: In function ‘main’:
+ex03-stu_188-sub_002.c:14:18: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Werror=format=]
+   14 |         printf("%d\n", "yes");
+      |                 ~^     ~~~~~
+      |                  |     |
+      |                  int   char *
+      |                 %s
+ex03-stu_188-sub_002.c:16:18: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Werror=format=]
+   16 |         printf("%d\n", "no");
+      |                 ~^     ~~~~
+      |                  |     |
+      |                  int   char *
+      |                 %s
+cc1: all warnings being treated as errors

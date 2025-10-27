@@ -1,0 +1,5 @@
+ex07-stu_185-sub_055.c: In function ‘leLinha’:
+ex07-stu_185-sub_055.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int c = strlen(s);
+      |     ^~~
+cc1: all warnings being treated as errors

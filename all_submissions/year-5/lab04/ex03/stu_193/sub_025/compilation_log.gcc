@@ -1,0 +1,23 @@
+ex03-stu_193-sub_025.c: In function ‘main’:
+ex03-stu_193-sub_025.c:22:14: error: redefinition of ‘i’
+   22 |     for (int i = 0; i < n; i++ ) {
+      |              ^
+ex03-stu_193-sub_025.c:11:9: note: previous definition of ‘i’ with type ‘int’
+   11 |     int i= 0, max_num = 0;
+      |         ^
+ex03-stu_193-sub_025.c:22:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |     for (int i = 0; i < n; i++ ) {
+      |     ^~~
+ex03-stu_193-sub_025.c:22:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_193-sub_025.c:27:14: error: redefinition of ‘i’
+   27 |     for (int i = max_num; i > 0; i--) {
+      |              ^
+ex03-stu_193-sub_025.c:22:14: note: previous definition of ‘i’ with type ‘int’
+   22 |     for (int i = 0; i < n; i++ ) {
+      |              ^
+ex03-stu_193-sub_025.c:27:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   27 |     for (int i = max_num; i > 0; i--) {
+      |     ^~~
+ex03-stu_193-sub_025.c:28:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   28 |         for (int j = 0; j < n; j++) {
+      |         ^~~

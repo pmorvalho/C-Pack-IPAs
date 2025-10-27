@@ -1,0 +1,5 @@
+ex08-stu_200-sub_005.c: In function ‘main’:
+ex08-stu_200-sub_005.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     float som = 0, n = q;
+      |     ^~~~~
+cc1: all warnings being treated as errors

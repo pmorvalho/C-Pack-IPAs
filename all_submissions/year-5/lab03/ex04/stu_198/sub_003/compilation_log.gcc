@@ -1,0 +1,11 @@
+ex04-stu_198-sub_003.c: In function ‘main’:
+ex04-stu_198-sub_003.c:24:42: error: self-comparison always evaluates to true [-Werror=tautological-compare]
+   24 |         if (state == ON && c >= '0' && c >= c <= '9'){
+      |                                          ^~
+ex04-stu_198-sub_003.c:24:47: error: comparison of constant ‘57’ with boolean expression is always true [-Werror=bool-compare]
+   24 |         if (state == ON && c >= '0' && c >= c <= '9'){
+      |                                               ^~
+ex04-stu_198-sub_003.c:24:42: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   24 |         if (state == ON && c >= '0' && c >= c <= '9'){
+      |                                        ~~^~~~
+cc1: all warnings being treated as errors

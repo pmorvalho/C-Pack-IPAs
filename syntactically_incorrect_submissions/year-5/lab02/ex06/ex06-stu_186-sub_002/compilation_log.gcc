@@ -1,0 +1,10 @@
+ex06-stu_186-sub_002.c: In function ‘main’:
+ex06-stu_186-sub_002.c:14:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   14 |     for(int i = 1; i < N; i++) {
+      |     ^~~
+ex06-stu_186-sub_002.c:14:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex06-stu_186-sub_002.c: At top level:
+ex06-stu_186-sub_002.c:26:1: error: C++ style comments are not allowed in ISO C90
+   26 | // ou devia ser utilizado um contador para saber quantos numeros foram dados
+      | ^
+ex06-stu_186-sub_002.c:26:1: note: (this will be reported only once per input file)

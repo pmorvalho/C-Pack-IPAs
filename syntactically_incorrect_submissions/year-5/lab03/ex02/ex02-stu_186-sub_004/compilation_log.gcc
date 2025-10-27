@@ -1,0 +1,5 @@
+ex02-stu_186-sub_004.c: In function ‘main’:
+ex02-stu_186-sub_004.c:9:9: error: statement with no effect [-Werror=unused-value]
+    9 |         (N);
+      |         ^
+cc1: all warnings being treated as errors

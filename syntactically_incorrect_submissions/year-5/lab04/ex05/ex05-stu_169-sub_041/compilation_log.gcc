@@ -1,0 +1,7 @@
+ex05-stu_169-sub_041.c:12: error: "MAX" redefined [-Werror]
+   12 | #define MAX 100
+      | 
+ex05-stu_169-sub_041.c:3: note: this is the location of the previous definition
+    3 | #define MAX 80
+      | 
+cc1: all warnings being treated as errors

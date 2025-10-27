@@ -1,0 +1,13 @@
+ex06-stu_186-sub_001.c: In function ‘main’:
+ex06-stu_186-sub_001.c:5:1: error: expected identifier or ‘(’ before ‘}’ token
+    5 | }
+      | ^
+ex06-stu_186-sub_001.c:5:1: error: expected declaration or statement at end of input
+ex06-stu_186-sub_001.c:4:16: error: unused variable ‘menor’ [-Werror=unused-variable]
+    4 |     int maior, menor,
+      |                ^~~~~
+ex06-stu_186-sub_001.c:4:9: error: unused variable ‘maior’ [-Werror=unused-variable]
+    4 |     int maior, menor,
+      |         ^~~~~
+ex06-stu_186-sub_001.c:6: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors

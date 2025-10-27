@@ -1,0 +1,14 @@
+ex05-stu_192-sub_191.c: In function ‘main’:
+ex05-stu_192-sub_191.c:8:24: error: format ‘%s’ expects a matching ‘char *’ argument [-Werror=format=]
+    8 |     char s[] = scanf("%s");
+      |                       ~^
+      |                        |
+      |                        char *
+ex05-stu_192-sub_191.c:8:16: error: invalid initializer
+    8 |     char s[] = scanf("%s");
+      |                ^~~~~
+ex05-stu_192-sub_191.c: In function ‘leLinha’:
+ex05-stu_192-sub_191.c:14:18: error: unused parameter ‘s’ [-Werror=unused-parameter]
+   14 | int leLinha(char s[]) {
+      |             ~~~~~^~~
+cc1: all warnings being treated as errors

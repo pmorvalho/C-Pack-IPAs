@@ -1,0 +1,23 @@
+ex05-stu_170-sub_007.c: In function ‘main’:
+ex05-stu_170-sub_007.c:21:30: error: statement with no effect [-Werror=unused-value]
+   21 |                 vem_especial == 0;
+      |                 ~~~~~~~~~~~~~^~~~
+ex05-stu_170-sub_007.c:23:34: error: comparison of constant ‘122’ with boolean expression is always true [-Werror=bool-compare]
+   23 |             } else if (('a' <= c <= 'z') || ('A' <= c <= 'Z') || ('0' <= c <= '9')){
+      |                                  ^~
+ex05-stu_170-sub_007.c:23:29: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   23 |             } else if (('a' <= c <= 'z') || ('A' <= c <= 'Z') || ('0' <= c <= '9')){
+      |                         ~~~~^~~~
+ex05-stu_170-sub_007.c:23:55: error: comparison of constant ‘90’ with boolean expression is always true [-Werror=bool-compare]
+   23 |             } else if (('a' <= c <= 'z') || ('A' <= c <= 'Z') || ('0' <= c <= '9')){
+      |                                                       ^~
+ex05-stu_170-sub_007.c:23:50: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   23 |             } else if (('a' <= c <= 'z') || ('A' <= c <= 'Z') || ('0' <= c <= '9')){
+      |                                              ~~~~^~~~
+ex05-stu_170-sub_007.c:23:76: error: comparison of constant ‘57’ with boolean expression is always true [-Werror=bool-compare]
+   23 |             } else if (('a' <= c <= 'z') || ('A' <= c <= 'Z') || ('0' <= c <= '9')){
+      |                                                                            ^~
+ex05-stu_170-sub_007.c:23:71: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   23 |             } else if (('a' <= c <= 'z') || ('A' <= c <= 'Z') || ('0' <= c <= '9')){
+      |                                                                   ~~~~^~~~
+cc1: all warnings being treated as errors

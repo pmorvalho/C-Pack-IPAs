@@ -1,0 +1,5 @@
+ex03-stu_189-sub_017.c: In function ‘cruz’:
+ex03-stu_189-sub_017.c:15:9: error: variable ‘Ncl’ set but not used [-Werror=unused-but-set-variable]
+   15 |     int Ncl,Ncc;
+      |         ^~~
+cc1: all warnings being treated as errors

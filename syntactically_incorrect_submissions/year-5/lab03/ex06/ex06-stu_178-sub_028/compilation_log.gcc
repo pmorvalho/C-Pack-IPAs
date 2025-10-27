@@ -1,0 +1,5 @@
+ex06-stu_178-sub_028.c: In function ‘main’:
+ex06-stu_178-sub_028.c:5:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    5 |     int cont, looper, Num[100], i;
+      |     ^~~
+cc1: all warnings being treated as errors

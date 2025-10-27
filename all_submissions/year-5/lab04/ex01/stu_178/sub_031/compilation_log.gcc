@@ -1,0 +1,6 @@
+ex01-stu_178-sub_031.c: In function ‘main’:
+ex01-stu_178-sub_031.c:7:5: error: ISO C90 forbids variable length array ‘vetore’ [-Werror=vla]
+    7 |     int vetore[lengthe];
+      |     ^~~
+ex01-stu_178-sub_031.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

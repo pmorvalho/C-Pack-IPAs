@@ -1,0 +1,38 @@
+ex04-stu_107-sub_047.c: In function ‘main’:
+ex04-stu_107-sub_047.c:9:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    9 |     scanf("%d%d%d", m1, m2, m3);
+      |            ~^       ~~
+      |             |       |
+      |             int *   int
+ex04-stu_107-sub_047.c:9:15: error: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Werror=format=]
+    9 |     scanf("%d%d%d", m1, m2, m3);
+      |              ~^         ~~
+      |               |         |
+      |               int *     int
+ex04-stu_107-sub_047.c:9:17: error: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Werror=format=]
+    9 |     scanf("%d%d%d", m1, m2, m3);
+      |                ~^           ~~
+      |                 |           |
+      |                 int *       int
+ex04-stu_107-sub_047.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+   28 | }
+      | ^
+ex04-stu_107-sub_047.c:9:5: error: ‘m1’ is used uninitialized [-Werror=uninitialized]
+    9 |     scanf("%d%d%d", m1, m2, m3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex04-stu_107-sub_047.c:7:9: note: ‘m1’ was declared here
+    7 |     int m1, m2, m3;
+      |         ^~
+ex04-stu_107-sub_047.c:9:5: error: ‘m2’ is used uninitialized [-Werror=uninitialized]
+    9 |     scanf("%d%d%d", m1, m2, m3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex04-stu_107-sub_047.c:7:13: note: ‘m2’ was declared here
+    7 |     int m1, m2, m3;
+      |             ^~
+ex04-stu_107-sub_047.c:9:5: error: ‘m3’ is used uninitialized [-Werror=uninitialized]
+    9 |     scanf("%d%d%d", m1, m2, m3);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex04-stu_107-sub_047.c:7:17: note: ‘m3’ was declared here
+    7 |     int m1, m2, m3;
+      |                 ^~
+cc1: all warnings being treated as errors

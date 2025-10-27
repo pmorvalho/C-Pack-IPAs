@@ -1,0 +1,15 @@
+ex02-stu_188-sub_026.c: In function ‘piramide’:
+ex02-stu_188-sub_026.c:16:9: error: expected expression before ‘}’ token
+   16 |         }
+      |         ^
+ex02-stu_188-sub_026.c:16:9: error: expected expression before ‘}’ token
+ex02-stu_188-sub_026.c:16:9: error: expected expression before ‘}’ token
+ex02-stu_188-sub_026.c: At top level:
+ex02-stu_188-sub_026.c:19:1: error: expected identifier or ‘(’ before ‘}’ token
+   19 | }
+      | ^
+ex02-stu_188-sub_026.c: In function ‘main’:
+ex02-stu_188-sub_026.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+   23 | }
+      | ^
+cc1: all warnings being treated as errors

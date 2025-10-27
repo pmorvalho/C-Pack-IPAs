@@ -1,0 +1,33 @@
+ex07-stu_090-sub_079.c: In function ‘main’:
+ex07-stu_090-sub_079.c:16:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |     int resultado = 0;
+      |     ^~~
+ex07-stu_090-sub_079.c:58:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   58 |             for (int i = 0; str[i] != '\0'; i++) {
+      |             ^~~
+ex07-stu_090-sub_079.c:58:13: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex07-stu_090-sub_079.c:61:22: error: redefinition of ‘i’
+   61 |             for (int i = 0; str[i] != '\0'; i++) {
+      |                      ^
+ex07-stu_090-sub_079.c:58:22: note: previous definition of ‘i’ with type ‘int’
+   58 |             for (int i = 0; str[i] != '\0'; i++) {
+      |                      ^
+ex07-stu_090-sub_079.c:61:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   61 |             for (int i = 0; str[i] != '\0'; i++) {
+      |             ^~~
+ex07-stu_090-sub_079.c:68:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   68 |             for (int i = 0; str[i] != '\0'; i++) {
+      |             ^~~
+ex07-stu_090-sub_079.c:71:22: error: redefinition of ‘i’
+   71 |             for (int i = 0; str[i] != '\0'; i++) {
+      |                      ^
+ex07-stu_090-sub_079.c:68:22: note: previous definition of ‘i’ with type ‘int’
+   68 |             for (int i = 0; str[i] != '\0'; i++) {
+      |                      ^
+ex07-stu_090-sub_079.c:71:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   71 |             for (int i = 0; str[i] != '\0'; i++) {
+      |             ^~~
+ex07-stu_090-sub_079.c:9:9: error: unused variable ‘numero’ [-Werror=unused-variable]
+    9 |     int numero;
+      |         ^~~~~~
+cc1: all warnings being treated as errors

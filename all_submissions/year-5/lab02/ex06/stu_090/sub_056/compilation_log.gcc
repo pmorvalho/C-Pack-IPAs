@@ -1,0 +1,17 @@
+ex06-stu_090-sub_056.c: In function ‘main’:
+ex06-stu_090-sub_056.c:18:19: error: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Werror=format=]
+   18 |     printf("min: %f, max: %f\n", min, max);
+      |                  ~^              ~~~
+      |                   |              |
+      |                   double         int
+      |                  %d
+ex06-stu_090-sub_056.c:18:28: error: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Werror=format=]
+   18 |     printf("min: %f, max: %f\n", min, max);
+      |                           ~^          ~~~
+      |                            |          |
+      |                            double     int
+      |                           %d
+ex06-stu_090-sub_056.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+   19 | }
+      | ^
+cc1: all warnings being treated as errors

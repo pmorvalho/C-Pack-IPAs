@@ -1,0 +1,17 @@
+ex03-stu_171-sub_007.c: In function ‘main’:
+ex03-stu_171-sub_007.c:7:9: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+    7 |     if (RESTO = 0) {
+      |         ^~~~~
+ex03-stu_171-sub_007.c:5:31: error: ‘num’ is used uninitialized [-Werror=uninitialized]
+    5 |     int num, num2, RESTO = num%num2;
+      |                            ~~~^~~~~
+ex03-stu_171-sub_007.c:5:9: note: ‘num’ declared here
+    5 |     int num, num2, RESTO = num%num2;
+      |         ^~~
+ex03-stu_171-sub_007.c:5:31: error: ‘num2’ is used uninitialized [-Werror=uninitialized]
+    5 |     int num, num2, RESTO = num%num2;
+      |                            ~~~^~~~~
+ex03-stu_171-sub_007.c:5:14: note: ‘num2’ declared here
+    5 |     int num, num2, RESTO = num%num2;
+      |              ^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,36 @@
+ex04-stu_192-sub_012.c: In function ‘main’:
+ex04-stu_192-sub_012.c:6:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d%d%d/n", a, b, c);
+      |            ~^         ~
+      |             |         |
+      |             int *     int
+ex04-stu_192-sub_012.c:6:15: error: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d%d%d/n", a, b, c);
+      |              ~^          ~
+      |               |          |
+      |               int *      int
+ex04-stu_192-sub_012.c:6:17: error: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d%d%d/n", a, b, c);
+      |                ~^           ~
+      |                 |           |
+      |                 int *       int
+ex04-stu_192-sub_012.c:10:45: error: expected ‘:’ before ‘;’ token
+   10 |         (c>=b) ? printf("%d%d%d/n", a, b, c);
+      |                                             ^
+      |                                             :
+ex04-stu_192-sub_012.c:11:9: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   11 |     if (b=a)
+      |         ^
+ex04-stu_192-sub_012.c:12:11: error: statement with no effect [-Werror=unused-value]
+   12 |         (c>a)
+      |         ~~^~~
+ex04-stu_192-sub_012.c:12:14: error: expected ‘;’ before ‘return’
+   12 |         (c>a)
+      |              ^
+      |              ;
+   13 |     return 0;
+      |     ~~~~~~    
+ex04-stu_192-sub_012.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

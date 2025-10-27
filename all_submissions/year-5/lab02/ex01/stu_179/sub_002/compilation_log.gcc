@@ -1,0 +1,5 @@
+ex01-stu_179-sub_002.c:2:8: error: character constant too long for its type [-Werror]
+    2 | printf('djssakj')
+      |        ^~~~~~~~~
+ex01-stu_179-sub_002.c:2:8: error: expected declaration specifiers or ‘...’ before '\x73616b6a'
+cc1: all warnings being treated as errors

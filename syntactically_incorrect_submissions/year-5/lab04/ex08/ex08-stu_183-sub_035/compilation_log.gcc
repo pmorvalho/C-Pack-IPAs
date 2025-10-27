@@ -1,0 +1,11 @@
+ex08-stu_183-sub_035.c: In function ‘main’:
+ex08-stu_183-sub_035.c:10:19: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   10 |         printf("%lf", n1);
+      |                   ^
+ex08-stu_183-sub_035.c:12:19: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   12 |         printf("%lf", n2);
+      |                   ^
+ex08-stu_183-sub_035.c:7:9: error: unused variable ‘maior’ [-Werror=unused-variable]
+    7 |     int maior;
+      |         ^~~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex02-stu_192-sub_039.c: In function ‘piramide’:
+ex02-stu_192-sub_039.c:27:22: error: ISO C does not support the ‘%C’ gnu_printf format [-Werror=format=]
+   27 |             printf("%C%d", ' ', num);
+      |                      ^
+cc1: all warnings being treated as errors

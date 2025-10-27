@@ -1,0 +1,12 @@
+ex01-stu_183-sub_017.c: In function ‘quadrado’:
+ex01-stu_183-sub_017.c:7:16: error: ‘n’ undeclared (first use in this function)
+    7 |    for (e=0; e<n;e++) {
+      |                ^
+ex01-stu_183-sub_017.c:7:16: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_183-sub_017.c:11:22: error: ‘l’ undeclared (first use in this function)
+   11 |         printf("%d", l + c + 1);
+      |                      ^
+ex01-stu_183-sub_017.c:5:19: error: unused parameter ‘N’ [-Werror=unused-parameter]
+    5 | void quadrado(int N) {
+      |               ~~~~^
+cc1: all warnings being treated as errors

@@ -1,0 +1,9 @@
+ex07-stu_198-sub_023.c: In function ‘apagaCaracter’:
+ex07-stu_198-sub_023.c:8:5: error: ISO C90 forbids variable length array ‘s2’ [-Werror=vla]
+    8 |     char s2[lenS];
+      |     ^~~~
+ex07-stu_198-sub_023.c: In function ‘main’:
+ex07-stu_198-sub_023.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+   26 | }
+      | ^
+cc1: all warnings being treated as errors

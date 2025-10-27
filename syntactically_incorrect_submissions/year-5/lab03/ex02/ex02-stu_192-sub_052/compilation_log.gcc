@@ -1,0 +1,11 @@
+ex02-stu_192-sub_052.c: In function ‘piramide’:
+ex02-stu_192-sub_052.c:20:19: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   20 |         while(N-i <= e <= N) {
+      |               ~~~~^~~~
+ex02-stu_192-sub_052.c:26:17: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   26 |         while(N < e <= N+i) {
+      |               ~~^~~
+ex02-stu_192-sub_052.c:31:19: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   31 |         while(N+i < e < 2*N-1) {
+      |               ~~~~^~~
+cc1: all warnings being treated as errors

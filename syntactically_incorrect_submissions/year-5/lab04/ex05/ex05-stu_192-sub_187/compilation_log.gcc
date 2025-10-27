@@ -1,0 +1,11 @@
+ex05-stu_192-sub_187.c: In function ‘main’:
+ex05-stu_192-sub_187.c:10:5: error: ISO C90 forbids variable length array ‘m’ [-Werror=vla]
+   10 |     char s[MAX], m[e];
+      |     ^~~~
+ex05-stu_192-sub_187.c:10:5: error: ‘e’ is used uninitialized [-Werror=uninitialized]
+   10 |     char s[MAX], m[e];
+      |     ^~~~
+ex05-stu_192-sub_187.c:9:9: note: ‘e’ was declared here
+    9 |     int e, i = 0;
+      |         ^
+cc1: all warnings being treated as errors

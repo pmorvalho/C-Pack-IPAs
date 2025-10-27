@@ -1,0 +1,4 @@
+ex07-stu_166-sub_007.c:15:1: error: C++ style comments are not allowed in ISO C90
+   15 | //por resolver
+      | ^
+ex07-stu_166-sub_007.c:15:1: note: (this will be reported only once per input file)

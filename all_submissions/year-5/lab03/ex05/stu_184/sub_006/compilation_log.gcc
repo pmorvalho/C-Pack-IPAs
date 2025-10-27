@@ -1,0 +1,15 @@
+ex05-stu_184-sub_006.c: In function ‘main’:
+ex05-stu_184-sub_006.c:8:13: error: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Werror=format=]
+    8 |     scanf("%c%c", &c, &bs);
+      |            ~^     ~~
+      |             |     |
+      |             |     int *
+      |             char *
+      |            %lc
+ex05-stu_184-sub_006.c:8:15: error: format ‘%c’ expects argument of type ‘char *’, but argument 3 has type ‘int *’ [-Werror=format=]
+    8 |     scanf("%c%c", &c, &bs);
+      |              ~^       ~~~
+      |               |       |
+      |               char *  int *
+      |              %lc
+cc1: all warnings being treated as errors

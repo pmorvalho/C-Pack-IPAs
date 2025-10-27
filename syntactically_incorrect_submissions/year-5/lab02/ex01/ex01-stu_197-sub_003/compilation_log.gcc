@@ -1,0 +1,6 @@
+ex01-stu_197-sub_003.c: In function ‘main’:
+ex01-stu_197-sub_003.c:6:5: error: implicit declaration of function ‘scnaf’; did you mean ‘scanf’? [-Werror=implicit-function-declaration]
+    6 |     scnaf("%d %d %d",&n1,&n2,&n3);
+      |     ^~~~~
+      |     scanf
+cc1: all warnings being treated as errors

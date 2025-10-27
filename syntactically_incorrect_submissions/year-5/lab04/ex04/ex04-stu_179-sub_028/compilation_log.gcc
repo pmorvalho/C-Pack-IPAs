@@ -1,0 +1,8 @@
+ex04-stu_179-sub_028.c: In function ‘main’:
+ex04-stu_179-sub_028.c:13:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   13 |     int tamanho = strlen(inteira);
+      |     ^~~
+ex04-stu_179-sub_028.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+   55 | }
+      | ^
+cc1: all warnings being treated as errors

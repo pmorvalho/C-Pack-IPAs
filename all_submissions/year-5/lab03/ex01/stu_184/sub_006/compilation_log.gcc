@@ -1,0 +1,8 @@
+ex01-stu_184-sub_006.c: In function ‘quadrado’:
+ex01-stu_184-sub_006.c:6:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    6 |     for (int i=1;i<=N;i++){
+      |     ^~~
+ex01-stu_184-sub_006.c:6:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_184-sub_006.c:7:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |         for (int j=i; j< i+N-1; j++){
+      |         ^~~

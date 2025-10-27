@@ -1,0 +1,8 @@
+ex05-stu_174-sub_003.c: In function ‘main’:
+ex05-stu_174-sub_003.c:12:19: error: this statement may fall through [-Werror=implicit-fallthrough=]
+   12 |                 if(inword) {
+      |                   ^
+ex05-stu_174-sub_003.c:17:13: note: here
+   17 |             case '"':
+      |             ^~~~
+cc1: all warnings being treated as errors

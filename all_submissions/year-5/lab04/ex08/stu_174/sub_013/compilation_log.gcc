@@ -1,0 +1,5 @@
+ex08-stu_174-sub_013.c: In function ‘comparenums’:
+ex08-stu_174-sub_013.c:10:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |         for(int i = 0; i < len2; i++) {
+      |         ^~~
+ex08-stu_174-sub_013.c:10:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

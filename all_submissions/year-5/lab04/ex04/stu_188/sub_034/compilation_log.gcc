@@ -1,0 +1,16 @@
+ex04-stu_188-sub_034.c: In function ‘main’:
+ex04-stu_188-sub_034.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int tamanho,palindromo=1,i;
+      |     ^~~
+ex04-stu_188-sub_034.c:9:14: error: implicit declaration of function ‘strlen’ [-Werror=implicit-function-declaration]
+    9 |     tamanho= strlen(palavra);
+      |              ^~~~~~
+ex04-stu_188-sub_034.c:3:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+    2 | #include <stdio.h>
+  +++ |+#include <string.h>
+    3 | 
+ex04-stu_188-sub_034.c:9:14: error: incompatible implicit declaration of built-in function ‘strlen’ [-Werror=builtin-declaration-mismatch]
+    9 |     tamanho= strlen(palavra);
+      |              ^~~~~~
+ex04-stu_188-sub_034.c:9:14: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+cc1: all warnings being treated as errors

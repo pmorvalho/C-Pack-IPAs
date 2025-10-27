@@ -1,0 +1,18 @@
+ex02-stu_173-sub_024.c: In function ‘imprimir_linha’:
+ex02-stu_173-sub_024.c:24:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   24 |     for (int i = inicial; i < central; i++) {
+      |     ^~~
+ex02-stu_173-sub_024.c:24:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_173-sub_024.c:32:14: error: redefinition of ‘i’
+   32 |     for (int i = central; i >= inicial; i--) {
+      |              ^
+ex02-stu_173-sub_024.c:24:14: note: previous definition of ‘i’ with type ‘int’
+   24 |     for (int i = inicial; i < central; i++) {
+      |              ^
+ex02-stu_173-sub_024.c:32:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   32 |     for (int i = central; i >= inicial; i--) {
+      |     ^~~
+ex02-stu_173-sub_024.c: In function ‘piramide’:
+ex02-stu_173-sub_024.c:48:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   48 |     for (int i = 1; i <= N; i++)
+      |     ^~~

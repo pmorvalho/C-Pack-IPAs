@@ -1,0 +1,5 @@
+ex07-stu_194-sub_007.c: In function ‘main’:
+ex07-stu_194-sub_007.c:6:9: error: unused variable ‘in_numbers’ [-Werror=unused-variable]
+    6 |     int in_numbers = 0;
+      |         ^~~~~~~~~~
+cc1: all warnings being treated as errors

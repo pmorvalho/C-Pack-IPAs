@@ -1,0 +1,17 @@
+ex06-stu_123-sub_032.c: In function ‘somaDigitos’:
+ex06-stu_123-sub_032.c:9:13: error: implicit declaration of function ‘strlen’ [-Werror=implicit-function-declaration]
+    9 |   int len = strlen(n);
+      |             ^~~~~~
+ex06-stu_123-sub_032.c:4:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+    3 | #include <strings.h>
+  +++ |+#include <string.h>
+    4 | 
+ex06-stu_123-sub_032.c:9:13: error: incompatible implicit declaration of built-in function ‘strlen’ [-Werror=builtin-declaration-mismatch]
+    9 |   int len = strlen(n);
+      |             ^~~~~~
+ex06-stu_123-sub_032.c:9:13: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+ex06-stu_123-sub_032.c:11:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   11 |   for (int i = 0; i < len; i++)
+      |   ^~~
+ex06-stu_123-sub_032.c:11:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

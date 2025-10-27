@@ -1,0 +1,5 @@
+ex02-stu_189-sub_025.c: In function ‘piramide’:
+ex02-stu_189-sub_025.c:23:13: error: unused variable ‘Nu’ [-Werror=unused-variable]
+   23 |     int c=1,Nu=N,co;
+      |             ^~
+cc1: all warnings being treated as errors

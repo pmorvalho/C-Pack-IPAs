@@ -1,0 +1,9 @@
+ex04-stu_176-sub_016.c: In function ‘main’:
+ex04-stu_176-sub_016.c:9:27: error: comparison between pointer and integer [-Werror]
+    9 |         if (c != '0' && c != "\n"){
+      |                           ^~
+ex04-stu_176-sub_016.c:9:27: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_176-sub_016.c:13:1: error: control reaches end of non-void function [-Werror=return-type]
+   13 | }
+      | ^
+cc1: all warnings being treated as errors

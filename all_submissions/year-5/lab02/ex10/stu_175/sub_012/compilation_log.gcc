@@ -1,0 +1,5 @@
+ex10-stu_175-sub_012.c: In function ‘main’:
+ex10-stu_175-sub_012.c:7:5: error: statement with no effect [-Werror=unused-value]
+    7 |     for(num; num>0; dig++){
+      |     ^~~
+cc1: all warnings being treated as errors

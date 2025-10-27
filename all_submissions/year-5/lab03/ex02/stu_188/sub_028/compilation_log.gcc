@@ -1,0 +1,5 @@
+ex02-stu_188-sub_028.c: In function ‘piramide’:
+ex02-stu_188-sub_028.c:16:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |         for (int coluna=linha-1;coluna>=1;coluna--){
+      |         ^~~
+ex02-stu_188-sub_028.c:16:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code

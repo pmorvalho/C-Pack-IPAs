@@ -1,0 +1,5 @@
+ex07-stu_196-sub_015.c: In function ‘calculate_line’:
+ex07-stu_196-sub_015.c:10:13: error: unused variable ‘i’ [-Werror=unused-variable]
+   10 |         int i = 0;
+      |             ^
+cc1: all warnings being treated as errors

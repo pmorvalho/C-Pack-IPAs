@@ -1,0 +1,3 @@
+ex07-stu_192-sub_021.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+    4 | int main
+      | ^~~

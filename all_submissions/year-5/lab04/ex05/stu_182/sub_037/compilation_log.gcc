@@ -1,0 +1,6 @@
+ex05-stu_182-sub_037.c: In function ‘main’:
+ex05-stu_182-sub_037.c:20:5: error: implicit declaration of function ‘lelinha’; did you mean ‘leLinha’? [-Werror=implicit-function-declaration]
+   20 |     lelinha(s);
+      |     ^~~~~~~
+      |     leLinha
+cc1: all warnings being treated as errors

@@ -1,0 +1,11 @@
+ex05-stu_186-sub_003.c: In function ‘main’:
+ex05-stu_186-sub_003.c:7:9: error: unused variable ‘outside’ [-Werror=unused-variable]
+    7 |     int outside = 0;
+      |         ^~~~~~~
+ex05-stu_186-sub_003.c:6:9: error: unused variable ‘inside’ [-Werror=unused-variable]
+    6 |     int inside = 1;
+      |         ^~~~~~
+ex05-stu_186-sub_003.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+cc1: all warnings being treated as errors

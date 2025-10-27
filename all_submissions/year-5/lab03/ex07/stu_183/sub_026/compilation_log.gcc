@@ -1,0 +1,20 @@
+ex07-stu_183-sub_026.c: In function ‘main’:
+ex07-stu_183-sub_026.c:14:5: error: expected ‘;’ before ‘while’
+   14 |     while ((c = getchar) != EOF) {
+      |     ^~~~~
+ex07-stu_183-sub_026.c:30:5: error: ‘else’ without a previous ‘if’
+   30 |     else if (c == '-')
+      |     ^~~~
+ex07-stu_183-sub_026.c:10:19: error: variable ‘op’ set but not used [-Werror=unused-but-set-variable]
+   10 |     int num, acc, op;
+      |                   ^~
+ex07-stu_183-sub_026.c:10:14: error: variable ‘acc’ set but not used [-Werror=unused-but-set-variable]
+   10 |     int num, acc, op;
+      |              ^~~
+ex07-stu_183-sub_026.c:10:9: error: variable ‘num’ set but not used [-Werror=unused-but-set-variable]
+   10 |     int num, acc, op;
+      |         ^~~
+ex07-stu_183-sub_026.c:32:1: error: control reaches end of non-void function [-Werror=return-type]
+   32 | }
+      | ^
+cc1: all warnings being treated as errors

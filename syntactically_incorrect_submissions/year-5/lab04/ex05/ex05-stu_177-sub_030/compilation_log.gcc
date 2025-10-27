@@ -1,0 +1,8 @@
+ex05-stu_177-sub_030.c: In function ‘leLinha’:
+ex05-stu_177-sub_030.c:17:12: error: ‘i’ is used uninitialized [-Werror=uninitialized]
+   17 |     while(s[i] != '\n' && s[i] != '\0')
+      |            ^
+ex05-stu_177-sub_030.c:16:9: note: ‘i’ was declared here
+   16 |     int i;
+      |         ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,23 @@
+ex04-stu_194-sub_001.c: In function ‘main’:
+ex04-stu_194-sub_001.c:9:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    9 |     int tmp;
+      |     ^~~
+ex04-stu_194-sub_001.c:28:14: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   28 |     printf("%d%d%d", &a, &b, &c);
+      |             ~^       ~~
+      |              |       |
+      |              int     int *
+      |             %ls
+ex04-stu_194-sub_001.c:28:16: error: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Werror=format=]
+   28 |     printf("%d%d%d", &a, &b, &c);
+      |               ~^         ~~
+      |                |         |
+      |                int       int *
+      |               %ls
+ex04-stu_194-sub_001.c:28:18: error: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int *’ [-Werror=format=]
+   28 |     printf("%d%d%d", &a, &b, &c);
+      |                 ~^           ~~
+      |                  |           |
+      |                  int         int *
+      |                 %ls
+cc1: all warnings being treated as errors

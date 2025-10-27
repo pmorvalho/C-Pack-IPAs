@@ -1,0 +1,29 @@
+ex01-stu_189-sub_024.c: In function ‘quadrado’:
+ex01-stu_189-sub_024.c:4:35: error: stray ‘\303’ in program
+    4 |     int ncopia, ncontador=1,repeti<U+00E7>oes;
+      |                                   ^~~~~~~~
+ex01-stu_189-sub_024.c:4:36: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘oes’
+    4 |     int ncopia, ncontador=1,repetiçoes;
+      |                                    ^~~
+ex01-stu_189-sub_024.c:9:15: error: stray ‘\303’ in program
+    9 |         repeti<U+00E7>oes=N;
+      |               ^~~~~~~~
+ex01-stu_189-sub_024.c:9:9: error: unknown type name ‘repeti’
+    9 |         repetiçoes=N;
+      |         ^~~~~~
+ex01-stu_189-sub_024.c:9:9: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex01-stu_189-sub_024.c:10:22: error: stray ‘\303’ in program
+   10 |         while (repeti<U+00E7>oes--)
+      |                      ^~~~~~~~
+ex01-stu_189-sub_024.c:10:16: error: ‘repeti’ undeclared (first use in this function)
+   10 |         while (repetiçoes--)
+      |                ^~~~~~
+ex01-stu_189-sub_024.c:10:16: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_189-sub_024.c:10:22: error: expected ‘)’ before ‘oes’
+   10 |         while (repetiçoes--)
+      |               ~      ^~~~
+      |                      )
+ex01-stu_189-sub_024.c:9:16: error: unused variable ‘oes’ [-Werror=unused-variable]
+    9 |         repetiçoes=N;
+      |                ^~~
+cc1: all warnings being treated as errors

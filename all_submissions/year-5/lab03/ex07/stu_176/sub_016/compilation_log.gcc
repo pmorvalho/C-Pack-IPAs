@@ -1,0 +1,8 @@
+ex07-stu_176-sub_016.c: In function ‘main’:
+ex07-stu_176-sub_016.c:20:37: error: statement with no effect [-Werror=unused-value]
+   20 |             else if (op == SUB) acc == num;
+      |                                 ~~~~^~~~~~
+ex07-stu_176-sub_016.c:32:1: error: control reaches end of non-void function [-Werror=return-type]
+   32 | }
+      | ^
+cc1: all warnings being treated as errors

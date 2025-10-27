@@ -1,0 +1,8 @@
+ex02-stu_191-sub_017.c: In function ‘piramide’:
+ex02-stu_191-sub_017.c:5:34: error: unused variable ‘counter’ [-Werror=unused-variable]
+    5 |     int linha, coluna, i, space, counter;
+      |                                  ^~~~~~~
+ex02-stu_191-sub_017.c:5:16: error: unused variable ‘coluna’ [-Werror=unused-variable]
+    5 |     int linha, coluna, i, space, counter;
+      |                ^~~~~~
+cc1: all warnings being treated as errors

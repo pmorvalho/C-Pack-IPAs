@@ -1,0 +1,14 @@
+ex03-stu_199-sub_007.c: In function ‘main’:
+ex03-stu_199-sub_007.c:8:25: error: ‘a’ is used uninitialized [-Werror=uninitialized]
+    8 |     int a, b, resto = a % b;
+      |                       ~~^~~
+ex03-stu_199-sub_007.c:8:9: note: ‘a’ declared here
+    8 |     int a, b, resto = a % b;
+      |         ^
+ex03-stu_199-sub_007.c:8:25: error: ‘b’ is used uninitialized [-Werror=uninitialized]
+    8 |     int a, b, resto = a % b;
+      |                       ~~^~~
+ex03-stu_199-sub_007.c:8:12: note: ‘b’ declared here
+    8 |     int a, b, resto = a % b;
+      |            ^
+cc1: all warnings being treated as errors

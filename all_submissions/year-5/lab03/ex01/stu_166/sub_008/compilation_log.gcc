@@ -1,0 +1,4 @@
+ex01-stu_166-sub_008.c:22:5: error: ‘main’ takes only zero or two arguments [-Werror=main]
+   22 | int main (int n) {
+      |     ^~~~
+cc1: all warnings being treated as errors

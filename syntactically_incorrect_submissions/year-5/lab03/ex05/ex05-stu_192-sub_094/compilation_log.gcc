@@ -1,0 +1,14 @@
+ex05-stu_192-sub_094.c: In function ‘main’:
+ex05-stu_192-sub_094.c:10:24: error: multi-character character constant [-Werror=multichar]
+   10 |             while(n != '\" ') {
+      |                        ^~~~~
+ex05-stu_192-sub_094.c:10:21: error: comparison is always true due to limited range of data type [-Werror=type-limits]
+   10 |             while(n != '\" ') {
+      |                     ^~
+ex05-stu_192-sub_094.c:14:21: error: multi-character character constant [-Werror=multichar]
+   14 |             if(n == '\" ') {
+      |                     ^~~~~
+ex05-stu_192-sub_094.c:14:18: error: comparison is always false due to limited range of data type [-Werror=type-limits]
+   14 |             if(n == '\" ') {
+      |                  ^~
+cc1: all warnings being treated as errors

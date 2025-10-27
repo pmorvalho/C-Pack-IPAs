@@ -1,0 +1,38 @@
+ex07-stu_192-sub_134.c: In function ‘main’:
+ex07-stu_192-sub_134.c:7:13: error: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+    7 |     scanf("%c", n);
+      |            ~^   ~
+      |             |   |
+      |             |   int
+      |             char *
+ex07-stu_192-sub_134.c:12:21: error: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   12 |             scanf("%c", n);
+      |                    ~^   ~
+      |                     |   |
+      |                     |   int
+      |                     char *
+ex07-stu_192-sub_134.c:16:17: error: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   16 |         scanf("%c", n);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 char *
+ex07-stu_192-sub_134.c:22:17: error: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   22 |         scanf("%c", n);
+      |                ~^   ~
+      |                 |   |
+      |                 |   int
+      |                 char *
+ex07-stu_192-sub_134.c:24:21: error: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   24 |             scanf("%c", n);
+      |                    ~^   ~
+      |                     |   |
+      |                     |   int
+      |                     char *
+ex07-stu_192-sub_134.c:7:5: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    7 |     scanf("%c", n);
+      |     ^~~~~~~~~~~~~~
+ex07-stu_192-sub_134.c:5:10: note: ‘n’ was declared here
+    5 |     char n;
+      |          ^
+cc1: all warnings being treated as errors

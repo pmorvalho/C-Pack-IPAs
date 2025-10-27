@@ -1,0 +1,5 @@
+ex05-stu_192-sub_181.c: In function ‘leLinha’:
+ex05-stu_192-sub_181.c:25:10: error: unused variable ‘n’ [-Werror=unused-variable]
+   25 |     char n;
+      |          ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex07-stu_192-sub_144.c: In function ‘main’:
+ex07-stu_192-sub_144.c:5:53: error: multi-character character constant [-Werror=multichar]
+    5 |     int n, num = '0', resultado = '0', incremento = '10';
+      |                                                     ^~~~
+cc1: all warnings being treated as errors

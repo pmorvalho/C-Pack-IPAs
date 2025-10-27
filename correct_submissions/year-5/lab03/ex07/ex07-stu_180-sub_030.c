@@ -1,0 +1,44 @@
+
+
+#include <stdio.h>
+
+int main(){
+    int caracter, num=0 , res=0;
+    char C;
+    char operador = '+';
+
+    while ((C=getchar()) != '\n'){
+
+        if (C >= '0' && C <= '9'){
+            caracter = C - '0';
+            num = num * 10 + caracter;
+        }
+
+        else if (C== ' '){
+            if (operador == '+') {
+                res += num;
+                num=0;
+            }
+            else if (operador == '-') {
+                res -= num;
+                num=0;
+            }
+        }
+        
+        else if (C == '+' || C == '-') {
+            operador = C;
+        }
+    }
+
+    if (operador == '+') {
+        res += num;
+        num=0;
+    }
+    else if (operador == '-') {
+        res -= num;
+        num=0;
+    }
+
+    printf("%d\n", res);
+    return 0;
+}

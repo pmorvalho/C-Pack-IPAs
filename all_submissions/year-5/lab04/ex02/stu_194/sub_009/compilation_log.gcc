@@ -1,0 +1,5 @@
+ex02-stu_194-sub_009.c: In function ‘main’:
+ex02-stu_194-sub_009.c:8:18: error: unused variable ‘val’ [-Werror=unused-variable]
+    8 |     int n, i, j, val, max = 0;
+      |                  ^~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,9 @@
+ex06-stu_188-sub_012.c: In function ‘main’:
+ex06-stu_188-sub_012.c:8:5: error: ISO C90 forbids variable length array ‘numeros’ [-Werror=vla]
+    8 |     float numeros[N];
+      |     ^~~~~
+ex06-stu_188-sub_012.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+ex06-stu_188-sub_012.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+   27 | }
+      | ^
+cc1: all warnings being treated as errors

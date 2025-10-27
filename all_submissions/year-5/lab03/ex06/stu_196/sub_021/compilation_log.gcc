@@ -1,0 +1,5 @@
+ex06-stu_196-sub_021.c: In function ‘line_divisible_n’:
+ex06-stu_196-sub_021.c:10:28: error: unused parameter ‘s’ [-Werror=unused-parameter]
+   10 | bool line_divisible_n(char s[], int lim, int n)
+      |                       ~~~~~^~~
+cc1: all warnings being treated as errors

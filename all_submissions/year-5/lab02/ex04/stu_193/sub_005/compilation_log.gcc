@@ -1,0 +1,5 @@
+ex04-stu_193-sub_005.c: In function ‘main’:
+ex04-stu_193-sub_005.c:5:18: error: unused variable ‘aux’ [-Werror=unused-variable]
+    5 |     int n1,n2,n3,aux;
+      |                  ^~~
+cc1: all warnings being treated as errors

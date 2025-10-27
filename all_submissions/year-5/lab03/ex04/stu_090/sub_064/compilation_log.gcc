@@ -1,0 +1,5 @@
+ex04-stu_090-sub_064.c: In function ‘main’:
+ex04-stu_090-sub_064.c:10:11: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   10 |     while(c=getchar()){
+      |           ^
+cc1: all warnings being treated as errors

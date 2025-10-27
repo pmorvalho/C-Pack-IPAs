@@ -1,0 +1,5 @@
+ex02-stu_181-sub_011.c: In function ‘piramide’:
+ex02-stu_181-sub_011.c:13:19: error: suggest parentheses around comparison in operand of ‘|’ [-Werror=parentheses]
+   13 |             if (j > (n-i+1) | i != 0)
+      |                 ~~^~~~~~~~~
+cc1: all warnings being treated as errors

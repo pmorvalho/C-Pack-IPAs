@@ -1,0 +1,5 @@
+ex02-stu_200-sub_019.c: In function ‘main’:
+ex02-stu_200-sub_019.c:8:48: error: unused variable ‘cont_c’ [-Werror=unused-variable]
+    8 |     int cont = 0, lista[VECMAX], n=VECMAX+1, m,cont_c = 0, fim = NAO;
+      |                                                ^~~~~~
+cc1: all warnings being treated as errors

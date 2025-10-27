@@ -1,0 +1,5 @@
+ex01-stu_191-sub_015.c: In function ‘quadrado’:
+ex01-stu_191-sub_015.c:5:9: error: unused variable ‘counter’ [-Werror=unused-variable]
+    5 |     int counter, linha, coluna, num;
+      |         ^~~~~~~
+cc1: all warnings being treated as errors

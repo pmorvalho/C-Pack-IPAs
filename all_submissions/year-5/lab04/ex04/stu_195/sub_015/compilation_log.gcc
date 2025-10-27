@@ -1,0 +1,8 @@
+ex04-stu_195-sub_015.c: In function ‘main’:
+ex04-stu_195-sub_015.c:10:19: error: ‘j’ is used uninitialized [-Werror=uninitialized]
+   10 |     for (i = 0; i < j; i++, j--){
+      |                 ~~^~~
+ex04-stu_195-sub_015.c:6:12: note: ‘j’ was declared here
+    6 |     int i, j;
+      |            ^
+cc1: all warnings being treated as errors

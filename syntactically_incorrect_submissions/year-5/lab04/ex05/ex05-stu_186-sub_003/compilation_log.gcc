@@ -1,0 +1,11 @@
+ex05-stu_186-sub_003.c: In function ‘lelinha’:
+ex05-stu_186-sub_003.c:10:16: error: implicit declaration of function ‘getschar’; did you mean ‘getchar’? [-Werror=implicit-function-declaration]
+   10 |     while((c = getschar()) != '\n' && EOF) {
+      |                ^~~~~~~~
+      |                getchar
+ex05-stu_186-sub_003.c: In function ‘main’:
+ex05-stu_186-sub_003.c:25:5: error: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Werror=implicit-function-declaration]
+   25 |     pritnf("Digite uma linha de texto:\n");
+      |     ^~~~~~
+      |     printf
+cc1: all warnings being treated as errors

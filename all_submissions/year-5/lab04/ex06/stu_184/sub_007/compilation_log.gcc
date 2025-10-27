@@ -1,0 +1,5 @@
+ex06-stu_184-sub_007.c: In function ‘maiusculas’:
+ex06-stu_184-sub_007.c:18:9: error: unused variable ‘i’ [-Werror=unused-variable]
+   18 |     int i=0;
+      |         ^
+cc1: all warnings being treated as errors

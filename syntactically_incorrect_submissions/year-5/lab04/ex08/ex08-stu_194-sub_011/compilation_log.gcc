@@ -1,0 +1,16 @@
+ex08-stu_194-sub_011.c: In function ‘read_num’:
+ex08-stu_194-sub_011.c:9:13: error: ‘c’ undeclared (first use in this function)
+    9 |     while ((c = getchar()) != ' ' && c != '\n' && c != EOF && i++ < MAX) {
+      |             ^
+ex08-stu_194-sub_011.c:9:13: note: each undeclared identifier is reported only once for each function it appears in
+ex08-stu_194-sub_011.c: In function ‘main’:
+ex08-stu_194-sub_011.c:18:24: error: variable ‘bigger_is_1’ set but not used [-Werror=unused-but-set-variable]
+   18 |     int i = 0, l1, l2, bigger_is_1;
+      |                        ^~~~~~~~~~~
+ex08-stu_194-sub_011.c:18:9: error: unused variable ‘i’ [-Werror=unused-variable]
+   18 |     int i = 0, l1, l2, bigger_is_1;
+      |         ^
+ex08-stu_194-sub_011.c:17:28: error: unused variable ‘c’ [-Werror=unused-variable]
+   17 |     char n1[MAX], n2[MAX], c;
+      |                            ^
+cc1: all warnings being treated as errors

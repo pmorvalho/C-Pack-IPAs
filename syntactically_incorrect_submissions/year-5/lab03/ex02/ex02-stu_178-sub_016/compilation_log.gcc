@@ -1,0 +1,38 @@
+ex02-stu_178-sub_016.c: In function ‘piramide’:
+ex02-stu_178-sub_016.c:5:24: error: stray ‘\303’ in program
+    5 |     int cont, num, espa<U+00E7>os, looper;
+      |                        ^~~~~~~~
+ex02-stu_178-sub_016.c:5:25: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘os’
+    5 |     int cont, num, espaços, looper;
+      |                         ^~
+ex02-stu_178-sub_016.c:6:9: error: stray ‘\303’ in program
+    6 |     espa<U+00E7>os = N-1;
+      |         ^~~~~~~~
+ex02-stu_178-sub_016.c:6:5: error: unknown type name ‘espa’
+    6 |     espaços = N-1;
+      |     ^~~~
+ex02-stu_178-sub_016.c:7:9: error: ‘looper’ undeclared (first use in this function)
+    7 |     for(looper=N-1; looper>=0; looper--){
+      |         ^~~~~~
+ex02-stu_178-sub_016.c:7:9: note: each undeclared identifier is reported only once for each function it appears in
+ex02-stu_178-sub_016.c:8:36: error: stray ‘\303’ in program
+    8 |         for (cont = 1; cont <= espa<U+00E7>os; cont++){
+      |                                    ^~~~~~~~
+ex02-stu_178-sub_016.c:8:32: error: ‘espa’ undeclared (first use in this function)
+    8 |         for (cont = 1; cont <= espaços; cont++){
+      |                                ^~~~
+ex02-stu_178-sub_016.c:8:36: error: expected ‘;’ before ‘os’
+    8 |         for (cont = 1; cont <= espaços; cont++){
+      |                                    ^~~
+      |                                    ;
+ex02-stu_178-sub_016.c:19:13: error: stray ‘\303’ in program
+   19 |         espa<U+00E7>os--;
+      |             ^~~~~~~~
+ex02-stu_178-sub_016.c:19:13: error: expected ‘;’ before ‘os’
+   19 |         espaços--;
+      |             ^~~
+      |             ;
+ex02-stu_178-sub_016.c:6:10: error: unused variable ‘os’ [-Werror=unused-variable]
+    6 |     espaços = N-1;
+      |          ^~
+cc1: all warnings being treated as errors

@@ -1,0 +1,8 @@
+ex07-stu_192-sub_127.c: In function ‘main’:
+ex07-stu_192-sub_127.c:22:9: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   22 |         if (n != '\n')
+      |         ^~
+ex07-stu_192-sub_127.c:24:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   24 |             n = n - '0';
+      |             ^
+cc1: all warnings being treated as errors

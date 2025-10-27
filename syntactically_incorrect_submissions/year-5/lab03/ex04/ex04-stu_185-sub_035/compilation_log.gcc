@@ -1,0 +1,5 @@
+ex04-stu_185-sub_035.c: In function ‘main’:
+ex04-stu_185-sub_035.c:4:13: error: unused variable ‘s’ [-Werror=unused-variable]
+    4 |     char c, s;
+      |             ^
+cc1: all warnings being treated as errors

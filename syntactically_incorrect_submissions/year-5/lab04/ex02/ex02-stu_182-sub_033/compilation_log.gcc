@@ -1,0 +1,6 @@
+ex02-stu_182-sub_033.c: In function ‘main’:
+ex02-stu_182-sub_033.c:14:5: error: ISO C90 forbids variable length array ‘vec’ [-Werror=vla]
+   14 |     int vec[n];
+      |     ^~~
+ex02-stu_182-sub_033.c:14:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

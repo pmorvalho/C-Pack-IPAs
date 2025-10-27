@@ -1,0 +1,37 @@
+ex01-stu_127-sub_005.c: In function ‘main’:
+ex01-stu_127-sub_005.c:6:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    6 |     scanf("%d %d %d", &values[0], &values[1], values[2]);
+      |     ^~~~~
+ex01-stu_127-sub_005.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex01-stu_127-sub_005.c:6:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    6 |     scanf("%d %d %d", &values[0], &values[1], values[2]);
+      |     ^~~~~
+ex01-stu_127-sub_005.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex01-stu_127-sub_005.c:6:19: error: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Werror=format=]
+    6 |     scanf("%d %d %d", &values[0], &values[1], values[2]);
+      |                  ~^                           ~~~~~~~~~
+      |                   |                                 |
+      |                   int *                             int
+ex01-stu_127-sub_005.c:8:9: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+    8 |         printf("%d", values[0]);
+      |         ^~~~~~
+ex01-stu_127-sub_005.c:8:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_127-sub_005.c:8:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex01-stu_127-sub_005.c:8:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_127-sub_005.c:11:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   11 |         printf("%d", values[1]);
+      |         ^~~~~~
+ex01-stu_127-sub_005.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_127-sub_005.c:14:9: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   14 |         printf("%d", values[2]);
+      |         ^~~~~~
+ex01-stu_127-sub_005.c:14:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex01-stu_127-sub_005.c:6:5: error: ‘values’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%d %d %d", &values[0], &values[1], values[2]);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex01-stu_127-sub_005.c:4:9: note: ‘values’ declared here
+    4 |     int values[3];
+      |         ^~~~~~
+cc1: all warnings being treated as errors

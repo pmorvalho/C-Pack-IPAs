@@ -1,0 +1,5 @@
+ex07-stu_187-sub_026.c: In function ‘main’:
+ex07-stu_187-sub_026.c:24:14: error: array subscript has type ‘char’ [-Werror=char-subscripts]
+   24 |         str[i++] = c;
+      |             ~^~
+cc1: all warnings being treated as errors

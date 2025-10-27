@@ -1,0 +1,18 @@
+ex08-stu_185-sub_057.c: In function ‘main’:
+ex08-stu_185-sub_057.c:10:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   10 |     int len1 = strlen(n1);
+      |     ^~~
+ex08-stu_185-sub_057.c:21:14: error: redeclaration of ‘i’ with no linkage
+   21 |     for (int i = 0; i < len1; i++) {
+      |              ^
+ex08-stu_185-sub_057.c:6:9: note: previous declaration of ‘i’ with type ‘int’
+    6 |     int i;
+      |         ^
+ex08-stu_185-sub_057.c:21:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   21 |     for (int i = 0; i < len1; i++) {
+      |     ^~~
+ex08-stu_185-sub_057.c:21:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex08-stu_185-sub_057.c:30:1: error: control reaches end of non-void function [-Werror=return-type]
+   30 | }
+      | ^
+cc1: all warnings being treated as errors

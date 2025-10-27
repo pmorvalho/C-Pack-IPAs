@@ -1,0 +1,9 @@
+ex07-stu_192-sub_129.c: In function ‘main’:
+ex07-stu_192-sub_129.c:7:23: error: multi-character character constant [-Werror=multichar]
+    7 |     char incremento = '10';
+      |                       ^~~~
+ex07-stu_192-sub_129.c:7:23: error: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Werror=overflow]
+ex07-stu_192-sub_129.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     char incremento = '10';
+      |     ^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,17 @@
+ex05-stu_187-sub_026.c: In function ‘main’:
+ex05-stu_187-sub_026.c:30:25: error: passing argument 1 of ‘putchar’ makes integer from pointer without a cast [-Werror=int-conversion]
+   30 |                 putchar("\n");
+      |                         ^~~~
+      |                         |
+      |                         char *
+In file included from ex05-stu_187-sub_026.c:3:
+/usr/include/stdio.h:556:25: note: expected ‘int’ but argument is of type ‘char *’
+  556 | extern int putchar (int __c);
+      |                     ~~~~^~~
+ex05-stu_187-sub_026.c:29:13: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   29 |             if (dentro_mens)
+      |             ^~
+ex05-stu_187-sub_026.c:31:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   31 |                 dentro_mens = 0;
+      |                 ^~~~~~~~~~~
+cc1: all warnings being treated as errors

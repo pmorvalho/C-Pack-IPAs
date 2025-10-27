@@ -1,0 +1,11 @@
+ex02-stu_172-sub_002.c: In function ‘piraminde’:
+ex02-stu_172-sub_002.c:11:26: error: unused variable ‘increment’ [-Werror=unused-variable]
+   11 |     int tab,to_sum,level,increment;
+      |                          ^~~~~~~~~
+ex02-stu_172-sub_002.c:11:20: error: unused variable ‘level’ [-Werror=unused-variable]
+   11 |     int tab,to_sum,level,increment;
+      |                    ^~~~~
+ex02-stu_172-sub_002.c:11:13: error: unused variable ‘to_sum’ [-Werror=unused-variable]
+   11 |     int tab,to_sum,level,increment;
+      |             ^~~~~~
+cc1: all warnings being treated as errors

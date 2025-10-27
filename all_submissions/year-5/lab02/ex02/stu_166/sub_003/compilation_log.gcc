@@ -1,0 +1,18 @@
+ex02-stu_166-sub_003.c: In function ‘main’:
+ex02-stu_166-sub_003.c:8:9: error: too few arguments to function ‘printf’
+    8 |         printf()
+      |         ^~~~~~
+In file included from ex02-stu_166-sub_003.c:2:
+/usr/include/stdio.h:356:12: note: declared here
+  356 | extern int printf (const char *__restrict __format, ...);
+      |            ^~~~~~
+ex02-stu_166-sub_003.c:8:17: error: expected ‘;’ before ‘}’ token
+    8 |         printf()
+      |                 ^
+      |                 ;
+    9 | }
+      | ~                
+ex02-stu_166-sub_003.c:9:1: error: control reaches end of non-void function [-Werror=return-type]
+    9 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,6 @@
+ex03-stu_177-sub_027.c: In function ‘main’:
+ex03-stu_177-sub_027.c:7:5: error: ISO C90 forbids variable length array ‘nums’ [-Werror=vla]
+    7 |     int nums[n];
+      |     ^~~
+ex03-stu_177-sub_027.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

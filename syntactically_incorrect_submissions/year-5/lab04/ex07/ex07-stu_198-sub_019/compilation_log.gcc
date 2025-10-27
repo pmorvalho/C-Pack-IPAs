@@ -1,0 +1,5 @@
+ex07-stu_198-sub_019.c: In function ‘apagaCaracter’:
+ex07-stu_198-sub_019.c:8:5: error: ISO C90 forbids variable length array ‘s2’ [-Werror=vla]
+    8 |     char s2[lenS];
+      |     ^~~~
+cc1: all warnings being treated as errors

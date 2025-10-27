@@ -1,0 +1,9 @@
+ex02-stu_192-sub_160.c: In function ‘main’:
+ex02-stu_192-sub_160.c:9:35: error: missing braces around initializer [-Werror=missing-braces]
+    9 |     char result[VECMAX][VECMAX] = {'-'};
+      |                                   ^
+      |                                    {  }
+ex02-stu_192-sub_160.c:42:1: error: control reaches end of non-void function [-Werror=return-type]
+   42 | }
+      | ^
+cc1: all warnings being treated as errors

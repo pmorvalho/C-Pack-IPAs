@@ -1,0 +1,4 @@
+ex06-stu_192-sub_193.c: In function ‘maiusculas’:
+ex06-stu_192-sub_193.c:39:44: error: lvalue required as left operand of assignment
+   39 |         (s[i] == ' ') ? s[i] = s[i] : s[i] = s[i] + e;
+      |                                            ^

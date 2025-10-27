@@ -1,0 +1,5 @@
+ex07-stu_180-sub_012.c: In function ‘main’:
+ex07-stu_180-sub_012.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int num=N/2, divisores=1;
+      |     ^~~
+cc1: all warnings being treated as errors

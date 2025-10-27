@@ -1,0 +1,8 @@
+ex04-stu_181-sub_017.c: In function ‘main’:
+ex04-stu_181-sub_017.c:13:9: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   13 |         if (printed)
+      |         ^~
+ex04-stu_181-sub_017.c:15:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   15 |             printed = FALSE;
+      |             ^~~~~~~
+cc1: all warnings being treated as errors

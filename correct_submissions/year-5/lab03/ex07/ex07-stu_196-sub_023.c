@@ -1,0 +1,57 @@
+
+
+#include <stdio.h>
+#include <stdbool.h>
+
+#define MAXLINE 10000
+
+int calculate_line() 
+{
+	int num;
+	int modifier = 1;
+		
+		
+
+	int total = 0;
+
+	bool readnumber = true;
+
+	char operator, c;
+
+	while (true) 
+	{
+		if (readnumber)
+		{
+			scanf("%d", &num);
+
+			total += num * modifier;	
+
+			readnumber = false;
+
+			if ((c = getchar()) == '\n' || c == EOF) 
+				return total;
+		} 
+		else 
+		{
+			scanf("%c%c", &operator, &c);
+
+			if (operator == '+') 
+				modifier = 1;
+			else if (operator == '-')
+				modifier = -1;
+
+			readnumber = true;
+		}
+	}
+
+	return total;
+}
+
+int main() 
+{
+	int total = calculate_line();
+
+	printf("%d\n", total);
+
+	return 0;
+}

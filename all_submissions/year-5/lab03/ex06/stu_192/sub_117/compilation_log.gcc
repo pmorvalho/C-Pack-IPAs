@@ -1,0 +1,14 @@
+ex06-stu_192-sub_117.c: In function ‘main’:
+ex06-stu_192-sub_117.c:6:14: error: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long int’ [-Werror=format=]
+    6 |     scanf("%ld", n);
+      |            ~~^   ~
+      |              |   |
+      |              |   long int
+      |              long int *
+ex06-stu_192-sub_117.c:6:5: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    6 |     scanf("%ld", n);
+      |     ^~~~~~~~~~~~~~~
+ex06-stu_192-sub_117.c:5:14: note: ‘n’ was declared here
+    5 |     long int n, m, soma = 0;
+      |              ^
+cc1: all warnings being treated as errors

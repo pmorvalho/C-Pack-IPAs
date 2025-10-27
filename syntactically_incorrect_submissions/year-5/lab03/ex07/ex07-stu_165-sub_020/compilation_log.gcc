@@ -1,0 +1,4 @@
+ex07-stu_165-sub_020.c:5:6: error: comma at end of enumerator list [-Werror=pedantic]
+    5 |   DIF,
+      |      ^
+cc1: all warnings being treated as errors

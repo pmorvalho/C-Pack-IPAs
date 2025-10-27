@@ -1,0 +1,12 @@
+ex04-stu_193-sub_018.c: In function ‘main’:
+ex04-stu_193-sub_018.c:18:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   18 |     for (int j = 0; j < i; j++) {
+      |     ^~~
+ex04-stu_193-sub_018.c:18:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex04-stu_193-sub_018.c:22:86: error: comparison of constant ‘57’ with boolean expression is always true [-Werror=bool-compare]
+   22 |         if (num[j] != '0' && (num[j+1] == ' ' || num[j+1] =='\n' || ('1' <= num[j+1] <= '9')))
+      |                                                                                      ^~
+ex04-stu_193-sub_018.c:22:74: error: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Werror=parentheses]
+   22 |         if (num[j] != '0' && (num[j+1] == ' ' || num[j+1] =='\n' || ('1' <= num[j+1] <= '9')))
+      |                                                                      ~~~~^~~~~~~~~~~
+cc1: all warnings being treated as errors

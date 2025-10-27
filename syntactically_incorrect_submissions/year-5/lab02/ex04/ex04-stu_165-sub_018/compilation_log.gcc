@@ -1,0 +1,5 @@
+ex04-stu_165-sub_018.c: In function ‘main’:
+ex04-stu_165-sub_018.c:19:3: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   19 |   int minn = min(n1, min(n2, n3));
+      |   ^~~
+cc1: all warnings being treated as errors

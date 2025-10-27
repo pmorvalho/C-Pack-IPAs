@@ -1,0 +1,8 @@
+ex08-stu_179-sub_013.c: In function ‘main’:
+ex08-stu_179-sub_013.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     float totalsoma = 0;
+      |     ^~~~~
+ex08-stu_179-sub_013.c:17:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   17 |     float media = totalsoma / n;
+      |     ^~~~~
+cc1: all warnings being treated as errors

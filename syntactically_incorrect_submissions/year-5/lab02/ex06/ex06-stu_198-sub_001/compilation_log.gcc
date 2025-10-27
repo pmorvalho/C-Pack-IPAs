@@ -1,0 +1,6 @@
+ex06-stu_198-sub_001.c: In function ‘main’:
+ex06-stu_198-sub_001.c:8:5: error: ISO C90 forbids variable length array ‘list’ [-Werror=vla]
+    8 |     float list[n];
+      |     ^~~~~
+ex06-stu_198-sub_001.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

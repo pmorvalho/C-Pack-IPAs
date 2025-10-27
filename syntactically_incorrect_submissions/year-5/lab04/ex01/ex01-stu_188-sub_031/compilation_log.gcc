@@ -1,0 +1,11 @@
+ex01-stu_188-sub_031.c: In function ‘main’:
+ex01-stu_188-sub_031.c:19:21: error: passing argument 1 of ‘putchar’ makes integer from pointer without a cast [-Werror=int-conversion]
+   19 |             putchar("\n");
+      |                     ^~~~
+      |                     |
+      |                     char *
+In file included from ex01-stu_188-sub_031.c:2:
+/usr/include/stdio.h:556:25: note: expected ‘int’ but argument is of type ‘char *’
+  556 | extern int putchar (int __c);
+      |                     ~~~~^~~
+cc1: all warnings being treated as errors

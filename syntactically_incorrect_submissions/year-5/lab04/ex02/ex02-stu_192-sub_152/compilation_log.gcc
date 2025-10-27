@@ -1,0 +1,8 @@
+ex02-stu_192-sub_152.c: In function ‘main’:
+ex02-stu_192-sub_152.c:9:35: error: invalid initializer
+    9 |     char result[VECMAX][VECMAX] = '-';
+      |                                   ^~~
+ex02-stu_192-sub_152.c:42:1: error: control reaches end of non-void function [-Werror=return-type]
+   42 | }
+      | ^
+cc1: all warnings being treated as errors

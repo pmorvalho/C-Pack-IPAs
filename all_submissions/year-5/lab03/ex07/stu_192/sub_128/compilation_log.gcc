@@ -1,0 +1,5 @@
+ex07-stu_192-sub_128.c: In function ‘main’:
+ex07-stu_192-sub_128.c:11:25: error: multi-character character constant [-Werror=multichar]
+   11 |             num = num * '10' + n;
+      |                         ^~~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex01-stu_183-sub_016.c: In function ‘quadrado’:
+ex01-stu_183-sub_016.c:11:22: error: ‘l’ undeclared (first use in this function)
+   11 |         printf("%d", l + c + 1);
+      |                      ^
+ex01-stu_183-sub_016.c:11:22: note: each undeclared identifier is reported only once for each function it appears in

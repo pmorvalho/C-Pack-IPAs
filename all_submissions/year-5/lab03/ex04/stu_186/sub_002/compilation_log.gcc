@@ -1,0 +1,8 @@
+ex04-stu_186-sub_002.c: In function ‘main’:
+ex04-stu_186-sub_002.c:4:10: error: variable ‘c’ set but not used [-Werror=unused-but-set-variable]
+    4 |     char c;
+      |          ^
+ex04-stu_186-sub_002.c:7:1: error: control reaches end of non-void function [-Werror=return-type]
+    7 | }
+      | ^
+cc1: all warnings being treated as errors

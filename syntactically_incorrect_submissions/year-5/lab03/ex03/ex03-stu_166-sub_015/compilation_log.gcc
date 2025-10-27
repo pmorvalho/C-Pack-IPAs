@@ -1,0 +1,5 @@
+ex03-stu_166-sub_015.c: In function ‘cruz’:
+ex03-stu_166-sub_015.c:10:37: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+   10 |             if ((linha == u_estrela && linha ==  n || linha == p_estrela && linha == n)) {
+      |                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors

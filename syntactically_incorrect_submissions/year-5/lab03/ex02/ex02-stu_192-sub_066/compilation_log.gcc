@@ -1,0 +1,22 @@
+ex02-stu_192-sub_066.c: In function ‘piramide’:
+ex02-stu_192-sub_066.c:17:31: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   17 |             (e == 1) ? printf(' ') : printf('  ');
+      |                               ^~~
+      |                               |
+      |                               int
+In file included from ex02-stu_192-sub_066.c:2:
+/usr/include/stdio.h:356:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex02-stu_192-sub_066.c:17:45: error: multi-character character constant [-Werror=multichar]
+   17 |             (e == 1) ? printf(' ') : printf('  ');
+      |                                             ^~~~
+ex02-stu_192-sub_066.c:17:45: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   17 |             (e == 1) ? printf(' ') : printf('  ');
+      |                                             ^~~~
+      |                                             |
+      |                                             int
+/usr/include/stdio.h:356:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+cc1: all warnings being treated as errors

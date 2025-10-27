@@ -1,0 +1,14 @@
+ex05-stu_192-sub_101.c: In function ‘main’:
+ex05-stu_192-sub_101.c:23:31: error: multi-character character constant [-Werror=multichar]
+   23 |                         (n == '\\\\') ? putchar('\\') : putchar(n);
+      |                               ^~~~~~
+ex05-stu_192-sub_101.c:23:28: error: comparison is always false due to limited range of data type [-Werror=type-limits]
+   23 |                         (n == '\\\\') ? putchar('\\') : putchar(n);
+      |                            ^~
+ex05-stu_192-sub_101.c:31:31: error: multi-character character constant [-Werror=multichar]
+   31 |                         (n == '\\\\') ? putchar('\\') : putchar(n);
+      |                               ^~~~~~
+ex05-stu_192-sub_101.c:31:28: error: comparison is always false due to limited range of data type [-Werror=type-limits]
+   31 |                         (n == '\\\\') ? putchar('\\') : putchar(n);
+      |                            ^~
+cc1: all warnings being treated as errors

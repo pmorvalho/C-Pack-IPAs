@@ -1,0 +1,5 @@
+ex01-stu_200-sub_007.c: In function ‘quadrado’:
+ex01-stu_200-sub_007.c:7:5: error: statement with no effect [-Werror=unused-value]
+    7 |     for (linhas;linhas < n;linhas++){
+      |     ^~~
+cc1: all warnings being treated as errors

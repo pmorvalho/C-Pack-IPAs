@@ -1,0 +1,4 @@
+ex07-stu_193-sub_022.c:62:1: error: C++ style comments are not allowed in ISO C90
+   62 | // }
+      | ^
+ex07-stu_193-sub_022.c:62:1: note: (this will be reported only once per input file)

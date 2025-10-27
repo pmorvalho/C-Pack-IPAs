@@ -1,0 +1,9 @@
+ex04-stu_080-sub_131.c: In function ‘main’:
+ex04-stu_080-sub_131.c:15:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   15 |     int count = size(word);
+      |     ^~~
+ex04-stu_080-sub_131.c:17:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |     for(int i = 0; i < count; i++){
+      |     ^~~
+ex04-stu_080-sub_131.c:17:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+cc1: all warnings being treated as errors

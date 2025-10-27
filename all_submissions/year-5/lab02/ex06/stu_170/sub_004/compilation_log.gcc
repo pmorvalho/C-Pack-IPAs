@@ -1,0 +1,19 @@
+ex06-stu_170-sub_004.c: In function ‘main’:
+ex06-stu_170-sub_004.c:11:17: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Werror=format=]
+   11 |         scanf("%d", &x);
+      |                ~^   ~~
+      |                 |   |
+      |                 |   float *
+      |                 int *
+      |                %e
+ex06-stu_170-sub_004.c:15:19: error: format ‘%d’ expects a matching ‘int’ argument [-Werror=format=]
+   15 |     printf("min: %d, max: %d\n");
+      |                  ~^
+      |                   |
+      |                   int
+ex06-stu_170-sub_004.c:15:28: error: format ‘%d’ expects a matching ‘int’ argument [-Werror=format=]
+   15 |     printf("min: %d, max: %d\n");
+      |                           ~^
+      |                            |
+      |                            int
+cc1: all warnings being treated as errors

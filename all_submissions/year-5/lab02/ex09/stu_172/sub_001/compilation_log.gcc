@@ -1,0 +1,8 @@
+ex09-stu_172-sub_001.c: In function ‘main’:
+ex09-stu_172-sub_001.c:5:17: error: unused variable ‘minutes’ [-Werror=unused-variable]
+    5 |     int seconds,minutes;
+      |                 ^~~~~~~
+ex09-stu_172-sub_001.c:5:9: error: unused variable ‘seconds’ [-Werror=unused-variable]
+    5 |     int seconds,minutes;
+      |         ^~~~~~~
+cc1: all warnings being treated as errors

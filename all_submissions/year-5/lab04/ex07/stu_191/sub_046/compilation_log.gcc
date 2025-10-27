@@ -1,0 +1,5 @@
+ex07-stu_191-sub_046.c: In function ‘apagaCaracter’:
+ex07-stu_191-sub_046.c:17:16: error: unused variable ‘size’ [-Werror=unused-variable]
+   17 |     int i = 0, size = tamanho(s), j;
+      |                ^~~~
+cc1: all warnings being treated as errors

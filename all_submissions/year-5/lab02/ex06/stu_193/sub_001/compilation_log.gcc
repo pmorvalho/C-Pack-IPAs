@@ -1,0 +1,19 @@
+ex06-stu_193-sub_001.c: In function ‘main’:
+ex06-stu_193-sub_001.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     float min = FLT_MAX, max = -FLT_MAX,x;
+      |     ^~~~~
+ex06-stu_193-sub_001.c:8:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    8 |     for (int i = 0; i < N; i++) {
+      |     ^~~
+ex06-stu_193-sub_001.c:8:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex06-stu_193-sub_001.c:8:25: error: ‘N’ undeclared (first use in this function)
+    8 |     for (int i = 0; i < N; i++) {
+      |                         ^
+ex06-stu_193-sub_001.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+ex06-stu_193-sub_001.c:9:17: error: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double’ [-Werror=format=]
+    9 |         scanf("%f",x);
+      |                ~^  ~
+      |                 |  |
+      |                 |  double
+      |                 float *
+cc1: all warnings being treated as errors

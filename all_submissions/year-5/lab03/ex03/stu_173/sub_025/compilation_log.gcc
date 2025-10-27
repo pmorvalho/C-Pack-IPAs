@@ -1,0 +1,9 @@
+ex03-stu_173-sub_025.c: In function ‘imprimir_linha’:
+ex03-stu_173-sub_025.c:17:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |     for (int c = 1; c <= N; c++) {
+      |     ^~~
+ex03-stu_173-sub_025.c:17:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_173-sub_025.c: In function ‘cruz’:
+ex03-stu_173-sub_025.c:30:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   30 |     for (int i = 1; i <= N; i++)
+      |     ^~~

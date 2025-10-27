@@ -1,0 +1,8 @@
+ex01-stu_185-sub_001.c: In function ‘main’:
+ex01-stu_185-sub_001.c:4:21: error: ‘n1’ is used uninitialized [-Werror=uninitialized]
+    4 |     int n1, n2, n3, max = n1;
+      |                     ^~~
+ex01-stu_185-sub_001.c:4:9: note: ‘n1’ declared here
+    4 |     int n1, n2, n3, max = n1;
+      |         ^~
+cc1: all warnings being treated as errors

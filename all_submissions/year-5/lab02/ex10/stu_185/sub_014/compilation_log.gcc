@@ -1,0 +1,5 @@
+ex10-stu_185-sub_014.c: In function ‘main’:
+ex10-stu_185-sub_014.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+cc1: all warnings being treated as errors

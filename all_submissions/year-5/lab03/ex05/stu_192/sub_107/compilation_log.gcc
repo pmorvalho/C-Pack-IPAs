@@ -1,0 +1,5 @@
+ex05-stu_192-sub_107.c: In function ‘main’:
+ex05-stu_192-sub_107.c:24:31: error: assignment to ‘char’ from ‘int (*)(void)’ makes integer from pointer without a cast [-Werror=int-conversion]
+   24 |                             n = getchar;
+      |                               ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex03-stu_191-sub_019.c: In function ‘cruz’:
+ex03-stu_191-sub_019.c:5:19: error: unused variable ‘coluna’ [-Werror=unused-variable]
+    5 |     int i, linha, coluna;
+      |                   ^~~~~~
+cc1: all warnings being treated as errors

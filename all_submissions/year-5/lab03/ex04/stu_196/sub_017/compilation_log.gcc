@@ -1,0 +1,8 @@
+ex04-stu_196-sub_017.c: In function ‘getFilteredLine’:
+ex04-stu_196-sub_017.c:26:17: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   26 |                 if (c != ' ' && c != '0')
+      |                 ^~
+ex04-stu_196-sub_017.c:29:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   29 |                         if (s[i-1] == '0') {
+      |                         ^~
+cc1: all warnings being treated as errors

@@ -1,0 +1,5 @@
+ex04-stu_170-sub_004.c: In function ‘main’:
+ex04-stu_170-sub_004.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int x = (a>b ? b : a), y = (a>b ? a : b);
+      |     ^~~
+cc1: all warnings being treated as errors

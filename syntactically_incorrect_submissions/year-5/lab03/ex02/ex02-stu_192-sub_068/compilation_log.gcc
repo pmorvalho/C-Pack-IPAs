@@ -1,0 +1,4 @@
+ex02-stu_192-sub_068.c: In function ‘piramide’:
+ex02-stu_192-sub_068.c:16:33: error: expected expression before ‘)’ token
+   16 |         if (e == 1 && i != 2*N-!) {
+      |                                 ^

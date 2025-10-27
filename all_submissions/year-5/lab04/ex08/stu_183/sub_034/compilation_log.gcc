@@ -1,0 +1,8 @@
+ex08-stu_183-sub_034.c: In function ‘main’:
+ex08-stu_183-sub_034.c:9:19: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+    9 |         printf("%lf", n1);
+      |                   ^
+ex08-stu_183-sub_034.c:11:19: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   11 |         printf("%lf", n2);
+      |                   ^
+cc1: all warnings being treated as errors

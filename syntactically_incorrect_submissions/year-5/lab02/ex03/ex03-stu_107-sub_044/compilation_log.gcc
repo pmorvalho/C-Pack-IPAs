@@ -1,0 +1,14 @@
+ex03-stu_107-sub_044.c: In function ‘main’:
+ex03-stu_107-sub_044.c:9:7: error: ‘N’ is used uninitialized [-Werror=uninitialized]
+    9 |     N % M == 0 ? printf("yes\n") : printf("no\n");
+      |     ~~^~~
+ex03-stu_107-sub_044.c:7:9: note: ‘N’ was declared here
+    7 |     int N, M;
+      |         ^
+ex03-stu_107-sub_044.c:9:7: error: ‘M’ is used uninitialized [-Werror=uninitialized]
+    9 |     N % M == 0 ? printf("yes\n") : printf("no\n");
+      |     ~~^~~
+ex03-stu_107-sub_044.c:7:12: note: ‘M’ was declared here
+    7 |     int N, M;
+      |            ^
+cc1: all warnings being treated as errors

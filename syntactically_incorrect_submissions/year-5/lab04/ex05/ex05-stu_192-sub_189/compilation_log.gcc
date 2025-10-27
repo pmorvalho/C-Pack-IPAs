@@ -1,0 +1,32 @@
+ex05-stu_192-sub_189.c: In function ‘main’:
+ex05-stu_192-sub_189.c:9:13: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+    9 |     scanf("%s", n);
+      |            ~^   ~
+      |             |   |
+      |             |   int
+      |             char *
+ex05-stu_192-sub_189.c:10:17: error: passing argument 1 of ‘leLinha’ makes pointer from integer without a cast [-Werror=int-conversion]
+   10 |     i = leLinha(n);
+      |                 ^
+      |                 |
+      |                 char
+ex05-stu_192-sub_189.c:4:18: note: expected ‘char *’ but argument is of type ‘char’
+    4 | int leLinha(char s[]);
+      |             ~~~~~^~~
+ex05-stu_192-sub_189.c:11:14: error: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Werror=format=]
+   11 |     printf("%s\n", n);
+      |             ~^     ~
+      |              |     |
+      |              |     int
+      |              char *
+      |             %d
+ex05-stu_192-sub_189.c:8:9: error: variable ‘i’ set but not used [-Werror=unused-but-set-variable]
+    8 |     int i;
+      |         ^
+ex05-stu_192-sub_189.c:9:5: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    9 |     scanf("%s", n);
+      |     ^~~~~~~~~~~~~~
+ex05-stu_192-sub_189.c:7:10: note: ‘n’ was declared here
+    7 |     char n;
+      |          ^
+cc1: all warnings being treated as errors

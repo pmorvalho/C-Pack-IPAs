@@ -1,0 +1,41 @@
+ex01-stu_203-sub_001.c: In function ‘main’:
+ex01-stu_203-sub_001.c:8:13: error: redeclaration of ‘i’ with no linkage
+    8 |     for(int i=0;i<n;i++){
+      |             ^
+ex01-stu_203-sub_001.c:5:13: note: previous declaration of ‘i’ with type ‘int’
+    5 |     int n,m,i,j;
+      |             ^
+ex01-stu_203-sub_001.c:8:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    8 |     for(int i=0;i<n;i++){
+      |     ^~~
+ex01-stu_203-sub_001.c:8:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_203-sub_001.c:12:14: error: redeclaration of ‘j’ with no linkage
+   12 |     for (int j=0,
+      |              ^
+ex01-stu_203-sub_001.c:5:15: note: previous declaration of ‘j’ with type ‘int’
+    5 |     int n,m,i,j;
+      |               ^
+ex01-stu_203-sub_001.c:13:1: error: expected identifier or ‘(’ before ‘}’ token
+   13 | }
+      | ^
+ex01-stu_203-sub_001.c:12:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   12 |     for (int j=0,
+      |     ^~~
+ex01-stu_203-sub_001.c:13:1: error: expected expression at end of input
+   13 | }
+      | ^
+ex01-stu_203-sub_001.c:12:5: note: ‘-Wmisleading-indentation’ is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+   12 |     for (int j=0,
+      |     ^~~
+ex01-stu_203-sub_001.c:12:5: note: adding ‘-flarge-source-files’ will allow for more column-tracking support, at the expense of compilation time and memory
+ex01-stu_203-sub_001.c:13:1: error: expected declaration or statement at end of input
+   13 | }
+      | ^
+ex01-stu_203-sub_001.c:12:14: error: unused variable ‘j’ [-Werror=unused-variable]
+   12 |     for (int j=0,
+      |              ^
+ex01-stu_203-sub_001.c:6:9: error: variable ‘vec’ set but not used [-Werror=unused-but-set-variable]
+    6 |     int vec [VECMAX];
+      |         ^~~
+ex01-stu_203-sub_001.c:14: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors
