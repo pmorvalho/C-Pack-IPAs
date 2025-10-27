@@ -24,7 +24,24 @@ gcc -Wall -Wextra -Werror -ansi -pedantic -lm p1.c
 
 ## References
 
-P. Orvalho, M. Janota, and V. Manquinho. C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments. In the 5th International Workshop on Automated Program Repair, APR 2024, co-located with ICSE 2024. [PDF](https://web.ist.utl.pt/ist181151/papers/apr24-paper.pdf).
+[![DOI](https://img.shields.io/badge/DOI-10.1145/3643788.3648010-blue)](https://doi.org/10.1145/3643788.3648010)
+
+```bibtex
+@inproceedings{DBLP:conf/icse-apr/OrvalhoJM24,
+  author       = {Pedro Orvalho and
+                  Mikol{\'{a}}s Janota and
+                  Vasco Manquinho},
+  title        = {C-Pack of IPAs: {A} {C90} Program Benchmark of Introductory Programming
+                  Assignments},
+  booktitle    = {{IEEE/ACM} International Workshop on Automated Program Repair, APR@ICSE
+                  2024, Lisbon, Portugal, April 20, 2024},
+  pages        = {14--21},
+  publisher    = {{IEEE}},
+  year         = {2024},
+  doi          = {10.1145/3643788.3648010},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 ## Acks
 
