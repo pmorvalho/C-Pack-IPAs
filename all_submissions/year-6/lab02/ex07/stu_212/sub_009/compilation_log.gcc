@@ -1,0 +1,14 @@
+ex07-stu_212-sub_009.c: In function ‘main’:
+ex07-stu_212-sub_009.c:7:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    7 |     int div = 1;
+      |     ^~~
+ex07-stu_212-sub_009.c:9:9: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+    9 |         if (num % div == 0)
+      |         ^~
+ex07-stu_212-sub_009.c:11:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   11 |             div += 1;
+      |             ^~~
+ex07-stu_212-sub_009.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,29 @@
+ex04-stu_210-sub_007.c:9:5: error: expected ‘,’ or ‘}’ before ‘DENTRO’
+    9 |     DENTRO
+      |     ^~~~~~
+ex04-stu_210-sub_007.c:13:1: error: expected ‘;’, identifier or ‘(’ before ‘int’
+   13 | int spc(int c)
+      | ^~~
+ex04-stu_210-sub_007.c: In function ‘spc’:
+ex04-stu_210-sub_007.c:15:25: error: multi-character character constant [-Werror=multichar]
+   15 | return c == ' ' || c == 'ln' || c == EOF;
+      |                         ^~~~
+ex04-stu_210-sub_007.c: In function ‘nonzero’:
+ex04-stu_210-sub_007.c:20:32: error: expected ‘;’ before ‘}’ token
+   20 |     return '1' <= c && c <= '9'
+      |                                ^
+      |                                ;
+   21 | }
+      | ~                               
+ex04-stu_210-sub_007.c: In function ‘main’:
+ex04-stu_210-sub_007.c:35:26: error: ‘DENTRO’ undeclared (first use in this function)
+   35 |                     st = DENTRO;
+      |                          ^~~~~~
+ex04-stu_210-sub_007.c:35:26: note: each undeclared identifier is reported only once for each function it appears in
+ex04-stu_210-sub_007.c:40:26: error: ‘INI’ undeclared (first use in this function)
+   40 |                     st = INI;
+      |                          ^~~
+ex04-stu_210-sub_007.c:69:1: error: control reaches end of non-void function [-Werror=return-type]
+   69 | }
+      | ^
+cc1: all warnings being treated as errors

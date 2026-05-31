@@ -1,0 +1,18 @@
+ex08-stu_240-sub_026.c: In function ‘main’:
+ex08-stu_240-sub_026.c:6:10: error: ISO C90 does not support ‘long long’ [-Werror=long-long]
+    6 |     long long int num1, num2;
+      |          ^~~~
+ex08-stu_240-sub_026.c:7:11: error: ISO C90 does not support the ‘ll’ gnu_scanf length modifier [-Werror=format=]
+    7 |     scanf("%lld %lld", &num1, &num2);
+      |           ^~~~~~~~~~~
+ex08-stu_240-sub_026.c:7:11: error: ISO C90 does not support the ‘ll’ gnu_scanf length modifier [-Werror=format=]
+ex08-stu_240-sub_026.c:9:16: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+    9 |         printf("%lld\n", num1);
+      |                ^~~~~~~~
+ex08-stu_240-sub_026.c:12:16: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+   12 |         printf("%lld\n", num2);
+      |                ^~~~~~~~
+ex08-stu_240-sub_026.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

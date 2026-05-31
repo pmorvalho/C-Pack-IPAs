@@ -1,0 +1,11 @@
+ex05-stu_224-sub_006.c: In function ‘main’:
+ex05-stu_224-sub_006.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+ex05-stu_224-sub_006.c:8:16: error: ‘num’ is used uninitialized [-Werror=uninitialized]
+    8 |     while (num <= a) {
+      |            ~~~~^~~~
+ex05-stu_224-sub_006.c:5:12: note: ‘num’ was declared here
+    5 |     int a, num;
+      |            ^~~
+cc1: all warnings being treated as errors

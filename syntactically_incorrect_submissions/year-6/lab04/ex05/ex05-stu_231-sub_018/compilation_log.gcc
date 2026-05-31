@@ -1,0 +1,16 @@
+ex05-stu_231-sub_018.c: In function ‘leLinha’:
+ex05-stu_231-sub_018.c:4:18: error: unused parameter ‘s’ [-Werror=unused-parameter]
+    4 | int leLinha(char s[]){
+      |             ~~~~~^~~
+ex05-stu_231-sub_018.c: In function ‘main’:
+ex05-stu_231-sub_018.c:10:1: error: expected identifier or ‘(’ before ‘}’ token
+   10 | }
+      | ^
+ex05-stu_231-sub_018.c:10:1: error: expected declaration or statement at end of input
+ex05-stu_231-sub_018.c: In function ‘leLinha’:
+ex05-stu_231-sub_018.c:6:1: error: control reaches end of non-void function [-Werror=return-type]
+    6 | }
+      | ^
+ex05-stu_231-sub_018.c: In function ‘main’:
+ex05-stu_231-sub_018.c:11: error: control reaches end of non-void function [-Werror=return-type]
+cc1: all warnings being treated as errors

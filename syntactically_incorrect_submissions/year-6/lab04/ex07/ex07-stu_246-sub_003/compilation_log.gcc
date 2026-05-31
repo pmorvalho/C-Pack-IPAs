@@ -1,0 +1,15 @@
+ex07-stu_246-sub_003.c: In function ‘apagaCaracter’:
+ex07-stu_246-sub_003.c:15:16: error: multi-character character constant [-Werror=multichar]
+   15 |     s[current]='/0';
+      |                ^~~~
+ex07-stu_246-sub_003.c:15:16: error: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12080’ to ‘48’ [-Werror=overflow]
+ex07-stu_246-sub_003.c: In function ‘leLinha’:
+ex07-stu_246-sub_003.c:21:37: error: comparison between pointer and integer [-Werror]
+   21 |     while ((c=getchar()) !=EOF && c != "\n") {
+      |                                     ^~
+ex07-stu_246-sub_003.c:21:37: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex07-stu_246-sub_003.c: In function ‘main’:
+ex07-stu_246-sub_003.c:35:1: error: control reaches end of non-void function [-Werror=return-type]
+   35 | }
+      | ^
+cc1: all warnings being treated as errors

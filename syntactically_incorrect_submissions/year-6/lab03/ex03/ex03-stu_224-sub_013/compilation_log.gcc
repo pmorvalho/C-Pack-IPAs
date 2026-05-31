@@ -1,0 +1,11 @@
+ex03-stu_224-sub_013.c: In function ‘main’:
+ex03-stu_224-sub_013.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+ex03-stu_224-sub_013.c:5:15: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    5 |     int n, l, r = n, j;
+      |               ^
+ex03-stu_224-sub_013.c:5:9: note: ‘n’ declared here
+    5 |     int n, l, r = n, j;
+      |         ^
+cc1: all warnings being treated as errors

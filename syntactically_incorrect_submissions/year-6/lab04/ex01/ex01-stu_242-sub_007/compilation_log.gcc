@@ -1,0 +1,16 @@
+ex01-stu_242-sub_007.c: In function ‘main’:
+ex01-stu_242-sub_007.c:11:20: error: ‘vev’ undeclared (first use in this function); did you mean ‘vec’?
+   11 |         for(j=1;j<=vev[i];j++) putchar('*');
+      |                    ^~~
+      |                    vec
+ex01-stu_242-sub_007.c:11:20: note: each undeclared identifier is reported only once for each function it appears in
+ex01-stu_242-sub_007.c:12:17: error: passing argument 1 of ‘putchar’ makes integer from pointer without a cast [-Werror=int-conversion]
+   12 |         putchar("\n");
+      |                 ^~~~
+      |                 |
+      |                 char *
+In file included from ex01-stu_242-sub_007.c:2:
+/usr/include/stdio.h:618:25: note: expected ‘int’ but argument is of type ‘char *’
+  618 | extern int putchar (int __c);
+      |                     ~~~~^~~
+cc1: all warnings being treated as errors

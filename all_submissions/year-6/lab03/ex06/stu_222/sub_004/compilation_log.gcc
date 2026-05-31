@@ -1,0 +1,9 @@
+ex06-stu_222-sub_004.c: In function ‘main’:
+ex06-stu_222-sub_004.c:10:20: error: implicit declaration of function ‘divisivelPorNove’ [-Werror=implicit-function-declaration]
+   10 |     printf("%s\n", divisivelPorNove(str) ? "yes" : "no");
+      |                    ^~~~~~~~~~~~~~~~
+ex06-stu_222-sub_004.c: In function ‘divisivelPorNove’:
+ex06-stu_222-sub_004.c:22:16: error: implicit declaration of function ‘somaDigitos’ [-Werror=implicit-function-declaration]
+   22 |         return somaDigitos(numero) % 9 == 0;
+      |                ^~~~~~~~~~~
+cc1: all warnings being treated as errors

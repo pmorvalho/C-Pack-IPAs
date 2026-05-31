@@ -1,0 +1,6 @@
+ex04-stu_233-sub_001.c: In function ‘main’:
+ex04-stu_233-sub_001.c:27:21: error: implicit declaration of function ‘purchar’; did you mean ‘putchar’? [-Werror=implicit-function-declaration]
+   27 |                     purchar('0'); putchar(c);
+      |                     ^~~~~~~
+      |                     putchar
+cc1: all warnings being treated as errors

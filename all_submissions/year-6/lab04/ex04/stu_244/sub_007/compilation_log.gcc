@@ -1,0 +1,9 @@
+ex04-stu_244-sub_007.c: In function ‘main’:
+ex04-stu_244-sub_007.c:15:20: error: statement with no effect [-Werror=unused-value]
+   15 |             estado == ERRADO;
+      |                    ^
+ex04-stu_244-sub_007.c:22:9: error: implicit declaration of function ‘print’; did you mean ‘printf’? [-Werror=implicit-function-declaration]
+   22 |         print("no\n");
+      |         ^~~~~
+      |         printf
+cc1: all warnings being treated as errors

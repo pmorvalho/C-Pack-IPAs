@@ -1,0 +1,11 @@
+ex04-stu_240-sub_003.c: In function ‘main’:
+ex04-stu_240-sub_003.c:11:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   11 |     int menor = num1;
+      |     ^~~
+ex04-stu_240-sub_003.c:19:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   19 |     int maior = num1;
+      |     ^~~
+ex04-stu_240-sub_003.c:27:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   27 |     int meio = num1 + num2 + num3 - menor - maior;
+      |     ^~~
+cc1: all warnings being treated as errors

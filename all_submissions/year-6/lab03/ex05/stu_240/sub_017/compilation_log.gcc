@@ -1,0 +1,5 @@
+ex05-stu_240-sub_017.c: In function ‘main’:
+ex05-stu_240-sub_017.c:15:18: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   15 |         else if (estado = DENTRO){
+      |                  ^~~~~~
+cc1: all warnings being treated as errors

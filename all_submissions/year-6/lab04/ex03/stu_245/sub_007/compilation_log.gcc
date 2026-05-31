@@ -1,0 +1,29 @@
+ex03-stu_245-sub_007.c: In function ‘ex03’:
+ex03-stu_245-sub_007.c:8:5: error: implicit declaration of function ‘sacanf’; did you mean ‘sscanf’? [-Werror=implicit-function-declaration]
+    8 |     sacanf("%d", &n);
+      |     ^~~~~~
+      |     sscanf
+ex03-stu_245-sub_007.c:9:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+    9 |     for(int i=0, i < n, i++){
+      |                    ^
+ex03-stu_245-sub_007.c:9:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    9 |     for(int i=0, i < n, i++){
+      |     ^~~
+ex03-stu_245-sub_007.c:9:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_245-sub_007.c:13:5: error: expected expression before ‘for’
+   13 |     for (int i = 0; i < m; i++) {
+      |     ^~~
+ex03-stu_245-sub_007.c:19:1: error: expected expression before ‘}’ token
+   19 | }
+      | ^
+ex03-stu_245-sub_007.c:19:1: error: expected expression before ‘}’ token
+ex03-stu_245-sub_007.c:9:13: error: unused variable ‘i’ [-Werror=unused-variable]
+    9 |     for(int i=0, i < n, i++){
+      |             ^
+ex03-stu_245-sub_007.c:7:20: error: unused variable ‘vec’ [-Werror=unused-variable]
+    7 |     int n, m = -1, vec[VECMAX];
+      |                    ^~~
+ex03-stu_245-sub_007.c:7:12: error: unused variable ‘m’ [-Werror=unused-variable]
+    7 |     int n, m = -1, vec[VECMAX];
+      |            ^
+cc1: all warnings being treated as errors

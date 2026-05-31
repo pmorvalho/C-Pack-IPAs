@@ -1,0 +1,4 @@
+ex07-stu_235-sub_012.c: In function ‘main’:
+ex07-stu_235-sub_012.c:10:24: error: lvalue required as decrement operand
+   10 |     for (i = n; i > 0;1--)
+      |                        ^~

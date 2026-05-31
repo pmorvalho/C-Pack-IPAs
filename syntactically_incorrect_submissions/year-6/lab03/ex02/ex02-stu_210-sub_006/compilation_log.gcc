@@ -1,0 +1,26 @@
+ex02-stu_210-sub_006.c: In function ‘piramide’:
+ex02-stu_210-sub_006.c:7:14: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+    7 |     for(i = 1, i <= n, i++)
+      |              ^
+ex02-stu_210-sub_006.c:7:27: error: expected ‘;’ before ‘)’ token
+    7 |     for(i = 1, i <= n, i++)
+      |                           ^
+      |                           ;
+ex02-stu_210-sub_006.c:7:27: error: expected expression before ‘)’ token
+ex02-stu_210-sub_006.c:9:19: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+    9 |         for (j = 0, j < n, j++)
+      |                   ^
+ex02-stu_210-sub_006.c:9:31: error: expected ‘;’ before ‘)’ token
+    9 |         for (j = 0, j < n, j++)
+      |                               ^
+      |                               ;
+ex02-stu_210-sub_006.c:9:31: error: expected expression before ‘)’ token
+ex02-stu_210-sub_006.c:13:19: error: expected ‘;’ before ‘)’ token
+   13 |         for (j = 0)
+      |                   ^
+      |                   ;
+ex02-stu_210-sub_006.c:13:19: error: expected expression before ‘)’ token
+ex02-stu_210-sub_006.c:14:5: error: expected expression before ‘}’ token
+   14 |     }
+      |     ^
+cc1: all warnings being treated as errors

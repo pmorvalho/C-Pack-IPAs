@@ -1,0 +1,20 @@
+ex05-stu_210-sub_003.c:18:5: error: redefinition of ‘main’
+   18 | int main()
+      |     ^~~~
+ex05-stu_210-sub_003.c:4:5: note: previous definition of ‘main’ with type ‘int()’
+    4 | int main()
+      |     ^~~~
+ex05-stu_210-sub_003.c: In function ‘main’:
+ex05-stu_210-sub_003.c:22:17: error: ‘n’ undeclared (first use in this function)
+   22 |     for(i=1, i<=n, ++i)
+      |                 ^
+ex05-stu_210-sub_003.c:22:17: note: each undeclared identifier is reported only once for each function it appears in
+ex05-stu_210-sub_003.c:22:18: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   22 |     for(i=1, i<=n, ++i)
+      |                  ^
+ex05-stu_210-sub_003.c:22:23: error: expected ‘;’ before ‘)’ token
+   22 |     for(i=1, i<=n, ++i)
+      |                       ^
+      |                       ;
+ex05-stu_210-sub_003.c:22:23: error: expected expression before ‘)’ token
+cc1: all warnings being treated as errors

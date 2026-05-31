@@ -1,0 +1,17 @@
+ex01-stu_226-sub_018.c: In function ‘main’:
+ex01-stu_226-sub_018.c:17:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |     for (int i = 0; i < n; i++) {
+      |     ^~~
+ex01-stu_226-sub_018.c:17:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex01-stu_226-sub_018.c:21:14: error: redefinition of ‘i’
+   21 |     for (int i = 0; i < n; i++) {
+      |              ^
+ex01-stu_226-sub_018.c:17:14: note: previous definition of ‘i’ with type ‘int’
+   17 |     for (int i = 0; i < n; i++) {
+      |              ^
+ex01-stu_226-sub_018.c:21:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   21 |     for (int i = 0; i < n; i++) {
+      |     ^~~
+ex01-stu_226-sub_018.c:22:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |         for (int j = 0; j < valores[i]; j++) {
+      |         ^~~

@@ -1,0 +1,23 @@
+ex01-stu_222-sub_001.c:4:5: error: second argument of ‘main’ should be ‘char **’ [-Werror=main]
+    4 | int main(int x, int y) {
+      |     ^~~~
+ex01-stu_222-sub_001.c: In function ‘main’:
+ex01-stu_222-sub_001.c:5:9: error: ‘x’ redeclared as different kind of symbol
+    5 |     int x, y, z;
+      |         ^
+ex01-stu_222-sub_001.c:4:14: note: previous definition of ‘x’ with type ‘int’
+    4 | int main(int x, int y) {
+      |          ~~~~^
+ex01-stu_222-sub_001.c:5:12: error: ‘y’ redeclared as different kind of symbol
+    5 |     int x, y, z;
+      |            ^
+ex01-stu_222-sub_001.c:4:21: note: previous definition of ‘y’ with type ‘int’
+    4 | int main(int x, int y) {
+      |                 ~~~~^
+ex01-stu_222-sub_001.c:4:14: error: unused parameter ‘x’ [-Werror=unused-parameter]
+    4 | int main(int x, int y) {
+      |          ~~~~^
+ex01-stu_222-sub_001.c:4:21: error: unused parameter ‘y’ [-Werror=unused-parameter]
+    4 | int main(int x, int y) {
+      |                 ~~~~^
+cc1: all warnings being treated as errors

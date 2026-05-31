@@ -1,0 +1,4 @@
+ex03-stu_207-sub_001.c: In function ‘main’:
+ex03-stu_207-sub_001.c:6:25: error: expected expression before ‘)’ token
+    6 |     scanf("%d%d", &N,&M,);
+      |                         ^

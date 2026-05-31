@@ -1,0 +1,23 @@
+ex02-stu_204-sub_006.c: In function ‘piramide’:
+ex02-stu_204-sub_006.c:7:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |     for (int num =1; num <= n; num++){
+      |     ^~~
+ex02-stu_204-sub_006.c:7:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_204-sub_006.c:9:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    9 |         for (int space = n - num; space!= 0; space--){
+      |         ^~~
+ex02-stu_204-sub_006.c:13:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   13 |         for( int N = 1; N != num; N++){
+      |         ^~~
+ex02-stu_204-sub_006.c:23:13: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   23 |             for( int N = (num-1); N !=0 ; N--){
+      |             ^~~
+ex02-stu_204-sub_006.c:28:18: error: redefinition of ‘space’
+   28 |         for (int space = n - num; space!= 0; space--){
+      |                  ^~~~~
+ex02-stu_204-sub_006.c:9:18: note: previous definition of ‘space’ with type ‘int’
+    9 |         for (int space = n - num; space!= 0; space--){
+      |                  ^~~~~
+ex02-stu_204-sub_006.c:28:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   28 |         for (int space = n - num; space!= 0; space--){
+      |         ^~~

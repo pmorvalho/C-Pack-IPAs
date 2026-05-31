@@ -1,0 +1,5 @@
+ex10-stu_213-sub_003.c: In function ‘main’:
+ex10-stu_213-sub_003.c:7:17: error: unused variable ‘i’ [-Werror=unused-variable]
+    7 |     int numero, i, soma = 0, contador = 0;
+      |                 ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,14 @@
+ex04-stu_213-sub_001.c: In function ‘main’:
+ex04-stu_213-sub_001.c:7:41: error: variable ‘meio’ set but not used [-Werror=unused-but-set-variable]
+    7 |     long prim, seg, terc, maior, menor, meio;
+      |                                         ^~~~
+ex04-stu_213-sub_001.c:7:34: error: variable ‘menor’ set but not used [-Werror=unused-but-set-variable]
+    7 |     long prim, seg, terc, maior, menor, meio;
+      |                                  ^~~~~
+ex04-stu_213-sub_001.c:7:27: error: variable ‘maior’ set but not used [-Werror=unused-but-set-variable]
+    7 |     long prim, seg, terc, maior, menor, meio;
+      |                           ^~~~~
+ex04-stu_213-sub_001.c:57:1: error: control reaches end of non-void function [-Werror=return-type]
+   57 | }
+      | ^
+cc1: all warnings being treated as errors

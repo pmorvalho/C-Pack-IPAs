@@ -1,0 +1,9 @@
+ex04-stu_242-sub_009.c: In function ‘tamanho’:
+ex04-stu_242-sub_009.c:24:19: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   24 |     for(i=0;str[i],i++);
+      |                   ^
+ex04-stu_242-sub_009.c:24:23: error: expected ‘;’ before ‘)’ token
+   24 |     for(i=0;str[i],i++);
+      |                       ^
+      |                       ;
+cc1: all warnings being treated as errors

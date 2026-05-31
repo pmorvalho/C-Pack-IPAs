@@ -1,0 +1,4 @@
+ex07-stu_215-sub_029.c:25:1: error: C++ style comments are not allowed in ISO C90
+   25 | //TPC: RESOLVER ISTO DE MODO A OBTER UMA SOLUÇÃO LINEAR NO PIOR CASO;
+      | ^
+ex07-stu_215-sub_029.c:25:1: note: (this will be reported only once per input file)

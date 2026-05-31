@@ -1,0 +1,14 @@
+ex04-stu_223-sub_013.c: In function ‘main’:
+ex04-stu_223-sub_013.c:45:8: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   45 |     if(st=INI) putchar('0');
+      |        ^~
+ex04-stu_223-sub_013.c: At top level:
+ex04-stu_223-sub_013.c:56:1: error: C++ style comments are not allowed in ISO C90
+   56 | // 3 e 5
+      | ^
+ex04-stu_223-sub_013.c:56:1: note: (this will be reported only once per input file)
+ex04-stu_223-sub_013.c: In function ‘main’:
+ex04-stu_223-sub_013.c:46:1: error: control reaches end of non-void function [-Werror=return-type]
+   46 | }
+      | ^
+cc1: all warnings being treated as errors

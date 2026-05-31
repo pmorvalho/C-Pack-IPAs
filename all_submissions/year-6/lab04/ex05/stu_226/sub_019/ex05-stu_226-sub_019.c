@@ -1,0 +1,23 @@
+
+
+#include <stdio.h>
+#include <string.h>
+
+int leLinha(char s[])
+{
+	int i = 0;
+	char c;
+	while ((c = getchar()) != '\n' && c != EOF) {
+		s[i] = c;
+		i++;
+	}
+	s[i] = '\0';
+	return i;
+}
+
+int main() {
+	char s[100];
+	int n = leLinha(s);
+	printf("%s\n", s);
+	return 0;
+}

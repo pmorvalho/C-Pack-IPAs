@@ -1,0 +1,8 @@
+ex10-stu_225-sub_002.c: In function ‘main’:
+ex10-stu_225-sub_002.c:6:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    6 |     int num=N;
+      |     ^~~
+ex10-stu_225-sub_002.c:4:11: error: unused variable ‘i’ [-Werror=unused-variable]
+    4 |     int N,i,soma=0,cont=0;
+      |           ^
+cc1: all warnings being treated as errors

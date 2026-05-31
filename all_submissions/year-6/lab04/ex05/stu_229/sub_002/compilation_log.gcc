@@ -1,0 +1,8 @@
+ex05-stu_229-sub_002.c: In function ‘main’:
+ex05-stu_229-sub_002.c:14:12: error: unused variable ‘i’ [-Werror=unused-variable]
+   14 |     int n, i;
+      |            ^
+ex05-stu_229-sub_002.c:14:9: error: unused variable ‘n’ [-Werror=unused-variable]
+   14 |     int n, i;
+      |         ^
+cc1: all warnings being treated as errors

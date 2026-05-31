@@ -1,0 +1,10 @@
+ex02-stu_211-sub_005.c:13:5: error: redefinition of ‘main’
+   13 | int main () {
+      |     ^~~~
+ex02-stu_211-sub_005.c:3:5: note: previous definition of ‘main’ with type ‘int()’
+    3 | int main () {
+      |     ^~~~
+ex02-stu_211-sub_005.c: In function ‘main’:
+ex02-stu_211-sub_005.c:15:18: error: expected expression before ‘%’ token
+   15 |     scanf("%d%d",%a,&b);
+      |                  ^

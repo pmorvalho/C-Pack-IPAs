@@ -1,0 +1,14 @@
+ex03-stu_244-sub_001.c: In function ‘main’:
+ex03-stu_244-sub_001.c:6:14: error: expected ‘;’ before ‘if’
+    6 |     div = M/N
+      |              ^
+      |              ;
+    7 |     if(div*M==N)
+      |     ~~        
+ex03-stu_244-sub_001.c:9:5: error: ‘else’ without a previous ‘if’
+    9 |     else
+      |     ^~~~
+ex03-stu_244-sub_001.c:4:15: error: variable ‘div’ set but not used [-Werror=unused-but-set-variable]
+    4 |     int N, M, div;
+      |               ^~~
+cc1: all warnings being treated as errors

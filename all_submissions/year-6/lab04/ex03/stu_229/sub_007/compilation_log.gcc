@@ -1,0 +1,11 @@
+ex03-stu_229-sub_007.c: In function ‘main’:
+ex03-stu_229-sub_007.c:8:7: error: statement with no effect [-Werror=unused-value]
+    8 |     n < VECMAX;
+      |       ^
+ex03-stu_229-sub_007.c:8:7: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    8 |     n < VECMAX;
+      |       ^
+ex03-stu_229-sub_007.c:7:9: note: ‘n’ declared here
+    7 |     int n, i, j, max = 0, lista[VECMAX];
+      |         ^
+cc1: all warnings being treated as errors

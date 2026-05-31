@@ -1,0 +1,11 @@
+ex03-stu_222-sub_004.c: In function ‘cruz’:
+ex03-stu_222-sub_004.c:5:12: error: unused variable ‘l’ [-Werror=unused-variable]
+    5 |     int r, l;
+      |            ^
+ex03-stu_222-sub_004.c:5:9: error: unused variable ‘r’ [-Werror=unused-variable]
+    5 |     int r, l;
+      |         ^
+ex03-stu_222-sub_004.c:4:15: error: unused parameter ‘N’ [-Werror=unused-parameter]
+    4 | void cruz(int N) {
+      |           ~~~~^
+cc1: all warnings being treated as errors

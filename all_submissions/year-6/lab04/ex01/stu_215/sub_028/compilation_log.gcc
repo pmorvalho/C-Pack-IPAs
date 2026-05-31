@@ -1,0 +1,16 @@
+ex01-stu_215-sub_028.c: In function ‘main’:
+ex01-stu_215-sub_028.c:12:13: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   12 |     for (i=0, i<n, i++)
+      |             ^
+ex01-stu_215-sub_028.c:12:23: error: expected ‘;’ before ‘)’ token
+   12 |     for (i=0, i<n, i++)
+      |                       ^
+      |                       ;
+ex01-stu_215-sub_028.c:12:23: error: expected expression before ‘)’ token
+ex01-stu_215-sub_028.c:12:5: error: this ‘for’ clause does not guard... [-Werror=misleading-indentation]
+   12 |     for (i=0, i<n, i++)
+      |     ^~~
+ex01-stu_215-sub_028.c:15:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   15 |         putchar('\n');
+      |         ^~~~~~~
+cc1: all warnings being treated as errors

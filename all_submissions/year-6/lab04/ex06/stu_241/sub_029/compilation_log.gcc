@@ -1,0 +1,16 @@
+ex06-stu_241-sub_029.c: In function ‘main’:
+ex06-stu_241-sub_029.c:15:5: error: ‘cha’ undeclared (first use in this function); did you mean ‘char’?
+   15 |     cha
+      |     ^~~
+      |     char
+ex06-stu_241-sub_029.c:15:5: note: each undeclared identifier is reported only once for each function it appears in
+ex06-stu_241-sub_029.c:15:8: error: expected ‘;’ before ‘}’ token
+   15 |     cha
+      |        ^
+      |        ;
+   16 | }
+      | ~       
+ex06-stu_241-sub_029.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+   16 | }
+      | ^
+cc1: all warnings being treated as errors

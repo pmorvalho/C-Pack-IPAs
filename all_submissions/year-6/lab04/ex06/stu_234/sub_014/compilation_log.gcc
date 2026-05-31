@@ -1,0 +1,17 @@
+ex06-stu_234-sub_014.c: In function ‘maiusculas’:
+ex06-stu_234-sub_014.c:8:23: error: unused parameter ‘s’ [-Werror=unused-parameter]
+    8 |  void maiusculas(char s[]) {
+      |                  ~~~~~^~~
+ex06-stu_234-sub_014.c: In function ‘main’:
+ex06-stu_234-sub_014.c:15:5: error: implicit declaration of function ‘maisculas’; did you mean ‘maiusculas’? [-Werror=implicit-function-declaration]
+   15 |     maisculas(linha);
+      |     ^~~~~~~~~
+      |     maiusculas
+ex06-stu_234-sub_014.c: At top level:
+ex06-stu_234-sub_014.c:20:7: error: conflicting types for ‘maisculas’; have ‘void(char *)’ [-Werror]
+   20 |  void maisculas(char s[]) {
+      |       ^~~~~~~~~
+ex06-stu_234-sub_014.c:15:5: note: previous implicit declaration of ‘maisculas’ with type ‘void(char *)’
+   15 |     maisculas(linha);
+      |     ^~~~~~~~~
+cc1: all warnings being treated as errors

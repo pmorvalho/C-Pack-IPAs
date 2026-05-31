@@ -1,0 +1,18 @@
+ex02-stu_232-sub_018.c: In function ‘main’:
+ex02-stu_232-sub_018.c:10:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |     for (int v = 0; v < VECMAX; v++){
+      |     ^~~
+ex02-stu_232-sub_018.c:10:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_232-sub_018.c:15:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   15 |     int max = 0;
+      |     ^~~
+ex02-stu_232-sub_018.c:17:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |     for (int i = 0; i < n; i++){
+      |     ^~~
+ex02-stu_232-sub_018.c:24:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   24 |     for (int k = 0; k < max; k++){
+      |     ^~~
+ex02-stu_232-sub_018.c:25:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   25 |         for (int j = 0; j < VECMAX; j++){
+      |         ^~~
+cc1: all warnings being treated as errors

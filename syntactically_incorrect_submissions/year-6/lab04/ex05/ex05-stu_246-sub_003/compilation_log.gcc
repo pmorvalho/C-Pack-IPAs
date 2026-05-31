@@ -1,0 +1,6 @@
+ex05-stu_246-sub_003.c: In function ‘leLinha’:
+ex05-stu_246-sub_003.c:8:37: error: comparison between pointer and integer [-Werror]
+    8 |     while ((c=getchar()) !=EOF && c != "\n") {
+      |                                     ^~
+ex05-stu_246-sub_003.c:8:37: error: comparison with string literal results in unspecified behavior [-Werror=address]
+cc1: all warnings being treated as errors

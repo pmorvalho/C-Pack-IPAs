@@ -1,0 +1,59 @@
+ex02-stu_226-sub_015.c: In function ‘piramide’:
+ex02-stu_226-sub_015.c:3:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    3 |   for (int i = 1; i <= n; i++)
+      |   ^~~
+ex02-stu_226-sub_015.c:3:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_226-sub_015.c:5:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    5 |     for (int j = 1; j <= n - i; j++)
+      |     ^~~
+ex02-stu_226-sub_015.c:7:7: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+    7 |       printf("  ");
+      |       ^~~~~~
+ex02-stu_226-sub_015.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | void piramide(int n)
+ex02-stu_226-sub_015.c:7:7: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+    7 |       printf("  ");
+      |       ^~~~~~
+ex02-stu_226-sub_015.c:7:7: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex02-stu_226-sub_015.c:10:14: error: redefinition of ‘j’
+   10 |     for (int j = 1; j <= i; j++)
+      |              ^
+ex02-stu_226-sub_015.c:5:14: note: previous definition of ‘j’ with type ‘int’
+    5 |     for (int j = 1; j <= n - i; j++)
+      |              ^
+ex02-stu_226-sub_015.c:10:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |     for (int j = 1; j <= i; j++)
+      |     ^~~
+ex02-stu_226-sub_015.c:12:7: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   12 |       printf("%d ", j);
+      |       ^~~~~~
+ex02-stu_226-sub_015.c:12:7: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex02-stu_226-sub_015.c:15:14: error: redefinition of ‘j’
+   15 |     for (int j = i - 1; j >= 1; j--)
+      |              ^
+ex02-stu_226-sub_015.c:10:14: note: previous definition of ‘j’ with type ‘int’
+   10 |     for (int j = 1; j <= i; j++)
+      |              ^
+ex02-stu_226-sub_015.c:15:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   15 |     for (int j = i - 1; j >= 1; j--)
+      |     ^~~
+ex02-stu_226-sub_015.c:17:7: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   17 |       printf("%d", j);
+      |       ^~~~~~
+ex02-stu_226-sub_015.c:17:7: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex02-stu_226-sub_015.c:18:28: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+   18 |       if (j != 1 || j == 1 && i != n)
+      |                     ~~~~~~~^~~~~~~~~
+ex02-stu_226-sub_015.c:24:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+   24 |     printf("\n");
+      |     ^~~~~~
+ex02-stu_226-sub_015.c:24:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex02-stu_226-sub_015.c: In function ‘main’:
+ex02-stu_226-sub_015.c:32:3: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+   32 |   scanf("%d", &n);
+      |   ^~~~~
+ex02-stu_226-sub_015.c:32:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex02-stu_226-sub_015.c:32:3: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+ex02-stu_226-sub_015.c:32:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+cc1: all warnings being treated as errors

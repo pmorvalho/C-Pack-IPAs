@@ -1,0 +1,16 @@
+ex07-stu_242-sub_010.c: In function ‘main’:
+ex07-stu_242-sub_010.c:10:5: error: implicit declaration of function ‘leLinha’ [-Werror=implicit-function-declaration]
+   10 |     leLinha(str);
+      |     ^~~~~~~
+ex07-stu_242-sub_010.c: In function ‘apagaChar’:
+ex07-stu_242-sub_010.c:26:12: error: ‘return’ with a value, in function returning void [-Werror=return-mismatch]
+   26 |     return str;
+      |            ^~~
+ex07-stu_242-sub_010.c:18:6: note: declared here
+   18 | void apagaChar(char str[],char c){
+      |      ^~~~~~~~~
+ex07-stu_242-sub_010.c: In function ‘main’:
+ex07-stu_242-sub_010.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+   16 | }
+      | ^
+cc1: all warnings being treated as errors

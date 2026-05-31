@@ -1,0 +1,6 @@
+ex02-stu_217-sub_001.c: In function ‘main’:
+ex02-stu_217-sub_001.c:8:5: error: ISO C90 forbids variable length array ‘tab’ [-Werror=vla]
+    8 |     int tab[n];
+      |     ^~~
+ex02-stu_217-sub_001.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+cc1: all warnings being treated as errors

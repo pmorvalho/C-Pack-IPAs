@@ -1,0 +1,9 @@
+ex08-stu_210-sub_002.c: In function ‘main’:
+ex08-stu_210-sub_002.c:9:9: error: ‘i’ undeclared (first use in this function)
+    9 |     for(i = 0; i < n; i++)
+      |         ^
+ex08-stu_210-sub_002.c:9:9: note: each undeclared identifier is reported only once for each function it appears in
+ex08-stu_210-sub_002.c:6:12: error: unused variable ‘count’ [-Werror=unused-variable]
+    6 |     int n, count;
+      |            ^~~~~
+cc1: all warnings being treated as errors

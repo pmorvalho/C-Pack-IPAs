@@ -1,0 +1,5 @@
+ex04-stu_229-sub_009.c: In function ‘isPali’:
+ex04-stu_229-sub_009.c:5:19: error: unused variable ‘j’ [-Werror=unused-variable]
+    5 |     int i, n = 0, j = 0, temp;
+      |                   ^
+cc1: all warnings being treated as errors

@@ -1,0 +1,27 @@
+ex02-stu_211-sub_001.c: In function ‘main’:
+ex02-stu_211-sub_001.c:4:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    4 |     int N
+      |     ^~~
+ex02-stu_211-sub_001.c:4:10: error: expected ‘;’ before ‘int’
+    4 |     int N
+      |          ^
+      |          ;
+    5 |     int n
+      |     ~~~   
+ex02-stu_211-sub_001.c:5:5: error: ISO C forbids nested functions [-Werror=pedantic]
+    5 |     int n
+      |     ^~~
+ex02-stu_211-sub_001.c:6:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘if’
+    6 | if (N>n) {
+      | ^~
+ex02-stu_211-sub_001.c:6:5: error: ‘N’ undeclared (first use in this function)
+    6 | if (N>n) {
+      |     ^
+ex02-stu_211-sub_001.c:6:5: note: each undeclared identifier is reported only once for each function it appears in
+ex02-stu_211-sub_001.c:6:7: error: ‘n’ undeclared (first use in this function)
+    6 | if (N>n) {
+      |       ^
+ex02-stu_211-sub_001.c:14:1: error: control reaches end of non-void function [-Werror=return-type]
+   14 | }
+      | ^
+cc1: all warnings being treated as errors

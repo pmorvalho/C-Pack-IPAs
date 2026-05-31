@@ -1,0 +1,6 @@
+ex04-stu_225-sub_003.c: In function ‘main’:
+ex04-stu_225-sub_003.c:35:21: error: implicit declaration of function ‘putchat’; did you mean ‘putchar’? [-Werror=implicit-function-declaration]
+   35 |                     putchat(c);
+      |                     ^~~~~~~
+      |                     putchar
+cc1: all warnings being treated as errors

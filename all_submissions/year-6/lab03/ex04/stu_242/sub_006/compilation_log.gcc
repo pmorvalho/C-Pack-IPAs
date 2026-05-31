@@ -1,0 +1,52 @@
+ex04-stu_242-sub_006.c: In function ‘main’:
+ex04-stu_242-sub_006.c:11:21: error: comparison between pointer and integer [-Werror]
+   11 |                 if(c=="0")
+      |                     ^~
+ex04-stu_242-sub_006.c:11:21: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:13:26: error: comparison between pointer and integer [-Werror]
+   13 |                 else if(c>="1"&&c<="9"){
+      |                          ^~
+ex04-stu_242-sub_006.c:13:26: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:13:34: error: comparison between pointer and integer [-Werror]
+   13 |                 else if(c>="1"&&c<="9"){
+      |                                  ^~
+ex04-stu_242-sub_006.c:13:34: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:19:22: error: comparison between pointer and integer [-Werror]
+   19 |                 if (c>="1"&&c<="9"){
+      |                      ^~
+ex04-stu_242-sub_006.c:19:22: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:19:30: error: comparison between pointer and integer [-Werror]
+   19 |                 if (c>="1"&&c<="9"){
+      |                              ^~
+ex04-stu_242-sub_006.c:19:30: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:23:26: error: comparison between pointer and integer [-Werror]
+   23 |                 else if(c==" "||c=="\n"){
+      |                          ^~
+ex04-stu_242-sub_006.c:23:26: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:23:34: error: comparison between pointer and integer [-Werror]
+   23 |                 else if(c==" "||c=="\n"){
+      |                                  ^~
+ex04-stu_242-sub_006.c:23:34: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:29:21: error: comparison between pointer and integer [-Werror]
+   29 |                 if(c>="0"&&c<="9")
+      |                     ^~
+ex04-stu_242-sub_006.c:29:21: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:29:29: error: comparison between pointer and integer [-Werror]
+   29 |                 if(c>="0"&&c<="9")
+      |                             ^~
+ex04-stu_242-sub_006.c:29:29: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:31:26: error: comparison between pointer and integer [-Werror]
+   31 |                 else if(c==" "||c=="\n"){
+      |                          ^~
+ex04-stu_242-sub_006.c:31:26: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:31:34: error: comparison between pointer and integer [-Werror]
+   31 |                 else if(c==" "||c=="\n"){
+      |                                  ^~
+ex04-stu_242-sub_006.c:31:34: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex04-stu_242-sub_006.c:35:22: error: expected ‘;’ before ‘}’ token
+   35 |                 break
+      |                      ^
+      |                      ;
+   36 |         }
+      |         ~             
+cc1: all warnings being treated as errors

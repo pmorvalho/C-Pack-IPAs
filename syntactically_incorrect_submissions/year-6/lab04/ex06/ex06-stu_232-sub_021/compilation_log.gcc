@@ -1,0 +1,12 @@
+ex06-stu_232-sub_021.c: In function ‘maiusculas’:
+ex06-stu_232-sub_021.c:22:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   22 |     for (int i = 0; (s[i] != '\0' && s[i] != '\n' && s[i] != EOF); i++){
+      |     ^~~
+ex06-stu_232-sub_021.c:22:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex06-stu_232-sub_021.c:26:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   26 |     for (int j = 0; j < size; j++){
+      |     ^~~
+ex06-stu_232-sub_021.c: In function ‘main’:
+ex06-stu_232-sub_021.c:38:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   38 |     for (int i = 0; i < count; i++){
+      |     ^~~

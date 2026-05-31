@@ -1,0 +1,26 @@
+ex02-stu_226-sub_014.c: In function ‘piramide’:
+ex02-stu_226-sub_014.c:5:3: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    5 |   for (int i = 1; i <= n; i++)
+      |   ^~~
+ex02-stu_226-sub_014.c:5:3: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex02-stu_226-sub_014.c:7:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    7 |     for (int j = 1; j <= n - i; j++)
+      |     ^~~
+ex02-stu_226-sub_014.c:12:14: error: redefinition of ‘j’
+   12 |     for (int j = 1; j <= i; j++)
+      |              ^
+ex02-stu_226-sub_014.c:7:14: note: previous definition of ‘j’ with type ‘int’
+    7 |     for (int j = 1; j <= n - i; j++)
+      |              ^
+ex02-stu_226-sub_014.c:12:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   12 |     for (int j = 1; j <= i; j++)
+      |     ^~~
+ex02-stu_226-sub_014.c:17:14: error: redefinition of ‘j’
+   17 |     for (int j = i - 1; j >= 1; j--)
+      |              ^
+ex02-stu_226-sub_014.c:12:14: note: previous definition of ‘j’ with type ‘int’
+   12 |     for (int j = 1; j <= i; j++)
+      |              ^
+ex02-stu_226-sub_014.c:17:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   17 |     for (int j = i - 1; j >= 1; j--)
+      |     ^~~

@@ -1,0 +1,8 @@
+ex05-stu_246-sub_001.c: In function ‘main’:
+ex05-stu_246-sub_001.c:7:5: error: ‘n’ is used uninitialized [-Werror=uninitialized]
+    7 |     printf("%d\n", n);
+      |     ^~~~~~~~~~~~~~~~~
+ex05-stu_246-sub_001.c:6:9: note: ‘n’ was declared here
+    6 |     int n;
+      |         ^
+cc1: all warnings being treated as errors

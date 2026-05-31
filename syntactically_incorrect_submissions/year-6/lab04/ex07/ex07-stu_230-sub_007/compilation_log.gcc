@@ -1,0 +1,7 @@
+ex07-stu_230-sub_007.c: In function ‘apagaCaracter’:
+ex07-stu_230-sub_007.c:13:22: error: expected ‘;’ before ‘}’ token
+   13 |     str[current]='\0'
+      |                      ^
+      |                      ;
+   14 | }
+      | ~                     

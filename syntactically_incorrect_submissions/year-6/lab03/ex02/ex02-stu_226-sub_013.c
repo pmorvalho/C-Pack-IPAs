@@ -1,0 +1,4 @@
+
+
+void piramide(int n) {
+	

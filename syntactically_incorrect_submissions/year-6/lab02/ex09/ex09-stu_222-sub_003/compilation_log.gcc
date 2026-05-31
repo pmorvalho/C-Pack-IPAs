@@ -1,0 +1,3 @@
+ex09-stu_222-sub_003.c:2:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+    2 | teste
+      | ^~~~~

@@ -1,0 +1,45 @@
+ex01-stu_227-sub_001.c: In function ‘main’:
+ex01-stu_227-sub_001.c:7:5: error: implicit declaration of function ‘print’; did you mean ‘printf’? [-Werror=implicit-function-declaration]
+    7 |     print("Escreva o primeiro número: ");
+      |     ^~~~~
+      |     printf
+ex01-stu_227-sub_001.c:8:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    8 |     scanf("%d", num1);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex01-stu_227-sub_001.c:10:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+   10 |     scanf("%d", num2);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex01-stu_227-sub_001.c:12:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+   12 |     scanf("%d", num3);
+      |            ~^   ~~~~
+      |             |   |
+      |             |   int
+      |             int *
+ex01-stu_227-sub_001.c:14:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   14 |     int maior = num1;
+      |     ^~~
+ex01-stu_227-sub_001.c:8:5: error: ‘num1’ is used uninitialized [-Werror=uninitialized]
+    8 |     scanf("%d", num1);
+      |     ^~~~~~~~~~~~~~~~~
+ex01-stu_227-sub_001.c:5:9: note: ‘num1’ was declared here
+    5 |     int num1, num2, num3;
+      |         ^~~~
+ex01-stu_227-sub_001.c:10:5: error: ‘num2’ is used uninitialized [-Werror=uninitialized]
+   10 |     scanf("%d", num2);
+      |     ^~~~~~~~~~~~~~~~~
+ex01-stu_227-sub_001.c:5:15: note: ‘num2’ was declared here
+    5 |     int num1, num2, num3;
+      |               ^~~~
+ex01-stu_227-sub_001.c:12:5: error: ‘num3’ is used uninitialized [-Werror=uninitialized]
+   12 |     scanf("%d", num3);
+      |     ^~~~~~~~~~~~~~~~~
+ex01-stu_227-sub_001.c:5:21: note: ‘num3’ was declared here
+    5 |     int num1, num2, num3;
+      |                     ^~~~
+cc1: all warnings being treated as errors

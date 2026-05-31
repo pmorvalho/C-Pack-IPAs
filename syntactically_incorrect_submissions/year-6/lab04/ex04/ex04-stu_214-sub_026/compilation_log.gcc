@@ -1,0 +1,14 @@
+ex04-stu_214-sub_026.c: In function ‘main’:
+ex04-stu_214-sub_026.c:10:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   10 |     for (int i = 0; ok && i < (int)strelen(s)/2; i++) {
+      |     ^~~
+ex04-stu_214-sub_026.c:10:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex04-stu_214-sub_026.c:10:36: error: implicit declaration of function ‘strelen’; did you mean ‘strlen’? [-Werror=implicit-function-declaration]
+   10 |     for (int i = 0; ok && i < (int)strelen(s)/2; i++) {
+      |                                    ^~~~~~~
+      |                                    strlen
+ex04-stu_214-sub_026.c:11:25: error: implicit declaration of function ‘strleng’; did you mean ‘strlen’? [-Werror=implicit-function-declaration]
+   11 |         ok = (s[i] == s[strleng(s) - i - 1]);
+      |                         ^~~~~~~
+      |                         strlen
+cc1: all warnings being treated as errors

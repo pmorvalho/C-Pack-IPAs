@@ -1,0 +1,11 @@
+ex10-stu_228-sub_002.c: In function ‘main’:
+ex10-stu_228-sub_002.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int n2 = n;
+      |     ^~~
+ex10-stu_228-sub_002.c:14:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   14 |     int r = 0;
+      |     ^~~
+ex10-stu_228-sub_002.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+   20 | }
+      | ^
+cc1: all warnings being treated as errors

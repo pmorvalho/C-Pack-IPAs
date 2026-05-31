@@ -1,0 +1,9 @@
+ex03-stu_218-sub_008.c: In function ‘max’:
+ex03-stu_218-sub_008.c:9:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+    9 |     for (int i = 1; i < n; i++) {
+      |     ^~~
+ex03-stu_218-sub_008.c:9:5: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_218-sub_008.c: In function ‘main’:
+ex03-stu_218-sub_008.c:36:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   36 |     for (int line = max_value; line >= 1; line--) {
+      |     ^~~

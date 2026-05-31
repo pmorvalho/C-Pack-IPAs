@@ -1,0 +1,5 @@
+ex06-stu_222-sub_007.c: In function ‘divisivelPorNove’:
+ex06-stu_222-sub_007.c:11:16: error: implicit declaration of function ‘somaDigitos’ [-Werror=implicit-function-declaration]
+   11 |         return somaDigitos(numero) % 9 == 0;
+      |                ^~~~~~~~~~~
+cc1: all warnings being treated as errors

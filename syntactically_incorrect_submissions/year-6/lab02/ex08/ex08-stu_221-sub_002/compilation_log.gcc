@@ -1,0 +1,5 @@
+ex08-stu_221-sub_002.c: In function ‘main’:
+ex08-stu_221-sub_002.c:13:17: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   13 |     printf("%.2lf\n",soma/n);
+      |                 ^
+cc1: all warnings being treated as errors

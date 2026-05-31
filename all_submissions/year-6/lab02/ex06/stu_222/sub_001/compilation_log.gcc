@@ -1,0 +1,8 @@
+ex06-stu_222-sub_001.c: In function ‘main’:
+ex06-stu_222-sub_001.c:21:19: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   21 |     printf("min:%lf max:%lf\n", min, max);
+      |                   ^
+ex06-stu_222-sub_001.c:21:27: error: ISO C90 does not support the ‘%lf’ gnu_printf format [-Werror=format=]
+   21 |     printf("min:%lf max:%lf\n", min, max);
+      |                           ^
+cc1: all warnings being treated as errors

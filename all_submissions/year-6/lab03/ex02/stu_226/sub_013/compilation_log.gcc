@@ -1,0 +1,8 @@
+ex02-stu_226-sub_013.c: In function ‘piramide’:
+ex02-stu_226-sub_013.c:3:1: error: expected declaration or statement at end of input
+    3 | void piramide(int n) {
+      | ^~~~
+ex02-stu_226-sub_013.c:3:19: error: unused parameter ‘n’ [-Werror=unused-parameter]
+    3 | void piramide(int n) {
+      |               ~~~~^
+cc1: all warnings being treated as errors

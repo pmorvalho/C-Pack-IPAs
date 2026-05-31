@@ -1,0 +1,26 @@
+ex01-stu_211-sub_007.c: In function ‘quadrado’:
+ex01-stu_211-sub_007.c:6:11: error: statement with no effect [-Werror=unused-value]
+    6 |     for (i<=N;i++) {
+      |          ~^~~
+ex01-stu_211-sub_007.c:6:18: error: expected ‘;’ before ‘)’ token
+    6 |     for (i<=N;i++) {
+      |                  ^
+      |                  ;
+ex01-stu_211-sub_007.c:7:12: error: expected ‘;’ before ‘for’
+    7 |         v=i
+      |            ^
+      |            ;
+    8 |         for (j=0;j<N;j++) {
+      |         ~~~ 
+ex01-stu_211-sub_007.c:5:15: error: variable ‘v’ set but not used [-Werror=unused-but-set-variable]
+    5 |     int i=1,j,v;
+      |               ^
+ex01-stu_211-sub_007.c:5:13: error: unused variable ‘j’ [-Werror=unused-variable]
+    5 |     int i=1,j,v;
+      |             ^
+ex01-stu_211-sub_007.c: In function ‘main’:
+ex01-stu_211-sub_007.c:19:5: error: implicit declaration of function ‘quandrado’; did you mean ‘quadrado’? [-Werror=implicit-function-declaration]
+   19 |     quandrado(N);
+      |     ^~~~~~~~~
+      |     quadrado
+cc1: all warnings being treated as errors

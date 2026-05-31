@@ -1,0 +1,24 @@
+ex02-stu_235-sub_006.c: In function ‘main’:
+ex02-stu_235-sub_006.c:8:13: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    8 |     scanf("%d %d", x, y);
+      |            ~^      ~
+      |             |      |
+      |             int *  int
+ex02-stu_235-sub_006.c:8:16: error: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Werror=format=]
+    8 |     scanf("%d %d", x, y);
+      |               ~^      ~
+      |                |      |
+      |                int *  int
+ex02-stu_235-sub_006.c:8:5: error: ‘x’ is used uninitialized [-Werror=uninitialized]
+    8 |     scanf("%d %d", x, y);
+      |     ^~~~~~~~~~~~~~~~~~~~
+ex02-stu_235-sub_006.c:7:9: note: ‘x’ was declared here
+    7 |     int x, y, extra;
+      |         ^
+ex02-stu_235-sub_006.c:8:5: error: ‘y’ is used uninitialized [-Werror=uninitialized]
+    8 |     scanf("%d %d", x, y);
+      |     ^~~~~~~~~~~~~~~~~~~~
+ex02-stu_235-sub_006.c:7:12: note: ‘y’ was declared here
+    7 |     int x, y, extra;
+      |            ^
+cc1: all warnings being treated as errors

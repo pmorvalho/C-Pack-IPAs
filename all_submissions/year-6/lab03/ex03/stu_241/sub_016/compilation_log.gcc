@@ -1,0 +1,14 @@
+ex03-stu_241-sub_016.c: In function ‘main’:
+ex03-stu_241-sub_016.c:24:11: error: multi-character character constant [-Werror=multichar]
+   24 |     scanf('%d',&n);
+      |           ^~~~
+ex03-stu_241-sub_016.c:24:11: error: passing argument 1 of ‘scanf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   24 |     scanf('%d',&n);
+      |           ^~~~
+      |           |
+      |           int
+In file included from ex03-stu_241-sub_016.c:2:
+/usr/include/stdio.h:428:42: note: expected ‘const char *’ but argument is of type ‘int’
+  428 | extern int scanf (const char *__restrict __format, ...) __wur;
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+cc1: all warnings being treated as errors

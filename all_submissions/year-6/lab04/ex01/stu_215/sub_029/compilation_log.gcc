@@ -1,0 +1,8 @@
+ex01-stu_215-sub_029.c: In function ‘main’:
+ex01-stu_215-sub_029.c:12:5: error: this ‘for’ clause does not guard... [-Werror=misleading-indentation]
+   12 |     for (i=0; i<n; i++)
+      |     ^~~
+ex01-stu_215-sub_029.c:15:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   15 |         putchar('\n');
+      |         ^~~~~~~
+cc1: all warnings being treated as errors

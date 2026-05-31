@@ -1,0 +1,8 @@
+ex04-stu_220-sub_016.c: In function ‘main’:
+ex04-stu_220-sub_016.c:16:5: error: statement with no effect [-Werror=unused-value]
+   16 |     for (i; i > 0; i--)
+      |     ^~~
+ex04-stu_220-sub_016.c:8:19: error: unused variable ‘s2’ [-Werror=unused-variable]
+    8 |     char s1[MAX], s2[MAX];
+      |                   ^~
+cc1: all warnings being treated as errors

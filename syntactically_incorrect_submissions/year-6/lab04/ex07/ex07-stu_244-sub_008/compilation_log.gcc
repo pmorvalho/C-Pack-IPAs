@@ -1,0 +1,5 @@
+ex07-stu_244-sub_008.c: In function ‘apagaCaracter’:
+ex07-stu_244-sub_008.c:15:5: error: statement with no effect [-Werror=unused-value]
+   15 |     for(j;j<tamanho;j++)
+      |     ^~~
+cc1: all warnings being treated as errors

@@ -1,0 +1,9 @@
+ex07-stu_244-sub_007.c: In function ‘apagaCaracter’:
+ex07-stu_244-sub_007.c:15:5: error: statement with no effect [-Werror=unused-value]
+   15 |     for(j;j<tamanho;j++)
+      |     ^~~
+ex07-stu_244-sub_007.c: In function ‘main’:
+ex07-stu_244-sub_007.c:20:9: error: unused variable ‘i’ [-Werror=unused-variable]
+   20 |     int i, c, tamanho=0;
+      |         ^
+cc1: all warnings being treated as errors

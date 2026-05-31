@@ -1,0 +1,11 @@
+ex07-stu_239-sub_006.c: In function ‘main’:
+ex07-stu_239-sub_006.c:25:22: error: this statement may fall through [-Werror=implicit-fallthrough=]
+   25 |                 mult = 1;
+      |                 ~~~~~^~~
+ex07-stu_239-sub_006.c:28:13: note: here
+   28 |             default:{
+      |             ^~~~~~~
+ex07-stu_239-sub_006.c:34:1: error: control reaches end of non-void function [-Werror=return-type]
+   34 | }
+      | ^
+cc1: all warnings being treated as errors

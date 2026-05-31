@@ -1,0 +1,27 @@
+ex09-stu_210-sub_004.c: In function ‘main’:
+ex09-stu_210-sub_004.c:8:5: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+    8 |     int resto = n % 3600;
+      |     ^~~
+ex09-stu_210-sub_004.c:11:32: error: ‘hh’ undeclared (first use in this function); did you mean ‘h’?
+   11 |     printf("%02d:%02d:%02d\n", hh, mm, ss);
+      |                                ^~
+      |                                h
+ex09-stu_210-sub_004.c:11:32: note: each undeclared identifier is reported only once for each function it appears in
+ex09-stu_210-sub_004.c:11:36: error: ‘mm’ undeclared (first use in this function); did you mean ‘m’?
+   11 |     printf("%02d:%02d:%02d\n", hh, mm, ss);
+      |                                    ^~
+      |                                    m
+ex09-stu_210-sub_004.c:11:40: error: ‘ss’ undeclared (first use in this function); did you mean ‘s’?
+   11 |     printf("%02d:%02d:%02d\n", hh, mm, ss);
+      |                                        ^~
+      |                                        s
+ex09-stu_210-sub_004.c:5:18: error: variable ‘s’ set but not used [-Werror=unused-but-set-variable]
+    5 |     int n, h, m, s;
+      |                  ^
+ex09-stu_210-sub_004.c:5:15: error: variable ‘m’ set but not used [-Werror=unused-but-set-variable]
+    5 |     int n, h, m, s;
+      |               ^
+ex09-stu_210-sub_004.c:5:12: error: variable ‘h’ set but not used [-Werror=unused-but-set-variable]
+    5 |     int n, h, m, s;
+      |            ^
+cc1: all warnings being treated as errors

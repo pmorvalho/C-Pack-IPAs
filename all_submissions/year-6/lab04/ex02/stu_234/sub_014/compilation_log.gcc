@@ -1,0 +1,5 @@
+ex02-stu_234-sub_014.c: In function ‘main’:
+ex02-stu_234-sub_014.c:23:14: error: statement with no effect [-Werror=unused-value]
+   23 |         for(j==0;j<n;j++) {
+      |             ~^~~
+cc1: all warnings being treated as errors

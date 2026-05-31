@@ -1,0 +1,16 @@
+ex07-stu_210-sub_002.c:19:5: error: redefinition of ‘main’
+   19 | int main()
+      |     ^~~~
+ex07-stu_210-sub_002.c:3:5: note: previous definition of ‘main’ with type ‘int()’
+    3 | int main()
+      |     ^~~~
+ex07-stu_210-sub_002.c: In function ‘main’:
+ex07-stu_210-sub_002.c:23:14: error: right-hand operand of comma expression has no effect [-Werror=unused-value]
+   23 |     for(i = 1, i <= n, i++)
+      |              ^
+ex07-stu_210-sub_002.c:23:27: error: expected ‘;’ before ‘)’ token
+   23 |     for(i = 1, i <= n, i++)
+      |                           ^
+      |                           ;
+ex07-stu_210-sub_002.c:23:27: error: expected expression before ‘)’ token
+cc1: all warnings being treated as errors

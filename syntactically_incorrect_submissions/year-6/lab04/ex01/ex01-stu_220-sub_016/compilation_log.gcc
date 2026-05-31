@@ -1,0 +1,8 @@
+ex01-stu_220-sub_016.c: In function ‘main’:
+ex01-stu_220-sub_016.c:12:45: error: value computed is not used [-Werror=unused-value]
+   12 |     for (i = 0; i < n; scanf("%d", &vec[i]) && i++)
+      |                                             ^~
+ex01-stu_220-sub_016.c:17:45: error: value computed is not used [-Werror=unused-value]
+   17 |         for (j = 0; j < vec[i]; printf("*") && j++)
+      |                                             ^~
+cc1: all warnings being treated as errors

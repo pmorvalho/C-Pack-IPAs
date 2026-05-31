@@ -1,0 +1,11 @@
+ex03-stu_213-sub_005.c: In function ‘cruz’:
+ex03-stu_213-sub_005.c:18:9: error: statement with no effect [-Werror=unused-value]
+   18 |         for (coluna; coluna <= num; coluna++)
+      |         ^~~
+ex03-stu_213-sub_005.c:27:5: error: statement with no effect [-Werror=unused-value]
+   27 |     for (linha; linha <= num; linha++)
+      |     ^~~
+ex03-stu_213-sub_005.c:38:9: error: statement with no effect [-Werror=unused-value]
+   38 |         for (coluna; coluna <= num; coluna++)
+      |         ^~~
+cc1: all warnings being treated as errors

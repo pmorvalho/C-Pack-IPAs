@@ -1,0 +1,8 @@
+ex04-stu_243-sub_001.c: In function ‘main’:
+ex04-stu_243-sub_001.c:8:13: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    8 |     (N1 > N2,
+      |             ^
+ex04-stu_243-sub_001.c:10:21: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   10 |     else if (N1 < N3,
+      |                     ^
+cc1: all warnings being treated as errors

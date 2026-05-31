@@ -1,0 +1,38 @@
+ex01-stu_131-sub_042.c: In function ‘main’:
+ex01-stu_131-sub_042.c:17:20: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   17 |             printf(n1);
+      |                    ^~
+      |                    |
+      |                    int
+In file included from ex01-stu_131-sub_042.c:2:
+/usr/include/stdio.h:363:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  363 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex01-stu_131-sub_042.c:19:20: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   19 |             printf(n3);
+      |                    ^~
+      |                    |
+      |                    int
+/usr/include/stdio.h:363:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  363 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex01-stu_131-sub_042.c:23:20: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   23 |             printf(n2);
+      |                    ^~
+      |                    |
+      |                    int
+/usr/include/stdio.h:363:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  363 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex01-stu_131-sub_042.c:25:20: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+   25 |             printf(n3);
+      |                    ^~
+      |                    |
+      |                    int
+/usr/include/stdio.h:363:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+  363 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+ex01-stu_131-sub_042.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+   28 | }
+      | ^
+cc1: all warnings being treated as errors

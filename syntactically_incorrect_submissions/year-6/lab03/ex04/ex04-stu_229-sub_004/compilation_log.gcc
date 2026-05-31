@@ -1,0 +1,5 @@
+ex04-stu_229-sub_004.c: In function ‘main’:
+ex04-stu_229-sub_004.c:43:8: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   43 |     if(st = INI) putchar('0');
+      |        ^~
+cc1: all warnings being treated as errors

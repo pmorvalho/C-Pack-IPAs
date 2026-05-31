@@ -1,0 +1,15 @@
+ex01-stu_210-sub_005.c: In function ‘quadrado’:
+ex01-stu_210-sub_005.c:7:22: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    7 |     for(i = 1; i <= n, i++)
+      |                      ^
+ex01-stu_210-sub_005.c:7:27: error: expected ‘;’ before ‘)’ token
+    7 |     for(i = 1; i <= n, i++)
+      |                           ^
+      |                           ;
+ex01-stu_210-sub_005.c:13:32: error: expected ‘;’ before ‘}’ token
+   13 |             printf("%d", i + j)
+      |                                ^
+      |                                ;
+   14 |         }
+      |         ~                       
+cc1: all warnings being treated as errors

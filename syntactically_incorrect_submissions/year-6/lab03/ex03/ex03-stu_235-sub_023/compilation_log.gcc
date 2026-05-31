@@ -1,0 +1,6 @@
+ex03-stu_235-sub_023.c: In function ‘cruz’:
+ex03-stu_235-sub_023.c:8:5: error: ISO C90 forbids variable length array ‘tab’ [-Werror=vla]
+    8 |     char tab[n][n];
+      |     ^~~~
+ex03-stu_235-sub_023.c:8:5: error: ISO C90 forbids variable length array ‘tab’ [-Werror=vla]
+cc1: all warnings being treated as errors

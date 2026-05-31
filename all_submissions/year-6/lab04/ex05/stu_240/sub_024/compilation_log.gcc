@@ -1,0 +1,8 @@
+ex05-stu_240-sub_024.c: In function ‘main’:
+ex05-stu_240-sub_024.c:22:18: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Werror=format=]
+   22 |         printf("%d\n", linha);
+      |                 ~^     ~~~~~
+      |                  |     |
+      |                  int   char *
+      |                 %s
+cc1: all warnings being treated as errors

@@ -1,0 +1,17 @@
+ex08-stu_237-sub_029.c: In function ‘main’:
+ex08-stu_237-sub_029.c:5:10: error: ISO C90 does not support ‘long long’ [-Werror=long-long]
+    5 |     long long num1, num2;
+      |          ^~~~
+ex08-stu_237-sub_029.c:7:11: error: ISO C90 does not support the ‘ll’ gnu_scanf length modifier [-Werror=format=]
+    7 |     scanf("%lld", &num1);
+      |           ^~~~~~
+ex08-stu_237-sub_029.c:8:11: error: ISO C90 does not support the ‘ll’ gnu_scanf length modifier [-Werror=format=]
+    8 |     scanf("%lld", &num2);
+      |           ^~~~~~
+ex08-stu_237-sub_029.c:11:16: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+   11 |         printf("%lld", num1);
+      |                ^~~~~~
+ex08-stu_237-sub_029.c:14:16: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+   14 |         printf("%lld", num2);
+      |                ^~~~~~
+cc1: all warnings being treated as errors

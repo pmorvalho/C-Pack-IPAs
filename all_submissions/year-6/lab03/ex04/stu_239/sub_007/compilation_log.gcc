@@ -1,0 +1,4 @@
+ex04-stu_239-sub_007.c:7:8: error: comma at end of enumerator list [-Werror=pedantic]
+    7 |     OUT,
+      |        ^
+cc1: all warnings being treated as errors

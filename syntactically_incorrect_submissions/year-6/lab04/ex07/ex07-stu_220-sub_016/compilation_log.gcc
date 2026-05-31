@@ -1,0 +1,8 @@
+ex07-stu_220-sub_016.c: In function ‘main’:
+ex07-stu_220-sub_016.c:12:16: error: unused variable ‘i’ [-Werror=unused-variable]
+   12 |     int n = 0, i = 0;
+      |                ^
+ex07-stu_220-sub_016.c:12:9: error: unused variable ‘n’ [-Werror=unused-variable]
+   12 |     int n = 0, i = 0;
+      |         ^
+cc1: all warnings being treated as errors

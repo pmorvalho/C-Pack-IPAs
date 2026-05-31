@@ -1,0 +1,14 @@
+ex04-stu_209-sub_005.c: In function ‘main’:
+ex04-stu_209-sub_005.c:12:1: error: expected expression before ‘}’ token
+   12 | }
+      | ^
+ex04-stu_209-sub_005.c:7:30: error: unused variable ‘menor’ [-Werror=unused-variable]
+    7 |     int num1,num2,num3,maior,menor;
+      |                              ^~~~~
+ex04-stu_209-sub_005.c:7:24: error: unused variable ‘maior’ [-Werror=unused-variable]
+    7 |     int num1,num2,num3,maior,menor;
+      |                        ^~~~~
+ex04-stu_209-sub_005.c:12:1: error: control reaches end of non-void function [-Werror=return-type]
+   12 | }
+      | ^
+cc1: all warnings being treated as errors

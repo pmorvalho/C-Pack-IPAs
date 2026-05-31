@@ -1,0 +1,10 @@
+ex01-stu_211-sub_001.c: In function ‘main’:
+ex01-stu_211-sub_001.c:5:20: error: invalid suffix "a" on integer constant
+    5 |     scanf("%d%d%d",8a,8b,8c);
+      |                    ^~
+ex01-stu_211-sub_001.c:5:23: error: invalid suffix "b" on integer constant
+    5 |     scanf("%d%d%d",8a,8b,8c);
+      |                       ^~
+ex01-stu_211-sub_001.c:5:26: error: invalid suffix "c" on integer constant
+    5 |     scanf("%d%d%d",8a,8b,8c);
+      |                          ^~

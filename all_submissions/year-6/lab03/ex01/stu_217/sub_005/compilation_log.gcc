@@ -1,0 +1,9 @@
+ex01-stu_217-sub_005.c: In function ‘quadrado’:
+ex01-stu_217-sub_005.c:5:15: error: unused variable ‘inc’ [-Werror=unused-variable]
+    5 |     int i, j, inc;
+      |               ^~~
+ex01-stu_217-sub_005.c: In function ‘main’:
+ex01-stu_217-sub_005.c:18:1: error: control reaches end of non-void function [-Werror=return-type]
+   18 | }
+      | ^
+cc1: all warnings being treated as errors

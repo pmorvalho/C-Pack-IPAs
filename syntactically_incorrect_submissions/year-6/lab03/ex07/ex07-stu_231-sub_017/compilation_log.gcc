@@ -1,0 +1,14 @@
+ex07-stu_231-sub_017.c: In function ‘main’:
+ex07-stu_231-sub_017.c:9:21: error: unused variable ‘res’ [-Werror=unused-variable]
+    9 |     int c, num, op, res, estado = FORA;
+      |                     ^~~
+ex07-stu_231-sub_017.c:9:17: error: variable ‘op’ set but not used [-Werror=unused-but-set-variable]
+    9 |     int c, num, op, res, estado = FORA;
+      |                 ^~
+ex07-stu_231-sub_017.c:9:12: error: variable ‘num’ set but not used [-Werror=unused-but-set-variable]
+    9 |     int c, num, op, res, estado = FORA;
+      |            ^~~
+ex07-stu_231-sub_017.c:22:1: error: control reaches end of non-void function [-Werror=return-type]
+   22 | }
+      | ^
+cc1: all warnings being treated as errors

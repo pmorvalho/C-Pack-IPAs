@@ -1,0 +1,5 @@
+ex05-stu_244-sub_007.c: In function ‘main’:
+ex05-stu_244-sub_007.c:19:9: error: variable ‘tamanho’ set but not used [-Werror=unused-but-set-variable]
+   19 |     int tamanho;
+      |         ^~~~~~~
+cc1: all warnings being treated as errors

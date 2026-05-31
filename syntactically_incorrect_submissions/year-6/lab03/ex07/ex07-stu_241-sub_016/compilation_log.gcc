@@ -1,0 +1,8 @@
+ex07-stu_241-sub_016.c: In function ‘main’:
+ex07-stu_241-sub_016.c:19:13: error: expected expression before ‘}’ token
+   19 |             }
+      |             ^
+ex07-stu_241-sub_016.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+   23 | }
+      | ^
+cc1: all warnings being treated as errors

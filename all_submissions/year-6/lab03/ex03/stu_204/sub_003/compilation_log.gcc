@@ -1,0 +1,38 @@
+ex03-stu_204-sub_003.c: In function ‘cruz’:
+ex03-stu_204-sub_003.c:11:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   11 |         for(int num = fora; num!=0; num--) printf("- ");
+      |         ^~~
+ex03-stu_204-sub_003.c:11:9: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+ex03-stu_204-sub_003.c:21:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   21 |         for(int num = dentro; num!=0; num--) printf(" -");
+      |         ^~~
+ex03-stu_204-sub_003.c:27:17: error: redefinition of ‘num’
+   27 |         for(int num = fora; num!=0; num--)printf(" -");
+      |                 ^~~
+ex03-stu_204-sub_003.c:11:17: note: previous definition of ‘num’ with type ‘int’
+   11 |         for(int num = fora; num!=0; num--) printf("- ");
+      |                 ^~~
+ex03-stu_204-sub_003.c:27:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   27 |         for(int num = fora; num!=0; num--)printf(" -");
+      |         ^~~
+ex03-stu_204-sub_003.c:45:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   45 |         for(int num = fora; num!=0; num--) printf("- ");
+      |         ^~~
+ex03-stu_204-sub_003.c:49:17: error: redefinition of ‘num’
+   49 |         for(int num = dentro; num!=0; num--) printf(" -");
+      |                 ^~~
+ex03-stu_204-sub_003.c:45:17: note: previous definition of ‘num’ with type ‘int’
+   45 |         for(int num = fora; num!=0; num--) printf("- ");
+      |                 ^~~
+ex03-stu_204-sub_003.c:49:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   49 |         for(int num = dentro; num!=0; num--) printf(" -");
+      |         ^~~
+ex03-stu_204-sub_003.c:53:17: error: redefinition of ‘num’
+   53 |         for(int num = fora; num!=0; num--) printf(" -");
+      |                 ^~~
+ex03-stu_204-sub_003.c:49:17: note: previous definition of ‘num’ with type ‘int’
+   49 |         for(int num = dentro; num!=0; num--) printf(" -");
+      |                 ^~~
+ex03-stu_204-sub_003.c:53:9: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   53 |         for(int num = fora; num!=0; num--) printf(" -");
+      |         ^~~

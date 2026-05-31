@@ -1,0 +1,14 @@
+ex08-stu_233-sub_005.c: In function ‘main’:
+ex08-stu_233-sub_005.c:7:35: error: ‘N’ is used uninitialized [-Werror=uninitialized]
+    7 |     double val, soma, media = soma/N;
+      |                               ~~~~^~
+ex08-stu_233-sub_005.c:6:9: note: ‘N’ declared here
+    6 |     int N, i;
+      |         ^
+ex08-stu_233-sub_005.c:7:23: error: ‘soma’ is used uninitialized [-Werror=uninitialized]
+    7 |     double val, soma, media = soma/N;
+      |                       ^~~~~
+ex08-stu_233-sub_005.c:7:17: note: ‘soma’ was declared here
+    7 |     double val, soma, media = soma/N;
+      |                 ^~~~
+cc1: all warnings being treated as errors

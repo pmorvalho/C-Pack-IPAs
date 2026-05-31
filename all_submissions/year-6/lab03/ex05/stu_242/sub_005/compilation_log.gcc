@@ -1,0 +1,30 @@
+ex05-stu_242-sub_005.c: In function ‘somaDig’:
+ex05-stu_242-sub_005.c:7:13: error: expected expression before ‘char’
+    7 |     for(i=0;char numero[i];i++){
+      |             ^~~~
+ex05-stu_242-sub_005.c:8:24: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    8 |         soma+=numero[i]-"0";
+      |               ~~~~~~~~~^
+      |                     |  |
+      |                     |  char *
+      |                     char
+ex05-stu_242-sub_005.c: In function ‘divisiel_9’:
+ex05-stu_242-sub_005.c:14:17: error: comparison between pointer and integer [-Werror]
+   14 |     if(numero[0]=="\0")
+      |                 ^~
+ex05-stu_242-sub_005.c:14:17: error: comparison with string literal results in unspecified behavior [-Werror=address]
+ex05-stu_242-sub_005.c:16:26: error: invalid operands to binary % (have ‘char *’ and ‘int’)
+   16 |     return somaDig(numero%9==0);
+      |                          ^
+ex05-stu_242-sub_005.c: In function ‘main’:
+ex05-stu_242-sub_005.c:23:9: error: expected ‘;’ before ‘}’ token
+   23 | return 0
+      |         ^
+      |         ;
+   24 | }
+      | ~        
+ex05-stu_242-sub_005.c: In function ‘divisiel_9’:
+ex05-stu_242-sub_005.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors

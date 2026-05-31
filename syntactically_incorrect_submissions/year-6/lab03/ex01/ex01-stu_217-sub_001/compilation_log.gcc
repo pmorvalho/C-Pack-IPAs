@@ -1,0 +1,5 @@
+ex01-stu_217-sub_001.c: In function ‘quadrado’:
+ex01-stu_217-sub_001.c:5:15: error: unused variable ‘inc’ [-Werror=unused-variable]
+    5 |     int i, j, inc;
+      |               ^~~
+cc1: all warnings being treated as errors

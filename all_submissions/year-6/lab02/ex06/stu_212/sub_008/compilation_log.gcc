@@ -1,0 +1,18 @@
+ex06-stu_212-sub_008.c: In function ‘main’:
+ex06-stu_212-sub_008.c:6:5: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    6 |     scanf("%d %f", &N, &min);
+      |     ^~~~~
+ex06-stu_212-sub_008.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+ex06-stu_212-sub_008.c:6:5: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    6 |     scanf("%d %f", &N, &min);
+      |     ^~~~~
+ex06-stu_212-sub_008.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+ex06-stu_212-sub_008.c:14:5: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+   14 |     printf("max: %f, min: %f\n", max, min);
+      |     ^~~~~~
+ex06-stu_212-sub_008.c:14:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+ex06-stu_212-sub_008.c:14:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+ex06-stu_212-sub_008.c:14:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+cc1: all warnings being treated as errors
